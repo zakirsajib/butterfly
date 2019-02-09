@@ -44,7 +44,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'butterfly' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header container">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -56,12 +56,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 				?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
-			endif;
-			$butterfly_description = get_bloginfo( 'description', 'display' );
-			if ( $butterfly_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $butterfly_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
+			endif;?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
@@ -75,4 +70,4 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content container">

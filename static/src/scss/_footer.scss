@@ -1,0 +1,82 @@
+.site-footer{
+	background-color: #3a3b57;
+	padding: 5em 0 2em;
+	.footer-logo{
+		padding-bottom: 1em;
+		a{
+			font-family: 'Muli', sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #fff;
+		}
+		.site-description{
+			font-size: 12px;
+			font-weight: 300;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: rgba(44, 230, 206, 0.80);
+			padding-top: 0.5em;
+		}
+	}
+	.footer-social{
+		ul{
+			li{
+				display: inline-block;
+				padding-right: 20px;
+				a{
+					
+				}
+			}
+		}
+	}
+	.menu-main-menu-container{
+		#primary-menu{ 
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			li a{
+				font-family: 'aleobold', sans-serif;
+				font-size: 24px;
+				color: rgba(255, 255, 255, 0.90);
+			}
+			.sub-menu{
+				padding-top: 20px;
+				li a{
+				 	font-family: 'Muli', sans-serif;
+				 	font-size: 16px;
+				 	font-weight: 300;
+				 	color: rgba(255, 255, 255, 0.80);
+				 	line-height: 1.5;
+				}
+			}
+		}
+	}
+	hr{
+		border-top: 0;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		height: 1px;
+		background-color: rgba(255, 255, 255, 0.25);
+	}
+	.copyright p, 
+	.company-footer p{
+		font-size: 12px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.5);
+		a{
+			color: rgba(255, 255, 255, 0.75);
+		}
+	}
+	.company-footer p{
+		text-align: right
+	}
+}

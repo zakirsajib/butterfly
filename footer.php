@@ -14,18 +14,46 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'butterfly' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'butterfly' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'butterfly' ), 'butterfly', '<a href="http://zakirsajib.netlify.com">Zakir Sajib</a>' );
-				?>
+		<div class="site-info container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-logo">
+						<a href="<?php echo esc_url( home_url( '/' ) );?>" rel="home">Butterfly.ai</a>
+						<?php $butterfly_description = get_bloginfo( 'description', 'display' );
+							if ( $butterfly_description || is_customize_preview() ) :?>
+								<p class="site-description"><?php echo $butterfly_description;?></p>
+							<?php endif; ?>
+					</div>
+					<div class="footer-social">
+						<ul>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/facebook.svg" alt="Butterfly Facebook"></a></li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/instagram.svg" alt="Butterfly Instagram"></a></li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/twitter.svg" alt="Butterfly Twitter"></a></li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/linkedin.svg" alt="Butterfly LinkedIn"></a></li>
+							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/link.svg" alt="Butterfly"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<?php
+						wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+						) );
+					?>
+					
+					<hr>
+					<div class="row">
+						<div class="copyright col-md-7">
+							<?php $current_year = date('Y');?>
+							<p>© <?php echo $current_year?>. Appynest Inc. - All rights reserved - <a href="">Legal information</a></p>
+						</div>
+						<div class="company-footer col-md-5">
+							<p>A First Growth VC Company | Made in New York</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
