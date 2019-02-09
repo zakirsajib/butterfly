@@ -1,6 +1,17 @@
+.mobile{display:none;}
+
 .site-footer{
+	position: relative;
 	background-color: #3a3b57;
 	padding: 5em 0 2em;
+	.footer-butterfly {
+		position: absolute;
+		top: -25px;
+		img{
+			width: 48px;
+			height: 50px;
+		}
+	}
 	.footer-logo{
 		padding-bottom: 1em;
 		a{
@@ -39,7 +50,7 @@
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
 			li a{
-				font-family: 'aleobold', sans-serif;
+				font-family: 'aleoregular', sans-serif;
 				font-size: 24px;
 				color: rgba(255, 255, 255, 0.90);
 			}
@@ -74,9 +85,58 @@
 		color: rgba(255, 255, 255, 0.5);
 		a{
 			color: rgba(255, 255, 255, 0.75);
+			text-decoration: underline;
 		}
 	}
 	.company-footer p{
 		text-align: right
+	}
+}
+
+@media (max-width: 991px){
+	.site-footer {
+		.menu-main-menu-container #primary-menu{
+			grid-template-columns: repeat(2, 1fr);
+			li{
+				padding-bottom: 1em;
+				.sub-menu li{
+					padding-bottom: 0;
+				}
+			}
+		}
+		.company-footer p{text-align: left;}
+	}
+}
+@media (max-width: 767px){
+	.site-footer {
+		.footer-social {
+			padding-bottom: 3em;
+		}
+		.menu-main-menu-container #primary-menu{
+			grid-template-columns: repeat(1, 1fr);
+		}
+		hr{
+			margin-top: 20px;
+		}
+	}
+}
+@media (max-width: 388px){
+	.site-footer{ 
+		.menu-main-menu-container #primary-menu .sub-menu{
+			padding-top: 10px;
+		}
+		.desktop{
+			display: none;
+		}
+		.mobile{
+			display: block;
+			.col-one p{
+				margin: 0;
+			}
+		}
+		.company-footer{
+			padding-top: 1em;
+		}
+		
 	}
 }

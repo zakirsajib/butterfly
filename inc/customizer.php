@@ -17,14 +17,50 @@ function butterfly_customize_register( $wp_customize ) {
 
 	if ( isset( $wp_customize->selective_refresh ) ) {
 		$wp_customize->selective_refresh->add_partial( 'blogname', array(
-			'selector'        => '.site-title a',
+			'selector'        => '.site-title a, .site-title',
 			'render_callback' => 'butterfly_customize_partial_blogname',
 		) );
 		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
 			'selector'        => '.site-description',
 			'render_callback' => 'butterfly_customize_partial_blogdescription',
 		) );
+		
 	}
+	
+/*
+	$wp_customize->add_panel( 'panel_id', array(
+	    'priority' => 10,
+	    'capability' => 'edit_theme_options',
+	    'theme_supports' => '',
+	    'title' => __( 'Footer', 'zsonline' ),
+	    'description' => __( 'Description of what this panel does.', 'zsonline' ),
+	) );
+	$wp_customize->add_section( 'section_copyright', array(
+			'priority' => 10,
+			'capability' => 'edit_theme_options',
+			'theme_supports' => '',
+			'title' => __( 'Copyright', 'zsonline' ),
+			'description' => '',
+			'panel' => 'panel_id',
+	) );
+	$wp_customize->add_setting( 'copyright_text', array(
+		'default' => '',
+		'type' => 'theme_mod',
+		'capability' => 'edit_theme_options',
+		'transport' => '',
+		'sanitize_callback' => '',
+	) );
+	$wp_customize->add_control( 'copyright_text', array(
+	    'type' => 'text',
+	    'priority' => 10,
+	    'section' => 'section_copyright',
+	    'label' => __( 'Copyright Info Field', 'zsonline' ),
+	    'description' => '',
+	) );
+*/
+
+	
+	
 }
 add_action( 'customize_register', 'butterfly_customize_register' );
 
@@ -44,6 +80,10 @@ function butterfly_customize_partial_blogname() {
  */
 function butterfly_customize_partial_blogdescription() {
 	bloginfo( 'description' );
+}
+
+function butterfly_customize_partial_panel_id() {
+	
 }
 
 /**

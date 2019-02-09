@@ -15,11 +15,15 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info container">
+			<div class="footer-butterfly"><?php the_custom_logo();?></div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="footer-logo">
-						<a href="<?php echo esc_url( home_url( '/' ) );?>" rel="home">Butterfly.ai</a>
-						<?php $butterfly_description = get_bloginfo( 'description', 'display' );
+						<?php 
+							$butterfly_name = get_bloginfo( 'name', 'display' );
+							if ( $butterfly_name || is_customize_preview() ) :?>
+								<a class="site-title" href="<?php echo esc_url( home_url( '/' ) );?>" rel="home"><?php echo $butterfly_name ?></a><?php endif;
+							$butterfly_description = get_bloginfo( 'description', 'display' );
 							if ( $butterfly_description || is_customize_preview() ) :?>
 								<p class="site-description"><?php echo $butterfly_description;?></p>
 							<?php endif; ?>
@@ -34,7 +38,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 col-sm-8 col-xs-12">
 					<?php
 						wp_nav_menu( array(
 						'theme_location' => 'menu-1',
@@ -44,11 +48,20 @@
 					
 					<hr>
 					<div class="row">
-						<div class="copyright col-md-7">
+						<div class="copyright col-md-7 col-sm-12 col-xs-12 desktop">
 							<?php $current_year = date('Y');?>
-							<p>© <?php echo $current_year?>. Appynest Inc. - All rights reserved - <a href="">Legal information</a></p>
+							<p>© <?php echo $current_year?>. Appynest Inc. - All rights reserved - <a href="#">Legal information</a></p>
 						</div>
-						<div class="company-footer col-md-5">
+						<div class="copyright col-md-7 col-sm-12 col-xs-12 mobile">
+							<div class="col-one">
+								<?php $current_year = date('Y');?>
+								<p>© <?php echo $current_year?>. Appynest Inc.</p>
+							</div>
+							<div class="col-two">
+								<p>All rights reserved - <a href="#">Legal information</a></p>
+							</div>
+						</div>
+						<div class="company-footer col-md-5 col-sm-12 col-xs-12">
 							<p>A First Growth VC Company | Made in New York</p>
 						</div>
 					</div>

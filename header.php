@@ -43,31 +43,42 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'butterfly' ); ?></a>
-
-	<header id="masthead" class="site-header container">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'butterfly' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+	<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+		<header id="masthead" class="container">
+			<div class="site-header">
+				<div class="site-branding">
+				<?php the_custom_logo();?>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			</div><!-- .site-branding -->
+				<div class="header-signin">
+				<ul>
+					<li>Already using Butterfly? <a href="#">Sign in</a></li>
+				</ul>
+			</div>
+				<div class="menu-bar">
+					<a href="#" class="menu-icon">MENU <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></a>
+				</div>
+				
+				<div class="mega-menu">
+					<div class="mega-menu-top">
+						<div class="mega-menu-logo">
+							<?php the_custom_logo();?>
+						</div>
+						<div class="mega-menu-close-icon">
+						<a href="#" class="menu-icon">CLOSE <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shapeX.svg" class="close-icon-Combined-Shape" alt=""></a></div>
+					</div>
+					
+					
+					<?php
+						wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+						) );
+					?>
+				</div>
+			</div>
+		</header><!-- #masthead -->
+		
+	</div>
 
 	<div id="content" class="site-content container">
