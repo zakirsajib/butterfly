@@ -1,0 +1,42 @@
+body{
+	font-family: 'Muli', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  &:hover, &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+}
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li{
+	  list-style-type: none;
+  }
+}
+
+p{
+	font-family: 'Muli', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+strong, b{
+	font-family: 'Muli', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	a{
+		
+	}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'aleobold', sans-serif;
+}
