@@ -20,11 +20,17 @@ A starter theme underscores is used to develop this WordPress theme called Butte
 
 ## Frequently Asked Questions
 
-#### Does this theme support any plugins?
-
+#### Does this theme depends any plugins?
+Unyson, ACF/ACF PRo, Async JavaScript
 
 ## Screenshots
 
+
+## Developer's Notes
+
+1. Install NPM/NODE.js in your machine
+2. Run inside the theme directory this command `npm install`
+3. It will install all modules listed as dependencies in package.json as well scripts for minifications of css and js, optimize of images, convert scss files into css file on fly. 
 
 ## Changelog
 
