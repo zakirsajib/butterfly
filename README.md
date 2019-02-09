@@ -11,6 +11,9 @@ A starter theme underscores is used to develop this WordPress theme called Butte
 
 ## Fonts
 
+1. Muli font from Google
+2. Aleo font from fontsquirrel
+
 
 ## Installation
 
@@ -25,6 +28,7 @@ Unyson, ACF/ACF PRo, Async JavaScript
 
 ## Screenshots
 
+Coming soon...
 
 ## Developer's Notes
 
