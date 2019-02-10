@@ -41,5 +41,337 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'aleobold', sans-serif;
 }
 .site-content{
+	height: 100%;
+}
+
+.home-padding{
+	padding-left: 12em;
+}
+
+.section-one{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    .demo-request{
+	    display: grid;
+		align-items: center;
+		justify-content: center;
+		align-self: center;
+		grid-template-rows: 1fr 1fr;
+	    h1{
+		    margin: 0;
+		    color: #3a3b57;
+		    font-family: 'aleoregular';
+			font-size: 48px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1;
+			letter-spacing: normal;
+	    }
+	    p{
+		    margin: 0;
+		    font-family: 'Muli', sans-serif;
+			font-size: 18px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #3a3b57;
+	    }
+    
+		.demo-form-box{ // need this code later
+			border-radius: 5px;
+			background-color: #fff;
+			padding: 0;
+		.input-group{
+			padding-bottom: 0.5em;
+			.form-control.demo-input{
+				/* width: 100%; */
+				height: 48px;
+				border-radius: 24px;
+				box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+				background-color: #fff;
+				font-family: 'Muli', sans-serif;
+				font-size: 18px;
+				color: #9b9b9b;
+				font-weight: 300;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				border: 0;
+				position: absolute;
+				z-index: 1;
+				&:focus{
+					z-index: 2;
+					outline: 0;
+				}
+			}
+			.btn.btn-default{
+				/* width: 150px; */
+				height: 40px;
+				border-radius: 28px;
+				background-color: #532ee4;
+				text-transform: uppercase;
+				font-family: 'Muli', sans-serif;
+				font-size: 13px;
+				font-weight: 400;
+				border: 0;
+				color: #fff;
+				position: relative;
+				top:5px;
+				right: 5px;
+				z-index: 1;
+				&:focus{
+					outline: 0;
+				}
+			}
+		}
+	}
+	}
+}
+
+
+
+
+
+
+.why-butterfly{
+	display: grid;
+	align-items: center;
+    justify-content: center;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    padding-right: 8em;
+    .butterfly-one{
+	    h1{
+			font-family: 'aleoregular';
+			font-size: 48px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1;
+			letter-spacing: normal;
+			color: #3a3b57;	    
+	    }
+	    .lead{
+		    	font-size: 18px;
+		    	margin: 32px 0;
+		    p{
+			   	font-family: 'Muli', sans-serif;
+				font-size: 18px;
+				font-weight: bold;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				color: #3a3b57; 
+		    }
+	    }
+	    p{
+		    font-family: 'Muli', sans-serif;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #3a3b57;
+			margin: 0 0 20px;
+			a{
+				color: #2ce6ce;
+			}
+	    }
+	    a{
+		    color: #2ce6ce;
+	    }
+    }
+}
+.home-testimonial{
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	align-self: center;
 	height: 100vh;
+	padding-right: 12em;
+	.testimonial-area{
+		padding: 0 10em;
+		.testimonial-statements{ 
+			padding-right: 5em;
+			p{
+				text-align: left;
+				font-family: 'aleolightitalic';
+				font-size: 32px;
+				font-weight: 300;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #555555;
+			}
+		}
+		.company-details{
+			display: grid;
+			grid-template-columns: 1fr 0.5fr 6fr;
+			padding-top: 2em;
+			.horizontal-line{
+				width: 1px;
+				height: 50px;
+				margin: auto;
+				background-color: rgba(0,0,0,0.2);
+			}
+			.person-details{
+				display: grid;
+				grid-template-rows:1fr 1fr;
+				align-items: center;
+				justify-content: left;
+				align-self: center;
+				p{
+					margin: 0;
+					&.person-name{
+						font-family: 'Muli', sans-serif;
+						font-size: 14px;
+						color: #4a4a4a;
+						line-height: 1;
+					}
+					&.person-position{
+						font-family: 'Muli', sans-serif;
+						font-size: 12px;
+						color: #777;
+					}
+				}
+			}
+		}
+	}
+}
+.home-footer{ 
+	padding-top: 10em;
+	padding-bottom: 10em;
+	padding-right: 15em;
+		.demo-area{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			padding: 0 3em;
+			grid-column-gap:5em;
+		.demo-form-box{ // need this code later
+			border-radius: 5px;
+			background-color: #fff;
+			padding: 1em 1.5em;
+			border-radius: 5px;
+			box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+			h4{
+				font-family: 'aleoregular';
+				font-size: 20px;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				color: #3a3b57;
+				text-align: left;
+				margin: 0 0 1em;
+			}
+			.input-group{
+				padding-bottom: 0.5em;
+				.form-control.demo-input{
+					/* width: 100%; */
+					height: 48px;
+					border-radius: 24px;
+					box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+					background-color: #fff;
+					font-family: 'Muli', sans-serif;
+					font-size: 18px;
+					color: #9b9b9b;
+					font-weight: 300;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: normal;
+					letter-spacing: normal;
+					border: 0;
+					position: absolute;
+					z-index: 1;
+					&:focus{
+						z-index: 2;
+						outline: 0;
+					}
+				}
+				.btn.btn-default{
+					/* width: 150px; */
+					height: 40px;
+					border-radius: 28px;
+					background-color: #532ee4;
+					text-transform: uppercase;
+					font-family: 'Muli', sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					border: 0;
+					color: #fff;
+					position: relative;
+					top:5px;
+					right: 5px;
+					z-index: 1;
+					&:focus{
+						outline: 0;
+					}
+				}
+			}
+		}
+		.latest-blog-one{
+			padding-top: 0;
+			h4{
+				font-family: 'aleoregular';
+				font-size: 20px;
+				font-weight: bold;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				color: #555555;
+				margin: 0;
+			}
+			.latest-blog{
+				display: grid;
+				grid-template-columns: 1fr 2fr;
+				padding-top: 15px;
+				.post-thumbnail img{
+					width: 119.8px;
+					height: 80px;
+					border-radius: 5px;
+				}
+				
+				.post-details{
+					display: grid;
+					align-items: center;
+					justify-content: center;
+					align-self: center;
+					.post-meta a{
+						font-family: 'Muli', sans-serif;
+						font-size: 12px;
+						font-weight: 300;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: normal;
+						color: #9b9b9b;
+					}
+					.entry-title{
+						font-family: 'Muli', sans-serif;
+						font-size: 14px;
+						font-weight: bold;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: normal;
+						margin: 10px 0;
+						a{
+							color: #4a4a4a;
+						}
+					}
+				}
+			}
+		}
+	}
 }
