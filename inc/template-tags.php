@@ -128,10 +128,8 @@ if ( ! function_exists( 'butterfly_post_thumbnail' ) ) :
 
 		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
 			<?php
-			the_post_thumbnail( 'post-thumbnail', array(
-				'alt' => the_title_attribute( array(
-					'echo' => false,
-				) ),
+			the_post_thumbnail( 'full', array(
+				'alt' => the_title_attribute( array('echo' => false,) )
 			) );
 			?>
 		</a>
@@ -139,4 +137,30 @@ if ( ! function_exists( 'butterfly_post_thumbnail' ) ) :
 		<?php
 		endif; // End is_singular().
 	}
+endif;
+
+
+if ( ! function_exists( 'butterfly_dropdown_post_thumbnail' ) ) :
+	/**
+	 * Displays an optional post thumbnail.
+	 *
+	 * Wraps the post thumbnail in an anchor element on index views, or a div
+	 * element when on single views.
+	 */
+	function butterfly_dropdown_post_thumbnail() {
+		if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
+			return;
+		}?>
+		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+			<?php
+			the_post_thumbnail( 'dropdown-blog-size', array(
+				'alt' => the_title_attribute( array('echo' => false,) ),
+				'class' => 'lazyload',
+				'src'	=> get_the_post_thumbnail_url(get_the_ID(),'dropdown-blog-size'),
+				'srcset'	=> get_template_directory_uri() .'/assets/img/loader.svg',
+				'data-srcset' => get_the_post_thumbnail_url(get_the_ID(),'dropdown-blog-size')
+			) );
+			?>
+		</a>
+	<?php }
 endif;

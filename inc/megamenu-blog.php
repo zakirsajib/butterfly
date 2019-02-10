@@ -11,7 +11,7 @@
 	if ( $the_query->have_posts() ):
 	while ( $the_query->have_posts() ): $the_query->the_post();?>
 		<div class="blog-thumbnail">
-			<a href="<?php the_permalink()?>"><?php butterfly_post_thumbnail()?></a>
+			<?php butterfly_dropdown_post_thumbnail()?>
 		</div>
 		<div class="post-details">
 			<div class="post-meta">

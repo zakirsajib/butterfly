@@ -41,6 +41,8 @@ if ( ! function_exists( 'butterfly_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
+		
+		add_image_size( 'dropdown-blog-size', 120, 80 );
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
