@@ -44,6 +44,9 @@ function wpcontent_svg_mime_type( $mimes ) {
 	$mimes['svg']  = 'image/svg+xml';
 	$mimes['svgz'] = 'image/svg+xml';
 	$mimes['webp'] = 'image/webp';
+	$mimes['png'] = 'image/png';
+	$mimes['jpg'] = 'image/jpg';
+	$mimes['jpeg'] = 'image/jpeg';
 	// Optional. Remove a mime type.
 	unset( $mimes['exe'] );
   

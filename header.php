@@ -47,38 +47,20 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 		<header id="masthead" class="container">
 			<div class="site-header">
 				<div class="site-branding">
-				<?php the_custom_logo();?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</div><!-- .site-branding -->
+					<?php the_custom_logo();?>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				</div><!-- .site-branding -->
 				<div class="header-signin">
-				<ul>
-					<li>Already using Butterfly? <a href="#">Sign in</a></li>
-				</ul>
-			</div>
+					<ul>
+						<li>Already using Butterfly? <a href="#">Sign in</a></li>
+					</ul>
+				</div>
 				<div class="menu-bar">
 					<a href="#" class="menu-icon">MENU <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></a>
 				</div>
-				
-				<div class="mega-menu">
-					<div class="mega-menu-top">
-						<div class="mega-menu-logo">
-							<?php the_custom_logo();?>
-						</div>
-						<div class="mega-menu-close-icon">
-						<a href="#" class="menu-icon">CLOSE <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shapeX.svg" class="close-icon-Combined-Shape" alt=""></a></div>
-					</div>
-					
-					
-					<?php
-						wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-						) );
-					?>
-				</div>
-			</div>
+			</div>	
 		</header><!-- #masthead -->
-		
-	</div>
+	</div><!-- #affix -->
+	<?php get_template_part( 'inc/mega', 'menu' );?>
 
 	<div id="content" class="site-content container">
