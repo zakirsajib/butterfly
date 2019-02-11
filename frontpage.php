@@ -38,7 +38,7 @@ get_header();
 		
 		
 		<div class="client-logos">
-			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/ge-logo" alt=""></a>
+			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/ge-logo.svg" alt=""></a>
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/coca-cola-logo.svg" alt=""></a>
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/ticketmaster-logo.svg" alt=""></a>
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/dentsu-logo.svg" alt=""></a>
