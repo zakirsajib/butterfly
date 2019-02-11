@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="970px" height="970px" viewBox="0 0 970 970" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>BGBlob4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="39.7507102%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E1DEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.7839822%" y1="14.7988573%" x2="55.0087616%" y2="95.6044034%" id="linearGradient-2">
+            <stop stop-color="#3A3B57" offset="0%"></stop>
+            <stop stop-color="#7300FF" offset="39.9269984%"></stop>
+            <stop stop-color="#2CE6CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.6664177%" y1="18.7569963%" x2="55.4092428%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#3A3B57" offset="0%"></stop>
+            <stop stop-color="#2CE6CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.0503667%" y1="6.52201705%" x2="55.0087616%" y2="95.6044034%" id="linearGradient-4">
+            <stop stop-color="#7300FF" offset="0%"></stop>
+            <stop stop-color="#2CE6CE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="451.599639" y="93.5996385" width="397" height="1207" rx="198.5"></rect>
+    </defs>
+    <g id="Website-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.05">
+        <g id="ButterflyWebsiteHome" transform="translate(-165.000000, -952.000000)">
+            <g id="Why-Butterfly" transform="translate(0.000000, 740.000000)">
+                <g id="BGBlob4" transform="translate(650.099639, 697.099639) rotate(45.000000) translate(-650.099639, -697.099639) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-5"></use>
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-5"></use>
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-5"></use>
+                    <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

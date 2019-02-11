@@ -51,12 +51,15 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
 				<div class="header-signin">
+					<div class="demo-form-box" style="display: none">
+						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button">Request a demo</button></span></div><!-- /input-group -->
+					</div>
 					<ul>
 						<li>Already using Butterfly? <a href="#">Sign in</a></li>
 					</ul>
 				</div>
 				<div class="menu-bar">
-					<a href="#" class="menu-icon">MENU <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></a>
+					<a href="#" data-toggle="modal" data-target="#myModal" class="menu-icon">MENU <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></a>
 				</div>
 			</div>	
 		</header><!-- #masthead -->

@@ -78,3 +78,8 @@ function frontlash_theme_info() {
   <li><strong>Skype:</strong> sajibuk</li>
   </ul>";
 }
+function add_link_atts($atts) {
+  $atts['data-dismiss'] = "modal";
+  return $atts;
+}
+//add_filter( 'nav_menu_link_attributes', 'add_link_atts');
