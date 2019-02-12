@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home
+ * Template Name: Home Template
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -93,17 +93,7 @@ get_header();
 				<?php include( get_template_directory() . '/inc/testimonial.php');?>
 			</div>
 		</div>
-		<div class="home-footer home-padding">
-			<div class="demo-area">
-				<div class="demo-form-box">
-					<h4>Get started now!</h4>
-					<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button">Request a demo</button></span></div><!-- /input-group -->
-				</div>
-				<div class="latest-blog-one">
-				<?php include( get_template_directory() . '/inc/megamenu-blog.php');?>
-				</div>
-			</div>
-		</div>
+		<?php get_template_part( 'inc/before', 'footer' );?>
 		
 	</div><!-- #primary -->
 

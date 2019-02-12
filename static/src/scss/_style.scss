@@ -2,8 +2,11 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	overflow-x: hidden;
+	&.home{
+		overflow-x: hidden;
+	}
 }
+
 a {
   outline: none;
   text-decoration: none;
@@ -162,7 +165,7 @@ h1,h2,h3,h4,h5,h6{
     align-self: center;
 	padding-right: 15em;
 	padding-left: 15em;
-	padding-top: 5em;
+	padding-top: 0;
 	padding-bottom: 1em;
 }
 
@@ -488,15 +491,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 @media (max-width: 414px){
-	body{
-		overflow-x: hidden;
-	}
-	
 	.section-one{
 		height: 100%;
 		grid-template-columns: none;
 		grid-template-rows: 1fr 0fr;
 		grid-column-gap:0;
+	}
+	.section-one .demo-request{
+		padding-right: 30px;
 	}
 	.section-one .demo-request h1,
 	.section-one .demo-request p{
@@ -511,6 +513,7 @@ h1,h2,h3,h4,h5,h6{
 		margin-top: 0;
 		right: 0;
 		top:0;
+		left: 30px;
 	}
 	.section-one .home-carousel .swiper-container{
 		left: 0;
@@ -520,15 +523,15 @@ h1,h2,h3,h4,h5,h6{
 	
 	.client-logos{
 		grid-template-columns: repeat(3, 1fr);
-		padding-right: 15px;
-		padding-left: 15px;
+		padding-right: 30px;
+		padding-left: 30px;
 		grid-template-rows: 5em;
 	}
 	
 	.why-butterfly{
 		grid-template-columns: none;
 		grid-template-rows: 1fr;
-		padding-right: 15px;
+		padding-right: 30px;
 	}
 	.why-butterfly .butterfly-two{
 		background-image: none;
@@ -545,11 +548,11 @@ h1,h2,h3,h4,h5,h6{
     }
 	.home-testimonial{
 		background-image: none;
-		padding-right: 15px;
+		padding-right: 30px;
 		height: 100%;
 	}
 	.home-padding{
-		padding-left: 15px;
+		padding-left: 30px;
 		padding-top: 5em;
 		padding-bottom: 5em;
 	}
@@ -571,7 +574,7 @@ h1,h2,h3,h4,h5,h6{
 		grid-row-gap: 2em;
 	}
 	.home-footer {
-    	padding-right: 15px;
+    	padding-right: 30px;
 	}
 	.home-footer .demo-area .demo-form-box{
 		border-radius: 0;

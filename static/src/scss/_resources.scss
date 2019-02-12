@@ -1,0 +1,32 @@
+body{
+	
+	&.page-template-resources-page-php{
+		.site-header{
+			grid-column-gap:0;
+			.header-signin{
+				line-height: 3;
+				ul {	
+					text-align: center;
+					height: 40px;
+					width: 420px;
+					float: right;
+					background-color: #f8f8f8;
+					border-radius: 20px 0px 0px 20px;
+					li{
+					  	color: #3a3b57;
+					  	padding: 0 1em;
+					  	display: inline-grid;
+					  	a{
+					  		color: #3a3b57;
+					  		font-size: 16px;
+					  		text-decoration: none;
+					  	}
+					}
+				}
+			}
+			.menu-bar{
+				width: 	170px;
+			}
+		}
+	}
+}

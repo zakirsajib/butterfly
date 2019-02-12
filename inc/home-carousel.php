@@ -2,7 +2,7 @@
 if( is_array($page_gallery) && count($page_gallery) > 0 ) :?>
 	<div class="swiper-container">
 			<?php foreach( $page_gallery as $image ) : ?>
-				<div class="swiper-slide"><a href="<?php the_permalink()?>"><img src="<?php echo $image['url']?>" alt="<?php the_title()?>"/></a></div>
+				<div class="swiper-slide"><a href="#"><img class="lazyload" src="<?php echo $image['url']?>" srcset="<?php echo get_template_directory_uri()?>/assets/img/loader.svg" data-srcset="<?php echo $image['url']?>" alt="<?php the_title()?>"/></a></div>
 			<?php endforeach;?>
 	</div>
 <?php endif;?>
