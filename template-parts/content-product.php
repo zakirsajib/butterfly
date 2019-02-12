@@ -26,10 +26,10 @@
 				</ul>
 				
 				<div class="tab-content">
-				    <div role="tabpanel" class="tab-pane tab active" id="howempl">
+				    <div role="tabpanel" class="tab-pane fade in tab active" id="howempl">
 					    
 				    </div>
-				    <div role="tabpanel" class="tab-pane tab" id="howmang">
+				    <div role="tabpanel" class="tab-pane fade tab" id="howmang">
 					    <div class="xx">
 						    <div class="one">
 								<h2>Integrate into employees' routine</h2>
@@ -58,7 +58,7 @@
 							</div>
 						</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane tab" id="howhr">
+				    <div role="tabpanel" class="tab-pane fade tab" id="howhr">
 					    
 				    </div>
 				</div>
@@ -74,11 +74,25 @@
 				</ul>
 				
 				<div class="tab-content">
-				    <div role="tabpanel" class="tab-pane active" id="featempl"></div>
-				    <div role="tabpanel" class="tab-pane" id="featmang"></div>
-				    <div role="tabpanel" class="tab-pane" id="feathr">
-					    
-				    </div>
+				    <div role="tabpanel" class="tab-pane fade in active" id="featempl"></div>
+				    <div role="tabpanel" class="tab-pane fade" id="featmang"></div>
+				    <div role="tabpanel" class="tab-pane fade" id="feathr">
+					    <div class="feathr-contents">
+						    <div class="feathr-accordion">
+							    <ul class="nav nav-pills nav-stacked">
+								    <li class="active"><a data-toggle="tab" href="#collapseOne">Dashboard</a></li>
+								    <li><a data-toggle="tab" href="#collapseTwo">Feature #2</a></li>
+								    <li><a data-toggle="tab" href="#collapseThree">Feature #3</a></li>
+							    </ul>
+						    </div>
+						    <div class="feathr-thumbnail">
+							    <div class="tab-content">
+							    <div id="collapseOne" class="tab-pane active"><img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap@3x.jpg 3x" alt=""></div>
+							    <div id="collapseTwo" class="tab-pane"><h1>2</h1></div>
+							    <div id="collapseThree" class="tab-pane"><h1>3</h1></div>
+						    </div>
+					    </div>
+					</div>
 				</div>
 			</div>
 		</div>
