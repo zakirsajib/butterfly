@@ -16,12 +16,12 @@ get_header('product');
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main home-padding">
 
 		<?php
 		while ( have_posts() ) :
 			the_post();
-			//get_template_part( 'template-parts/content', 'product' );
+			get_template_part( 'template-parts/content', 'product' );
 		endwhile; // End of the loop.
 		?>
 

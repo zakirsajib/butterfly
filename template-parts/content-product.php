@@ -11,24 +11,82 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<h1 class="entry-title">Set up a more productive work environment for your teams.</h1>
 	</header><!-- .entry-header -->
 
-	<?php butterfly_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<?php
-		the_content();
-
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'butterfly' ),
-			'after'  => '</div>',
-		) );
-		?>
+		<div class="how-it-works" id="how-it-works">
+			<div class="for-people">
+				<ul class="nav nav-tabs" role="tablist">
+					<li><h2>How it works?</h2></li>
+					<li role="presentation" class="active"><a href="#howempl" aria-controls="howempl" role="tab" data-toggle="tab">For employees</a></li>
+					<li role="presentation"><a href="#howmang" aria-controls="howmang" role="tab" data-toggle="tab">For managers</a></li>
+					<li role="presentation" class="last"><a href="#howhr" aria-controls="howhr" role="tab" data-toggle="tab">For HR teams</a></li>
+				</ul>
+				
+				<div class="tab-content">
+				    <div role="tabpanel" class="tab-pane tab active" id="howempl">
+					    
+				    </div>
+				    <div role="tabpanel" class="tab-pane tab" id="howmang">
+					    <div class="xx">
+						    <div class="one">
+								<h2>Integrate into employees' routine</h2>
+								<p>Our surveys work with your systems. Employees answer engagement surveys in seconds while they clock in or out, eliminating distractions and maximizing their time.</p>
+								<figcaption align="left">fig a. Slack</figcaption>
+							</div>
+							<div class="two">
+								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24@2x.jpg 2x, <?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24@3x.jpg 3x"alt="Integrate into employees' routine">
+							</div>
+					    </div>
+					    
+					    <div class="howmang-contents">
+							<div class="three">
+								<h2>Access a dynamic dashboard</h2>
+								<p>Easily gather and act on feedback. Track survey results in real time and export managerial reports to spark transparent conversation between you and your employees.</p>
+								<figcaption align="left">fig b. Butterfly dashboard for managers</figcaption>
+							</div>
+							<div class="four"><img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Access a dynamic dashboard"></div>
+							<div class="five">
+								<h2>Receive personalized guidance</h2>
+								<p>Use what you hear from your team to grow as a manager. See what areas need attention and focus on your improvement to generate impactful change.</p>
+								<figcaption align="left">fig c. Butterfly AI assistant</figcaption>
+							</div>
+							<div class="six">
+								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Receive personalized guidance">
+							</div>
+						</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane tab" id="howhr">
+					    
+				    </div>
+				</div>
+			</div>
+		</div>
+		<div class="features" id="features">
+			<div class="for-people">
+				<ul class="nav nav-tabs" role="tablist">
+					<li><h2>Features</h2></li>
+					<li role="presentation" class="active"><a href="#featempl" aria-controls="featempl" role="tab" data-toggle="tab">For employees</a></li>
+					<li role="presentation"><a href="#featmang" aria-controls="featmang" role="tab" data-toggle="tab">For managers</a></li>
+					<li role="presentation" class="last"><a href="#feathr" aria-controls="feathr" role="tab" data-toggle="tab">For HR teams</a></li>
+				</ul>
+				
+				<div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="featempl"></div>
+				    <div role="tabpanel" class="tab-pane" id="featmang"></div>
+				    <div role="tabpanel" class="tab-pane" id="feathr">
+					    
+				    </div>
+				</div>
+			</div>
+		</div>
+		
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
+		<footer class="entry-footer container">
 			<?php
 			edit_post_link(
 				sprintf(
