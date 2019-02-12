@@ -2,6 +2,7 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 a {
   outline: none;
@@ -53,7 +54,7 @@ h1,h2,h3,h4,h5,h6{
 
 .section-one{
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 1.5fr;
 	align-items: center;
     justify-content: center;
     height: 100vh;
@@ -139,10 +140,11 @@ h1,h2,h3,h4,h5,h6{
 	}
 	}
 	.home-carousel{ 
-		.swiper-container{
-			position: absolute;
-			top: 0;
-			right: 0;
+		position: relative;
+		margin-top: -120px;
+		right: -12px;
+		.slick-slider{
+			display: grid;
 			img{
 				object-fit: fill;
 // 				mix-blend-mode: screen;
@@ -499,11 +501,16 @@ h1,h2,h3,h4,h5,h6{
 	.section-one .demo-request h1,
 	.section-one .demo-request p{
 		z-index: 1;
-// 		color: #fff;
 	}
 	.section-one.home-padding{
 		padding-bottom: 0;
 		padding-top: 40em;
+	}
+	.section-one .home-carousel{
+		position: absolute;
+		margin-top: 0;
+		right: 0;
+		top:0;
 	}
 	.section-one .home-carousel .swiper-container{
 		left: 0;

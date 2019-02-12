@@ -1,16 +1,8 @@
-<div class="swiper-container-parent">
+<?php $page_gallery = fw_get_db_post_option(get_the_ID(), 'page-gallery');
+if( is_array($page_gallery) && count($page_gallery) > 0 ) :?>
 	<div class="swiper-container">
-		<div class="swiper-wrapper">
-			<?php //foreach( $page_gallery as $image ) : ?>
-				<div class="swiper-slide"><a href="<?php the_permalink()?>"><img class="lazyload" data-srcset="<?php echo get_template_directory_uri()?>/assets/img/bitmap@2x.png 2x, <?php echo get_template_directory_uri()?>/assets/img/bitmap@3x.png 3x" src="<?php echo get_template_directory_uri()?>/assets/img/bitmap.png" srcset="<?php echo get_template_directory_uri()?>/assets/img/loader.svg" alt=""/></a></div>
-			<?php //endforeach;?>
-		</div>	
-		<?php //if( count($page_gallery) > 1):?>
-		<!-- If we need pagination -->
-<!-- 		<div class="swiper-pagination"></div> -->
-			<!-- If we need navigation buttons -->
-<!-- 			<div class="swiper-button-prev"></div> -->
-<!-- 			<div class="swiper-button-next"></div> -->
-		<?php //endif?>
+			<?php foreach( $page_gallery as $image ) : ?>
+				<div class="swiper-slide"><a href="<?php the_permalink()?>"><img src="<?php echo $image['url']?>" alt="<?php the_title()?>"/></a></div>
+			<?php endforeach;?>
 	</div>
-</div>
+<?php endif;?>

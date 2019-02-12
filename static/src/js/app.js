@@ -1,25 +1,15 @@
 $ = jQuery.noConflict();
 	$(function ($) {
-/*
-	var mySwiper = new Swiper ('.swiper-container', {
-		navigation: {
-			//nextEl: '.swiper-button-next',
-			//prevEl: '.swiper-button-prev',
-  		},
-  		pagination: {
-  			//el: '.swiper-pagination',
-  			//dynamicBullets: true,
-  			//type: 'fraction',
-  		},
-  		autoplay: false,
-  		keyboard: {
-	    	enabled: true,
-			onlyInViewport: false,
-	  	},
-	  	effect: 'fade',
-	  	grabCursor: true,
-  		autoHeight: false,
-		loop: false
+
+	$('.swiper-container').slick({
+		dots:false,
+		speed:3000,
+		adaptiveHeight:false,
+		autoplay:true,
+		arrows: false,
+		fade:true,
+		autoplaySpeed: 4800
+		
 	});
-*/
+
 });
