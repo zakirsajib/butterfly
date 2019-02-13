@@ -21,7 +21,7 @@ get_header('resources');
 		<?php
 		while ( have_posts() ) :
 			the_post();
-			//get_template_part( 'template-parts/content', 'resources' );
+			get_template_part( 'template-parts/content', 'resources' );
 		endwhile; // End of the loop.
 		?>
 

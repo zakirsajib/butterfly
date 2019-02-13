@@ -21,7 +21,7 @@ get_header('about');
 		<?php
 		while ( have_posts() ) :
 			the_post();
-			//get_template_part( 'template-parts/content', 'about' );
+			get_template_part( 'template-parts/content', 'about' );
 		endwhile; // End of the loop.
 		?>
 

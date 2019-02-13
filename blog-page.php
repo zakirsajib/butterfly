@@ -21,7 +21,7 @@ get_header('blog');
 		<?php
 		while ( have_posts() ) :
 			the_post();
-			//get_template_part( 'template-parts/content', 'blog' );
+			get_template_part( 'template-parts/content', 'blog' );
 		endwhile; // End of the loop.
 		?>
 

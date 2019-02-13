@@ -16,7 +16,7 @@ get_header('product');
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main home-padding">
+		<main id="main" class="site-main">
 
 		<?php
 		while ( have_posts() ) :
