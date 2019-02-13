@@ -134,3 +134,16 @@ function my_wp_nav_menu_objects_sub_menu( $sorted_menu_items, $args ) {
     return $sorted_menu_items;
   }
 }
+
+add_filter( 'style_loader_src',  'sdt_remove_ver_css_js', 9999, 2 );
+add_filter( 'script_loader_src', 'sdt_remove_ver_css_js', 9999, 2 );
+
+function sdt_remove_ver_css_js( $src, $handle ) 
+{
+    $handles_with_version = [ 'style' ]; // <-- Adjust to your needs!
+
+    if ( strpos( $src, 'ver=' ) && ! in_array( $handle, $handles_with_version, true ) )
+        $src = remove_query_arg( 'ver', $src );
+
+    return $src;
+}

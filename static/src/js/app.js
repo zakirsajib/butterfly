@@ -9,8 +9,6 @@ $ = jQuery.noConflict();
 		arrows: false,
 		fade:true,
 		autoplaySpeed: 4800
-		
 	});
-	
 	
 });

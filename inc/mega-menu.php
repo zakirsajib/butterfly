@@ -1,5 +1,5 @@
 <div class="mega-menu modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog modal-lg" role="document">
+	<div class="modal-dialog modal-lg container-fluid" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<div class="mega-menu-top">
