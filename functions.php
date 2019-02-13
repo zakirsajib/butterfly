@@ -129,6 +129,7 @@ function butterfly_scripts() {
 	wp_enqueue_style( 'main', get_template_directory_uri() .'/static/dist/css/main.css' );
 	
 	wp_enqueue_style( 'aboutbutterfly', get_template_directory_uri() .'/assets/about/css/butterflyWebsiteAbout.css' );
+	wp_enqueue_style( 'menubutterfly', get_template_directory_uri() .'/assets/menu/css/butterflyWebsiteMenuOpen.css' );
 	
 	
 	// Smoothscroll

@@ -28,5 +28,10 @@ body{
 				width: 	170px;
 			}
 		}
+		article{
+			display: grid;
+			justify-content: center;
+			padding-bottom: 330px;
+		}
 	}
 }

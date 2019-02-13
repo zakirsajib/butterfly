@@ -28,5 +28,182 @@ body{
 				width: 	160px;
 			}
 		}
+		article{
+			display: grid;
+			justify-content: center;
+			.entry-header{
+				display: grid;
+				grid-template-columns: 710px 372px;
+				padding-top: 70px;
+				background-image: url('../img/BGBlob2.svg');
+				background-position: top center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-attachment: fixed;
+			.entry-title{
+				font-size: 48px;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1;
+				letter-spacing: normal;
+				color: #3a3b57;
+			}
+		}
+			.entry-content{
+			padding-top: 70px;
+			.how-it-works,
+			.features{
+				/* height: 100vh; */
+				/* display: grid; */
+				/* grid-template-columns: 1fr 4fr; */
+				background-image: url('../img/BGBlob2.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+				.for-people{
+					ul{
+						max-width: 661px;
+						li{
+							padding-right: 2em;
+							a{
+								font-family: 'Muli', sans-serif;
+								font-size: 18px;
+								font-weight: normal;
+								font-style: normal;
+								font-stretch: normal;
+								line-height: normal;
+								letter-spacing: normal;
+								color: #532ee4;
+								border: 0;
+								border-radius: 0;
+								padding: 20px 0;
+								margin-right: 0;
+								&:focus, &:hover{
+									background-color: transparent;
+								}
+							}
+							&.active{
+								a{
+									font-weight: 700;
+									color: #3a3b57;
+									border-bottom: 4px solid #532ee4;
+									background-color: transparent;
+								}
+							}
+							&.last{
+								padding-right: 0!important;
+							}
+						}
+					}
+				}
+			}
+			.how-it-works h2,
+			.features h2{
+				font-family: 'Muli', sans-serif;
+				font-size: 34px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: normal;
+				letter-spacing: normal;
+				color: #532ee4;
+				margin: 0;
+				line-height: 1.5;
+			}
+			.xx{
+				display: grid;
+			    grid-template-columns: 1fr 1.5fr;
+			    align-content: center;
+			    align-items:flex-start;
+			    align-self: center;
+			    justify-content: center;
+			    text-align: left;
+			    padding: 5em;
+			    grid-column-gap: 5em;
+			    border-radius: 5px;
+			    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+			    background-color: rgba(255, 255, 255, 0.65);
+			    margin: 0 0 5em;
+			    max-width: 950px;
+				.one{
+					max-width: 320px;
+					h2{
+						font-family: 'Muli', sans-serif;
+						font-size: 18px;
+						font-weight: 700;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: normal;
+						color: #3a3b57;
+						margin: 0 0 23px;
+					}
+					p{
+						font-family: 'Muli', sans-serif;
+						font-size: 16px;
+						font-weight: 400;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: normal;
+						color: #3a3b57;
+						margin: 0 0 20px;
+					}
+					figcaption{
+						font-family: 'aleoitalic';
+						font-weight: 300;
+	  					color: #9b9b9b;
+					}
+				}
+			}
+			.howmang-contents{
+				display: grid;
+				grid-template-columns: 30% 63%;
+				align-content: center;
+				align-items:flex-start;
+				align-self: center;
+				justify-content: center;
+				text-align: left;
+				padding: 0 5em 10em;
+				grid-row-gap: 10em;
+				grid-column-gap: 5em;
+				.three, .five{
+					max-width: 320px;
+					h2{
+						font-family: 'Muli', sans-serif;
+						font-size: 18px;
+						font-weight: 700;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: normal;
+						color: #3a3b57;
+						margin: 0 0 23px;
+					}
+					p{
+						font-family: 'Muli', sans-serif;
+						font-size: 16px;
+						font-weight: 400;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: normal;
+						color: #3a3b57;
+						margin: 0 0 20px;
+					}
+					figcaption{
+						font-family: 'aleoitalic';
+						font-weight: 300;
+	  					color: #9b9b9b;
+					}
+				}
+			}
+		}
+		}
 	}
+}
+
+body.page-template-about-page-php .entry-content .tab-content{
+	margin: 5em 0 0;
 }

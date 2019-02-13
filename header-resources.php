@@ -44,7 +44,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'butterfly' ); ?></a>
 	<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-		<header id="masthead" class="container">
+		<header id="masthead" class="container-fluid">
 			<div class="site-header">
 				<div class="site-branding">
 					<?php the_custom_logo();?>
@@ -70,4 +70,4 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 	</div><!-- #affix -->
 	<?php get_template_part( 'inc/mega', 'menu' );?>
 
-	<div id="content" class="site-content container">
+	<div id="content" class="site-content container-fluid">

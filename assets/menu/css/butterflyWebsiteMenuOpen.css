@@ -1,0 +1,806 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:700,400,900');
+
+@font-face {
+                          font-family: "Aleo-Bold";
+                          src: url('../fonts/Aleo-Bold.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Aleo-LightItalic";
+                          src: url('../fonts/Aleo-LightItalic.otf') format("opentype");
+                        }
+                        
+.butterflywebsitemenuopen {
+  width               : 100%;
+  min-width           : 1200px;
+  height              : 100vh;
+  min-height          : 800px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.butterflywebsitemenuopen .menuopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 800px;
+  width               : 1200px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 800px;
+  width               : 1200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 772px;
+  width               : 1172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .menubutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 40px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1030px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .menubutton .bg1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .menubutton .menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .menubutton .iconmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .menubutton .iconmenu .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .menubutton .iconmenu .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .hello {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .product {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 350px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .resources {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 600px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .aboutus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 850px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .whybutterfly {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(83, 46, 228, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .howitworksfeature {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 350px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(83, 46, 228, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .blogcasestudiesdo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 600px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(83, 46, 228, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .customerspartnersc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 850px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(83, 46, 228, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 375px;
+  height              : 280px;
+  width               : 901px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try .rectangle2 {
+  background-color    : rgba(58, 59, 87, 1.0);
+  top                 : 0px;
+  height              : 128px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 60px;
+  width               : 372px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try .yourworkemail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : auto;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try .bg1 {
+  background-color    : rgba(44, 230, 206, 1.0);
+  top                 : 64px;
+  height              : 40px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  border-radius       : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try .requestademo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 76px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 241px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .try .getstartednow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 151px;
+  height              : 119px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog .fromtheblog {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(85, 85, 85, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog .lisbon {
+  background-color    : rgba(58, 59, 86, 1.0);
+  top                 : 39px;
+  height              : 80px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog .lisbon .mask {
+  background-color    : rgba(58, 59, 86, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog .lisbon .lisbon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog .a20181214johnwi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .blog .workroamthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .seperatorvertical {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 450px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .seperatorvertical .rectangle1 {
+  background-color    : rgba(0, 0, 0, 0.2);
+  top                 : 0px;
+  height              : 280px;
+  width               : 1px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 186px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 501px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote .u201cbutterflypowerrea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Aleo-LightItalic", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(85, 85, 85, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote .benjaminsnyers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 128px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote .managingdirectorat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(119, 119, 119, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote .ogilvylogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : 62px;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote .seperatorvertical1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 123px;
+  height              : 48px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 124px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .extra .quote .seperatorvertical1 .rectangle1 {
+  background-color    : rgba(0, 0, 0, 0.2);
+  top                 : 0px;
+  height              : 48px;
+  width               : 1px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .alreadyusingbutter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 712px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .alreadyusingbutter .span1 {
+  
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .alreadyusingbutter .span2 {
+  color               : rgba(44, 230, 206, 1.0);
+  text-decoration     : underline;
+}
+.butterflywebsitemenuopen .menuopen .menuopen1 .alreadyusingbutter .span3 {
+  
+}
+.butterflywebsitemenuopen .menuopen .brandingbutterflyicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .brandingbutterflyicon .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.butterflywebsitemenuopen .menuopen .brandingbutterflyicon .butterfly {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 28px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

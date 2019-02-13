@@ -43,13 +43,12 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'aleobold', sans-serif;
 }
 
-@media only screen and (min-width : 1200px) {
-	.container { 
-		width: 1200px; 
-		padding-left: 50px;
-		padding-right: 50px;
-	} 
-}
+
+.container-fluid { 
+	padding-left: 50px;
+	padding-right: 50px;
+} 
+
 
 .modal-backdrop{
 	background-color: #fff;
@@ -60,15 +59,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 .content-area{
-	padding-left: 118px;
+	padding-left: 68px;
 }
 
 .section-one{
 	display: grid;
-// 	grid-template-columns: 1fr 1.5fr;
 	grid-template-columns: 480px 602px;
 	align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100vh;
     grid-column-gap: 0;
     
@@ -180,7 +178,7 @@ h1,h2,h3,h4,h5,h6{
 	display: grid;
 	grid-template-columns:repeat(6,1fr);
 	align-items: center;
-    justify-content: center;
+    justify-content: left;
     align-self: center;
 	padding-right: 137px;
 	padding-left: 70px;
@@ -194,7 +192,7 @@ h1,h2,h3,h4,h5,h6{
 .why-butterfly{
 	display: grid;
 	align-items: center;
-    justify-content: center;
+    justify-content: left;
     grid-template-columns: 350px 732px;
     //padding-right: 8em;
     background-position: 0% 0%;
@@ -444,7 +442,7 @@ h1,h2,h3,h4,h5,h6{
 					border: 0;
 					color: #fff;
 					position: relative;
-					top:5px;
+					top:4px;
 					right: 5px;
 					z-index: 1;
 					&:focus{

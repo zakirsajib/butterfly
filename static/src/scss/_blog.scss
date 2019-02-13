@@ -5,5 +5,11 @@ body{
 		.menu-bar{
 			width: 	115px;
 		}
+		
+		article{
+			display: grid;
+			justify-content: center;
+			padding-bottom: 330px;
+		}
 	}
 }
