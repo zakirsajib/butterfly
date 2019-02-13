@@ -43,6 +43,13 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'aleobold', sans-serif;
 }
 
+@media only screen and (min-width : 1200px) {
+	.container { 
+		width: 1200px; 
+		padding-left: 50px;
+		padding-right: 50px;
+	} 
+}
 
 .modal-backdrop{
 	background-color: #fff;
@@ -51,24 +58,26 @@ h1,h2,h3,h4,h5,h6{
 	height: 100%;
 }
 
-.home-padding{
-	padding-left: 12em;
+
+.content-area{
+	padding-left: 118px;
 }
 
 .section-one{
 	display: grid;
-	grid-template-columns: 1fr 1.5fr;
+// 	grid-template-columns: 1fr 1.5fr;
+	grid-template-columns: 480px 602px;
 	align-items: center;
     justify-content: center;
     height: 100vh;
-    grid-column-gap: 2em;
+    grid-column-gap: 0;
     
     .demo-request{
 	    display: grid;
 		align-items: center;
-		justify-content: center;
+	//	justify-content: center;
 		align-self: center;
-		grid-template-rows: 1fr 1fr;
+// 		grid-template-rows: 1fr 1fr;
 	    h1{
 		    margin: 0;
 		    color: #3a3b57;
@@ -79,6 +88,8 @@ h1,h2,h3,h4,h5,h6{
 			font-stretch: normal;
 			line-height: 1;
 			letter-spacing: normal;
+			width: 480px;
+			height: 144px;
 	    }
 	    p{
 		    margin: 0;
@@ -90,12 +101,17 @@ h1,h2,h3,h4,h5,h6{
 			line-height: normal;
 			letter-spacing: normal;
 			color: #3a3b57;
+			width: 372px;
+			height: 69px;
+			margin: 56px 0 54px;
 	    }
     
 		.demo-form-box{ // need this code later
 			border-radius: 5px;
 			background-color: #fff;
 			padding: 0;
+			width: 396px;
+			height: 48px;
 		.input-group{
 			padding-bottom: 0.5em;
 			.form-control.demo-input{
@@ -143,9 +159,12 @@ h1,h2,h3,h4,h5,h6{
 	}
 	}
 	.home-carousel{ 
-		position: relative;
-		margin-top: -120px;
-		right: -12px;
+		//position: relative;
+		//margin-top: -189px;
+		//right: -18px;
+		position: absolute;
+		right: 0;
+		top: 0;
 		.slick-slider{
 			display: grid;
 			img{
@@ -163,10 +182,11 @@ h1,h2,h3,h4,h5,h6{
 	align-items: center;
     justify-content: center;
     align-self: center;
-	padding-right: 15em;
-	padding-left: 15em;
-	padding-top: 0;
-	padding-bottom: 1em;
+	padding-right: 137px;
+	padding-left: 70px;
+	padding-top: 5em;
+	padding-bottom: 59.3px;
+	grid-column-gap:64px;
 }
 
 
@@ -175,8 +195,8 @@ h1,h2,h3,h4,h5,h6{
 	display: grid;
 	align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 2fr;
-    padding-right: 8em;
+    grid-template-columns: 350px 732px;
+    //padding-right: 8em;
     background-position: 0% 0%;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -242,7 +262,7 @@ h1,h2,h3,h4,h5,h6{
 				align-self: center;
 				justify-content: center;
 				text-align: center;
-				padding: 10em 5em;
+				padding: 10em 0 0 117px;
 				grid-row-gap:5em;
 			.two, .three, .six{
 				text-align: left;
@@ -294,19 +314,19 @@ h1,h2,h3,h4,h5,h6{
 .home-testimonial{
 	display: grid;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	align-self: center;
 	height: 100vh;
-	padding-right: 12em;
+	//padding-right: 12em;
 	background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('../img/BGBlob1.svg');
     background-attachment: fixed;
 	.testimonial-area{
-		padding: 0 10em;
+		padding-left: 109px;
 		.testimonial-statements{ 
-			padding-right: 5em;
+			//padding-right: 5em;
 			p{
 				text-align: left;
 				font-family: 'aleolightitalic';
@@ -316,12 +336,14 @@ h1,h2,h3,h4,h5,h6{
 				line-height: 1.5;
 				letter-spacing: normal;
 				color: #555555;
+				width: 600px;
+				height: 156px;
 			}
 		}
 		.company-details{
 			display: grid;
-			grid-template-columns: 1fr 0.5fr 6fr;
-			padding-top: 2em;
+			grid-template-columns: 1fr 1fr 5fr;
+			padding-top: 45px;
 			.horizontal-line{
 				width: 1px;
 				height: 50px;
@@ -355,11 +377,11 @@ h1,h2,h3,h4,h5,h6{
 .home-footer{ 
 	/* padding-top: 10em; */
 	/* padding-bottom: 10em; */
-	padding-right: 15em;
+	//padding-right: 15em;
 		.demo-area{
 			display: grid;
-			grid-template-columns: 1fr 1fr;
-			padding: 0 3em 8em;
+			grid-template-columns: 400px 540px;
+			padding: 0 0 8em;
 			grid-column-gap:5em;
 			align-items: end;
 			justify-content: center;
@@ -369,9 +391,8 @@ h1,h2,h3,h4,h5,h6{
 			background-repeat: no-repeat;
 			background-size: contain;
 			background-attachment: fixed;
-			height: 70vh;
+			//height: 70vh;
 		.demo-form-box{ // need this code later
-			border-radius: 5px;
 			background-color: #fff;
 			padding: 1em 1.5em;
 			border-radius: 5px;
@@ -447,8 +468,9 @@ h1,h2,h3,h4,h5,h6{
 			}
 			.latest-blog{
 				display: grid;
-				grid-template-columns: 1fr 2fr;
+				grid-template-columns: 1fr 4fr;
 				padding-top: 15px;
+				grid-column-gap:20px;
 				.post-thumbnail img{
 					width: 119.8px;
 					height: 80px;
@@ -458,7 +480,7 @@ h1,h2,h3,h4,h5,h6{
 				.post-details{
 					display: grid;
 					align-items: center;
-					justify-content: center;
+					justify-content: left;
 					align-self: center;
 					.post-meta a{
 						font-family: 'Muli', sans-serif;
@@ -479,6 +501,8 @@ h1,h2,h3,h4,h5,h6{
 						line-height: normal;
 						letter-spacing: normal;
 						margin: 10px 0;
+						width: 260px;
+						height: 36px;
 						a{
 							color: #4a4a4a;
 						}

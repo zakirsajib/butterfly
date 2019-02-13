@@ -80,9 +80,9 @@
 					    <div class="feathr-contents">
 						    <div class="feathr-accordion">
 							    <ul class="nav nav-pills nav-stacked">
-								    <li class="active"><a data-toggle="tab" href="#collapseOne">Dashboard</a></li>
-								    <li><a data-toggle="tab" href="#collapseTwo">Feature #2</a></li>
-								    <li><a data-toggle="tab" href="#collapseThree">Feature #3</a></li>
+								    <li class="active"><a data-toggle="tab" href="#collapseOne">Dashboard</a><p>Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p></li>
+								    <li><a data-toggle="tab" href="#collapseTwo">Feature #2</a><p>Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p></li>
+								    <li><a data-toggle="tab" href="#collapseThree">Feature #3</a><p>Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p></li>
 							    </ul>
 						    </div>
 						    <div class="feathr-thumbnail">

@@ -67,12 +67,17 @@
   	}
   }
 }
+
+.affix .site-header {
+    padding-top: 13px;
+}
+
 .site-header{
 	display: grid;
 	grid-template-columns: 2fr 8fr 1fr;
 // 	grid-template-columns: 2fr 5fr 1fr;
 //  position: relative;
-	padding-top: 1em;
+	padding-top: 48px;
 	grid-column-gap: 10px;
 	position: relative;
 	z-index: 10;

@@ -11,5 +11,6 @@ $ = jQuery.noConflict();
 		autoplaySpeed: 4800
 		
 	});
-
+	
+	
 });

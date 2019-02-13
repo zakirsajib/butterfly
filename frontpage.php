@@ -23,9 +23,9 @@ get_header();
 					//get_template_part( 'template-parts/content', 'home' );
 				endwhile; // End of the loop.?>
 		</main><!-- #main -->
-		<div class="section-one home-padding">
+		<div class="section-one">
 			<div class="demo-request">
-				<h1>Make Feedback Meaningful For Your Team.</h1>
+				<h1>Make Feedback Meaningful For<br/> Your Team.</h1>
 				<p>Drive conversation with hourly employees and get focused insight for their managers to act on using Butterfly engagement tools.</p>
 				<div class="demo-form-box">
 					<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button">Request a demo</button></span></div><!-- /input-group -->
@@ -46,7 +46,7 @@ get_header();
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 		</div>
 		
-		<div class="why-butterfly home-padding" id="why-butterfly">
+		<div class="why-butterfly" id="why-butterfly">
 			<div class="butterfly-one">
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">
@@ -88,7 +88,7 @@ get_header();
 			</div>
 		</div>
 		
-		<div class="home-testimonial home-padding">
+		<div class="home-testimonial">
 			<div class="testimonial-area">
 				<?php include( get_template_directory() . '/inc/testimonial.php');?>
 			</div>
