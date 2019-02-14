@@ -52,7 +52,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 				</div><!-- .site-branding -->
 				<div class="header-signin">
 					<div class="demo-form-box" style="display: none">
-						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button">Request a demo</button></span></div><!-- /input-group -->
+						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
 					</div>
 					<ul>
 						<li>Already using Butterfly? <a href="#">Sign in</a></li>

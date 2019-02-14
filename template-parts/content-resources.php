@@ -215,7 +215,7 @@
 </div>
 
 
-<div class="modal fade" id="caseStudyOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal" id="caseStudyOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="butterflycasestudy">
         <div class="casestudy">
@@ -225,7 +225,7 @@
                         <a href="<?php echo get_site_url()?>"><img anima-src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-butterfly@2x.png" class="butterfly" src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-butterfly@2x.png"/></a>
                     </div>
                     <img anima-src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-heart@2x.png" class="heart" src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-heart@2x.png"/>
-                    <div class="content">
+                    <div class="content animated slideInLeft">
                         <img anima-src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-tmklogo@2x.png" class="tmklogo" src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-tmklogo@2x.png"/>
                         <div class="u201courceolivesandb">
                             “Our CEO lives and breathes Butterfly, he immerses himself in it. He responds to every chat he receives”
@@ -279,7 +279,7 @@
                             <img anima-src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check" src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg"/>
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right animated slideInRight">
                         <div class="groupdiversepeopleworkingoffice43962189">
                             <img anima-src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-mask.png" class="mask" src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-mask.png"/>
                             <img anima-src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-group-diverse-people-working-office-43962189.png" class="groupdiversepeopleworkingoffice439621891" src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-group-diverse-people-working-office-43962189.png"/>

@@ -145,6 +145,146 @@
     }, 200);
 </script>
 -->
+<div class="modal" id="reqDemo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="butterflyrequestdemoform">
+            <div class="tryfree">
+                    <div class="bg"></div>
+                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-rectangle.png" class="rectangle" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-rectangle.png"/>
+                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-rectangle-1.png" class="rectangle1" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-rectangle-1.png"/>
+                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-rectangle-2.png" class="rectangle2" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-rectangle-2.png"/>
+                    <div class="brandingbutterflyicon">
+                        <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg@2x.png" class="bg1" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg@2x.png"/>
+                        <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-butterfly@2x.png" class="butterfly" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-butterfly@2x.png"/>
+                    </div>
+                    <div class="form animated slideInLeft">
+                        <div class="nicetomeetyou">
+                            Nice to meet you!
+                        </div>
+                        <div class="wecanu2019twaittosho">
+                            We can’t wait to show you how Butterfly works. Share a little more about yourself to get started.
+                        </div>
+                        <div class="websiteformfield">
+                            <div class="rectangle4">
+                            </div>
+                            <div class="yourworkemail">
+                                |
+                            </div>
+                            <div class="iconclose">
+                                <div class="background">
+                                </div>
+                                <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-user.svg" class="user" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-user.svg"/>
+                            </div>
+                        </div>
+                        <div class="websiteformfield1">
+                            <div class="rectangle4">
+                            </div>
+                            <div class="yourworkemail">
+                                Last name
+                            </div>
+                            <div class="iconclose">
+                                <div class="background">
+                                </div>
+                                <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-user-1.svg" class="user" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-user-1.svg"/>
+                            </div>
+                        </div>
+                        <div class="websiteformfield2">
+                            <div class="rectangle4">
+                            </div>
+                            <div class="yourworkemail">
+                                hello@butterfly.ai
+                            </div>
+                            <div class="iconclose">
+                                <div class="background">
+                                </div>
+                                <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-email.svg" class="email" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-email.svg"/>
+                            </div>
+                        </div>
+                        <div class="websiteformfield3">
+                            <div class="rectangle4">
+                            </div>
+                            <div class="yourworkemail">
+                                Company name
+                            </div>
+                            <div class="iconclose">
+                                <div class="background">
+                                </div>
+                                <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-company.svg" class="company" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-company.svg"/>
+                            </div>
+                        </div>
+                        <div class="websiteformfield4">
+                            <div class="rectangle4">
+                            </div>
+                            <div class="yourworkemail">
+                                Company size
+                            </div>
+                            <div class="iconclose">
+                                <div class="background">
+                                </div>
+                                <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-people.svg" class="people" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-people.svg"/>
+                            </div>
+                        </div>
+                        <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-arrowcarrot.svg" class="arrowcarrot" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-arrowcarrot.svg"/>
+                        <div class="websiteformfield5">
+                            <div class="rectangle4">
+                            </div>
+                            <div class="yourworkemail">
+                                Phone n°
+                            </div>
+                        </div>
+                        <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-arrowcarrot.svg" class="arrowcarrot1" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-arrowcarrot.svg"/>
+                        <div class="a32">
+                            +32
+                        </div>
+                        <div class="rectangle3">
+                        </div>
+                        <div class="letu2019sgo">
+                            Let’s go!
+                        </div>
+                        <div class="rectangle11">
+                        </div>
+                        <div class="keepmeupdatedonn">
+                            Keep me updated on news from Butterfly
+                        </div>
+                    </div>
+                    <div class="right animated slideInRight">
+                        <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg-1.png" class="bg1" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg-1.png"/>
+                        <div class="iconclose">
+                            <div class="background">
+                            </div>
+                            <a data-dismiss="modal" aria-label="Close"><img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-combined-shape.svg" class="combinedshape" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-combined-shape.svg"/></a>
+                        </div>
+                        <div class="separatorhorizontal">
+                            <div class="bg2">
+                            </div>
+                        </div>
+                        <div class="u201cbutterflypowerrea">
+                            “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+                        </div>
+                        <div class="benjaminsnyers">
+                            Benjamin Snyers
+                        </div>
+                        <div class="managingdirectorat">
+                            Managing Director at Ogilvy
+                        </div>
+                        <div class="logo">
+                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-gelogo.svg" class="gelogo" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-gelogo.svg"/>
+                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-cocacolalogo.svg" class="cocacolalogo" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-cocacolalogo.svg"/>
+                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-ticketmasterlogo.svg" class="ticketmasterlogo" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-ticketmasterlogo.svg"/>
+                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-dentsulogo.svg" class="dentsulogo" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-dentsulogo.svg"/>
+                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-ogilvylogo.svg" class="ogilvylogo" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-ogilvylogo.svg"/>
+                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-livenation@2x.png" class="livenation" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-livenation@2x.png"/>
+                        </div>
+                        <div class="wealreadyworkwith">
+                            We already work with the<br />following companies:
+                        </div>
+                    </div>
+                </div>
+		</div>
+	</div>
+</div>
+
+
 <?php wp_footer(); ?>
 <noscript><div id="nonjsmode" style="font-family:sans-serif;position:fixed;top:0;left:0;width:100%;z-index:9999;text-align:center;font-weight:700;font-size:120%;color:#FFF;background-color:#F7522F;padding:5px 0;">JavaScript is not enabled!</div></noscript>
 </body>

@@ -124,19 +124,35 @@ add_action( 'widgets_init', 'butterfly_widgets_init' );
 function butterfly_scripts() {
 	wp_enqueue_style( 'butterfly-style', get_stylesheet_uri() );
 	
-	wp_enqueue_style( 'slick', get_template_directory_uri() .'/assets/slick/slick.css' );
+	wp_enqueue_style( 'animate', get_template_directory_uri() .'/assets/animate.min.css' );
 	
-	wp_enqueue_style( 'main', get_template_directory_uri() .'/static/dist/css/main.css' );
 	
-	wp_enqueue_style( 'aboutbutterfly', get_template_directory_uri() .'/assets/about/css/butterflyWebsiteAbout.css' );
-	wp_enqueue_style( 'menubutterfly', get_template_directory_uri() .'/assets/menu/css/butterflyWebsiteMenuOpen.css' );
-	wp_enqueue_style( 'homebutterfly', get_template_directory_uri() .'/assets/home/css/butterflyWebsiteHome.css' );
-	wp_enqueue_style( 'blogbutterfly', get_template_directory_uri() .'/assets/blog/css/butterflyWebsiteBlog.css' );
-	wp_enqueue_style( 'blogFilterbutterfly', get_template_directory_uri() .'/assets/archive/css/butterflyWebsiteBlogFilters.css' );
-	wp_enqueue_style( 'resourcesbutterfly', get_template_directory_uri() .'/assets/resources/css/butterflyWebsiteResources.css' );
-	if(is_page('resources')):
-	wp_enqueue_style( 'casestudybutterfly', get_template_directory_uri() .'/assets/casestudy/css/butterflyCaseStudy.css' );
+	
+	if( is_home() || is_front_page() ):
+		wp_enqueue_style( 'slick', get_template_directory_uri() .'/assets/slick/slick.css' );
 	endif;
+	wp_enqueue_style( 'main', get_template_directory_uri() .'/static/dist/css/main.css' );
+	if(is_page('about-us')):
+		wp_enqueue_style( 'aboutbutterfly', get_template_directory_uri() .'/assets/about/css/butterflyWebsiteAbout.css' );
+	endif;
+	wp_enqueue_style( 'menubutterfly', get_template_directory_uri() .'/assets/menu/css/butterflyWebsiteMenuOpen.css' );
+	
+	if( is_home() || is_front_page() ):
+		wp_enqueue_style( 'homebutterfly', get_template_directory_uri() .'/assets/home/css/butterflyWebsiteHome.css' );
+	endif;
+	if(is_page('blog')):
+		wp_enqueue_style( 'blogbutterfly', get_template_directory_uri() .'/assets/blog/css/butterflyWebsiteBlog.css' );
+		wp_enqueue_style( 'blogFilterbutterfly', get_template_directory_uri() .'/assets/archive/css/butterflyWebsiteBlogFilters.css' );
+	endif;
+	
+	if(is_page('resources')):
+		wp_enqueue_style( 'resourcesbutterfly', get_template_directory_uri() .'/assets/resources/css/butterflyWebsiteResources.css' );
+		wp_enqueue_style( 'casestudybutterfly', get_template_directory_uri() .'/assets/casestudy/css/butterflyCaseStudy.css' );
+	endif;
+	
+	wp_enqueue_style( 'demobutterfly', get_template_directory_uri() .'/assets/demo/css/butterflyRequestDemoForm.css' );
+
+	
 	
 	// Smoothscroll
 	wp_enqueue_script( 'smoothscroll', get_template_directory_uri() . '/assets/smoothscroll/smoothscroll.js', array( ), '1.4.4', true );
@@ -144,8 +160,9 @@ function butterfly_scripts() {
 	// Lazyload
 	wp_enqueue_script( 'lazysizes', get_template_directory_uri() . '/assets/lazysizes/lazysizes.min.js', array('jquery'), null, true );
 
-	wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
-	
+	//if( is_home() || is_front_page() ):
+		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
+	//endif;
 	
 	wp_enqueue_script( 'butterfly-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
