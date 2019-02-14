@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="211px" height="193px" viewBox="0 0 211 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-11.3%" y="-17.7%" width="122.6%" height="135.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-14.6%" y="-22.6%" width="129.3%" height="145.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-9.0%" y="-14.2%" width="117.9%" height="129.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Website-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PulseSurveys">
+            <g id="Illustration/BubbleFull" transform="translate(0.000000, 57.000000)">
+                <g id="Bubble">
+                    <g id="Illustration/Bubble3" transform="translate(6.531792, 7.944444)" fill="#FFFFFF">
+                        <g id="Bubble1" filter="url(#filter-1)">
+                            <rect id="Rectangle" x="0" y="0" width="106" height="56.1769912" rx="5"></rect>
+                            <polygon id="Triangle" transform="translate(77.922498, 61.214602) scale(-1, 1) translate(-77.922498, -61.214602) " points="69.5828221 67.4734513 86.2621741 54.9557522 73.2560391 54.9557522"></polygon>
+                        </g>
+                    </g>
+                    <g id="Smileys/Neutral" fill="#FFAC73">
+                        <path d="M21.4525167,20.6567 L9.734,20.6567 C8.96365,20.6567 8.33951667,19.9278333 8.33951667,19.2067 C8.33951667,18.48605 8.96365,17.7567 9.734,17.7567 L21.4525167,17.7567 C22.2228667,17.7567 22.8475167,18.48605 22.8475167,19.2067 C22.8475167,19.9278333 22.2228667,20.6567 21.4525167,20.6567 M10.44235,9.07555 C11.5686833,9.07555 12.48215,9.9296 12.48215,10.9832667 C12.48215,12.0369333 11.5686833,12.8914667 10.44235,12.8914667 C9.31653333,12.8914667 8.40306667,12.0369333 8.40306667,10.9832667 C8.40306667,9.9296 9.31653333,9.07555 10.44235,9.07555 M20.67235,9.07555 C21.7992,9.07555 22.71215,9.9296 22.71215,10.9832667 C22.71215,12.0369333 21.7992,12.8914667 20.67235,12.8914667 C19.5465333,12.8914667 18.6330667,12.0369333 18.6330667,10.9832667 C18.6330667,9.9296 19.5465333,9.07555 20.67235,9.07555 M15.5005167,0 C6.93986667,0 0,6.49165 0,14.5 C0,22.5078667 6.93986667,29 15.5005167,29 C24.0611667,29 31,22.5078667 31,14.5 C31,6.49165 24.0611667,0 15.5005167,0" id="Neutral"></path>
+                    </g>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="37.2312139" y="28.1111111" width="62.7052023" height="3.66666667"></rect>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="37.2312139" y="34.2222222" width="36.5780347" height="3.66666667"></rect>
+                    <g id="Illustration/Star" transform="translate(37.231214, 44.611111)" fill="#F8E71C">
+                        <polygon id="Star" points="5 7.5 2.06107374 9.04508497 2.62235871 5.77254249 0.244717419 3.45491503 3.53053687 2.97745751 5 0 6.46946313 2.97745751 9.75528258 3.45491503 7.37764129 5.77254249 7.93892626 9.04508497"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(50.294798, 44.611111)" fill="#F8E71C">
+                        <polygon id="Star" points="5 7.5 2.06107374 9.04508497 2.62235871 5.77254249 0.244717419 3.45491503 3.53053687 2.97745751 5 0 6.46946313 2.97745751 9.75528258 3.45491503 7.37764129 5.77254249 7.93892626 9.04508497"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(63.358382, 44.611111)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="5 7.5 2.06107374 9.04508497 2.62235871 5.77254249 0.244717419 3.45491503 3.53053687 2.97745751 5 0 6.46946313 2.97745751 9.75528258 3.45491503 7.37764129 5.77254249 7.93892626 9.04508497"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(76.421965, 44.611111)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="5 7.5 2.06107374 9.04508497 2.62235871 5.77254249 0.244717419 3.45491503 3.53053687 2.97745751 5 0 6.46946313 2.97745751 9.75528258 3.45491503 7.37764129 5.77254249 7.93892626 9.04508497"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(89.485549, 44.611111)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="5 7.5 2.06107374 9.04508497 2.62235871 5.77254249 0.244717419 3.45491503 3.53053687 2.97745751 5 0 6.46946313 2.97745751 9.75528258 3.45491503 7.37764129 5.77254249 7.93892626 9.04508497"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="Illustration/BubbleFull" transform="translate(73.000000, 0.000000)">
+                <g id="Bubble">
+                    <g id="Illustration/Bubble3" transform="translate(5.028902, 6.190476)" fill="#FFFFFF">
+                        <g id="Bubble1" filter="url(#filter-2)">
+                            <rect id="Rectangle" x="0" y="0" width="82" height="43.9646018" rx="5"></rect>
+                            <polygon id="Triangle" transform="translate(60.279668, 47.907080) scale(-1, 1) translate(-60.279668, -47.907080) " points="53.8282209 52.8053097 66.7311158 43.0088496 56.6697661 43.0088496"></polygon>
+                        </g>
+                    </g>
+                    <g id="Smileys/Happy" fill="#AEEA7E">
+                        <path d="M12,0 C5.37257813,0 0,5.14876563 0,11.5 C0,17.8512793 5.37257812,23 12,23 C18.6274219,23 24,17.8512793 24,11.5 C24,5.14876563 18.6274219,0 12,0 L12,0 Z M16.0042031,7.19778711 C16.8763125,7.19778711 17.5831406,7.87525391 17.5831406,8.71093555 C17.5831406,9.54661719 16.8763594,10.2241289 16.0042031,10.2241289 C15.1322813,10.2241289 14.4252188,9.54661719 14.4252188,8.71093555 C14.4252188,7.87525391 15.1322813,7.19778711 16.0042031,7.19778711 L16.0042031,7.19778711 Z M8.08410937,7.19778711 C8.95626562,7.19778711 9.66309375,7.87525391 9.66309375,8.71093555 C9.66309375,9.54661719 8.9563125,10.2241289 8.08410937,10.2241289 C7.21223437,10.2241289 6.50521875,9.54661719 6.50521875,8.71093555 C6.50521875,7.87525391 7.21223437,7.19778711 8.08410937,7.19778711 L8.08410937,7.19778711 Z M17.5145156,15.0297813 C17.4481406,15.1278906 15.8465625,17.4340449 12.1440469,17.4340449 C8.47457812,17.4340449 6.731625,15.1678262 6.65920312,15.0712891 C6.310875,14.6073359 6.42117187,13.9605508 6.9054375,13.6267813 C7.38689062,13.2948086 8.05715625,13.3974102 8.40703125,13.8551641 C8.4669375,13.9309023 9.63360937,15.364 12.1440469,15.364 C14.6449219,15.364 15.6917812,13.9189531 15.7015781,13.9042637 C16.0260469,13.4245879 16.6948125,13.287666 17.1953437,13.5983457 C17.6959219,13.9092051 17.83875,14.5500156 17.5145156,15.0297813 L17.5145156,15.0297813 Z" id="Happy"></path>
+                    </g>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="28.6647399" y="21.9047619" width="48.2774566" height="2.85714286"></rect>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="28.6647399" y="26.6666667" width="28.1618497" height="2.85714286"></rect>
+                    <g id="Illustration/Star" transform="translate(28.664740, 34.761905)" fill="#F8E71C">
+                        <polygon id="Star" points="4 6 1.64885899 7.23606798 2.09788697 4.61803399 0.195773935 2.76393202 2.8244295 2.38196601 4 0 5.1755705 2.38196601 7.80422607 2.76393202 5.90211303 4.61803399 6.35114101 7.23606798"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(38.722543, 34.761905)" fill="#F8E71C">
+                        <polygon id="Star" points="4 6 1.64885899 7.23606798 2.09788697 4.61803399 0.195773935 2.76393202 2.8244295 2.38196601 4 0 5.1755705 2.38196601 7.80422607 2.76393202 5.90211303 4.61803399 6.35114101 7.23606798"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(48.780347, 34.761905)" fill="#F8E71C">
+                        <polygon id="Star" points="4 6 1.64885899 7.23606798 2.09788697 4.61803399 0.195773935 2.76393202 2.8244295 2.38196601 4 0 5.1755705 2.38196601 7.80422607 2.76393202 5.90211303 4.61803399 6.35114101 7.23606798"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(58.838150, 34.761905)" fill="#F8E71C">
+                        <polygon id="Star" points="4 6 1.64885899 7.23606798 2.09788697 4.61803399 0.195773935 2.76393202 2.8244295 2.38196601 4 0 5.1755705 2.38196601 7.80422607 2.76393202 5.90211303 4.61803399 6.35114101 7.23606798"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(68.895954, 34.761905)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="4 6 1.64885899 7.23606798 2.09788697 4.61803399 0.195773935 2.76393202 2.8244295 2.38196601 4 0 5.1755705 2.38196601 7.80422607 2.76393202 5.90211303 4.61803399 6.35114101 7.23606798"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="Illustration/BubbleFull" transform="translate(69.000000, 96.000000)">
+                <g id="Bubble">
+                    <g id="Illustration/Bubble3" transform="translate(8.208092, 9.904762)" fill="#FFFFFF">
+                        <g id="Bubble1" filter="url(#filter-3)">
+                            <rect id="Rectangle" x="0" y="0" width="134" height="70.0176991" rx="5"></rect>
+                            <polygon id="Triangle" transform="translate(98.505799, 76.296460) scale(-1, 1) translate(-98.505799, -76.296460) " points="87.9631902 84.0973451 109.048409 68.4955752 92.606691 68.4955752"></polygon>
+                        </g>
+                    </g>
+                    <g id="Smileys/VeryUnhappy" fill="#F45D6F">
+                        <path d="M10.1296,28.2051 C10.1296,23.2717667 14.34095,19.2215 19.53705,19.2215 C23.92195,19.2215 27.6068,21.99835 28.64875,25.8716333 C28.6871,25.9783167 28.71375,26.13125 28.7287,26.2404 C28.8691,26.8576833 28.94385,27.5884333 28.94385,28.2051 L10.1296,28.2051 Z M13.1365,11.57915 C14.55415,11.57915 15.70205,12.6688 15.70205,14.0131333 C15.70205,15.3574667 14.55415,16.4477333 13.1365,16.4477333 C11.7195,16.4477333 10.57095,15.3574667 10.57095,14.0131333 C10.57095,12.6688 11.7195,11.57915 13.1365,11.57915 L13.1365,11.57915 Z M26.00715,11.57915 C27.4235,11.57915 28.57205,12.6688 28.57205,14.0131333 C28.57205,15.3574667 27.4235,16.4477333 26.00715,16.4477333 C24.5895,16.4477333 23.44095,15.3574667 23.44095,14.0131333 C23.44095,12.6688 24.5895,11.57915 26.00715,11.57915 L26.00715,11.57915 Z M19.5,0 C8.7308,0 0,8.28245 0,18.5 C0,28.7169333 8.7308,37 19.5,37 C30.2692,37 39,28.7169333 39,18.5 C39,8.28245 30.2692,0 19.5,0 L19.5,0 Z" id="VeryUnhappy"></path>
+                    </g>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="46.7861272" y="35.047619" width="78.7976879" height="4.57142857"></rect>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="46.7861272" y="42.6666667" width="45.9653179" height="4.57142857"></rect>
+                    <g id="Illustration/Star" transform="translate(46.786127, 55.619048)" fill="#F8E71C">
+                        <polygon id="Star" points="6.5 9 2.67939586 10.854102 3.40906632 6.92705098 0.318132644 4.14589803 4.58969793 3.57294902 6.5 0 8.41030207 3.57294902 12.6818674 4.14589803 9.59093368 6.92705098 10.3206041 10.854102"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(63.202312, 55.619048)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="6.5 9 2.67939586 10.854102 3.40906632 6.92705098 0.318132644 4.14589803 4.58969793 3.57294902 6.5 0 8.41030207 3.57294902 12.6818674 4.14589803 9.59093368 6.92705098 10.3206041 10.854102"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(79.618497, 55.619048)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="6.5 9 2.67939586 10.854102 3.40906632 6.92705098 0.318132644 4.14589803 4.58969793 3.57294902 6.5 0 8.41030207 3.57294902 12.6818674 4.14589803 9.59093368 6.92705098 10.3206041 10.854102"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(96.034682, 55.619048)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="6.5 9 2.67939586 10.854102 3.40906632 6.92705098 0.318132644 4.14589803 4.58969793 3.57294902 6.5 0 8.41030207 3.57294902 12.6818674 4.14589803 9.59093368 6.92705098 10.3206041 10.854102"></polygon>
+                    </g>
+                    <g id="Illustration/Star" transform="translate(112.450867, 55.619048)" fill="#000000" fill-opacity="0.1">
+                        <polygon id="Star" points="6.5 9 2.67939586 10.854102 3.40906632 6.92705098 0.318132644 4.14589803 4.58969793 3.57294902 6.5 0 8.41030207 3.57294902 12.6818674 4.14589803 9.59093368 6.92705098 10.3206041 10.854102"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

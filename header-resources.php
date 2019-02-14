@@ -70,4 +70,4 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 	</div><!-- #affix -->
 	<?php get_template_part( 'inc/mega', 'menu' );?>
 
-	<div id="content" class="site-content container-fluid">
+	<div id="content" class="site-content">

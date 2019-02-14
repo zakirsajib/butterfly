@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="Website-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Arrow">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Background"></g>
+            <polygon id="Arrow" fill="#3A3B57" fill-rule="evenodd" mask="url(#mask-2)" points="16.707 7 15.293 8.414 17.586 10.707 2 10.707 2 12.707 17.586 12.707 15.293 15 16.707 16.414 21.414 11.707"></polygon>
+        </g>
+    </g>
+</svg>

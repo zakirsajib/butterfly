@@ -57,23 +57,22 @@ get_header('about');
         </div>
         <div class="company">
             <div class="headerpartners">
-                <div class="company1">
-                    Company
-                </div>
+                <div class="company1">Company</div>
                 <div class="separatorhorizontal">
-                    <div class="bg1">
-                    </div>
+                    <div class="bg1"></div>
                 </div>
             </div>
+         
             <div class="hourlyemployeesmak">
                 Hourly employees make up 68% of the national workforce in the U.S. Knowing this, we thought: how can we help companies better engage these indispensable team members?<br /><br />We created Butterfly to refocus teams on engagement. We wanted to give every employee a way to voice feedback confidently, and provide every manager with the tools to turn that feedback into action.<br /><br />Butterfly’s tools are the ones we wished we had when we became managers. Our pulse surveys were designed in partnership with leading researchers and industry leaders to drive effective results. Our managerial tools were developed using artificial intelligence and machine learning to seamlessly become a tool that teams would love.<br /><br />We hope Butterfly will help spark meaningful engagement to strengthen your team.<br /><br /><br />David, Marcus &amp; Simon<br />Co-founders of Butterfly
             </div>
             <div class="ourstory">
                 Our story.
             </div>
+                        
             <div class="group">
                 <div class="davidrollover200x300">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <a href="#"><img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/></a>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -84,7 +83,7 @@ get_header('about');
             </div>
             <div class="group1">
                 <div class="davidrollover200x300">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <a href="#"><img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/></a>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -140,20 +139,21 @@ get_header('about');
         </div>
         <div class="downloads">
             <div class="headercustomers">
-                <div class="media">
-                    Media
-                </div>
-                <div class="aboutusbyus">
-                    <span class="span1">About us</span><span class="span2">     By us</span>
-                </div>
-                <div class="rectangle">
-                </div>
+                <div class="media">Media</div>
+                <ul class="aboutusbyus nav nav-tabs" role="tablist">
+                    <li class="active"><span role="presentation" class="span1"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About us</a></span></li>
+                    <li><span role="presentation" class="span2"><a href="#byus" aria-controls="byus" role="tab" data-toggle="tab">By us</a></span></li>
+                </ul>
                 <div class="separatorhorizontal">
-                    <div class="bg1">
-                    </div>
+                    <div class="bg1"></div>
                 </div>
             </div>
-            <div class="group2">
+            <div class="fade in active" role="tabpanel" id="about">
+            	<div class="group2"></div>
+	            <div class="group1"></div>
+            </div>
+            <div class="fade" role="tabpanel" id="byus">
+	            <div class="group2">
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-7.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-8.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="getpdf">
@@ -169,7 +169,7 @@ get_header('about');
                 </div>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             </div>
-            <div class="group21">
+				<div class="group21">
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-9.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-10.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="downloadebook">
@@ -179,6 +179,7 @@ get_header('about');
                     <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
                 </div>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            </div>
             </div>
         </div>
         <div class="partners">

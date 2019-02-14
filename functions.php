@@ -133,6 +133,10 @@ function butterfly_scripts() {
 	wp_enqueue_style( 'homebutterfly', get_template_directory_uri() .'/assets/home/css/butterflyWebsiteHome.css' );
 	wp_enqueue_style( 'blogbutterfly', get_template_directory_uri() .'/assets/blog/css/butterflyWebsiteBlog.css' );
 	wp_enqueue_style( 'blogFilterbutterfly', get_template_directory_uri() .'/assets/archive/css/butterflyWebsiteBlogFilters.css' );
+	wp_enqueue_style( 'resourcesbutterfly', get_template_directory_uri() .'/assets/resources/css/butterflyWebsiteResources.css' );
+	if(is_page('resources')):
+	wp_enqueue_style( 'casestudybutterfly', get_template_directory_uri() .'/assets/casestudy/css/butterflyCaseStudy.css' );
+	endif;
 	
 	// Smoothscroll
 	wp_enqueue_script( 'smoothscroll', get_template_directory_uri() . '/assets/smoothscroll/smoothscroll.js', array( ), '1.4.4', true );

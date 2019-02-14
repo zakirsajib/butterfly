@@ -68,6 +68,7 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<!--
 <script>
     anima_isHidden = function(e) {
         if (!(e instanceof HTMLElement)) return !1;
@@ -143,6 +144,7 @@
         anima_loadAsyncSrc();
     }, 200);
 </script>
+-->
 <?php wp_footer(); ?>
 <noscript><div id="nonjsmode" style="font-family:sans-serif;position:fixed;top:0;left:0;width:100%;z-index:9999;text-align:center;font-weight:700;font-size:120%;color:#FFF;background-color:#F7522F;padding:5px 0;">JavaScript is not enabled!</div></noscript>
 </body>

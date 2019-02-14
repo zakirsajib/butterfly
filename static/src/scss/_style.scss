@@ -142,13 +142,14 @@ h1,h2,h3,h4,h5,h6{
 				text-transform: uppercase;
 				font-family: 'Muli', sans-serif;
 				font-size: 13px;
-				font-weight: 400;
+				font-weight: 900;
 				border: 0;
 				color: #fff;
 				position: relative;
-				top:5px;
+				top:4px;
 				right: 5px;
 				z-index: 1;
+				line-height: 16px;
 				&:focus{
 					outline: 0;
 				}
@@ -176,14 +177,14 @@ h1,h2,h3,h4,h5,h6{
 
 .client-logos{
 	display: grid;
-	grid-template-columns:repeat(6,1fr);
+	grid-template-columns:42px 88px 128px 76px 64px 158px;
 	align-items: center;
-    justify-content: left;
+    justify-content: center;
     align-self: center;
-	padding-right: 137px;
-	padding-left: 70px;
+	//padding-right: 137px;
+	//padding-left: 70px;
 	padding-top: 5em;
-	padding-bottom: 59.3px;
+	//padding-bottom: 59.3px;
 	grid-column-gap:64px;
 }
 
@@ -195,11 +196,13 @@ h1,h2,h3,h4,h5,h6{
     justify-content: left;
     grid-template-columns: 350px 732px;
     //padding-right: 8em;
+/*
     background-position: 0% 0%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-image: url('../img/BGBlob1.svg');
 	background-attachment: fixed;
+*/
     .butterfly-one{
 	    h1{
 			font-family: 'aleoregular';
@@ -247,11 +250,13 @@ h1,h2,h3,h4,h5,h6{
 	    }
     }
     .butterfly-two {
+/*
     	background-position: right bottom;
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-image: url('../img/BGBlob3.svg');
 		background-attachment: fixed;
+*/
     		.butterfly-right-column{
 			    display: grid;
 			    grid-template-columns:repeat(2,1fr);
@@ -316,11 +321,13 @@ h1,h2,h3,h4,h5,h6{
 	align-self: center;
 	height: 100vh;
 	//padding-right: 12em;
+/*
 	background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('../img/BGBlob1.svg');
     background-attachment: fixed;
+*/
 	.testimonial-area{
 		padding-left: 109px;
 		.testimonial-statements{ 
@@ -373,22 +380,22 @@ h1,h2,h3,h4,h5,h6{
 	}
 }
 .home-footer{ 
-	/* padding-top: 10em; */
-	/* padding-bottom: 10em; */
-	//padding-right: 15em;
+	padding-top: 89px;
+	padding-bottom: 90px;
+	background-color: rgba(255, 247, 244, 0.75);
 		.demo-area{
 			display: grid;
 			grid-template-columns: 400px 540px;
-			padding: 0 0 8em;
+			//padding: 0 0 8em;
 			grid-column-gap:5em;
 			align-items: end;
 			justify-content: center;
 			align-self: center;
-			background-image: url('../img/BGBlob2.svg');
-			background-position: top center;
-			background-repeat: no-repeat;
-			background-size: contain;
-			background-attachment: fixed;
+			//background-image: url('../img/BGBlob2.svg');
+			//background-position: top center;
+			//background-repeat: no-repeat;
+			//background-size: contain;
+			//background-attachment: fixed;
 			//height: 70vh;
 		.demo-form-box{ // need this code later
 			background-color: #fff;
@@ -438,7 +445,7 @@ h1,h2,h3,h4,h5,h6{
 					text-transform: uppercase;
 					font-family: 'Muli', sans-serif;
 					font-size: 13px;
-					font-weight: 400;
+					font-weight: 900;
 					border: 0;
 					color: #fff;
 					position: relative;

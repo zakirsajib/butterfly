@@ -12,12 +12,7 @@
  * @package Butterfly
  */
 
-get_header('resources');
-?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
+get_header('resources');?>
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -25,12 +20,8 @@ get_header('resources');
 		endwhile; // End of the loop.
 		?>
 
-		</main><!-- #main -->
-	</div> <!-- End content-area -->
 </div>	<!-- End site-content -->
 		
 <!-- We want full width -->
-<?php get_template_part( 'inc/before', 'footer' );?>
-
-<?php
+<?php get_template_part( 'inc/before', 'footer' );
 get_footer();

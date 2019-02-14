@@ -24,7 +24,8 @@ get_header('blog');
                 <div class="allarticles">
                     <div class="headerallarticles">
                         <div class="articlesfromu201cwork">
-                            <span class="span1">Articles from </span><span class="span2">“Work &amp; Roam”</span>
+                            <span class="span1">Articles from </span>
+                            <span class="span2">“<?php single_cat_title(); ?>”</span>
                         </div>
                         <div class="separatorhorizontal">
                             <div class="bg2">
@@ -152,24 +153,21 @@ get_header('blog');
                 <div class="catags">
                     <div class="headetags">
                         <div class="separatorhorizontal">
-                            <div class="bg2">
-                            </div>
+                            <div class="bg2"></div>
                         </div>
-                        <div class="categoriestags">
-                            <span class="span1">Categories     </span><span class="span2">Tags</span>
-                        </div>
-                        <div class="rectangle">
-                        </div>
+                        <ul class="categoriestags nav nav-tabs" role="tablist">
+                            <li class="active"><span role="presentation" class="span1"><a href="#cat" aria-controls="cat" role="tab" data-toggle="tab">Categories</a></span></li>
+                            <li><span role="presentation" class="span2"><a href="#tag" aria-controls="tag" role="tab" data-toggle="tab">Tags</a></span></li>
+                        </ul>
                     </div>
-                    <div class="workroamwellbei">
+                    <div class="workroamwellbei fade in active" role="tabpanel" id="cat">
                         Work &amp; Roam<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support
                     </div>
-                    <div class="workroamwellbeicopy">
+                    <div class="workroamwellbeicopy fade" role="tabpanel" id="tag">
                         Work &amp; Roam<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support
                     </div>
                 </div>
-                <div class="bg1">
-                </div>
+                <div class="bg1"></div>
                 <div class="backtoblog"><a href="<?php echo get_site_url()?>/blog">BACK TO BLOG</a></div>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-iconsarrow@2x.png" class="iconsarrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             </div>
