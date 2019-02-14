@@ -7,7 +7,7 @@
  * @package Butterfly
  */
 
-get_header();
+get_header('blog');
 ?>
 
 	<div id="primary" class="content-area">

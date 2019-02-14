@@ -26,8 +26,11 @@ get_header('resources');
 		?>
 
 		</main><!-- #main -->
-		<?php get_template_part( 'inc/before', 'footer' );?>
-	</div><!-- #primary -->
+	</div> <!-- End content-area -->
+</div>	<!-- End site-content -->
+		
+<!-- We want full width -->
+<?php get_template_part( 'inc/before', 'footer' );?>
 
 <?php
 get_footer();

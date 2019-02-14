@@ -25,9 +25,11 @@ get_header('product');
 		endwhile; // End of the loop.
 		?>
 
-		</main><!-- #main -->
-		<?php get_template_part( 'inc/before', 'footer' );?>
-	</div><!-- #primary -->
+		</main><!-- #main -->		
+	</div><!-- End content-area #primary -->
+</div>	<!-- End site-content -->
+<!-- We want full width -->
+<?php get_template_part( 'inc/before', 'footer' );?>
 
 <?php
 get_footer();

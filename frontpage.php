@@ -14,7 +14,8 @@
 
 get_header();
 ?>
-
+		
+        
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 		<?php
@@ -23,6 +24,13 @@ get_header();
 					//get_template_part( 'template-parts/content', 'home' );
 				endwhile; // End of the loop.?>
 		</main><!-- #main -->
+		
+		<img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob1.svg" class="bgblob1" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob1.svg"/>
+       <img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg" class="bgblog2" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg"/>
+       <img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg" class="bgblob3" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg"/>
+       <img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob4.svg" class="bgblob4" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob4.svg"/>
+		
+		
 		<div class="section-one">
 			<div class="demo-request">
 				<h1>Make Feedback Meaningful For<br/> Your Team.</h1>
@@ -46,7 +54,7 @@ get_header();
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 		</div>
 		
-		<div class="why-butterfly" id="why-butterfly">
+		<div class="why-butterfly" id="why-butterfly">			
 			<div class="butterfly-one">
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">
@@ -93,9 +101,12 @@ get_header();
 				<?php include( get_template_directory() . '/inc/testimonial.php');?>
 			</div>
 		</div>
+		
+	</div> <!-- End content-area -->
+</div>	<!-- End site-content -->
+		
+		<!-- We want full width -->
 		<?php get_template_part( 'inc/before', 'footer' );?>
 		
-	</div><!-- #primary -->
-
 <?php
 get_footer();

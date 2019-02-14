@@ -15,7 +15,7 @@
 get_header('about');
 ?>
 	
-<div class="butterflywebsiteabout">
+	<div class="butterflywebsiteabout">
         <div class="map">
             <div class="mask">
             </div>
@@ -183,26 +183,23 @@ get_header('about');
         </div>
         <div class="partners">
             <div class="headerpartners">
-                <div class="partners1">
-                    Partners
-                </div>
-                <div class="academicexperts">
-                    <span class="span1">Academic</span><span class="span2">     Experts</span>
-                </div>
+                <div class="partners1">Partners</div>
+                <ul class="academicexperts nav nav-tabs" role="tablist">
+                    <li class="active"><span role="presentation" class="span1"><a href="#academic" aria-controls="academic" role="tab" data-toggle="tab">Academic</a></span>
+                    <li><span role="presentation" class="span2"><a href="#experts" aria-controls="experts" role="tab" data-toggle="tab">Experts</a></span>
+                </ul>
                 <div class="separatorhorizontal">
-                    <div class="bg1">
-                    </div>
-                </div>
-                <div class="rectangle">
+                    <div class="bg1"></div>
                 </div>
             </div>
-            <div class="weworkwithtopsch">
+            <div class="fade in active" role="tabpanel" id="academic">
+            	<div class="weworkwithtopsch">
                 We work with top schools and universities around the world to research the workplace and find ways to best improve employee wellbeing, which improves productivity.
             </div>
-            <div class="meetouracademicpa">
+				<div class="meetouracademicpa">
                 Meet our academic partners
             </div>
-            <div class="logo">
+				<div class="logo">
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
@@ -210,124 +207,87 @@ get_header('about');
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             </div>
-        </div>
-        <div class="customers">
-            <div class="logo">
+            </div>
+            <div class="fade" role="tabpanel" id="experts">
+	            <div class="weworkwithtopsch">
+                We work with top schools and universities around the world to research the workplace and find ways to best improve employee wellbeing, which improves productivity.
+            </div>
+				<div class="meetouracademicpa">
+                Meet our expert partners
+            </div>
+				<div class="logo">
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             </div>
+            </div>
+        </div>
+        <div class="customers">
             <div class="headercustomers">
-                <div class="customers1">
-                    Customers
-                </div>
-                <div class="clientlistcasestu">
-                    <span class="span1">Client list     </span><span class="span2">Case studies</span>
-                </div>
+                <div class="customers1">Customers</div>
+                <ul class="clientlistcasestu nav nav-tabs" role="tablist">
+                    <li class="active"><span role="presentation" class="span1"><a href="#clientList" aria-controls="clientList" role="tab" data-toggle="tab">Client list</a></span></li>
+                    <li><span role="presentation" class="span2"><a href="#caseStudies" aria-controls="caseStudies" role="tab" data-toggle="tab">Case studies</a></span></li>
+                </ul>
                 <div class="separatorhorizontal">
-                    <div class="bg1">
-                    </div>
+                    <div class="bg1"></div>
                 </div>
-                <div class="rectangle">
-                </div>
+                
             </div>
-            <div class="seperatorvertical">
-                <div class="rectangle">
-                </div>
-            </div>
-            <div class="u201cbutterflypowerrea">
-                “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
-            </div>
-            <div class="benjaminsnyers">
-                Benjamin Snyers
-            </div>
-            <div class="managingdirectorat">
-                Managing Director at Ogilvy
+            <div class="fade in active" role="tabpanel" id="clientList">
+	            <div class="logo">
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	            </div>
+	            <div class="seperatorvertical">
+	                <div class="rectangle"></div>
+	            </div>
+	            <div class="u201cbutterflypowerrea">
+	                “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+	            </div>
+	            <div class="benjaminsnyers">
+	                Benjamin Snyers
+	            </div>
+	            <div class="managingdirectorat">
+	                Managing Director at Ogilvy
+	            </div>
+			</div>
+            <div class="fade" role="tabpanel" id="caseStudies">
+	            <div class="logo">
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	            </div>
+	            <div class="seperatorvertical">
+	                <div class="rectangle"></div>
+	            </div>
+	            <div class="u201cbutterflypowerrea">
+	                “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”
+	            </div>
+	            <div class="benjaminsnyers">
+	                Person Name
+	            </div>
+	            <div class="managingdirectorat">
+	                Position and Company Name
+	            </div>
             </div>
         </div>
         <div class="greatmanagersmake">
             Great managers make<br />great teams!
         </div>
-</div>
-<script>
-            anima_isHidden = function(e) {
-                if (!(e instanceof HTMLElement)) return !1;
-                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
-                return !1;
-            };
-            anima_loadAsyncSrcForTag = function(tag) {
-                var elements = document.getElementsByTagName(tag);
-                var toLoad = [];
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var src = e.getAttribute("src");
-                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
-                    if (loaded) continue;
-                    var asyncSrc = e.getAttribute("anima-src");
-                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
-                    if (anima_isHidden(e)) continue;
-                    toLoad.push(e);
-                }
-                toLoad.sort(function(a, b) {
-                    return anima_getTop(a) - anima_getTop(b);
-                });
-                for (var i = 0; i < toLoad.length; i++) {
-                    var e = toLoad[i];
-                    var asyncSrc = e.getAttribute("anima-src");
-                    e.setAttribute("src", asyncSrc);
-                }
-            };
-            anima_pauseHiddenVideos = function(tag) {
-                var elements = document.getElementsByTagName("video");
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
-                    var isHidden = anima_isHidden(e);
-                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
-                        e.play();
-                    } else if (isPlaying && isHidden) {
-                        e.pause();
-                    }
-                }
-            };
-            anima_loadAsyncSrc = function(tag) {
-                anima_loadAsyncSrcForTag("img");
-                anima_loadAsyncSrcForTag("iframe");
-                anima_loadAsyncSrcForTag("video");
-                anima_pauseHiddenVideos();
-            };
-            var anima_getTop = function(e) {
-                var top = 0;
-                do {
-                    top += e.offsetTop || 0;
-                    e = e.offsetParent;
-                } while (e);
-                return top;
-            };
-            anima_loadAsyncSrc();
-            anima_old_onResize = window.onresize;
-            anima_new_onResize = undefined;
-            anima_updateOnResize = function() {
-                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                    anima_new_onResize = function(x) {
-                        if (anima_old_onResize != undefined) anima_old_onResize(x);
-                        anima_loadAsyncSrc();
-                    };
-                    window.onresize = anima_new_onResize;
-                    setTimeout(function() {
-                        anima_updateOnResize();
-                    }, 3000);
-                }
-            };
-            anima_updateOnResize();
-            setTimeout(function() {
-                anima_loadAsyncSrc();
-            }, 200);
-        </script>
+	</div>
+</div>	<!-- End site-content -->
+<?php get_template_part( 'inc/before', 'footer' );?>
 
-	<?php get_template_part( 'inc/before', 'footer' );?>
 <?php
 get_footer();

@@ -1,4 +1,4 @@
-<div class="home-footer home-padding">
+<div class="home-footer">
 	<div class="demo-area">
 		<div class="demo-form-box">
 			<h4>Get started now!</h4>
