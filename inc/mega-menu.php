@@ -31,7 +31,7 @@
 							<div class="input-group">
 								<input type="text" class="form-control demo-input" placeholder="Your work email">
 								<span class="input-group-btn">
-									<button class="btn btn-default" type="button">Request a demo</button>
+									<button class="btn btn-default" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button>
 								</span>
 							</div><!-- /input-group -->
 						</div>

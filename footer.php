@@ -158,12 +158,11 @@
                         <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-butterfly@2x.png" class="butterfly" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-butterfly@2x.png"/>
                     </div>
                     <div class="form animated slideInLeft">
-                        <div class="nicetomeetyou">
-                            Nice to meet you!
+                        <div class="our-demo-form">
+	                        
+                        <?php echo do_shortcode('[ninja_form id=1]	')?>
                         </div>
-                        <div class="wecanu2019twaittosho">
-                            We can’t wait to show you how Butterfly works. Share a little more about yourself to get started.
-                        </div>
+<!--
                         <div class="websiteformfield">
                             <div class="rectangle4">
                             </div>
@@ -226,8 +225,7 @@
                         </div>
                         <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-arrowcarrot.svg" class="arrowcarrot" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-arrowcarrot.svg"/>
                         <div class="websiteformfield5">
-                            <div class="rectangle4">
-                            </div>
+                            <div class="rectangle4"></div>
                             <div class="yourworkemail">
                                 Phone n°
                             </div>
@@ -246,6 +244,7 @@
                         <div class="keepmeupdatedonn">
                             Keep me updated on news from Butterfly
                         </div>
+-->
                     </div>
                     <div class="right animated slideInRight">
                         <img anima-src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg-1.png" class="bg1" src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg-1.png"/>
@@ -284,6 +283,140 @@
 	</div>
 </div>
 
+
+<!--
+<style>
+	
+	.email {
+  		background: url( '<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-email.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.first-name {
+  		background: url( '<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.last-name {
+  		background: url( '<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.company-name {
+  		background: url( '<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-company.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.company-size {
+  		background: url( '<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-people.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  		text-indent: 40px;
+  	}
+  	.phone-num {
+  		
+  	}
+  	  	
+  	.our-demo-form .nf-field-element .demo-submit{
+	  	width: 200px;
+	  	height: 56px;
+	  	border-radius: 32px;
+	  	background-color: #532ee4;
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 24px;
+		font-weight: 900;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: #ffffff;
+		padding: 0;
+		text-align: center;
+  	}
+  	
+  	.nf-form-fields-required{
+	  	display: none;
+  	}
+  	.our-demo-form {
+    	padding-top: 11em;
+	}
+	
+	.our-demo-form .nf-field-container{
+		margin-bottom: 10px;
+	}
+	
+	.our-demo-form .nf-field-element input, 
+	.our-demo-form .nf-field-element select, 
+	.our-demo-form .nf-field-element textarea{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+		background-color: rgba(255, 255, 255, 1.0);
+		height: 48px;
+		box-sizing: border-box;
+		border-radius: 24px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0, 0, 0, 0.1);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		padding-left: 46px;
+	}
+	
+	.our-demo-form .nf-field-element input:focus, 
+	.our-demo-form .nf-field-element select:focus{
+		outline: 0;
+		border: 1px solid #532ee4;
+	}
+	.our-demo-form .nf-field-container.checkbox-container{
+		padding: 0 0 5px;
+		margin-bottom: 0;
+	}
+	.our-demo-form .nf-field-container.checkbox-container label{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 14px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+	}
+	.our-demo-form .nf-field-container.company-size-container{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+		background-color: rgba(255, 255, 255, 1.0);
+		height: 48px;
+		box-sizing: border-box;
+		border-radius: 24px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0, 0, 0, 0.1);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		overflow: hidden;	
+	}
+	
+	.our-demo-form .nf-field-container.company-size-container .company-size{
+		border: 0;
+	}
+	.our-demo-form .nf-field-container.company-size-container:focus {
+    	border: 1px solid #532ee4;
+		outline: 0;
+	}
+	
+	
+</style>
+-->
 
 <?php wp_footer(); ?>
 <noscript><div id="nonjsmode" style="font-family:sans-serif;position:fixed;top:0;left:0;width:100%;z-index:9999;text-align:center;font-weight:700;font-size:120%;color:#FFF;background-color:#F7522F;padding:5px 0;">JavaScript is not enabled!</div></noscript>

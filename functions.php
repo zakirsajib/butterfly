@@ -152,7 +152,7 @@ function butterfly_scripts() {
 	
 	wp_enqueue_style( 'demobutterfly', get_template_directory_uri() .'/assets/demo/css/butterflyRequestDemoForm.css' );
 
-	
+	wp_enqueue_style( 'thanksbutterfly', get_template_directory_uri() .'/assets/thanks/css/butterflyRequestDemoFormThanks.css' );
 	
 	// Smoothscroll
 	wp_enqueue_script( 'smoothscroll', get_template_directory_uri() . '/assets/smoothscroll/smoothscroll.js', array( ), '1.4.4', true );

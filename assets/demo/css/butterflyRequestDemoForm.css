@@ -15,7 +15,140 @@
 	}
 }
 
-
+.email {
+  		background: url( '../img/butterflyrequestdemoform-email.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.first-name {
+  		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.last-name {
+  		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.company-name {
+  		background: url( '../img/butterflyrequestdemoform-company.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.company-size {
+  		background: url( '../img/butterflyrequestdemoform-people.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  		text-indent: 40px;
+  	}
+  	.phone-num {
+  		
+  	}
+  	  	
+  	.our-demo-form .nf-field-element .demo-submit{
+	  	width: 200px;
+	  	height: 56px;
+	  	border-radius: 32px;
+	  	background-color: #532ee4;
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 24px;
+		font-weight: 900;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: #ffffff;
+		padding: 0;
+		text-align: center;
+  	}
+  	
+  	.nf-form-fields-required{
+	  	display: none;
+  	}
+/*
+  	.our-demo-form {
+    	padding-top: 11em;
+	}
+*/
+	
+	.our-demo-form .nf-field-container{
+		margin-bottom: 10px;
+	}
+	
+	.our-demo-form .nf-field-element input, 
+	.our-demo-form .nf-field-element select, 
+	.our-demo-form .nf-field-element textarea{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+		background-color: rgba(255, 255, 255, 1.0);
+		height: 48px;
+		box-sizing: border-box;
+		border-radius: 24px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0, 0, 0, 0.1);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		padding-left: 46px;
+	}
+	
+	.our-demo-form .nf-field-element input:focus, 
+	.our-demo-form .nf-field-element select:focus{
+		outline: 0;
+		border: 1px solid #532ee4;
+	}
+	.our-demo-form .nf-field-container.checkbox-container{
+		padding: 0 0 5px;
+		margin-bottom: 0;
+	}
+	.our-demo-form .nf-field-container.checkbox-container label{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 14px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+	}
+	
+	.our-demo-form .nf-field-container.company-size-container{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+		background-color: rgba(255, 255, 255, 1.0);
+		height: 48px;
+		box-sizing: border-box;
+		border-radius: 24px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0, 0, 0, 0.1);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		overflow: hidden;	
+	}
+	
+	.our-demo-form .nf-field-container.company-size-container .company-size{
+		border: 0;
+	}
+	.our-demo-form .nf-field-container.company-size-container:focus {
+    	border: 1px solid #532ee4;
+		outline: 0;
+	}
+	.nf-after-field .nf-error-msg, .nf-error-msg{display: none;}
+	
+	.our-demo-form .nf-field-container.heading-box {
+    	padding-bottom: 11em;
+	}
                         
 .butterflyrequestdemoform {
 /*   width               : 100%; */
@@ -658,7 +791,7 @@ div {
   width               : 385px;
   position            : absolute;
   margin              : 0;
-  left                : 21px;
+  left                : 75px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
