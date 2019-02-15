@@ -48,7 +48,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 			<div class="site-header">
 				<div class="site-branding">
 					<?php the_custom_logo();?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
 				<div class="header-signin">
 					<div class="demo-form-box" style="display: none">
