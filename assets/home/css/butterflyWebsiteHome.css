@@ -1859,3 +1859,8 @@ div {
       opacity: 1;
     }
 }
+
+@media (max-width: 414px)
+.bgblob1, .bgblog2, .bgblob3, .bgblob4 {
+    display: none;
+}
