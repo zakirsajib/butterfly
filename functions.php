@@ -148,6 +148,7 @@ function butterfly_scripts() {
 	if(is_page('resources')):
 		wp_enqueue_style( 'resourcesbutterfly', get_template_directory_uri() .'/assets/resources/css/butterflyWebsiteResources.css' );
 		wp_enqueue_style( 'casestudybutterfly', get_template_directory_uri() .'/assets/casestudy/css/butterflyCaseStudy.css' );
+		wp_enqueue_style( 'blogpostbutterfly', get_template_directory_uri() .'/assets/blogpost/css/butterflyBlogPost.css' );
 	endif;
 	
 	wp_enqueue_style( 'demobutterfly', get_template_directory_uri() .'/assets/demo/css/butterflyRequestDemoForm.css' );

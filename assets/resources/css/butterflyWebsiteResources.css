@@ -1422,6 +1422,11 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
+a .butterflywebsiteresources .blog .group2 .iconsarrow1,
+.butterflywebsiteresources .blog .group2 .readarticle a{
+	cursor: pointer;
+}
+
 .butterflywebsiteresources .blog .group2 .theremoteworkinge {
   background-color    : rgba(255,255,255,0.0);
   top                 : 191px;
