@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="environment" content="staging">
 	<meta name="application-name" content="buttefly.ai">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="dns-prefetch" href="<?php echo get_site_url()?>"/>
 	
@@ -50,7 +50,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 					<?php the_custom_logo();?>
 					<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
-				<div class="header-signin">
+				<div class="header-signin hidden-xs">
 					<div class="demo-form-box" style="display: none">
 						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
 					</div>

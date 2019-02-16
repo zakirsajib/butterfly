@@ -43,6 +43,10 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'aleobold', sans-serif;
 }
 
+picture, img{
+	max-width: 100%;
+}
+
 
 .container-fluid { 
 	padding-left: 50px;
@@ -164,6 +168,7 @@ h1,h2,h3,h4,h5,h6{
 		position: absolute;
 		right: 0;
 		top: 0;
+		padding-right: 0;
 		.slick-slider{
 			display: grid;
 			img{
@@ -515,102 +520,5 @@ h1,h2,h3,h4,h5,h6{
 				}
 			}
 		}
-	}
-}
-
-
-@media (max-width: 414px){
-	.section-one{
-		height: 100%;
-		grid-template-columns: none;
-		grid-template-rows: 1fr 0fr;
-		grid-column-gap:0;
-	}
-	.section-one .demo-request{
-		padding-right: 30px;
-	}
-	.section-one .demo-request h1,
-	.section-one .demo-request p{
-		z-index: 1;
-	}
-	.section-one.home-padding{
-		padding-bottom: 0;
-		padding-top: 40em;
-	}
-	.section-one .home-carousel{
-		position: absolute;
-		margin-top: 0;
-		right: 0;
-		top:0;
-		left: 30px;
-	}
-	.section-one .home-carousel .swiper-container{
-		left: 0;
-		bottom: 0;
-		overflow: hidden;
-	}
-	
-	.client-logos{
-		grid-template-columns: repeat(3, 1fr);
-		padding-right: 30px;
-		padding-left: 30px;
-		grid-template-rows: 5em;
-	}
-	
-	.why-butterfly{
-		grid-template-columns: none;
-		grid-template-rows: 1fr;
-		padding-right: 30px;
-	}
-	.why-butterfly .butterfly-two{
-		background-image: none;
-		padding-top: 5em;
-	}
-	.why-butterfly .butterfly-two .butterfly-right-column{
-		grid-template-columns: none;
-		padding: 0;
-	}
-	.why-butterfly .butterfly-two .butterfly-right-column .two, 
-	.why-butterfly .butterfly-two .butterfly-right-column .three, 
-	.why-butterfly .butterfly-two .butterfly-right-column .six {
-    	text-align: center;
-    }
-	.home-testimonial{
-		background-image: none;
-		padding-right: 30px;
-		height: 100%;
-	}
-	.home-padding{
-		padding-left: 30px;
-		padding-top: 5em;
-		padding-bottom: 5em;
-	}
-	.home-testimonial .testimonial-area{
-		padding: 0;
-	}
-	.home-testimonial .testimonial-area .testimonial-statements{
-		padding-right: 0;
-	}
-	.home-testimonial .testimonial-area .company-details{
-		grid-template-columns: 1fr 1fr 2fr;
-	}
-	.home-footer .demo-area{
-		background-image: none;
-		grid-template-columns: none;
-		grid-column-gap: 0;
-		padding: 0;
-		height: 100%;
-		grid-row-gap: 2em;
-	}
-	.home-footer {
-    	padding-right: 30px;
-	}
-	.home-footer .demo-area .demo-form-box{
-		border-radius: 0;
-		box-shadow:none;
-		padding: 1em 0;
-	}
-	.home-footer .demo-area .latest-blog-one .latest-blog{
-		grid-column-gap: 2em;
 	}
 }

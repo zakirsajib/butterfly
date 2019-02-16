@@ -39,7 +39,10 @@ get_header();
 					<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
 				</div>
 			</div>
-			<div class="home-carousel">
+			<div class="home-carousel col-md-7 hidden-lg">
+				<?php get_template_part( 'inc/home', 'carousel' );?>
+			</div>
+			<div class="home-carousel col-lg-9 hidden-md hidden-sm hidden-xs">
 				<?php get_template_part( 'inc/home', 'carousel' );?>
 			</div>
 		</div>
