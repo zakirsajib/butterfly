@@ -43,7 +43,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'butterfly' ); ?></a>
-	<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+	<div data-spy="affix" data-offset-top="850" data-offset-bottom="0">
 		<header id="masthead" class="container-fluid">
 			<div class="site-header">
 				<div class="site-branding">

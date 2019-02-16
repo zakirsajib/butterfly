@@ -57,8 +57,8 @@ get_header();
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 		</div>
 		
-		<div class="why-butterfly" id="why-butterfly">			
-			<div class="butterfly-one">
+		<div class="why-butterfly row" id="why-butterfly">			
+			<div class="butterfly-one col-md-4">
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">
 					<p>Full-circle engagement for employees and managers.</p>
@@ -72,7 +72,7 @@ get_header();
 				<a href="#">Find out how Butterfly works!</a>
 		
 			</div>
-			<div class="butterfly-two">
+			<div class="butterfly-two col-md-8">
 				<div class="butterfly-right-column">
 					<div class="one"><img src="<?php echo get_template_directory_uri()?>/assets/img/PulseSurveys.svg" alt="PulseSurveys"></div>
 					<div class="two">

@@ -196,18 +196,14 @@ picture, img{
 
 
 .why-butterfly{
-	display: grid;
-	align-items: center;
-    justify-content: left;
-    grid-template-columns: 350px 732px;
+	//display: grid;
+	//align-items: center;
+    //justify-content: left;
+    //grid-template-columns: 350px 732px;
     //padding-right: 8em;
-/*
-    background-position: 0% 0%;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url('../img/BGBlob1.svg');
-	background-attachment: fixed;
-*/
+    padding-top: 10em;
+    padding-bottom: 5em;
+    position: relative;
     .butterfly-one{
 	    h1{
 			font-family: 'aleoregular';
@@ -253,15 +249,15 @@ picture, img{
 		 a{
 		    color: #2ce6ce;
 	    }
+	    &.sticky {
+		  position: fixed; 
+		  top: 50px;
+		  margin: 0;
+		}
+		
     }
     .butterfly-two {
-/*
-    	background-position: right bottom;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-image: url('../img/BGBlob3.svg');
-		background-attachment: fixed;
-*/
+	    float: right;
     		.butterfly-right-column{
 			    display: grid;
 			    grid-template-columns:repeat(2,1fr);
@@ -270,7 +266,8 @@ picture, img{
 				align-self: center;
 				justify-content: center;
 				text-align: center;
-				padding: 10em 0 0 117px;
+				//padding: 10em 0 0 117px;
+				padding: 5em;
 				grid-row-gap:5em;
 			.two, .three, .six{
 				text-align: left;
