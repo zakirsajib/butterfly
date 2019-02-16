@@ -1860,7 +1860,7 @@ div {
     }
 }
 
-@media (max-width: 414px){
+@media (max-width: 568px){
 	.bgblob1, .bgblog2, .bgblob3, .bgblob4 {
 	    display: none;
 	}

@@ -50,7 +50,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 					<?php the_custom_logo();?>
 					<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
-				<div class="header-signin">
+				<div class="header-signin hidden-xs">
 					<div class="demo-form-box" style="display: none">
 						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
 					</div>

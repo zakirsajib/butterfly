@@ -804,7 +804,7 @@ div {
       opacity: 1;
     }
 }
-@media (max-width: 414px){
+@media (max-width: 568px){
 	.rectangle{
 		display: none;
 	}
