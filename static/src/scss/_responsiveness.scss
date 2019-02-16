@@ -71,7 +71,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  //CSS
+  
   
 }
 
@@ -93,7 +93,7 @@
 
 @media (min-width: 569px) and (max-width: 767px) {
   
-  //CSS
+  .affix .site-branding { visibility: visible;}
   
 }
 
@@ -103,6 +103,8 @@
 */
 
 @media (min-width: 320px) and (max-width: 568px) {
+  	.affix .site-branding { visibility: visible;}
+  	
   	.container-fluid{
 		padding-left: 20px;
 		padding-right: 20px;
