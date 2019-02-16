@@ -3,7 +3,7 @@ if( is_array($page_gallery) && count($page_gallery) > 0 ) :?>
 	<div class="swiper-container">
 		<?php foreach( $page_gallery as $image ) : ?>
 			<div class="swiper-slide">
-				<img src="<?php echo $image['url']?>" alt="<?php the_title()?>">
+				<img data-lazy="<?php echo $image['url']?>" alt="">
 			</div>
 		<?php endforeach;?>
 	</div>

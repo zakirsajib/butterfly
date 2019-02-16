@@ -9,6 +9,7 @@ $ = jQuery.noConflict();
 			autoplay:true,
 			arrows: false,
 			fade:true,
+			lazyLoad: 'ondemand',
 			autoplaySpeed: 4800
 		});
 	
