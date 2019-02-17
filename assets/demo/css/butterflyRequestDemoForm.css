@@ -1227,3 +1227,11 @@ div {
       opacity: 1;
     }
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+	.butterflyrequestdemoform .tryfree .rectangle2,
+	.butterflyrequestdemoform .tryfree .rectangle1{
+		display: none;
+	}
+	
+}
