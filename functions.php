@@ -161,9 +161,10 @@ function butterfly_scripts() {
 	// Lazyload
 	wp_enqueue_script( 'lazysizes', get_template_directory_uri() . '/assets/lazysizes/lazysizes.min.js', array('jquery'), null, true );
 
-	//if( is_home() || is_front_page() ):
+	if( is_home() || is_front_page() ):
 		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
-	//endif;
+		wp_enqueue_script( 'home', get_template_directory_uri() . '/js/home.js', array('jquery'), null, true );
+	endif;
 	
 	wp_enqueue_script( 'butterfly-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

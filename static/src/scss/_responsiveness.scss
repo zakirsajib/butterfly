@@ -1,23 +1,23 @@
 @media (max-width: 2560px){
 	.section-one{
-		height: 130vh;
+		min-height: 130vh;
 		grid-template-columns: 1fr 2fr;
 	}
 }
 
 @media (max-width: 1920px){
 	.section-one{
-		height: 130vh;
+		min-height: 120vh;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1439px){
 	.section-one{
-		height: 110vh;
+		min-height: 100vh;
 	}
 }
 @media (max-width: 1440px){
 	.section-one{
-		height: 75vh;
+		min-height: 75vh;
 		.home-carousel{
 			width: 65%;
 		}
@@ -26,7 +26,7 @@
 
 @media (max-width: 1366px){
 	.section-one {
-		height: 100vh;
+		min-height: 100vh;
 		.home-carousel{
 			width: 60%;
 		}
@@ -35,74 +35,187 @@
 
 @media (max-width: 1200px){
 	.section-one {
-		height: 100vh;
+		min-height: 100vh;
 	}
 }
 
-@media (max-width: 1199px){
-
-}
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
+@media (min-width: 1199px) {
   
-  //CSS
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  //CSS
-  
+  	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree{
+	  	left: -462px;
+	  	top:-509px;
+	  	max-width: none;
+	  	brandingbutterflyicon{
+		  	top:559px;
+		  	left: 512px;
+	  	}
+	   	.form{
+		   	top:625px;
+		   	left: 635px;
+		   	width: 420px;
+		   	padding: 0;
+	   	}
+	}
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
+@media (max-width: 1198px){
+	#reqDemo .modal-lg{
+		margin: 0;
+		.butterflyrequestdemoform{
+			width: 100vw;
+			.tryfree{
+				left: 0;
+				top:0;
+				max-width: 100%;
+				.brandingbutterflyicon{
+				top:20px;
+				left:20px
+			}
+				.mobile-icon-close{position: absolute; top:20px; right:20px;}
+				.form{
+				left: 20px;
+				top: 100px;
+				width: 100vw;
+				max-width: 100%;
+				height: 100%;
+				padding: 0 1em;
+				.our-demo-form{
+					padding-right: 40px;
+					.wecanu2019twaittosho{
+						width: 100%;
+					}
+					.nicetomeetyou{
+						width: 100%;
+						font-size: 30px;
+					}
+					.company-size{text-indent: 0;}
+				}
+			}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1080px){
+	.section-one{
+		height: 100%;
+		.home-carousel{
+			max-width: 55%;
+		}
+		.demo-request{
+			margin-top: 10em;
+			z-index: 1;
+		}
+	}
+	.why-butterfly .butterfly-two .butterfly-right-column{
+		grid-column-gap:5em;
+	}
+	.home-testimonial{
+		height: 100%;
+	}
+	.home-footer{
+		margin-top: 10em;
+	}
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  
-  
-}
+	.container-fluid{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.site-header{grid-template-columns: 3fr 3fr 1fr;padding-top: 20px;}
+	.content-area {
+    	padding-left: 70px;
+    	padding-right: 70px;
+    	.section-one {
+			min-height: 100vh;
+			.demo-request{
+				h1, p{
+					z-index: 1;
+				}
+			}
+			.home-carousel{
+				width: 80%;
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+		.client-logos{
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: 5em;
+			grid-column-gap:0;
+			padding-bottom: 0;
+		}
+		.why-butterfly .butterfly-two .butterfly-right-column{
+			padding: 5em 0;
+		}
+		.home-testimonial{
+			justify-content: center;
+			height: 50vh;
+		}
+	}
+	.home-footer {
+		.demo-area{
+			grid-template-columns: 1fr 1fr;
+			grid-column-gap:1em;
+			padding: 0 35px;
+			.latest-blog-one .latest-blog{
+				grid-template-columns: 1fr 1fr;
+			}
+		}
+	}
+	.mega-menu .modal-content .modal-header{
+		padding: 20px;
+	}
+	.mega-menu.mega-menu.modal .mega-menu-top{
+		grid-template-columns:5fr 1fr;
+	}
+	.mega-menu .dropdown-contents .menu-main-menu-container #primary-menu{
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.mega-menu .dropdown-contents .demo-form{
+		padding: 5em 0;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 10px;
+	}
+	.mega-menu .dropdown-contents .demo-form .horizontal-line{display: none;}
+	
+	.mega-menu .dropdown-contents .demo-form .testimonial-area .company-details{
+		grid-template-columns: 1fr 1fr 5fr;
+	}
+	.mega-menu .dropdown-contents .demo-form .testimonial-area .company-details .horizontal-line{display: block;}
+	
+	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box .input-group .form-control.demo-input{
+		font-size: 16px;
+	}
+	.mega-menu .dropdown-contents .demo-form .demo-area .latest-blog-one .latest-blog{
+		grid-column-gap:10px;
+	}
+	.mega-menu .dropdown-contents .demo-form .testimonial-area{
+		padding: 0 2em;
+	}
 
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
+}
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  //CSS
-  
+  .content-area {
+	.section-one{
+		min-height: 100vh;
+	}
+	.client-logos{
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows:none;
+	}
+  }
+  .home-footer .demo-area{
+	  padding: 0 70px;
+	  grid-column-gap: 5em;
+  }
 }
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 569px) and (max-width: 767px) {
-  
-  .affix .site-branding { visibility: visible;}
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 568px) {
+@media (min-width: 320px) and (max-width: 767px) {
   	.affix .site-branding { visibility: visible;}
   	
   	.container-fluid{
@@ -129,7 +242,7 @@
 	}
 		
 	.section-one{
-		height: 100%;
+		//height: 100%;
 		grid-template-columns: none;
 		grid-template-rows: 1fr 0fr;
 		grid-column-gap:0;
@@ -153,6 +266,7 @@
 		top:0;
 		left: auto;
 		width: 100%;
+		max-width: 100%;
 	}
 	.section-one .home-carousel .swiper-container{
 		left: 0;
@@ -181,6 +295,7 @@
 		grid-template-columns: none;
 		grid-template-rows: 1fr;
 		padding-bottom: 5em;
+		padding-top: 0;
 	}
 	.why-butterfly .butterfly-one{
 		padding-top: 5em;
@@ -201,7 +316,7 @@
     }
 	.home-testimonial{
 		background-image: none;
-		height: 100%;
+		//height: 100%;
 		justify-content: center;
 	}
 	.home-testimonial .testimonial-area .testimonial-statements p{
@@ -225,15 +340,14 @@
 		padding: 0;
 		height: 100%;
 		grid-row-gap: 2em;
+		align-items: center;
+		display: block;
 	}
 	.home-footer{
 		padding-top: 30px;
 		margin-top: 5em;
 	}
-	.home-footer .demo-area{
-		align-items: center;
-		display: block;
-	}
+
 	.home-footer .demo-area .demo-form-box{
 		border-radius: 0;
 		box-shadow:none;
@@ -297,6 +411,55 @@
   
 }
 
+@media (max-width: 768px){
+	.content-area .section-one .home-carousel{
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.site-header{
+		grid-template-columns: 5fr 1fr;
+	}
+	.affix .site-header{
+		grid-template-columns: 5fr 1fr;
+	}
+	.section-one .demo-request{
+		margin-top: 40em;
+	}
+	.client-logos{grid-template-columns: repeat(6, 1fr);}
+	
+	.why-butterfly .butterfly-two .butterfly-right-column{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.home-footer .demo-area{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+	
+	.home-footer .demo-area .latest-blog-one{
+		padding-left: 0;
+		padding-right: 0;
+	}	
+	.home-footer .demo-area .demo-form-box .input-group .form-control.demo-input,
+	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
+		font-size: 18px;
+	}
+	.home-footer .demo-area .latest-blog-one .latest-blog{
+		grid-template-columns: 1fr 2fr;
+		grid-column-gap: 1em;
+		grid-template-rows: 1fr;
+	}
+	.home-footer .demo-area .latest-blog-one .latest-blog .post-details .entry-title{
+		width: 100%;
+	}
+	.home-testimonial .testimonial-area .company-details{
+		grid-template-columns: 1fr 1fr 5fr;
+	}
+}
+
 @media (max-width: 568px){	
 	.site-header {
     	grid-template-columns: 4fr 1fr;
@@ -313,6 +476,16 @@
 	.section-one .demo-request .demo-form-box .input-group .btn.btn-default, 
 	.home-footer .demo-area .demo-form-box .input-group .btn.btn-default{
 		font-size: 13px
+	}
+	.client-logos{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.home-footer .demo-area{
+		grid-template-columns: none;
+	}
+	.home-footer .demo-area .latest-blog-one{
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	.mega-menu .modal-content .modal-header{padding: 30px 20px 0;}
 	.mega-menu-close-icon{text-align: right;}
@@ -337,8 +510,12 @@
 	.affix .site-header {
     	grid-template-columns: 3fr 1fr;
 	}
-	.section-one .demo-request{margin-top: 27em;}
+	.section-one .demo-request{margin-top: 20em;}
 	.section-one .demo-request p{margin: 37px 0 44px;}
+	
+	.why-butterfly .butterfly-two .butterfly-right-column{
+		grid-template-columns: none;
+	}
 	.mega-menu.mega-menu.modal .modal-lg .mega-menu-top {
     	grid-template-columns: 3fr 1fr;
 	}

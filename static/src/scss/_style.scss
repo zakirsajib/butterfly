@@ -71,7 +71,7 @@ picture, img{
 	grid-template-columns: 480px 602px;
 	align-items: center;
     justify-content: left;
-    height: 100vh;
+    min-height: 100vh;
     grid-column-gap: 0;
     
     .demo-request{
@@ -204,6 +204,7 @@ picture, img{
     padding-top: 10em;
     padding-bottom: 5em;
     position: relative;
+    min-height: 100vh;
     .butterfly-one{
 	    h1{
 			font-family: 'aleoregular';
@@ -253,6 +254,11 @@ picture, img{
 		  position: fixed; 
 		  top: 50px;
 		  margin: 0;
+		}
+		&.abs {
+		  position: absolute; 
+		  //bottom: 0px;
+		  //margin: 0;
 		}
 		
     }
@@ -321,7 +327,7 @@ picture, img{
 	align-items: center;
 	justify-content: left;
 	align-self: center;
-	height: 100vh;
+	min-height: 100vh;
 	//padding-right: 12em;
 /*
 	background-position: left;
