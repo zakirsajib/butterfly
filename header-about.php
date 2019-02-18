@@ -58,7 +58,8 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 						wp_nav_menu( array(
 							'theme_location' => 'menu-1',
 							'menu_id'        => 'primary-menu',
-							'sub_menu' => true
+							'sub_menu' => true,
+							'container_class'	=> 'menu-main-menu-container hidden-sm'
 						) );
 					?>
 				</div>

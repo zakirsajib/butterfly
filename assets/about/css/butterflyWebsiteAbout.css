@@ -1511,7 +1511,7 @@ div {
 }
 .butterflywebsiteabout .customers {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 324px;
+  top                 : 214px;
   height              : 454px;
   width               : 950px;
   position            : absolute;
@@ -1781,7 +1781,7 @@ div {
 }
 .butterflywebsiteabout .greatmanagersmake {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 163px;
+  top                 : 90px;
   height              : auto;
   width               : 710px;
   position            : absolute;
@@ -2797,6 +2797,20 @@ div {
 	.butterflywebsiteabout{
 		min-height: 5800px;
 	}
+	
+	.butterflywebsiteabout .greatmanagersmake{
+		width: 100vw;
+	}
+	
+	.butterflywebsiteabout .greatmanagersmake,
+	.butterflywebsiteabout .customers,
+	.butterflywebsiteabout .partners,
+	.butterflywebsiteabout .downloads,
+	.butterflywebsiteabout .company{
+		left: 0;
+	}
+	
+	
 	.butterflywebsiteabout .customers .logo img,
 	.butterflywebsiteabout .partners .logo img{
 		display: block;
@@ -2821,5 +2835,17 @@ div {
 	}
 	.butterflywebsiteabout .contact {
     	top: 5030px;
+	}
+}
+
+@media (max-width: 568px){
+	.butterflywebsiteabout .greatmanagersmake{
+		font-size: 40px;
+	}
+}
+@media (max-width: 480px){
+	.butterflywebsiteabout .greatmanagersmake{
+		font-size: 35px;
+		line-height: 35px;
 	}
 }
