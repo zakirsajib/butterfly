@@ -103,29 +103,6 @@
 			</div>
 		</div>
 
-		<div class="features" id="company">
-			<div class="for-people">
-				<h2>Company</h2>
-				<div class="tab-content">
-				    <div role="tabpanel" class="tab-pane fade in active" id="personone">Person 1</div>
-				    <div role="tabpanel" class="tab-pane fade" id="persontwo">Person 2</div>
-				    <div role="tabpanel" class="tab-pane fade" id="personthree">Person 3</div>
-				    <div role="tabpanel" class="tab-pane fade" id="personfour">Person 4</div>
-				    <div role="tabpanel" class="tab-pane fade" id="personfive">Person 5</div>
-				    <div role="tabpanel" class="tab-pane fade" id="personsix">Person 6</div>
-				</div>
-				
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#personone" aria-controls="personone" role="tab" data-toggle="tab">Person 1</a></li>
-					<li role="presentation"><a href="#persontwo" aria-controls="persontwo" role="tab" data-toggle="tab">Person 2</a></li>
-					<li role="presentation"><a href="#personthree" aria-controls="personthree" role="tab" data-toggle="tab">Person 3</a></li>
-					<li role="presentation"><a href="#personfour" aria-controls="personfour" role="tab" data-toggle="tab">Person 4</a></li>
-					<li role="presentation"><a href="#personfive" aria-controls="personfive" role="tab" data-toggle="tab">Person 5</a></li>
-					<li role="presentation"><a href="#personsix" aria-controls="personsix" role="tab" data-toggle="tab">Person 6</a></li>
-					
-				</ul>
-			</div>
-		</div>		
-		<?php the_content();?>
+		<?php //the_content();?>
 	</div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

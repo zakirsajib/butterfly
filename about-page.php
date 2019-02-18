@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Template
+ *  Template Name: About Template
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -69,7 +69,8 @@ get_header('about');
                 Our story.
             </div>
                         
-            <div class="group">
+            <div class="tt">
+            	<div class="group">
                 <div class="davidrollover200x300">
                     <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/></a>
                 </div>
@@ -80,7 +81,7 @@ get_header('about');
                     Co-Founder, CEO
                 </div>
             </div>
-            <div class="group1">
+				<div class="group1">
                 <div class="davidrollover200x300">
                     <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/></a>
                 </div>
@@ -91,7 +92,7 @@ get_header('about');
                     Co-Founder, CEO
                 </div>
             </div>
-            <div class="group2">
+				<div class="group2">
                 <div class="davidrollover200x300">
                     <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
@@ -102,7 +103,7 @@ get_header('about');
                     Co-Founder, CEO
                 </div>
             </div>
-            <div class="group3">
+				<div class="group3">
                 <div class="davidrollover200x300">
                     <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
@@ -113,7 +114,7 @@ get_header('about');
                     Co-Founder, CEO
                 </div>
             </div>
-            <div class="group4">
+				<div class="group4">
                 <div class="davidrollover200x300">
                     <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
@@ -124,7 +125,7 @@ get_header('about');
                     Co-Founder, CEO
                 </div>
             </div>
-            <div class="group5">
+				<div class="group5">
                 <div class="davidrollover200x300">
                     <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
@@ -134,6 +135,7 @@ get_header('about');
                 <div class="cofounderceo">
                     Co-Founder, CEO
                 </div>
+            </div>
             </div>
         </div>
         <div class="downloads">
@@ -282,9 +284,7 @@ get_header('about');
 	            </div>
             </div>
         </div>
-        <div class="greatmanagersmake">
-            Great managers make<br />great teams!
-        </div>
+        <div class="greatmanagersmake">Great managers make<br />great teams!</div>
 	</div>
 </div>	<!-- End site-content -->
 <?php get_template_part( 'inc/before', 'footer' );?>
