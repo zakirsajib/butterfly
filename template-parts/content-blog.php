@@ -11,12 +11,12 @@
 
 <div class="butterflywebsiteblog">
     <div class="bg">
-        <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-3.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-        <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-1.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-        <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-2.png" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-        <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-3.png" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-        <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-1.png" class="rectangle4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-        <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-2.png" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+        <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-3.png" class="rectangle" />
+        <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-1.png" class="rectangle1" />
+        <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-2.png" class="rectangle2" />
+        <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-3.png" class="rectangle3" />
+        <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-1.png" class="rectangle4" />
+        <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-2.png" class="rectangle5" />
     </div>
     <div class="catags">
         <div class="headetags">
@@ -55,7 +55,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -68,7 +68,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -81,7 +81,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -94,7 +94,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -107,7 +107,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -120,7 +120,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -133,7 +133,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -146,7 +146,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -159,7 +159,7 @@
             <div class="lisbon">
                 <div class="mask">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
             </div>
             <div class="a20181214johnwi">
                 2018.12.14 - John Williams
@@ -188,8 +188,8 @@
             </div>
         </div>
         <div class="group2">
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-6.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-6.png" class="rectangle" />
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
             <div class="readarticle">
                 Read Article
             </div>
@@ -199,12 +199,12 @@
             <div class="iconsarrow1">
                 <div class="background">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-2.svg" class="arrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-2.svg" class="arrow" />
             </div>
         </div>
         <div class="group21">
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" />
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
             <div class="readarticle">
                 Read Article
             </div>
@@ -213,8 +213,8 @@
             </div>
         </div>
         <div class="group22">
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" />
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
             <div class="readarticle">
                 Read Article
             </div>
@@ -223,15 +223,15 @@
             </div>
         </div>
         <div class="group23">
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" />
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
             <div class="readarticle">
                 Read Article
             </div>
             <div class="iconsarrow1">
                 <div class="background">
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-1.svg" class="arrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-1.svg" class="arrow" />
             </div>
             <div class="theremoteworkinge">
                 The Remote Working Experience<br />Lisbon &amp; Parma
@@ -240,14 +240,14 @@
         <div class="iconsarrow">
             <div class="background">
             </div>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-2.svg" class="arrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-2.svg" class="arrow" />
         </div>
     </div>
     <div class="mainarticle">
         <div class="lisbon">
             <div class="mask">
             </div>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-13.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-13.png" class="lisbon1"/>
         </div>
         <div class="theremoteworkinge">
             The Remote Working Experience<br />Lisbon &amp; Parma

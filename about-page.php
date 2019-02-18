@@ -14,25 +14,24 @@
 
 get_header('about');
 ?>
-	
 	<div class="butterflywebsiteabout">
         <div class="map">
             <div class="mask">
             </div>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-22-at-103535.png" class="screenshot20190122at103535" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-22-at-103535.png" class="screenshot20190122at103535"/>
         </div>        
         <div class="bg">
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectanglecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle1"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle2"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle3"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle4"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectanglecopy"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle5"/>
         </div>
         <div class="contact">
             <div class="group3">
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-6.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-6.png" class="rectangle"/>
                 <div class="a67weststreetsui">
                     <span class="span1">67 West Street - Suite 324<br />Brooklyn, NY 11222<br />USA<br /><br /></span><span class="span2">hello@butterfly.ai</span>
                 </div>
@@ -40,10 +39,10 @@ get_header('about');
                     Appynest Inc.
                 </div>
                 <div class="brandingbutterflyround">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-oval@2x.png" class="oval" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-butterfly@2x.png" class="butterfly" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-oval@2x.png" class="oval"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-butterfly@2x.png" class="butterfly"/>
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-triangle@2x.png" class="triangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-triangle@2x.png" class="triangle"/>
             </div>
             <div class="headerpartners">
                 <div class="contact1">
@@ -72,7 +71,7 @@ get_header('about');
                         
             <div class="group">
                 <div class="davidrollover200x300">
-                    <a href="#"><img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/></a>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -83,7 +82,7 @@ get_header('about');
             </div>
             <div class="group1">
                 <div class="davidrollover200x300">
-                    <a href="#"><img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/></a>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -94,7 +93,7 @@ get_header('about');
             </div>
             <div class="group2">
                 <div class="davidrollover200x300">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -105,7 +104,7 @@ get_header('about');
             </div>
             <div class="group3">
                 <div class="davidrollover200x300">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -116,7 +115,7 @@ get_header('about');
             </div>
             <div class="group4">
                 <div class="davidrollover200x300">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -127,7 +126,7 @@ get_header('about');
             </div>
             <div class="group5">
                 <div class="davidrollover200x300">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
                 </div>
                 <div class="davidmendlewicz">
                     David Mendlewicz
@@ -154,31 +153,31 @@ get_header('about');
             </div>
             <div class="fade" role="tabpanel" id="byus">
 	            <div class="group2">
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-7.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-8.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-7.png" class="rectangle"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-8.png" class="rectangle1"/>
                 <div class="getpdf">
                     Get PDF
                 </div>
                 <div class="iconsarrow">
                     <div class="background">
                     </div>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-arrow.svg" class="arrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-arrow.svg" class="arrow"/>
                 </div>
                 <div class="getourebookhowt">
                     <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659"/>
             </div>
 				<div class="group21">
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-9.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-10.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-9.png" class="rectangle"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-10.png" class="rectangle1"/>
                 <div class="downloadebook">
                     Download e-book
                 </div>
                 <div class="getourebookhowt">
                     <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
                 </div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659"/>
             </div>
             </div>
         </div>
@@ -201,12 +200,12 @@ get_header('about');
                 Meet our academic partners
             </div>
 				<div class="logo">
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo" />
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
             </div>
             </div>
             <div class="fade" role="tabpanel" id="experts">
@@ -217,12 +216,12 @@ get_header('about');
                 Meet our expert partners
             </div>
 				<div class="logo">
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
             </div>
             </div>
         </div>
@@ -240,12 +239,12 @@ get_header('about');
             </div>
             <div class="fade in active" role="tabpanel" id="clientList">
 	            <div class="logo">
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
 	            </div>
 	            <div class="seperatorvertical">
 	                <div class="rectangle"></div>
@@ -262,12 +261,12 @@ get_header('about');
 			</div>
             <div class="fade" role="tabpanel" id="caseStudies">
 	            <div class="logo">
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-	                <img anima-src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" />
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
 	            </div>
 	            <div class="seperatorvertical">
 	                <div class="rectangle"></div>

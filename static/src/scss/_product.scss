@@ -1,5 +1,5 @@
 body{
-	
+	overflow-x: hidden;
 	&.page-template-product-page-php{
 		
 		.site-header{
@@ -36,7 +36,7 @@ body{
 			padding-bottom: 330px;
 			.entry-header{
 				display: grid;
-				grid-template-columns: 599px 483px;
+				grid-template-columns: 1fr 1fr;
 				padding-top: 70px;
 				background-image: url('../img/BGBlob2.svg');
 				background-position: top center;

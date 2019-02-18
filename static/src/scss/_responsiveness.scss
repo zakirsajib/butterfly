@@ -120,6 +120,44 @@
 }
 
 
+@media (max-width: 1024px){
+	/*Product page*/
+	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul li, 
+	body.page-template-product-page-php article .entry-content .features .for-people ul li{
+		float: none;
+		display: block;
+	}
+	body.page-template-product-page-php article .entry-content .xx{
+		grid-template-columns: 1fr;
+		grid-column-gap:0;
+		grid-row-gap:1em;
+		max-width: 100%;
+		padding: 1em;
+		margin: 0 0 1em;
+	}
+	body.page-template-product-page-php article .entry-content .howmang-contents{
+		grid-template-columns: 1fr;
+		padding: 0;
+		grid-row-gap:5em;
+		grid-column-gap:0;
+	}
+	body.page-template-product-page-php .entry-content .tab-content{
+		margin: 2em 0;
+	}
+	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul, 
+	body.page-template-product-page-php article .entry-content .features .for-people ul{
+		max-width: 320px;
+	}
+	body.page-template-product-page-php article{
+		padding-bottom: 0;
+	}
+	body.page-template-product-page-php .entry-content .features .feathr-contents{
+		padding: 0;
+		grid-template-columns: 1fr;
+	}
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
 	.container-fluid{
 		padding-left: 20px;
