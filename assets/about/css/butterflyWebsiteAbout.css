@@ -221,7 +221,7 @@ div {
   width               : 749px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -404,7 +404,7 @@ div {
   width               : 967px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -941,7 +941,7 @@ div {
   width               : 667px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1287,7 +1287,7 @@ div {
   width               : 786px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1516,7 +1516,7 @@ div {
   width               : 950px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1786,7 +1786,7 @@ div {
   width               : 710px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2807,7 +2807,7 @@ div {
 	.butterflywebsiteabout .partners,
 	.butterflywebsiteabout .downloads,
 	.butterflywebsiteabout .company{
-		left: 0;
+		left: 20px;
 	}
 	
 	
@@ -2835,6 +2835,12 @@ div {
 	}
 	.butterflywebsiteabout .contact {
     	top: 5030px;
+	}
+	.butterflywebsiteabout .contact{
+		left: 20px;
+	}
+	.butterflywebsiteabout .contact .group3{
+		left:100px;
 	}
 }
 

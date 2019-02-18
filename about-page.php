@@ -54,6 +54,7 @@ get_header('about');
                 </div>
             </div>
         </div>
+        <div id="content" class="site-content container-fluid">
         <div class="company">
             <div class="headerpartners">
                 <div class="company1">Company</div>
