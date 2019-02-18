@@ -140,7 +140,7 @@ function butterfly_scripts() {
 	if( is_home() || is_front_page() ):
 		wp_enqueue_style( 'homebutterfly', get_template_directory_uri() .'/assets/home/css/butterflyWebsiteHome.css' );
 	endif;
-	if(is_page('blog')):
+	if(is_page('blog') || is_category( ) || is_tag()):
 		wp_enqueue_style( 'blogbutterfly', get_template_directory_uri() .'/assets/blog/css/butterflyWebsiteBlog.css' );
 		wp_enqueue_style( 'blogFilterbutterfly', get_template_directory_uri() .'/assets/archive/css/butterflyWebsiteBlogFilters.css' );
 	endif;

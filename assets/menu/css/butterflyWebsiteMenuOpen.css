@@ -805,7 +805,7 @@ div {
     }
 }
 @media (min-width: 320px){
-	.rectangle{
+	.mega-menu.modal .rectangle{
 		display: none;
 	}
 }

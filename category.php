@@ -14,12 +14,12 @@ get_header('blog');
 		<main id="main" class="site-main">
 			<div class="butterflywebsiteblogfilters">
                 <div class="bg">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-4.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-5.png" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle.png" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-4.png" class="rectangle4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-5.png" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle.png" class="rectangle"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-4.png" class="rectangle1"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-5.png" class="rectangle2"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle.png" class="rectangle3" />
+                    <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-4.png" class="rectangle4"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-5.png" class="rectangle5"/>
                 </div>
                 <div class="allarticles">
                     <div class="headerallarticles">
@@ -35,7 +35,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -48,7 +48,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -61,7 +61,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -74,7 +74,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -87,7 +87,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -100,7 +100,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -113,7 +113,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -126,7 +126,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -139,7 +139,7 @@ get_header('blog');
                         <div class="lisbon">
                             <div class="mask">
                             </div>
-                            <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-lisbon-5@2x.png" class="lisbon1"/>
                         </div>
                         <div class="a20181214johnwi">
                             2018.12.14 - John Williams
@@ -181,7 +181,7 @@ get_header('blog');
                 </div>
                 <div class="bg1"></div>
                 <div class="backtoblog"><a href="<?php echo get_site_url()?>/blog">BACK TO BLOG</a></div>
-                <img anima-src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-iconsarrow@2x.png" class="iconsarrow" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-iconsarrow@2x.png" class="iconsarrow"/>
             </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
