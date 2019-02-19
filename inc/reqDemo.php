@@ -52,3 +52,24 @@
 		</div>
 	</div>
 </div>
+<script>
+	$ = jQuery.noConflict();
+	$(function ($) {
+		$('#reqDemoBtn').on("click", function(){
+			var demoRequestForm = document.getElementById('nf-field-2');
+			demoRequestForm.value = $.trim($(".section-one input[name='email']").val());
+		});
+		$('#reqDemoBtn2').on("click", function(){
+			var demoRequestForm = document.getElementById('nf-field-2');
+			demoRequestForm.value = $.trim($(".home-footer input[name='email']").val());
+		});
+		$('#reqDemoBtn3').on("click", function(){
+			var demoRequestForm = document.getElementById('nf-field-2');
+			demoRequestForm.value = $.trim($(".header-signin input[name='email']").val());
+		});
+		$('#reqDemoBtn4').on("click", function(){
+			var demoRequestForm = document.getElementById('nf-field-2');
+			demoRequestForm.value = $.trim($(".mega-menu input[name='email']").val());
+		});
+	});
+</script>

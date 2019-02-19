@@ -36,7 +36,7 @@ get_header();
 				<h1>Make Feedback Meaningful For<br/> Your Team.</h1>
 				<p>Drive conversation with hourly employees and get focused insight for their managers to act on using Butterfly engagement tools.</p>
 				<div class="demo-form-box">
-					<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your work email"><span class="input-group-btn"><button class="btn btn-default" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
+					<div class="input-group"><input type="email" class="form-control demo-input" placeholder="Your work email" name="email"><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
 				</div>
 			</div>
 			<div class="home-carousel col-md-7 hidden-lg">
