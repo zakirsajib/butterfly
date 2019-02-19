@@ -29,7 +29,7 @@
 						<div class="demo-form-box">
 							<h4>Get started now!</h4>
 							<div class="input-group">
-								<input type="email" class="form-control demo-input" placeholder="Your work email" name="email"><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn4" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button>
+								<input type="email" class="form-control demo-input" placeholder="Your work email" name="email" required><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn4" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button>
 								</span>
 							</div><!-- /input-group -->
 						</div>

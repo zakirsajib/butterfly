@@ -23,6 +23,11 @@
   		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
   		background-position: 12px 50%;
   	}
+  	.first-name:focus{
+  		-webkit-mask: url('../img/butterflyrequestdemoform-user-1.svg') no-repeat 12px 50%;
+  		-mask: url('../img/butterflyrequestdemoform-user-1.svg') no-repeat 12px 50%;
+  		background-color: #532ee4;
+  	}
   	.last-name {
   		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
   		background-position: 12px 50%;

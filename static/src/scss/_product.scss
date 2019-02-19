@@ -7,20 +7,25 @@ body{
 			.header-signin{
 				line-height: 3;
 					ul {	
-					text-align: center;
+					text-align: left;
 					height: 40px;
 					width: 298px;
 					float: right;
 					background-color: #f8f8f8;
 					border-radius: 20px 0px 0px 20px;
+					position: relative;
+					margin-right: -60px;
 					li{
 					  	color: #3a3b57;
-					  	padding: 0 1em;
+					  	padding: 0 0 0 30px;
 					  	display: inline-grid;
 					  	a{
 					  		color: #3a3b57;
 					  		font-size: 16px;
 					  		text-decoration: none;
+					  	}
+					  	&:last-child{
+						  	padding: 0 0 0 15px;
 					  	}
 					}
 				}
