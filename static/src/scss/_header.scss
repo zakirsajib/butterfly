@@ -5,9 +5,9 @@
   z-index: 2;
   
   .site-branding {
-    padding-top: 0;
+    //padding-top: 0;
     position: relative;
-    top: -7px;
+    //top: -7px;
    }
   .header-signin{
   	.demo-form-box{ // need this code later
@@ -67,11 +67,6 @@
   }
 }
 
-.home .affix .site-branding{
-	visibility: hidden;
-}
-
-
 .affix .site-header {
     padding-top: 13px;
 }
@@ -79,19 +74,22 @@
 .site-header{
 	display: grid;
 	grid-template-columns: 3fr 12fr 1fr;
-	padding-top: 48px;
+	padding-top: 50px;
 	grid-column-gap: 10px;
 	position: relative;
 	z-index: 10;
+	align-items: center;
+	justify-content: center;
 }
 
 
 .site-branding{
-	
+	display: flex;
+	align-items: center;
 	img{ 
 		width: 48px;
 		height: 50px;
-		&.custom-logo{margin-right: 1em;}
+		&.custom-logo{margin-right: 20px;}
 	}
 	a{
 		font-family: 'Muli', sans-serif;
@@ -108,6 +106,7 @@
 
 .header-signin{
 	line-height: 3.5;
+	align-items: center;
 		ul li {
 			list-style-type: none;
 			text-align: right;
@@ -137,7 +136,7 @@
   	border-radius: 28px;
   	background-color: #3a3b57;
   	text-align: left;
-  	padding: 0 1em 0 1.5em;
+  //	padding: 0 1em 0 1.5em;
   	position: relative;
   	line-height: 40px;
 //   	position: absolute;
@@ -154,7 +153,8 @@
 		  letter-spacing: normal;
 		  color: #fff;
 		  text-transform: uppercase;
-		  padding: 0.5em 2em 0.5em 0;
+		  //padding: 0.5em 2em 0.5em 0;
+		  padding: 10px 53px 10px 19px;
 		  .menu-icon-Combined-Shape {
 			  width: 14px;
 			  height: 13px;
