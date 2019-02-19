@@ -78,14 +78,18 @@ div {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 3236px;
   height              : 800px;
-  width               : 100%;
-  position            : absolute;
+/*   width               : 100%; */
+  position            : relative;
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  background-image: url('../img/butterflywebsiteabout-screenshot-2019-01-22-at-103535.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .butterflywebsiteabout .map .mask {
   background-color    : rgba(215, 215, 215, 1.0);
@@ -1436,6 +1440,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  z-index: 1;
 }
 .butterflywebsiteabout .partners .logo .gelogo {
   background-color    : rgba(255,255,255,0.0);
@@ -1532,6 +1537,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  z-index: 1;
 }
 .butterflywebsiteabout .customers .logo .gelogo {
   background-color    : rgba(255,255,255,0.0);

@@ -15,11 +15,7 @@
 get_header('about');
 ?>
 	<div class="butterflywebsiteabout">
-        <div class="map">
-            <div class="mask">
-            </div>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-22-at-103535.png" class="screenshot20190122at103535"/>
-        </div>        
+        <div class="map"></div>        
         <div class="bg">
             <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle"/>
             <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle1"/>
@@ -203,11 +199,11 @@ get_header('about');
                 Meet our academic partners
             </div>
 				<div class="logo">
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo" />
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg" />
                 <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
             </div>
             </div>
@@ -219,12 +215,12 @@ get_header('about');
                 Meet our expert partners
             </div>
 				<div class="logo">
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg"/>
+                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation svg"/>
             </div>
             </div>
         </div>
@@ -242,35 +238,76 @@ get_header('about');
             </div>
             <div class="fade in active" role="tabpanel" id="clientList">
 	            <div class="logo">
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
+	              <ul>  
+	                <li class="active"><a data-toggle="tab" href="#collapseOne"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="svg" alt=""/></a></li>
+	                <li><a data-toggle="tab" href="#collapseTwo"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseThree"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseFour"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseFive"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseSix"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation svg"/></a></li>
+	              </ul>
 	            </div>
 	            <div class="seperatorvertical">
 	                <div class="rectangle"></div>
 	            </div>
-	            <div class="u201cbutterflypowerrea">
-	                “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
-	            </div>
-	            <div class="benjaminsnyers">
-	                Benjamin Snyers
-	            </div>
-	            <div class="managingdirectorat">
-	                Managing Director at Ogilvy
-	            </div>
+	            <div class="customer-testimonials">
+		            <div class="tab-content">
+		            	<div id="collapseOne" class="tab-pane active">
+		            	<div class="u201cbutterflypowerrea">
+		                “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+						</div>
+						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Ogilvy</div>
+						<!-- <div class="managingd irectorat"></div> -->
+		            </div>
+						<div id="collapseTwo" class="tab-pane">
+		            	<div class="u201cbutterflypowerrea">
+		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+						</div>
+						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<!-- <div class="managingd irectorat"></div> -->
+		            </div>
+						<div id="collapseThree" class="tab-pane">
+		            	<div class="u201cbutterflypowerrea">
+		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+						</div>
+						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<!-- <div class="managingd irectorat"></div> -->
+		            </div>
+						<div id="collapseFour" class="tab-pane">
+		            	<div class="u201cbutterflypowerrea">
+		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+						</div>
+						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<!-- <div class="managingd irectorat"></div> -->
+		            </div>
+						<div id="collapseFive" class="tab-pane">
+		            	<div class="u201cbutterflypowerrea">
+		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+						</div>
+						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<!-- <div class="managingd irectorat"></div> -->
+		            </div>
+						<div id="collapseSix" class="tab-pane">
+		            	<div class="u201cbutterflypowerrea">
+		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+						</div>
+						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<!-- <div class="managingd irectorat"></div> -->
+		            </div>
+		            </div>
+		        </div>
 			</div>
             <div class="fade" role="tabpanel" id="caseStudies">
-	            <div class="logo">
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo" />
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo-1.svg" class="ogilvylogo"/>
+	            
+<div class="logo">
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo svg" />
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/>
+	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg"/>
 	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
 	            </div>
+
 	            <div class="seperatorvertical">
 	                <div class="rectangle"></div>
 	            </div>

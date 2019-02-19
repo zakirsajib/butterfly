@@ -8,11 +8,15 @@ body{
 }
 
 a {
-  outline: none;
-  text-decoration: none;
-  &:hover, &:focus {
+	color: rgba(83, 46, 228, 1.0);	
+	outline: none;
+	text-decoration: none;
+  &:hover, &:focus, &:visited {
     outline: none;
     text-decoration: none;
+  }
+  &:visited{
+	  color: rgba(83, 46, 228, 1.0);
   }
 }
 ol, ul {
