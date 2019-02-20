@@ -503,18 +503,28 @@ div {
   transform           : rotate(0deg);
 }
 .butterflycasestudy .casestudy .right .groupdiversepeopleworkingoffice43962189 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 3000px;
-  width               : 400px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-image: url('../img/butterflycasestudy-group-diverse-people-working-office-43962189.png');
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    height: 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
+
+.butterflycasestudy .casestudy .right .groupdiversepeopleworkingoffice43962189 .rightDiv{
+	background: orange;
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.9;
+}
+
 .butterflycasestudy .casestudy .right .groupdiversepeopleworkingoffice43962189 .mask {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;

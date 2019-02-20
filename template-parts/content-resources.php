@@ -27,7 +27,7 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less removeIcon"/> Question that needs an answer? #1</a>
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less removeIcon svg"/> Question that needs an answer? #1</a>
       </h4>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -39,7 +39,7 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less addIcon"/> Question that needs an answer? #2</a>
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="svg more-less addIcon"/> Question that needs an answer? #2</a>
       </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -51,7 +51,7 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less addIcon"/> Question that needs an answer? #3</a>
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less addIcon svg"/> Question that needs an answer? #3</a>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -259,6 +259,8 @@
                     </div>
                 <div class="right animated slideInRight">
                     <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask-1.png" class="mask"/>
+                    
+                    
                     <div class="iconclose">
                             <div class="background">
                             </div>
@@ -395,8 +397,7 @@
                     </div>
                     <div class="right animated slideInRight">
                         <div class="groupdiversepeopleworkingoffice43962189">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-mask.png" class="mask"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-group-diverse-people-working-office-43962189.png" class="groupdiversepeopleworkingoffice439621891"/>
+                            <div class="rightDiv"></div>
                         </div>
                         <div class="iconclose">
                             <div class="background">
