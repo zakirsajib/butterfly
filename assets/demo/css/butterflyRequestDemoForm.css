@@ -15,18 +15,22 @@
 	}
 }
 
-.email {
+	.email {
   		background: url( '../img/butterflyrequestdemoform-email.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.email:focus {
+  		background: url( '../img/butterflyrequestdemoform-email-focus.svg' ) no-repeat;
   		background-position: 12px 50%;
   	}
   	.first-name {
   		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
   		background-position: 12px 50%;
   	}
-  	.first-name:focus{
-  		-webkit-mask: url('../img/butterflyrequestdemoform-user-1.svg') no-repeat 12px 50%;
-  		-mask: url('../img/butterflyrequestdemoform-user-1.svg') no-repeat 12px 50%;
-  		background-color: #532ee4;
+  	.first-name:focus,
+  	.last-name:focus{
+  		background: url( '../img/butterflyrequestdemoform-user-1-focus.svg' ) no-repeat;
+  		background-position: 12px 50%;
   	}
   	.last-name {
   		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
@@ -36,14 +40,46 @@
   		background: url( '../img/butterflyrequestdemoform-company.svg' ) no-repeat;
   		background-position: 12px 50%;
   	}
+  	.company-name:focus {
+  		background: url( '../img/butterflyrequestdemoform-company-focus.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
   	.company-size {
   		background: url( '../img/butterflyrequestdemoform-people.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  		text-indent: 40px;
+  	}
+  	.company-size:focus {
+  		background: url( '../img/butterflyrequestdemoform-people-focus.svg' ) no-repeat;
   		background-position: 12px 50%;
   		text-indent: 40px;
   	}
   	.phone-num {
   		
   	}
+  	
+  	/*Pass Icon #2ce6ce*/
+  	 
+  	.our-demo-form .nf-pass .email{
+	  	background: url( '../img/butterflyrequestdemoform-email-pass.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	} 
+  	
+  	.our-demo-form .nf-pass .last-name,
+  	.our-demo-form .nf-pass .first-name{
+	  	background: url( '../img/butterflyrequestdemoform-user-1-pass.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	
+  	.our-demo-form .nf-pass .company-name{
+	  	background: url( '../img/butterflyrequestdemoform-company-pass.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	.our-demo-form .nf-pass .company-size{
+	  	background: url( '../img/butterflyrequestdemoform-people-pass.svg' ) no-repeat;
+  		background-position: 12px 50%;
+  	}
+  	  	
   	  	
   	.our-demo-form .nf-field-element .demo-submit{
 	  	width: 200px;

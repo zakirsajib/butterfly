@@ -51,7 +51,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 					<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
 				<div class="header-signin hidden-xs">
-					<?php include( get_template_directory() . '/inc/header-demo-form.php');?>
+					<?php //include( get_template_directory() . '/inc/header-demo-form.php');?>
 					<?php
 						wp_nav_menu( array(
 							'theme_location' => 'menu-1',

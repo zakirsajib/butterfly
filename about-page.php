@@ -261,53 +261,44 @@ get_header('about');
 		            </div>
 						<div id="collapseTwo" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+		                “This is Cocacola statements”
 						</div>
-						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<div class="benjaminsnyers">Cocacola<br/>Managing Director at Cocacola</div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseThree" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+		                “Ticketmaster Statements”
 						</div>
-						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Ticketmaster</div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseFour" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+		                “Dentsu statements”
 						</div>
-						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Dentsu</div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseFive" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+		                “Ogilvy”
 						</div>
-						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Ogilvy</div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseSix" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “XXXButterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+		                “Live Nation Statements”
 						</div>
-						<div class="benjaminsnyers">XXBenjamin Snyers<br/>XXManaging Director at Ogilvy</div>
+						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Live Nation Statements</div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 		            </div>
 		        </div>
 			</div>
             <div class="fade" role="tabpanel" id="caseStudies">
-	            
-<div class="logo">
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo svg" />
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg"/>
-	                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
-	            </div>
-
+				<div class="logo"></div>
 	            <div class="seperatorvertical">
 	                <div class="rectangle"></div>
 	            </div>

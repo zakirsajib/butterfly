@@ -8,16 +8,186 @@
  */
 
 ?>
-
 <div class="butterflywebsiteresources">
     <div class="bg">
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-1.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-2.png" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-1.png" class="rectangle4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-2.png" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                </div>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-1.png" class="rectangle1"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-2.png" class="rectangle2"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle3"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-1.png" class="rectangle4"/>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-2.png" class="rectangle5"/>
+                </div>    
+    <div class="wehelporganization">We Help Organizations Make Exceptional Managers</div>
+    <div class="blog">
+        <div class="headercustomers row">
+            <div class="freshfromourblog">Fresh from our blog</div>
+            <div class="separatorhorizontal"><div class="bg2"></div></div>
+        </div>
+        <div class="blog-container">
+        	<div class="group21 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+            <div class="readarticle">
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+        </div>
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+            <div class="readarticle">
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+        </div>
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+            <div class="readarticle">
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+        </div>
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+            <div class="readarticle">
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+        </div>
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+            <div class="readarticle">
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+        </div>
+        </div>
+        <div class="bg1"></div>
+		<div class="viewfullblog"><a href="<?php echo get_site_url()?>/blog">VIEW FULL BLOG</a></div>
+    </div>
+    <div class="casestudies row">
+        <div class="headercustomers row">
+            <div class="ourcustomercasest">Our customer case studies</div>
+            <div class="separatorhorizontal"><div class="bg1"></div></div>
+        </div>
+        <div class="case-studies-container">
+        	<div class="group21 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group1 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+        </div>
+    </div> <! -- end case studies -->
+    <div class="downloads row">
+	    <div class="headercustomers row">
+	        <div class="downloadsgoodies">
+	            Downloads &amp; goodies
+	        </div>
+	        <div class="separatorhorizontal">
+	            <div class="bg1">
+	            </div>
+	        </div>
+	    </div>
+	    <div class="downloads-studies-container">
+	    	<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+			<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+			<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+			<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+	    </div>
+	</div> <! -- end downloads -->
     <div class="faq">
         <div class="headerpartners">
             <div class="faq1">FAQ</div>
@@ -61,158 +231,8 @@
     </div>
   </div>
 </div>   
-    </div>
-	<div class="downloads">
-                    <div class="headercustomers">
-                        <div class="downloadsgoodies">
-                            Downloads &amp; goodies
-                        </div>
-                        <div class="separatorhorizontal">
-                            <div class="bg1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group2">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-10.png" class="rectangle" />
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-7.png" class="rectangle1"/>
-                        <div class="downloadebook">
-                            Download e-book
-                        </div>
-                        <div class="iconsarrow">
-                            <div class="background">
-                            </div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-                        </div>
-                        <div class="getourebookhowt">
-                            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-                    </div>
-                    <div class="group21">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-8.png" class="rectangle"/>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-9.png" class="rectangle1"/>
-                        <div class="downloadebook">
-                            Download e-book
-                        </div>
-                        <div class="getourebookhowt">
-                            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-                    </div>
-                </div>
-    <div class="casestudies">
-                    <div class="headercustomers">
-                        <div class="ourcustomercasest">
-                            Our customer case studies
-                        </div>
-                        <div class="separatorhorizontal">
-                            <div class="bg1"></div>
-                        </div>
-                    </div>
-                    <div class="group2">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-10.png" class="rectangle"/>
-                        <a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-11.png" class="rectangle1"/></a>
-                        <div class="viewcasestudy"><a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-                        </div>
-                        <div class="iconsarrow">
-                            <a data-toggle="modal" data-target="#caseStudyOne"><div class="background"></div></a>
-                            <a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-                        </div>
-                        <div class="loremipsumdolorsi">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo"/>
-                    </div>
-                    <div class="group21">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-8.png" class="rectangle"/>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-9.png" class="rectangle1"/>
-                        <div class="viewcasestudy">
-                            View case study
-                        </div>
-                        <div class="loremipsumdolorsi">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo"/>
-                    </div>
-                    <div class="group22">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-8.png" class="rectangle"/>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-9.png" class="rectangle1"/>
-                        <div class="viewcasestudy">
-                            View case study
-                        </div>
-                        <div class="loremipsumdolorsi">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo-2@2x.png" class="tmklogo"/>
-                    </div>
-                </div>
-    <div class="blog">
-                    <div class="headercustomers">
-                        <div class="freshfromourblog">
-                            Fresh from our blog
-                        </div>
-                        <div class="separatorhorizontal">
-                            <div class="bg2">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group2">
-                        <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-16.png" class="rectangle"/></a>
-                        <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/></a>
-                        <div class="readarticle"><a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
-                        <div class="theremoteworkinge">
-                            <a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a>
-                        </div>
-                        <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
-                    </div>
-                    <div class="group21">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-18.png" class="rectangle"/>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-                        <div class="readarticle">
-                            Read Article
-                        </div>
-                        <div class="theremoteworkinge">
-                            The Remote Working Experience<br />Lisbon &amp; Parma
-                        </div>
-                    </div>
-                    <div class="group22">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-18.png" class="rectangle"/>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-                        <div class="readarticle">
-                            Read Article
-                        </div>
-                        <div class="theremoteworkinge">
-                            The Remote Working Experience<br />Lisbon &amp; Parma
-                        </div>
-                    </div>
-                    <div class="group23">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-18.png" class="rectangle"/>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-3.png" class="lisbon"/>
-                        <div class="readarticle">
-                            Read Article
-                        </div>
-                        <div class="iconsarrow1">
-                            <div class="background">
-                            </div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow-2.svg" class="arrow"/>
-                        </div>
-                        <div class="theremoteworkinge">
-                            The Remote Working Experience<br />Lisbon &amp; Parma
-                        </div>
-                    </div>
-                    <div class="iconsarrow">
-                        <div class="background">
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow-3.svg" class="arrow"/>
-                    </div>
-                    <div class="bg1"></div>
-                    <div class="viewfullblog"><a href="<?php echo get_site_url()?>/blog">VIEW FULL BLOG</a></div>
-                </div>
-    <div class="wehelporganization">We Help Organizations Make Exceptional Managers
-    </div>
+    </div> <! -- end faqs -->
 </div>
-
-
 
 <div class="modal" id="blogDetailsOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog modal-lg" role="document">
@@ -319,17 +339,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="modal" id="caseStudyOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-lg" role="document">

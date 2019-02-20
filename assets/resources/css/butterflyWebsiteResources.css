@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
-
-@font-face {
-  font-family: "Aleo-Bold";
-  src: url('../fonts/Aleo-Bold.otf') format("opentype");
-}
+.slick-list{overflow: visible;}
                         
 .butterflywebsiteresources {
 /*   width               : 100%; */
@@ -17,11 +12,152 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
 }
+
+
+.butterflywebsiteresources .downloads .group,
+.butterflywebsiteresources .casestudies .group{
+	width: 332px!important;
+	height: 332px!important;
+	top:105px!important;
+/* 	left:0; */
+}
+.butterflywebsiteresources .blog .group{
+	width: 320px!important;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+	background-color: rgba(255, 255, 255, 0.65);
+	left: 0!important;
+	position: relative!important;
+	margin: 0 20px 0 0!important;
+}
+.butterflywebsiteresources .blog .group:hover{
+/* 	background-image: url('../img/butterflywebsiteresources-rectangle-16.png'); */
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+	background-color: #ffffff;
+}
+
+.butterflywebsiteresources .blog .group .lisbon{
+	width: 320px;
+	left: 0;
+}
+
+.butterflywebsiteresources .blog .group:hover .iconsarrow1{
+	display: block;
+	top: 296px;
+}
+
+
+.butterflywebsiteresources .blog .group .readarticle a{
+	color: rgba(44, 230, 206, 1.0);
+}
+.butterflywebsiteresources .blog .group .theremoteworkinge a{
+	color: rgba(58, 59, 87, 1.0);
+}
+.butterflywebsiteresources .blog .group:hover .readarticle a,
+.butterflywebsiteresources .blog .group .readarticle a:hover{
+	color: #3a3b57;
+}
+
+.butterflywebsiteresources .blog .group .iconsarrow1{
+	display: none;
+}
+
+.butterflywebsiteresources .downloads .group:hover,
+.butterflywebsiteresources .casestudies .group:hover{
+	background-image: url('../img/butterflywebsiteresources-rectangle-10.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.butterflywebsiteresources .downloads .group2:hover .getourebookhowt .span3,
+.butterflywebsiteresources .casestudies .group:hover .loremipsumdolorsi,
+.butterflywebsiteresources .casestudies .group:hover .loremipsumdolorsi a{
+	color: rgba(58, 59, 87, 1.0);
+}
+
+.butterflywebsiteresources .casestudies .group .loremipsumdolorsi a{
+	color: rgba(155, 154, 155, 1.0);
+}
+.butterflywebsiteresources .downloads .group:hover .svg,
+.butterflywebsiteresources .casestudies .group:hover .svg{
+	opacity: 1;
+}
+
+.butterflywebsiteresources .casestudies .group .viewcasestudy{
+	width: 322px!important;
+	height: 66px!important;
+	border-radius: 0px 0px 5px 5px;
+	top:260px!important;
+	left:5px!important;
+	background-color: #3E3F59!important;
+}
+.butterflywebsiteresources .downloads .group .downloadebook{
+	width: 322px!important;
+	height: 66px!important;
+	border-radius: 0px 0px 5px 5px;
+	top:260px!important;
+	left:5px!important;
+	background-color: #3E3F59!important;
+}
+
+.butterflywebsiteresources .downloads .group .downloadebook a{
+	left:30px!important;
+}
+.butterflywebsiteresources .casestudies .group .viewcasestudy a{
+	left: 30px!important;
+}
+
+.butterflywebsiteresources .casestudies .group:hover .viewcasestudy,
+.butterflywebsiteresources .casestudies .group .viewcasestudy:hover{
+	background-color: #FD9A24!important;
+}
+
+.butterflywebsiteresources .downloads .group:hover .downloadebook,
+.butterflywebsiteresources .downloads .group .downloadebook:hover{
+	background-color: #2ce6ce!important;
+}
+
+.butterflywebsiteresources .downloads .group2 .getourebookhowt .span3{
+	color: #9b9b9b;
+}
+
+.butterflywebsiteresources .casestudies .group .viewcasestudy a,
+.butterflywebsiteresources .downloads .group .downloadebook a{
+	position: absolute;
+	top:20px;
+	color: #fff;
+}
+
+.butterflywebsiteresources .downloads .group .iconsarrow,
+.butterflywebsiteresources .casestudies .group .iconsarrow{
+	background-color: rgba(255,255,255,0.0);
+    top: 282px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 272px;
+    overflow: hidden;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    display: none;
+}
+.butterflywebsiteresources .downloads .group:hover .iconsarrow,
+.butterflywebsiteresources .casestudies .group:hover .iconsarrow{
+	display: block;
+}
+
+
+
+
 a {
   text-decoration     : none;
-}
-.anima-full-height-a {
-  height              : 100%;
 }
 div {
   -webkit-text-size-adjust: none;
@@ -72,7 +208,7 @@ div {
 }
 .butterflywebsiteresources .removeIcon,
 .butterflywebsiteresources .addIcon{
-	padding-right: 15px;
+	margin-right: 15px;
 }
 
 .butterflywebsiteresources .panel-body{
@@ -83,6 +219,7 @@ div {
 	-ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+    margin-right: 15px;
 }
 
 
@@ -633,7 +770,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1357px;
   height              : 437px;
-  width               : 667px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 112px;
@@ -700,8 +837,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 105px;
   height              : 332px;
-  width               : 332px;
-  position            : absolute;
+/*   width               : 332px; */
+  position            : relative;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -820,7 +957,6 @@ div {
   font-weight         : 700;
   font-style          : normal;
   font-size           : 18.0px;
-  color               : rgba(58, 59, 87, 1.0);
   line-height         : 23.0px;
 }
 .butterflywebsiteresources .downloads .group2 .screenshot20190115at194659 {
@@ -939,7 +1075,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 828px;
   height              : 437px;
-  width               : 1007px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 112px;
@@ -1006,7 +1142,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 105px;
   height              : 332px;
-  width               : 332px;
+/*   width               : 332px; */
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1128,19 +1264,19 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .casestudies .group21 {
+.butterflywebsiteresources .casestudies .group {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 110px;
-  height              : 322px;
-  width               : 322px;
-  position            : absolute;
+/*   top                 : 110px; */
+/*   height              : 322px; */
+/*   width               : 322px; */
+  position            : relative;
   margin              : 0;
-  left                : 345px;
+/*   left                : 345px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .casestudies .group21 .rectangle {
+.butterflywebsiteresources .casestudies .group .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 322px;
@@ -1152,7 +1288,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .casestudies .group21 .rectangle1 {
+.butterflywebsiteresources .casestudies .group .rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 256px;
   height              : 65px;
@@ -1164,7 +1300,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .casestudies .group21 .viewcasestudy {
+.butterflywebsiteresources .casestudies .group .viewcasestudy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 276px;
   height              : auto;
@@ -1183,7 +1319,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.butterflywebsiteresources .casestudies .group21 .loremipsumdolorsi {
+.butterflywebsiteresources .casestudies .group .loremipsumdolorsi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 137px;
   height              : auto;
@@ -1200,7 +1336,7 @@ div {
   text-align          : left;
   line-height         : 29.0px;
 }
-.butterflywebsiteresources .casestudies .group21 .tmklogo {
+.butterflywebsiteresources .casestudies .group .tmklogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 48px;
@@ -1444,7 +1580,8 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
   text-align          : left;
   line-height         : 29.0px;
 }
-.butterflywebsiteresources .blog .group2 .iconsarrow1 {
+.butterflywebsiteresources .blog .group2 .iconsarrow1,
+.butterflywebsiteresources .blog .group .iconsarrow1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 302px;
   height              : 24px;
@@ -1456,14 +1593,16 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .blog .group21 {
+.butterflywebsiteresources .blog .group21,
+.butterflywebsiteresources .blog .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 342px;
-  width               : 322px;
+/*   width               : 322px; */
   position            : absolute;
   margin              : 0;
-  left                : 345px;
+/*   left                : 345px; */
+	left: 0;
   border-radius       : 5px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -1482,19 +1621,21 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .blog .group21 .lisbon {
+.butterflywebsiteresources .blog .group21 .lisbon,
+.butterflywebsiteresources .blog .group .lisbon  {
   background-color    : rgba(255,255,255,0.0);
   top                 : -65px;
   height              : 231px;
-  width               : 346px;
+/*   width               : 346px; */
   position            : absolute;
   margin              : 0;
-  left                : -12px;
+/*   left                : -12px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteresources .blog .group21 .readarticle {
+.butterflywebsiteresources .blog .group21 .readarticle,
+.butterflywebsiteresources .blog .group .readarticle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 296px;
   height              : auto;
@@ -1513,7 +1654,8 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
   text-align          : left;
   line-height         : 23.0px;
 }
-.butterflywebsiteresources .blog .group21 .theremoteworkinge {
+.butterflywebsiteresources .blog .group21 .theremoteworkinge,
+.butterflywebsiteresources .blog .group .theremoteworkinge {
   background-color    : rgba(255,255,255,0.0);
   top                 : 186px;
   height              : auto;
@@ -2621,82 +2763,57 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 .butterflywebsiteresources .footerdesktop .footer .a2512018appynestinc .span3 {
   
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+
+@media (max-width: 992px){
+	.butterflywebsiteresources{
+		min-height: 4000px;
+	}
+	
+	.butterflywebsiteresources .casestudies,
+	.butterflywebsiteresources .downloads,
+	.butterflywebsiteresources .faq,
+	.butterflywebsiteresources .blog,
+	.butterflywebsiteresources .wehelporganization{
+		left: 20px!important;
+	}
+	.butterflywebsiteresources .downloads .group,
+	.butterflywebsiteresources .casestudies .group{
+		width: 332px!important;
+	}
+	.butterflywebsiteresources .downloads{
+		top:2000px;
+	}
+	.butterflywebsiteresources .faq{
+		top: 3200px;
+	}
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+@media (max-width: 767px){
+	.butterflywebsiteresources .wehelporganization{
+		width: 100%;
+		padding-right: 20px;
+	}
 }
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+@media (max-width: 568px){
+	.butterflywebsiteresources .blog{
+		top: 280px;
+	}
+	.butterflywebsiteresources .faq{
+		width: 100%;
+	}
 }
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 420px){
+	.butterflywebsiteresources .wehelporganization{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.butterflywebsiteresources .casestudies .headercustomers .ourcustomercasest{width: 100%;}
 }
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 375px){
+	.butterflywebsiteresources .wehelporganization{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.butterflywebsiteresources .blog{
+		top:200px;
+	}
 }
