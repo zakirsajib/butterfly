@@ -2,11 +2,11 @@ $ = jQuery.noConflict();
 	$(function ($) {
 		$('.case-studies-container').slick({
 			dots:false,
-			speed:4800,
+			speed:2800,
 			adaptiveHeight:true,
 			autoplay:true,
 			arrows: false,
-			autoplaySpeed: 5800,
+			autoplaySpeed: 4200,
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3
@@ -14,11 +14,11 @@ $ = jQuery.noConflict();
 		
 		$('.downloads-studies-container').slick({
 			dots:false,
-			speed:4800,
+			speed:2800,
 			adaptiveHeight:true,
 			autoplay:true,
 			arrows: false,
-			autoplaySpeed: 6800,
+			autoplaySpeed: 4500,
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3
