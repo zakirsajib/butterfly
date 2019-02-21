@@ -63,7 +63,7 @@
         <div class="bg1"></div>
 		<div class="viewfullblog"><a href="<?php echo get_site_url()?>/blog">VIEW FULL BLOG</a></div>
     </div>
-    <div class="casestudies row">
+    <div class="casestudies">
         <div class="headercustomers row">
             <div class="ourcustomercasest">Our customer case studies</div>
             <div class="separatorhorizontal"><div class="bg1"></div></div>
@@ -119,7 +119,7 @@
             <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
         </div>
     </div> <! -- end case studies -->
-    <div class="downloads row">
+    <div class="downloads">
 	    <div class="headercustomers row">
 	        <div class="downloadsgoodies">
 	            Downloads &amp; goodies
