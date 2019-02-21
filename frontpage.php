@@ -25,10 +25,10 @@ get_header();
 				endwhile; // End of the loop.?>
 		</main><!-- #main -->
 		
-		<img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob1.svg" class="bgblob1" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob1.svg"/>
-       <img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg" class="bgblog2" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg"/>
-       <img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg" class="bgblob3" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg"/>
-       <img anima-src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob4.svg" class="bgblob4" src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob4.svg"/>
+		<img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob1.svg" class="bgblob1"/>
+       <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg" class="bgblog2"/>
+       <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg" class="bgblob3"/>
+       <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob4.svg" class="bgblob4"/>
 		
 		
 		<div class="section-one">
@@ -47,7 +47,6 @@ get_header();
 			</div>
 		</div>
 		
-		
 		<div class="client-logos">
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/ge-logo.svg" alt=""></a>
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/coca-cola-logo.svg" alt=""></a>
@@ -57,7 +56,7 @@ get_header();
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 		</div>
 		
-		<div class="why-butterfly row" id="why-butterfly">			
+		<div class="why-butterfly row " id="why-butterfly">			
 			<div class="butterfly-one col-md-4">
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">
@@ -98,6 +97,7 @@ get_header();
 				</div>
 			</div>
 		</div>
+		
 		
 		<div class="home-testimonial">
 			<div class="testimonial-area">

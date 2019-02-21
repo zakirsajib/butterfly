@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
-
-@font-face {
-  font-family: "Aleo-Bold";
-  src: url('../fonts/Aleo-Bold.otf') format("opentype");
-}
-@font-face {
-  font-family: "Aleo-LightItalic";
-  src: url('../fonts/Aleo-LightItalic.otf') format("opentype");
-}
 
 @media (min-width: 768px){
 	#reqDemo .modal-dialog {
@@ -154,6 +144,11 @@
 		line-height: normal;
 		letter-spacing: normal;
 		color: #9b9b9b;
+		margin-left: 15px;
+	}
+	.our-demo-form .ninja-forms-field.updates-checked{
+		margin-left: 15px;
+		vertical-align: middle;
 	}
 	
 	.our-demo-form .nf-field-container.company-size-container{
@@ -190,6 +185,8 @@
 	.our-demo-form .nf-field-container.heading-box {
     	padding-bottom: 11em;
 	}
+	
+	
                         
 .butterflyrequestdemoform {
 /*   width               : 100%; */
@@ -214,25 +211,25 @@ div {
 }
 .butterflyrequestdemoform .tryfree {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -509px;
-  height              : 1818px;
-  max-width           : 1200px;
+/*   top                 : -509px; */
+  min-height              : 1818px;
+/*   max-width           : 1200px; */
   width: 100%;
   position            : relative;
-  margin              : 0 auto;
-  left                : -462px;
+/*   margin              : 0 auto; */
+/*   left                : -462px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .butterflyrequestdemoform .tryfree .bg {
   background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 509px;
-  height              : 800px;
-  width               : 800px;
+/*   top                 : 509px; */
+/*   height              : 800px; */
+/*   width               : 800px; */
   position            : absolute;
   margin              : 0;
-  left                : 462px;
+/*   left                : 462px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -278,12 +275,12 @@ div {
 }
 .butterflyrequestdemoform .tryfree .brandingbutterflyicon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 559px;
+  top                 : 50px;
   height              : 48px;
   width               : 48px;
   position            : absolute;
   margin              : 0;
-  left                : 512px;
+  left                : 50px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -314,12 +311,12 @@ div {
 }
 .butterflyrequestdemoform .tryfree .form {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 625px;
-  height              : 626px;
-  width               : 420px;
+/*   top                 : 625px; */
+/*   height              : 626px; */
+/*   width               : 420px; */
   position            : absolute;
   margin              : 0;
-  left                : 652px;
+/*   left                : 652px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -946,12 +943,12 @@ div {
 }
 .butterflyrequestdemoform .tryfree .right {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 509px;
-  height              : 800px;
+/*   top                 : 509px; */
+/*   height              : 800px; */
   width               : 400px;
   position            : absolute;
   margin              : 0;
-  left                : 1262px;
+/*   left                : 1262px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -959,7 +956,7 @@ div {
 .butterflyrequestdemoform .tryfree .right .bg1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 800px;
+  min-height              : 100vh;
   width               : 400px;
   position            : absolute;
   margin              : 0;
@@ -1188,85 +1185,6 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
   line-height         : 18.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {

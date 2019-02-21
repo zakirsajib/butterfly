@@ -128,7 +128,7 @@ function butterfly_scripts() {
 	
 	
 	
-	if( is_home() || is_front_page() || is_page('resources') ):
+	if( is_home() || is_front_page() || is_page('resources') || is_page('blog') ):
 		wp_enqueue_style( 'slick', get_template_directory_uri() .'/assets/slick/slick.css' );
 	endif;
 	wp_enqueue_style( 'main', get_template_directory_uri() .'/static/dist/css/main.css' );
@@ -144,6 +144,8 @@ function butterfly_scripts() {
 		wp_enqueue_style( 'blogbutterfly', get_template_directory_uri() .'/assets/blog/css/butterflyWebsiteBlog.css' );
 		wp_enqueue_style( 'blogFilterbutterfly', get_template_directory_uri() .'/assets/archive/css/butterflyWebsiteBlogFilters.css' );
 	endif;
+	
+	
 	
 	if(is_page('resources')):
 		wp_enqueue_style( 'resourcesbutterfly', get_template_directory_uri() .'/assets/resources/css/butterflyWebsiteResources.css' );
@@ -171,7 +173,11 @@ function butterfly_scripts() {
 		wp_enqueue_script( 'resources', get_template_directory_uri() . '/js/resources.js', array('jquery'), null, true );
 	endif;
 	
-	
+	if(is_page('blog')):
+		wp_enqueue_style( 'blogpostbutterfly', get_template_directory_uri() .'/assets/blogpost/css/butterflyBlogPost.css' );
+		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
+		wp_enqueue_script( 'blog', get_template_directory_uri() . '/js/blog.js', array('jquery'), null, true );
+	endif;
 	
 	wp_enqueue_script( 'butterfly-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

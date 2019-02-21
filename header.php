@@ -43,7 +43,8 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'butterfly' ); ?></a>
-	<div data-spy="affix" data-offset-top="850" data-offset-bottom="0">
+<!-- 	<div data-spy="affix" data-offset-top="800"> -->
+	<div class="affix-home">
 		<header id="masthead" class="container-fluid">
 			<div class="site-header">
 				<div class="site-branding">
@@ -61,7 +62,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 				</div>
 			</div>	
 		</header><!-- #masthead -->
-	</div><!-- #affix -->
+</div><!-- #affix -->
 	<?php get_template_part( 'inc/mega', 'menu' );?>
 
 	<div id="content" class="site-content container-fluid">

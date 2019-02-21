@@ -179,84 +179,168 @@
     </div>
     <div class="blog">
         <div class="headerblog">
-            <div class="hereu2019sthelatest">
-                Here’s the latest.
-            </div>
-            <div class="separatorhorizontal">
-                <div class="bg1">
-                </div>
-            </div>
+            <div class="hereu2019sthelatest">Here’s the latest.</div>
+            <div class="separatorhorizontal"><div class="bg1"></div></div>
         </div>
-        <div class="group2">
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-6.png" class="rectangle" />
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
+        <div class="blog-container">
+        	<div class="group2 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
             <div class="readarticle">
-                Read Article
-            </div>
-            <div class="theremoteworkinge">
-                The Remote Working Experience<br />Lisbon &amp; Parma
-            </div>
-            <div class="iconsarrow1">
-                <div class="background">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-2.svg" class="arrow" />
-            </div>
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
         </div>
-        <div class="group21">
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" />
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
             <div class="readarticle">
-                Read Article
-            </div>
-            <div class="theremoteworkinge">
-                The Remote Working Experience<br />Lisbon &amp; Parma
-            </div>
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
         </div>
-        <div class="group22">
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" />
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
             <div class="readarticle">
-                Read Article
-            </div>
-            <div class="theremoteworkinge">
-                The Remote Working Experience<br />Lisbon &amp; Parma
-            </div>
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
         </div>
-        <div class="group23">
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-7.png" class="rectangle" />
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-12.png" class="lisbon" />
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
             <div class="readarticle">
-                Read Article
-            </div>
-            <div class="iconsarrow1">
-                <div class="background">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-1.svg" class="arrow" />
-            </div>
-            <div class="theremoteworkinge">
-                The Remote Working Experience<br />Lisbon &amp; Parma
-            </div>
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
         </div>
-        <div class="iconsarrow">
-            <div class="background">
-            </div>
-            <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-arrow-2.svg" class="arrow" />
+        	<div class="group1 group col-md-3">
+			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+            <div class="readarticle">
+	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
+            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
+            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+        </div>
         </div>
     </div>
-    <div class="mainarticle">
-        <div class="lisbon">
-            <div class="mask">
-            </div>
+     <div class="mainarticle">
+        <div class="featured-thumb">
+	        <div class="lisbon"><div class="mask"></div>
             <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-13.png" class="lisbon1"/>
+			</div>
         </div>
-        <div class="theremoteworkinge">
+        <div class="featured-post col-sm-12">
+        	<div class="theremoteworkinge">
             The Remote Working Experience<br />Lisbon &amp; Parma
         </div>
-        <div class="inournewseriesw">
-            <span class="span1">In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries…<br /><br /><br /></span><span class="span2">Read full article</span>
+			<div class="inournewseriesw">
+            <span class="span1">In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries…<br /><br /><br /></span><span class="span2"><a data-toggle="modal" data-target="#blogDetailsOne">Read full article</a></span>
+        </div>
         </div>
     </div>
     <div class="takeasneakpeekof">
         Take a sneak peek of our content on company culture, and more…
     </div>
+</div>
+<div class="modal" id="blogDetailsOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="butterflyblogpost">
+            <div class="casestudy">
+                <div class="bg"></div>
+                <div class="brandingbutterflyicon">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-bg@2x.png" class="bg1"/>
+                        <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-butterfly@2x.png" class="butterfly"/>
+                    </div>
+                <div class="content animated slideInLeft">
+                        <div class="workroam">
+                            WORK &amp; ROAM
+                        </div>
+                        <div class="theremoteworkinge">
+                            The Remote Working Experience<br />Lisbon &amp; Parma
+                        </div>
+                        <div class="inournewseriesw">
+                            In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries. Tune in to see what worked (and what didn’t) for John during each stop, and to dig into how working remotely affects both the worker and the team back home.
+                        </div>
+                        <div class="lisbon">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask.png" class="mask"/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-lisbon.svg" class="lisbon1"/>
+                        </div>
+                        <div class="locationlisbonpo">
+                            <span class="span1">Location: Lisbon, Portugal<br />Timezone: GMT (NYC + 5)</span><span class="span2"><br /><br />What was the thing I could experience, that I wouldn’t be able to in NYC?</span>
+                        </div>
+                        <div class="ihearitu2019sbeencol">
+                            I hear it’s been cold in NYC so I have been enjoying the 60 degree weather and have had some great morning walks along the Tagus River. I also had an amazing dinner last night at Sol e Pesca, a restaurant that specializes in preserved seafood (lots of canned fish) which was pretty unique!
+                        </div>
+                        <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-johnparma.svg" class="johnparma"/>
+                        <div class="seperatorvertical">
+                            <div class="rectangle"></div>
+                        </div>
+                        <div class="sinceiu2019vebeentrav">
+                            Since i’ve been traveling alone for the past six weeks I am excited to spend the holiday with family!
+                        </div>
+                        <div class="locationitalypar">
+                            <span class="span1">Location: Italy (Parma, Santa Margarita, Milan)<br />Timezone: GMT (NYC + 5)</span><span class="span2"><br /><br />What was the thing I could experience, that I wouldn’t be able to in NYC?</span>
+                        </div>
+                        <div class="thanksgivingwasthu">
+                            Thanksgiving was Thursday so this work week was a short one. My sister actually attended culinary school in Parma and we got to go visit her old campus.
+                        </div>
+                    </div>
+                <div class="right animated slideInRight">
+                    <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask-1.png" class="mask"/>
+                    
+                    
+                    <div class="iconclose">
+                            <div class="background">
+                            </div>
+                            <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-combined-shape.svg" class="combinedshape"/></a>
+                        </div>
+                    <div class="date12142018">
+                            <span class="span1">DATE</span><span class="span2"><br /></span><span class="span3">12.14.2018</span>
+                        </div>
+                    <div class="separatorhorizontal">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                    <div class="categoryworkroam">
+                            <span class="span1">CATEGORY</span><span class="span2"><br /></span><span class="span3">Work &amp; Roam</span>
+                        </div>
+                    <div class="separatorhorizontal1">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                    <div class="tagsworklifebalan">
+                            <span class="span1">TAGS</span><span class="span2"><br /></span><span class="span3">Work-Life Balance<br />Remote<br />Good vibes</span>
+                        </div>
+					<div class="separatorhorizontal2">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                    <div class="authorjohnwilliams">
+                            <span class="span1">AUTHOR</span><span class="span2"><br /></span><span class="span3">John Williams</span>
+                        </div>
+                    <div class="separatorhorizontal3">
+                            <div class="bg1">
+                            </div>
+                        </div>
+					<div class="share">
+                            SHARE
+                        </div>
+                    <div class="share1">
+                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-facebook.svg" class="facebook"/></a>
+                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-instagram.svg" class="instagram"/></a>
+                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-link.svg" class="link"/></a>
+                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-linkedin.svg" class="linkedin"/></a>
+                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-twitter.svg" class="twitter"/></a>
+                        </div>
+                    <div class="nextbutton">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-rectangle@2x.png" class="rectangle"/>
+                            <div class="iconsarrow">
+                                <div class="background"></div>
+                                <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-arrow.svg" class="arrow"/></a>
+                            </div>
+                            <div class="nextuptheremotew">
+                                <span class="span1">NEXT UP<br /></span><span class="span2"><br /></span><span class="span3"><a href="#">The Remote Working Experience<br />Lisbon &amp; Parma</a></span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+		</div>
+	</div>
 </div>

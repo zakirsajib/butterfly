@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:700,400,900');
 
-@font-face {
-  font-family: "Aleo-Bold";
-  src: url('../fonts/Aleo-Bold.otf') format("opentype");
-}
 
 .categoriestags.nav-tabs,
 .a201820172016.nav-tabs{
@@ -41,17 +36,82 @@
   min-height          : 2290px;
   position            : relative;
   overflow            : hidden;
-  margin              : 0px;
+  margin              : 0 0 0 118px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
+  width: 100%;
 }
+
+
+.butterflywebsiteblog .slick-list{overflow: visible;}
+
+.butterflywebsiteblog .catags,
+.butterflywebsiteblog .allarticles,
+.butterflywebsiteblog .mainarticle,
+.butterflywebsiteblog .blog,
+.butterflywebsiteblog .takeasneakpeekof{
+	left: 0!important;
+}
+
+.butterflywebsiteblog .blog .group{
+	width: 320px!important;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+	background-color: rgba(255, 255, 255, 0.65);
+	left: 0!important;
+	position: relative!important;
+	margin: 0 20px 0 0!important;
+}
+.butterflywebsiteblog .blog .group:hover{
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+	background-color: #ffffff;
+}
+
+.butterflywebsiteblog .blog .group .lisbon{
+	width: 320px;
+	left: 0;
+}
+
+.butterflywebsiteblog .blog .group:hover .iconsarrow1{
+	display: block;
+}
+
+
+.butterflywebsiteblog .blog .group .readarticle a{
+	color: rgba(44, 230, 206, 1.0);
+}
+.butterflywebsiteblog .blog .group .theremoteworkinge a{
+	color: rgba(58, 59, 87, 1.0);
+}
+.butterflywebsiteblog .blog .group:hover .readarticle a,
+.butterflywebsiteblog .blog .group .readarticle a:hover{
+	color: #3a3b57;
+}
+
+.butterflywebsiteblog .blog .group .iconsarrow1{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 a {
   text-decoration     : none;
   color: rgba(83, 46, 228, 1.0);
-}
-.anima-full-height-a {
-  height              : 100%;
 }
 div {
   -webkit-text-size-adjust: none;
@@ -1187,7 +1247,7 @@ div {
   width               : 1347px;
   position            : absolute;
   margin              : 0;
-  left                : 112px;
+/*   left                : 112px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1208,7 +1268,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 400px;
+/*   width               : 400px; */
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1247,11 +1307,12 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteblog .blog .group2 {
+.butterflywebsiteblog .blog .group2,
+.butterflywebsiteblog .blog .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 105px;
   height              : 352px;
-  width               : 332px;
+/*   width               : 332px; */
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1273,19 +1334,21 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteblog .blog .group2 .lisbon {
+.butterflywebsiteblog .blog .group2 .lisbon,
+.butterflywebsiteblog .blog .group .lisbon {
   background-color    : rgba(255,255,255,0.0);
   top                 : -60px;
   height              : 231px;
-  width               : 346px;
+/*   width               : 346px; */
   position            : absolute;
   margin              : 0;
-  left                : -7px;
+/*   left                : -7px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteblog .blog .group2 .readarticle {
+.butterflywebsiteblog .blog .group2 .readarticle,
+.butterflywebsiteblog .blog .group .readarticle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 301px;
   height              : auto;
@@ -1304,7 +1367,8 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.butterflywebsiteblog .blog .group2 .theremoteworkinge {
+.butterflywebsiteblog .blog .group2 .theremoteworkinge,
+.butterflywebsiteblog .blog .group .theremoteworkinge {
   background-color    : rgba(255,255,255,0.0);
   top                 : 191px;
   height              : auto;
@@ -1321,6 +1385,7 @@ div {
   text-align          : left;
   line-height         : 29.0px;
 }
+.butterflywebsiteblog .blog .group .iconsarrow1,
 .butterflywebsiteblog .blog .group2 .iconsarrow1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 302px;
@@ -1741,6 +1806,9 @@ div {
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
   line-height         : 20.0px;
+}
+.butterflywebsiteblog .mainarticle .inournewseriesw a{
+	color: rgba(44, 230, 206, 1.0);
 }
 .butterflywebsiteblog .mainarticle .inournewseriesw .span1 {
   
@@ -2602,82 +2670,66 @@ div {
 .butterflywebsiteblog .footerdesktop .footer .a2512018appynestinc .span3 {
   
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+
+@media (max-width: 1199px){
+	.butterflywebsiteblog{
+		min-height: 2590px;
+	}
+	.butterflywebsiteblog .catags, 
+	.butterflywebsiteblog .allarticles, 
+	.butterflywebsiteblog .mainarticle, 
+	.butterflywebsiteblog .blog, 
+	.butterflywebsiteblog .takeasneakpeekof {
+    	left: 5px!important;
+	}
+	.butterflywebsiteblog .mainarticle .theremoteworkinge{
+		position: relative;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.butterflywebsiteblog .mainarticle .lisbon{
+		position: relative;
+	}
+	.butterflywebsiteblog .mainarticle .inournewseriesw,
+	.butterflywebsiteblog .mainarticle .theremoteworkinge{
+		left: 0;
+	}
+	.butterflywebsiteblog .blog{
+		top:800px;
+	}
+	.butterflywebsiteblog .featured-post.col-sm-12{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.butterflywebsiteblog .mainarticle .inournewseriesw{
+		top:100px;
+	}
+	.butterflywebsiteblog .allarticles{
+		top:1361px;
+	}
+	.butterflywebsiteblog .catags{
+		top:2032px;
+	}
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+@media (max-width: 1080px){
+	
 }
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+@media (max-width: 1024px){
+	.butterflywebsiteblog{
+		margin: 0 0 0 85px;
+	}
 }
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 992px){
+	.butterflywebsiteblog .catags,
+	.butterflywebsiteblog .allarticles,
+	.butterflywebsiteblog .mainarticle,
+	.butterflywebsiteblog .blog,
+	.butterflywebsiteblog .takeasneakpeekof{
+		left: 0px!important;
+	}
 }
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 767px){
+	.butterflywebsiteblog{
+		margin: 0 0 0 20px;
+	}
 }

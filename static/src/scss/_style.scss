@@ -2,6 +2,7 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	background-color: transparent;
 	&.home{
 		overflow-x: hidden;
 	}
@@ -114,7 +115,7 @@ picture, img{
     
 		.demo-form-box{ // need this code later
 			border-radius: 5px;
-			background-color: #fff;
+			//background-color: #fff;
 			padding: 0;
 			width: 396px;
 			height: 48px;
@@ -206,7 +207,7 @@ picture, img{
     //grid-template-columns: 350px 732px;
     //padding-right: 8em;
     padding-top: 10em;
-    padding-bottom: 5em;
+    //padding-bottom: 5em;
     position: relative;
     min-height: 100vh;
     .butterfly-one{
@@ -255,13 +256,14 @@ picture, img{
 		    color: #2ce6ce;
 	    }
 	    &.sticky {
-		  position: fixed; 
-		  top: 50px;
+		  position: sticky; 
+		  top: 0;
 		  margin: 0;
 		}
 		&.abs {
-		  position: absolute; 
-		  //bottom: 0px;
+		  //position: absolute; 
+		  //bottom: 0;
+		  //left: 0;
 		  //margin: 0;
 		}
 		
@@ -331,15 +333,9 @@ picture, img{
 	align-items: center;
 	justify-content: left;
 	align-self: center;
-	min-height: 100vh;
-	//padding-right: 12em;
-/*
-	background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('../img/BGBlob1.svg');
-    background-attachment: fixed;
-*/
+	min-height: 50vh;
+	padding-top: 112px;
+	padding-bottom: 315px;
 	.testimonial-area{
 		padding-left: 109px;
 		.testimonial-statements{ 
