@@ -1,22 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
-
-@font-face {
-  font-family: "Aleo-Bold";
-  src: url('../fonts/Aleo-Bold.otf') format("opentype");
-}
-@font-face {
-  font-family: "Aleo-LightItalic";
-  src: url('../fonts/Aleo-LightItalic.otf') format("opentype");
-}
-
-/*
-.company section:not(#a) {
-  display: none;
-}
-*/
-
-
-                        
 .butterflywebsiteabout {
   min-height          : 4200px;
   position            : relative;

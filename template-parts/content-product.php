@@ -27,7 +27,37 @@
 				
 				<div class="tab-content">
 				    <div role="tabpanel" class="tab-pane fade in tab active" id="howempl">
-					    
+					    <div class="xx">
+						    <div class="one">
+								<h2>Integrate into employees' routine</h2>
+								<p>Our surveys work with your systems. Employees answer engagement surveys in seconds while they clock in or out, eliminating distractions and maximizing their time.</p>
+								<figcaption align="left">fig a. Slack</figcaption>
+							</div>
+							<div class="two">
+								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24@2x.jpg 2x, <?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24@3x.jpg 3x"alt="Integrate into employees' routine">
+							</div>
+					    </div>
+					    <div class="howmang-contents">
+							<div class="yy">
+								<div class="three">
+								<h2>Access a dynamic dashboard</h2>
+								<p>Easily gather and act on feedback. Track survey results in real time and export managerial reports to spark transparent conversation between you and your employees.</p>
+								<figcaption align="left">fig b. Butterfly dashboard for managers</figcaption>
+							</div>
+								<div class="four">
+								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Access a dynamic dashboard"></div>
+							</div>
+							<div class="zz">
+								<div class="five">
+								<h2>Receive personalized guidance</h2>
+								<p>Use what you hear from your team to grow as a manager. See what areas need attention and focus on your improvement to generate impactful change.</p>
+								<figcaption align="left">fig c. Butterfly AI assistant</figcaption>
+							</div>
+								<div class="six">
+								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Receive personalized guidance">
+							</div>
+							</div>
+						</div>
 				    </div>
 				    <div role="tabpanel" class="tab-pane fade tab" id="howmang">
 					    <div class="xx">
@@ -40,21 +70,25 @@
 								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24@2x.jpg 2x, <?php echo get_template_directory_uri()?>/assets/img/product/screenshot-2019-01-02-at-13-05-24@3x.jpg 3x"alt="Integrate into employees' routine">
 							</div>
 					    </div>
-					    
 					    <div class="howmang-contents">
-							<div class="three">
+							<div class="yy">
+								<div class="three">
 								<h2>Access a dynamic dashboard</h2>
 								<p>Easily gather and act on feedback. Track survey results in real time and export managerial reports to spark transparent conversation between you and your employees.</p>
 								<figcaption align="left">fig b. Butterfly dashboard for managers</figcaption>
 							</div>
-							<div class="four"><img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Access a dynamic dashboard"></div>
-							<div class="five">
+								<div class="four">
+								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Access a dynamic dashboard"></div>
+							</div>
+							<div class="zz">
+								<div class="five">
 								<h2>Receive personalized guidance</h2>
 								<p>Use what you hear from your team to grow as a manager. See what areas need attention and focus on your improvement to generate impactful change.</p>
 								<figcaption align="left">fig c. Butterfly AI assistant</figcaption>
 							</div>
-							<div class="six">
+								<div class="six">
 								<img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/bitmap@3x.jpg 3x" alt="Receive personalized guidance">
+							</div>
 							</div>
 						</div>
 				    </div>
@@ -80,20 +114,25 @@
 					    <div class="feathr-contents">
 						    <div class="feathr-accordion">
 							    <ul class="nav nav-pills nav-stacked">
-								    <li class="active"><a data-toggle="tab" href="#collapseOne">Dashboard</a><p>Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p></li>
-								    <li><a data-toggle="tab" href="#collapseTwo">Feature #2</a><p>Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p></li>
-								    <li><a data-toggle="tab" href="#collapseThree">Feature #3</a><p>Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p></li>
+								    <li class="active"><a data-toggle="tab" href="#collapseOne">Dashboard</a></li>
+								    <p class="active featured-info">Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p>
+								    <li><a data-toggle="tab" href="#collapseTwo">Feature #2</a></li>
+								    <p class="featured-info">Feature #2 Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p>
+								    <li><a data-toggle="tab" href="#collapseThree">Feature #3</a></li>
+								    <p class="featured-info">Feature #3 Real-time insights to gauge your company’s overall feeling all the way to the individual employee.</p>
 							    </ul>
 						    </div>
 						    <div class="feathr-thumbnail">
 							    <div class="tab-content">
-							    <div id="collapseOne" class="tab-pane active"><img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap@3x.jpg 3x" alt=""></div>
-							    <div id="collapseTwo" class="tab-pane"><h1>2</h1></div>
-							    <div id="collapseThree" class="tab-pane"><h1>3</h1></div>
+							    <div id="collapseOne" class="tab-pane active">
+								    <img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap@2x.jpg 2x,<?php echo get_template_directory_uri()?>/assets/img/product/features/bitmap@3x.jpg 3x" alt=""></div>
+							    <div id="collapseTwo" class="tab-pane">
+								    <img class="lazyload" src="<?php echo get_template_directory_uri()?>/assets/img/product/veeterzy-82537-unsplash.jpg" srcset="<?php echo get_template_directory_uri()?>/assets/img/product/veeterzy-82537-unsplash.jpg" alt=""></div>
+							    <div id="collapseThree" class="tab-pane"><img class="lazyload" src="https://picsum.photos/743/600?image=4" srcset="https://picsum.photos/743/600?image=4" alt=""></div>
 						    </div>
 					    </div>
 					</div>
-				</div>
+					</div>
 			</div>
 			</div>
 		</div>

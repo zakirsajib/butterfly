@@ -2,7 +2,7 @@ $ = jQuery.noConflict();
 	$(function ($) {
 
 	
-	// Accordion
+	// Accordion on Resources page
 	function toggleIcon(e) {
     $(e.target)
         .prev('.panel-heading')
@@ -11,8 +11,10 @@ $ = jQuery.noConflict();
 	}
 	$('.panel-group').on('hidden.bs.collapse', toggleIcon);
 	$('.panel-group').on('shown.bs.collapse', toggleIcon);
-		
 	
+	
+		
+	// SVG inline for HTML img tag
 	$('img.svg').each(function(){
     var $img = $(this);
     var imgID = $img.attr('id');

@@ -173,6 +173,10 @@ function butterfly_scripts() {
 		wp_enqueue_script( 'resources', get_template_directory_uri() . '/js/resources.js', array('jquery'), null, true );
 	endif;
 	
+	if( is_page('product') ):
+		wp_enqueue_script( 'product', get_template_directory_uri() . '/js/product.js', array('jquery'), null, true );
+	endif;
+	
 	if(is_page('blog')):
 		wp_enqueue_style( 'blogpostbutterfly', get_template_directory_uri() .'/assets/blogpost/css/butterflyBlogPost.css' );
 		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
