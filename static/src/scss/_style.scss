@@ -210,6 +210,7 @@ picture, img{
     //padding-bottom: 5em;
     position: relative;
     min-height: 100vh;
+    overflow: hidden;
     .butterfly-one{
 	    h1{
 			font-family: 'aleoregular';
@@ -256,7 +257,7 @@ picture, img{
 		    color: #2ce6ce;
 	    }
 	    &.sticky {
-		  position: sticky; 
+		  position: fixed; 
 		  top: 0;
 		  margin: 0;
 		}
@@ -333,9 +334,10 @@ picture, img{
 	align-items: center;
 	justify-content: left;
 	align-self: center;
+	height: 1500px;
 	min-height: 50vh;
-	padding-top: 112px;
-	padding-bottom: 315px;
+	//padding-top: 112px;
+	//padding-bottom: 315px;
 	.testimonial-area{
 		padding-left: 109px;
 		.testimonial-statements{ 

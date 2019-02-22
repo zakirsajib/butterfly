@@ -55,9 +55,10 @@ get_header();
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/ogilvy-logo.svg" alt=""></a>
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 		</div>
-		
-		<div class="why-butterfly row " id="why-butterfly">			
-			<div class="butterfly-one col-md-4">
+
+		<div class="why-butterfly row" id="why-butterfly">			
+			<div class="butterfly-one col-md-4 affix-butterfly" data-spy="affix">
+				
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">
 					<p>Full-circle engagement for employees and managers.</p>
@@ -69,7 +70,6 @@ get_header();
 </p>
 				</div>
 				<a href="#">Find out how Butterfly works!</a>
-		
 			</div>
 			<div class="butterfly-two col-md-8">
 				<div class="butterfly-right-column">
@@ -110,6 +110,20 @@ get_header();
 		
 		<!-- We want full width -->
 		<?php get_template_part( 'inc/before', 'footer' );?>
+
+<style>
+	.affix-butterfly.affix-bottom{
+		position: absolute;
+		left:0;
+	}
+	.affix-butterfly.affix-top{
+		position: absolute;
+		left: 0;
+	}
+	.affix-butterfly.affix{
+		top:0px;
+	}
+</style>
 		
 <?php
 get_footer();
