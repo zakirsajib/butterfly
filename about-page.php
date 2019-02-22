@@ -298,18 +298,61 @@ get_header('about');
 		        </div>
 			</div>
             <div class="fade" role="tabpanel" id="caseStudies">
-				<div class="logo"></div>
-	            <div class="seperatorvertical">
-	                <div class="rectangle"></div>
-	            </div>
-	            <div class="u201cbutterflypowerrea">
-	                “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”
-	            </div>
-	            <div class="benjaminsnyers">
-	                Person Name
-	            </div>
-	            <div class="managingdirectorat">
-	                Position and Company Name
+	            <div class="casestudies">
+	            	<div class="casestudies-details">
+						<div class="ourcustomercasest">Our customer case studies</div>
+						<div class="separatorhorizontal"><div class="bg1"></div></div>
+					</div>
+					<div class="case-studies-container">
+        	<div class="group21 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group1 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+			<div class="group2 group col-md-3">
+            <div class="viewcasestudy">
+                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
+            </div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
+            </div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
+        </div>
 	            </div>
             </div>
         </div>

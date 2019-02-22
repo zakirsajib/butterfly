@@ -1597,7 +1597,8 @@ div {
   top                 : 0px;
   height              : 58px;
   width               : 607px;
-  position            : absolute;
+  position: relative;
+/*   position            : absolute; */
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -2599,85 +2600,195 @@ div {
 .butterflywebsiteabout .footerdesktop .footer .a2512018appynestinc .span3 {
   
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+
+/* Case Studies styles*/
+
+.butterflywebsiteabout .customers .ourcustomercasest{
+	background-color: rgba(255,255,255,0.0);
+    top: 0px;
+    height: auto;
+    position: relative;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    font-family: "Muli", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34.0px;
+    color: rgba(83, 46, 228, 1.0);
+    text-align: left;
+    line-height: 43.0px;
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+.butterflywebsiteabout .customers .separatorhorizontal{
+	background-color: rgba(255,255,255,0.0);
+    top: 57px;
+    height: 1px;
+    width: 420px;
+    position: relative;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+.butterflywebsiteabout .casestudies{
+	width: 100vw;
+	position: relative;
 }
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+
+.butterflywebsiteabout .casestudies-details{
+	padding-top: 3em;
 }
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+
+.butterflywebsiteabout .casestudies .group{
+	background-color    : rgba(255,255,255,0.0);
+	position            : relative;
+	margin              : 0;
+	-ms-transform       : rotate(0deg); /* IE 9 */
+	-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+	transform           : rotate(0deg);
+	width: 332px!important;
+	height: 332px!important;
+	top:50px;
+	left: 0;
 }
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+
+.butterflywebsiteabout .casestudies .group:hover {
+    background-image: url('../img/butterflywebsiteresources-rectangle-10.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+
+.butterflywebsiteabout .casestudies .group:hover .viewcasestudy, 
+.butterflywebsiteabout .casestudies .group .viewcasestudy:hover {
+    background-color: #FD9A24!important;
 }
+
+.butterflywebsiteabout .casestudies .group:hover .iconsarrow {
+    display: block;
+}
+
+
+
+
+.butterflywebsiteabout .casestudies .group .viewcasestudy{
+	width: 322px!important;
+    height: 66px!important;
+    border-radius: 0px 0px 5px 5px;
+    top: 260px!important;
+    left: 5px!important;
+    background-color: #3E3F59!important;
+    margin: 0;
+    font-family: "Muli", Helvetica, Arial, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 23.0px;
+    position: absolute;
+}
+
+.butterflywebsiteabout .casestudies .group .viewcasestudy a{
+	color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 30px!important;
+}
+
+.butterflywebsiteabout .casestudies .group .iconsarrow{
+	background-color: rgba(255,255,255,0.0);
+    top: 282px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 272px;
+    overflow: hidden;
+    display: none;
+}
+
+.butterflywebsiteabout .casestudies .group .iconsarrow .background {
+    background-color: rgba(255,255,255,0.0);
+    top: 0px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.butterflywebsiteabout .casestudies .group .iconsarrow .arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 7px;
+    height: 9px;
+    width: 19px;
+    position: absolute;
+    margin: 0;
+    left: 2px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.butterflywebsiteabout .casestudies .group .loremipsumdolorsi{
+	background-color: rgba(255,255,255,0.0);
+    top: 137px;
+    height: auto;
+    width: 228px;
+    position: absolute;
+    margin: 0;
+    left: 33px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    font-family: "Aleo-Bold", Helvetica, Arial, serif;
+    font-size: 24.0px;
+    color: rgba(155, 154, 155, 1.0);
+    text-align: left;
+    line-height: 29.0px;
+}
+.butterflywebsiteabout .casestudies .group:hover .loremipsumdolorsi, 
+.butterflywebsiteabout .casestudies .group:hover .loremipsumdolorsi a{
+	color: rgba(58, 59, 87, 1.0);
+}
+.butterflywebsiteabout .casestudies .group .loremipsumdolorsi a {
+    color: rgba(155, 154, 155, 1.0);
+}
+.butterflywebsiteabout .casestudies .group .tmklogo {
+    background-color: rgba(255,255,255,0.0);
+    top: 38px;
+    height: 48px;
+    width: 101px;
+    position: absolute;
+    margin: 0;
+    left: 33px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 0.5;
+}
+.butterflywebsiteabout .casestudies .slick-list {
+    overflow: visible;
+}
+.slick-slide img{
+	display: block;
+}
+
+.butterflywebsiteabout .casestudies .group:hover .svg {
+    opacity: 1;
+}
+
+
+
+
+
+
 
 @media (max-width: 1080px){
 	.butterflywebsiteabout{

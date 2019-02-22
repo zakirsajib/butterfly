@@ -131,10 +131,18 @@ function butterfly_scripts() {
 	if( is_home() || is_front_page() || is_page('resources') || is_page('blog') ):
 		wp_enqueue_style( 'slick', get_template_directory_uri() .'/assets/slick/slick.css' );
 	endif;
+	
 	wp_enqueue_style( 'main', get_template_directory_uri() .'/static/dist/css/main.css' );
+	
+	
 	if(is_page('about-us')):
 		wp_enqueue_style( 'aboutbutterfly', get_template_directory_uri() .'/assets/about/css/butterflyWebsiteAbout.css' );
+		wp_enqueue_style( 'slick', get_template_directory_uri() .'/assets/slick/slick.css' );
+		//wp_enqueue_style( 'resourcesbutterfly', get_template_directory_uri() .'/assets/resources/css/butterflyWebsiteResources.css' );
+		//wp_enqueue_style( 'casestudybutterfly', get_template_directory_uri() .'/assets/casestudy/css/butterflyCaseStudy.css' );
 	endif;
+	
+	
 	wp_enqueue_style( 'menubutterfly', get_template_directory_uri() .'/assets/menu/css/butterflyWebsiteMenuOpen.css' );
 	
 	if( is_home() || is_front_page() ):
@@ -168,7 +176,7 @@ function butterfly_scripts() {
 		wp_enqueue_script( 'home', get_template_directory_uri() . '/js/home.js', array('jquery'), null, true );
 	endif;
 	
-	if( is_page('resources') ):
+	if( is_page('resources') || is_page('about-us')):
 		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
 		wp_enqueue_script( 'resources', get_template_directory_uri() . '/js/resources.js', array('jquery'), null, true );
 	endif;
