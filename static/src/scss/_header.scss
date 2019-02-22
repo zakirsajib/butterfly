@@ -134,30 +134,24 @@
 	}
 }
 
-.menu-bar{
+.site-header .menu-icon{
   	width: 120px;
   	height: 40px;
   	border-radius: 28px;
   	background-color: #3a3b57;
   	text-align: left;
-  //	padding: 0 1em 0 1.5em;
   	position: relative;
   	line-height: 40px;
-//   	position: absolute;
-//   	top:75px;
-//   	right: 15px;
-		a{
+		.menu-bar{
 		  width: 48px;
 		  height: 20px;
 		  font-family: 'Muli', sans-serif;
 		  font-size: 16px;
 		  font-style: normal;
 		  font-stretch: normal;
-		  //line-height: 20px;
 		  letter-spacing: normal;
 		  color: #fff;
 		  text-transform: uppercase;
-		  //padding: 0.5em 2em 0.5em 0;
 		  padding: 10px 53px 10px 19px;
 		  .menu-icon-Combined-Shape {
 			  width: 14px;

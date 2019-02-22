@@ -60,9 +60,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 						) );
 					?>
 				</div>
-				<div class="menu-bar">
-					<a href="#" data-toggle="modal" data-target="#myModal" class="menu-icon">RESOURCES <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></a>
-				</div>
+				<a href="#" data-toggle="modal" data-target="#myModal" class="menu-icon"><span class="menu-bar">RESOURCES <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></span></a>
 			</div>	
 		</header><!-- #masthead -->
 	</div><!-- #affix -->
