@@ -360,6 +360,139 @@ get_header('about');
 	</div>
 </div>	<!-- End site-content -->
 <?php get_template_part( 'inc/before', 'footer' );?>
-
+<div class="modal" id="caseStudyOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="butterflycasestudy">
+        <div class="casestudy">
+                    <div class="bg"></div>
+                    <div class="brandingbutterflyicon">
+                        <a href="<?php echo get_site_url()?>"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-bg@2x.png" class="bg1"/></a>
+                        <a href="<?php echo get_site_url()?>"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-butterfly@2x.png" class="butterfly"/></a>
+                    </div>
+                    <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-heart@2x.png" class="heart"/>
+                    <div class="content animated slideInLeft">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-tmklogo@2x.png" class="tmklogo"/>
+                        <div class="u201courceolivesandb">
+                            “Our CEO lives and breathes Butterfly, he immerses himself in it. He responds to every chat he receives”
+                        </div>
+                        <div class="challenges">
+                            Challenges
+                        </div>
+                        <div class="loremipsumdolorsi">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pellentesque mauris. Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris, eget imperdiet tortor nulla at felis. Proin tincidunt et libero quis euismod. Sed fermentum dignissim viverra.<br /><br />Aenean aliquet eget libero auctor auctor. Morbi eget quam dolor. Fusce et turpis elementum eros faucibus pellentesque vitae et diam. Curabitur sagittis diam non urna maximus semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </div>
+                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-screenshot-2019-01-22-at-111104.svg" class="screenshot20190122at111104"/>
+                        <div class="solutions">
+                            Solutions
+                        </div>
+                        <div class="loremipsumdolorsi1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pellentesque mauris. Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris, eget imperdiet tortor nulla at felis. Proin tincidunt et libero quis euismod. Sed fermentum dignissim viverra.<br /><br />Aenean aliquet eget libero auctor auctor. Morbi eget quam dolor. Fusce et turpis elementum eros faucibus pellentesque vitae et diam. Curabitur sagittis diam non urna maximus semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </div>
+                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-product.svg" class="product"/>
+                        <div class="seperatorvertical">
+                            <div class="rectangle">
+                            </div>
+                        </div>
+                        <div class="anonymouspulsesurv">
+                            Anonymous Pulse Surveys
+                        </div>
+                        <div class="ouracademicallybac">
+                            Our academically backed survey methodology ensures that you get the most effective feedback from employees.
+                        </div>
+                        <div class="results">
+                            Results
+                        </div>
+                        <div class="loremipsumdolorsi2">
+                            <span class="span1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pellentesque mauris. Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris, eget imperdiet tortor nulla at felis.</span><span class="span2"> <br /><br />Proin tincidunt et libero quis euismod. Sed fermentum dignissim viverra.<br /><br />Aenean aliquet eget libero auctor auctor. Morbi eget quam dolor. Fusce et turpis elementum eros faucibus pellentesque vitae et diam. Curabitur sagittis diam non urna maximus semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br /><br /><br /><br /></span><span class="span3">Other changes have followed:</span>
+                        </div>
+                        <div class="loremipsumdolorsi3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />Sed ac pellentesque mauris.<br /><br />Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris.
+                        </div>
+                        <div class="iconscheck">
+                            <div class="background">
+                            </div>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check"/>
+                        </div>
+                        <div class="iconscheck1">
+                            <div class="background">
+                            </div>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check"/>
+                        </div>
+                        <div class="iconscheck2">
+                            <div class="background">
+                            </div>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check"/>
+                        </div>
+                    </div>
+                    <div class="right animated slideInRight">
+                        <div class="groupdiversepeopleworkingoffice43962189">
+                            <div class="rightDiv"></div>
+                        </div>
+                        <div class="iconclose">
+                            <div class="background">
+                            </div>
+                            <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-combined-shape.svg" class="combinedshape"/></a>
+                        </div>
+                        <div class="themediakitchent">
+                            The Media Kitchen (TMK) is an agency with a digital core, providing cloud-based solutions for collecting and protecting media assets and data
+                        </div>
+                        <div class="separatorhorizontal">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                        <div class="industryadvertising">
+                            <span class="span1">INDUSTRY</span><span class="span2"><br /></span><span class="span3">Advertising</span>
+                        </div>
+                        <div class="separatorhorizontal1">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                        <div class="hqnyc">
+                            <span class="span1">HQ</span><span class="span2"><br /></span><span class="span3">NYC</span>
+                        </div>
+                        <div class="separatorhorizontal2">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                        <div class="employees90">
+                            <span class="span1">EMPLOYEES</span><span class="span2"><br /></span><span class="span3">90</span>
+                        </div>
+                        <div class="separatorhorizontal3">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                        <div class="highestdriverteamw">
+                            <span class="span1">HIGHEST DRIVER</span><span class="span2"><br /></span><span class="span3">Teamwork</span>
+                        </div>
+                        <div class="separatorhorizontal4">
+                            <div class="bg1">
+                            </div>
+                        </div>
+                        <div class="share">
+                            SHARE
+                        </div>
+                        <div class="share1">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-facebook.svg" class="facebook"/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-instagram.svg" class="instagram"/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-link.svg" class="link"/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-linkedin.svg" class="linkedin"/>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-twitter.svg" class="twitter"/>
+                        </div>
+                    </div>
+                    <div class="nextbutton">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-rectangle@2x.png" class="rectangle"/>
+                        <div class="iconsarrow">
+                            <div class="background">
+                            </div>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-arrow.svg" class="arrow"/>
+                        </div>
+                        <div class="nextcasestudytick">
+                            <span class="span1">NEXT CASE STUDY</span><span class="span2"><br /></span><span class="span3">Ticketmaster</span>
+                        </div>
+                    </div>
+                </div>
+     </div>
+  </div>
+</div>
 <?php
 get_footer();

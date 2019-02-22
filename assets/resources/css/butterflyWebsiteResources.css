@@ -1290,6 +1290,12 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+.butterflywebsiteresources .blog .group:focus,
+.butterflywebsiteresources .downloads .group:focus,
+.butterflywebsiteresources .casestudies .group:focus{
+	outline: 0;
+}
+
 .butterflywebsiteresources .casestudies .group .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;

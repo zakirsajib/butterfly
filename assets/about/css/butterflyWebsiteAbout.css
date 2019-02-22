@@ -2655,6 +2655,8 @@ div {
 	left: 0;
 }
 
+.butterflywebsiteabout .casestudies .group:focus{outline: 0;}
+
 .butterflywebsiteabout .casestudies .group:hover {
     background-image: url('../img/butterflywebsiteresources-rectangle-10.png');
     background-position: center center;
