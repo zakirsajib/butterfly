@@ -107,8 +107,10 @@
 		}
 	}
 }
-@media (max-width: 1280px){
-	
+@media (max-width: 1220px){
+	body.page-template-product-page-php .entry-content .features .for-people .feathr-thumbnail{
+		position: relative;
+	}
 }
 
 
@@ -224,7 +226,9 @@
 		float: none;
 		display: block;
 	}
-	body.page-template-product-page-php article .entry-content .xx{
+	body.page-template-product-page-php article .entry-content .xx,
+	body.page-template-product-page-php article .entry-content .yy,
+	body.page-template-product-page-php article .entry-content .zz{
 		grid-template-columns: 1fr;
 		grid-column-gap:0;
 		grid-row-gap:1em;
@@ -251,6 +255,9 @@
 	body.page-template-product-page-php .entry-content .features .feathr-contents{
 		padding: 0;
 		grid-template-columns: 1fr;
+	}
+	body.page-template-product-page-php .entry-content .features .for-people .feathr-thumbnail{
+		margin-top: 5em;
 	}
 }
 

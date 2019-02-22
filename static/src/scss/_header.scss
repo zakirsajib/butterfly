@@ -435,7 +435,8 @@
 	}
 }
 .mega-menu .modal-lg{}
-.mega-menu .modal-content{}
+.mega-menu.modal.in .modal-dialog{height: 100%;}
+.mega-menu.modal.in .modal-content{ display: none;}
 .mega-menu .modal-content .modal-header{
 	padding: 30px 30px 0;
 }

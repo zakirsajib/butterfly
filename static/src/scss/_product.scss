@@ -57,7 +57,7 @@ body{
 				color: #3a3b57;
 			}
 		}
-			.entry-content{
+		.entry-content{
 			padding-top: 70px;
 			.how-it-works,
 			.features{
@@ -121,19 +121,17 @@ body{
 			}
 			.xx{
 				display: grid;
-			    grid-template-columns: 1fr 1.5fr;
+			    grid-template-columns: 297px 430px;
 			    align-content: center;
 			    align-items:flex-start;
 			    align-self: center;
 			    justify-content: center;
 			    text-align: left;
-			    padding: 5em;
+			    padding: 44px 49px;
 			    grid-column-gap: 5em;
 			    border-radius: 5px;
-			    
-			    
 			    margin: 0 0 5em;
-			    max-width: 950px;
+			    width: 950px;
 				.one{
 					max-width: 320px;
 					h2{
@@ -164,22 +162,25 @@ body{
 	  					color: #9b9b9b;
 					}
 				}
-			&:hover{
-				box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
-				background-color: rgba(255, 255, 255, 0.65);
-			}	
+				&:hover{
+					box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+					background-color: rgba(255, 255, 255, 0.65);
+					animation: pulse 1s;
+				}	
 			}
-			.howmang-contents{
+			.yy,
+			.zz{
 				display: grid;
-				grid-template-columns: 30% 63%;
+				grid-template-columns: 297px 430px;
 				align-content: center;
 				align-items:flex-start;
 				align-self: center;
 				justify-content: center;
 				text-align: left;
-				padding: 0 5em 10em;
+				padding: 44px 49px;
 				grid-row-gap: 10em;
 				grid-column-gap: 5em;
+				width: 950px;
 				.three, .five{
 					max-width: 320px;
 					h2{
@@ -210,18 +211,24 @@ body{
 	  					color: #9b9b9b;
 					}
 				}
+				&:hover{
+					box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+					background-color: rgba(255, 255, 255, 0.65);
+					animation: pulse 1s;
+				}
 			}
 		}	
 		}	
 	}
 }
 
+
 body.page-template-product-page-php .affix .header-signin ul{
 	display: block;
 }
 
 body.page-template-product-page-php .entry-content .tab-content{
-	margin: 5em 0 0;
+	margin: 70px 0;
 }
 
 body.page-template-product-page-php .entry-content .features .for-people ul {
@@ -257,11 +264,22 @@ body.page-template-product-page-php .entry-content .features .for-people ul.nav.
     border-radius: 5px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    height: 150px;
+    padding: 27px 36px 27px 35px;
 }
 
 body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills > li{
-	padding: 37px 36px 37px 35px;
+	padding: 27px 36px 27px 35px;
 	width: 300px;
+	position: relative;
+}
+
+body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills .featured-info{
+	position: relative;
+	top:5em;
+	margin-bottom: 6em;
+	padding: 0 36px 0 35px;
 }
 
 body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills.nav-stacked li a{
@@ -270,4 +288,8 @@ body.page-template-product-page-php .entry-content .features .for-people ul.nav.
 }
 body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills.nav-stacked li.active a{
 	color: #532ee4;
+}
+body.page-template-product-page-php .entry-content .features .for-people .feathr-thumbnail{
+	position: absolute;
+	right: 0;
 }
