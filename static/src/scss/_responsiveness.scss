@@ -697,6 +697,7 @@
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
 		font-size: 12px;
 	}
+	.mega-menu .dropdown-contents{padding: 2em 0;}
 	.mega-menu .dropdown-contents .menu-main-menu-container #primary-menu{
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -706,9 +707,14 @@
 	}
 	
 	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box .input-group .form-control.demo-input{
-		font-size: 8px;
+		font-size: 15px;
 	}
 	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box .input-group .btn.btn-default{
 		font-size: 10px;
+		background-color: #532ee4;
 	}
+	.mega-menu .dropdown-contents .demo-form{padding: 1em 0 2em;}
+	.mega-menu .dropdown-contents .demo-form .demo-area .latest-blog-one,
+	.mega-menu .dropdown-contents .demo-form .testimonial-area,
+	.mega-menu .dropdown-contents .menu-main-menu-container #primary-menu li .sub-menu li a{display: none;}
 }

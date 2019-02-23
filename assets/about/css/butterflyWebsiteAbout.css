@@ -1,5 +1,5 @@
 .butterflywebsiteabout {
-  min-height          : 4200px;
+  min-height          : 4500px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -7,6 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
 }
+
+.butterflywebsiteabout  .site-content{height: 100vh}
 a {
   text-decoration     : none;
 }
@@ -64,9 +66,11 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+/*
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
   transform           : rotate(0deg);
+*/
   background-image: url('../img/butterflywebsiteabout-screenshot-2019-01-22-at-103535.png');
     background-position: left;
     background-repeat: no-repeat;
@@ -201,7 +205,7 @@ div {
 }
 .butterflywebsiteabout .contact {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3275px;
+  top                 : 50px;
   height              : 486px;
   width               : 749px;
   position            : absolute;
@@ -390,9 +394,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 120px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .company .headerpartners {
   background-color    : rgba(255,255,255,0.0);
@@ -2788,6 +2789,19 @@ div {
 
 
 
+.affix-company.affix-bottom{
+	position: absolute;
+	left:0;
+	overflow: hidden;
+	padding-bottom: 50em;
+}
+.affix-company.affix-top{
+	position: absolute;
+	left: 0;
+}
+.affix-company.affix{
+	top:50px;
+}
 
 
 
@@ -2886,7 +2900,7 @@ div {
 		top:3000px;
 	}
 	.butterflywebsiteabout .contact{
-		top: 4550px;
+/* 		top: 4550px; */
 	}
 	.butterflywebsiteabout .map{
 		top:4500px;
@@ -2931,10 +2945,10 @@ div {
 		margin: 1em 0!important;
 	}
 	.butterflywebsiteabout .map{
-		top:5000px;
+/* 		top:5000px; */
 	}
 	.butterflywebsiteabout .contact {
-    	top: 5030px;
+/*     	top: 5030px; */
 	}
 	.butterflywebsiteabout .contact{
 		left: 20px;
@@ -2942,6 +2956,8 @@ div {
 	.butterflywebsiteabout .contact .group3{
 		left:100px;
 	}
+	
+	.butterflywebsiteabout .logo ul li, .butterflywebsiteabout .logo svg{position: relative;}
 }
 
 @media (max-width: 568px){
