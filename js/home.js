@@ -4,7 +4,7 @@ $ = jQuery.noConflict();
 	
 		$('.swiper-container').slick({
 			dots:false,
-			speed:3000,
+			speed:4800,
 			adaptiveHeight:false,
 			autoplay:true,
 			arrows: false,

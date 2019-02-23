@@ -167,18 +167,19 @@ picture, img{
 	}
 	}
 	.home-carousel{ 
-		//position: relative;
-		//margin-top: -189px;
-		//right: -18px;
 		position: absolute;
-		right: 0;
-		top: 0;
+		right: 0px;
+		top: 0px;
 		padding-right: 0;
+		//width: 671px;
+		//height: 669px;
 		.slick-slider{
 			display: grid;
-			img{
-				object-fit: fill;
-// 				mix-blend-mode: screen;
+			.mask{
+				img{
+					border-radius: 50% 0 0 50%;
+					//height: 100vh;
+				}
 			}
 		}
 	}
@@ -256,18 +257,19 @@ picture, img{
 		 a{
 		    color: #2ce6ce;
 	    }
-	    &.sticky {
-		  position: fixed; 
-		  top: 0;
-		  margin: 0;
+		&.affix-butterfly{
+			&.affix-bottom{
+				position: absolute;
+				left:0;
+			}
+			&.affix-top{
+				position: absolute;
+				left: 0;
+			}
+			&.affix{
+				top:0px;
+			} 
 		}
-		&.abs {
-		  //position: absolute; 
-		  //bottom: 0;
-		  //left: 0;
-		  //margin: 0;
-		}
-		
     }
     .butterfly-two {
 	    float: right;

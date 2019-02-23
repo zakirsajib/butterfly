@@ -7,15 +7,14 @@
 			h1{
 				width: 100%;
 				font-size: 96px;
+				z-index: 1;
 			}
 			p{
 				width: 100%;
 				font-size: 45px;
+				z-index: 1;
 			}
 		}
-		.home-carousel.col-lg-9{
-			width: calc(100% - 50%);
-		}		
 	}
 	.why-butterfly{
 		min-height: 50vh;
@@ -37,9 +36,6 @@
 				width: 396px;
 			}
 		}
-		.home-carousel.col-lg-9{
-			width: calc(100% - 50%);
-		}
 	}
 }
 @media (max-width: 1600px){
@@ -58,9 +54,6 @@
 				width: 396px;
 			}
 		}
-		.home-carousel.col-lg-9{
-			width: calc(100% - 40%);
-		}
 	}
 }
 @media (max-width: 1440px){
@@ -77,9 +70,6 @@
 			.demo-form-box{
 				width: 396px;
 			}
-		}
-		.home-carousel.col-lg-9{
-			width: calc(100% - 35%);
 		}
 	}
 }
@@ -100,10 +90,8 @@
 				width: 396px;
 			}
 		}
-		.home-carousel.col-lg-9{
-			width: 671px;
+		.home-carousel.col-lg-8{
 			height: 669px;
-			//width: calc(100% - 35%);
 		}
 	}
 }
@@ -158,11 +146,8 @@
 }
 @media (max-width: 1199px) {
   	.section-one{
-		.home-carousel.col-md-7{
-			width: calc(100% - 50%);
-		}
+		min-height: calc(100vh - 225px);
 	}
-  	
 }
 
 /*
@@ -342,7 +327,7 @@
 			margin-top: 0;
 		}
 		.home-carousel.col-md-7{
-			width: calc(100% - 42%);
+			//width: calc(100% - 42%);
 		}
 	}
 	.client-logos{
@@ -429,15 +414,7 @@
 		padding-bottom: 0;
 		padding-top: 40em;
 	}
-	.section-one .home-carousel{
-		position: absolute;
-		margin-top: 0;
-		right: 0;
-		top:0;
-		left: auto;
-		width: 100%;
-		max-width: 100%;
-	}
+	
 	.section-one .home-carousel .swiper-container{
 		left: 0;
 		bottom: 0;
@@ -581,12 +558,6 @@
   
 }
 
-@media (max-width: 768px){
-	.content-area .section-one .home-carousel{
-		max-width: 100%;
-		width: 100%;
-	}
-}
 
 @media (max-width: 767px){
 	.site-header{
@@ -596,9 +567,9 @@
 		grid-template-columns: 5fr 1fr;
 	}
 	.section-one .demo-request{
-		margin-top: 40em;
+		//margin-top: 40em;
 	}
-	.client-logos{grid-template-columns: repeat(6, 1fr);}
+	.client-logos{grid-template-columns: repeat(3, 1fr);}
 	
 	.why-butterfly .butterfly-two .butterfly-right-column{
 		grid-template-columns: repeat(2, 1fr);
@@ -637,7 +608,7 @@
 	.affix .site-header {
     	grid-template-columns: 4fr 1fr;
 	}
-	.section-one .demo-request{margin-top: 36em;}
+	
 	.section-one .demo-request p{margin: 0 0 40px;}
 	.home-footer .demo-area .demo-form-box .input-group .form-control.demo-input,
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
@@ -680,7 +651,6 @@
 	.affix .site-header {
     	grid-template-columns: 3fr 1fr;
 	}
-	.section-one .demo-request{margin-top: 20em;}
 	.section-one .demo-request p{margin: 37px 0 44px;}
 	
 	.why-butterfly .butterfly-two .butterfly-right-column{

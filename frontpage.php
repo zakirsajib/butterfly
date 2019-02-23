@@ -39,10 +39,7 @@ get_header();
 					<div class="input-group"><input type="email" class="form-control demo-input" placeholder="Your work email" name="email"><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button></span></div><!-- /input-group -->
 				</div>
 			</div>
-			<div class="home-carousel col-md-7 hidden-lg">
-				<?php get_template_part( 'inc/home', 'carousel' );?>
-			</div>
-			<div class="home-carousel col-lg-9 hidden-md hidden-sm hidden-xs">
+			<div class="home-carousel col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<?php get_template_part( 'inc/home', 'carousel' );?>
 			</div>
 		</div>
@@ -57,7 +54,21 @@ get_header();
 		</div>
 
 		<div class="why-butterfly row" id="why-butterfly">			
-			<div class="butterfly-one col-md-4 affix-butterfly" data-spy="affix">
+			<div class="butterfly-one col-md-4 affix-butterfly hidden-sm hidden-xs" data-spy="affix">
+				
+				<h1>Why<br/>Butterfly?</h1>
+				<div class="lead">
+					<p>Full-circle engagement for employees and managers.</p>
+				</div>
+				<div class="why-butterfly-contents">
+				<p>We created Butterfly with a goal of better engaging the employees within your company and making them as delighted, productive and efficient as possible.</p>
+				<p>Butterfly’s tools provide the highest response rate with hourly employees. Our tools seamlessly integrate into the daily routines of employees and their managers. </p>
+				<p>By engaging this segment of the workforce that hasn’t traditionally been asked for ongoing feedback, organizations see a direct positive impact on performance.
+</p>
+				</div>
+				<a href="#">Find out how Butterfly works!</a>
+			</div>
+			<div class="butterfly-one col-md-4 hidden-lg hidden-md">
 				
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">
@@ -110,20 +121,5 @@ get_header();
 		
 		<!-- We want full width -->
 		<?php get_template_part( 'inc/before', 'footer' );?>
-
-<style>
-	.affix-butterfly.affix-bottom{
-		position: absolute;
-		left:0;
-	}
-	.affix-butterfly.affix-top{
-		position: absolute;
-		left: 0;
-	}
-	.affix-butterfly.affix{
-		top:0px;
-	}
-</style>
-		
 <?php
 get_footer();
