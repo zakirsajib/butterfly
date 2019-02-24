@@ -686,9 +686,13 @@
 		max-width: 80%;
 		font-size: 36px;
 	}
-	body.page-template-product-page-php .entry-content .features .feathr-contents .tab-content{
+	body.page-template-product-page-php .entry-content .features .feathr-contents .tab-content,
+	body.page-template-product-page-php article .entry-content .xx, 
+	body.page-template-product-page-php article .entry-content .yy, 
+	body.page-template-product-page-php article .entry-content .zz{
 		width: 320px;;
 	}
+	
 }
 @media (max-width: 375px){
 	.section-one .demo-request{margin-top: 12em;}
