@@ -27,7 +27,7 @@ get_header();
 		
 		<img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob1.svg" class="bgblob1"/>
        <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg" class="bgblog2"/>
-       <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg" class="bgblob3"/>
+       
        <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob4.svg" class="bgblob4"/>
 		
 		

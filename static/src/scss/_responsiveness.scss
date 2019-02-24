@@ -232,7 +232,7 @@
 	}
 	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul, 
 	body.page-template-product-page-php article .entry-content .features .for-people ul{
-		max-width: 100%;
+		max-width: 100vw;
 	}
 	body.page-template-product-page-php article{
 		padding-bottom: 0;
@@ -607,6 +607,11 @@
 	.home-testimonial .testimonial-area .company-details{
 		grid-template-columns: 1fr 1fr 5fr;
 	}
+	body.page-template-product-page-php .entry-content .features .feathr-contents .tab-content{
+		width: 100vw;
+	}
+	#blogDetailsOne .modal-dialog, 
+	#caseStudyOne .modal-dialog{margin: 0 10px;}
 }
 
 @media (max-width: 568px){	
@@ -673,6 +678,9 @@
 	}
 	body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills.nav-stacked li a{
 		font-size: 18px;
+	}
+	body.page-template-product-page-php article .entry-header .entry-title{
+		max-width: 90%;
 	}
 }
 @media (max-width: 375px){

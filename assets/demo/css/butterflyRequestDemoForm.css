@@ -1192,5 +1192,52 @@ div {
 	.butterflyrequestdemoform .tryfree .rectangle1{
 		display: none;
 	}
-	
+}
+
+@media (max-width: 991px) {
+	.butterflyrequestdemoform .tryfree a[data-dismiss="modal"]{
+		position: absolute;
+		top:50px;
+		right: 50px;
+	}
+}
+@media (max-width: 768px) {
+	.butterflyrequestdemoform .tryfree .form {
+	    top: 116px;
+	    left: 190px;
+	    width: 420px;
+	    padding: 0;
+	    height: 100vh;
+	}
+	#reqDemo .modal-dialog{
+		margin: 0;
+	}
+}
+
+@media (max-width: 650px) {
+	.butterflyrequestdemoform .tryfree .form {
+	    left: 50px;
+	    width: 320px;
+	    max-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.butterflyrequestdemoform .tryfree .brandingbutterflyicon{
+		left: 20px;
+		top:20px;
+	}
+	.butterflyrequestdemoform .tryfree .form {
+		left: 20px;
+	}
+	.butterflyrequestdemoform .tryfree .form .nicetomeetyou{
+		font-size: 36px;
+	}
+	.butterflyrequestdemoform .tryfree .form .wecanu2019twaittosho{
+		width: 320px;
+	}
+	.butterflyrequestdemoform .tryfree a[data-dismiss="modal"]{
+		top:20px;
+		right: 20px;
+	}
 }
