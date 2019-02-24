@@ -679,8 +679,15 @@
 	body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills.nav-stacked li a{
 		font-size: 18px;
 	}
+	body.page-template-product-page-php article .entry-header{
+		max-width: 80%;
+	}
 	body.page-template-product-page-php article .entry-header .entry-title{
-		max-width: 90%;
+		max-width: 80%;
+		font-size: 36px;
+	}
+	body.page-template-product-page-php .entry-content .features .feathr-contents .tab-content{
+		width: 320px;;
 	}
 }
 @media (max-width: 375px){
