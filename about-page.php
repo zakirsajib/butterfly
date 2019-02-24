@@ -16,6 +16,15 @@ get_header('about');
 ?>
 	
      <div class="butterflywebsiteabout">	   
+        <div class="bg">
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle1"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle2"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle3"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle4"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectanglecopy"/>
+            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle5"/>
+        </div>
         <div id="content" class="site-content container-fluid">
         	<div class="greatmanagersmake">Great managers make<br />great teams!</div>
         	<div class="customers">
@@ -362,15 +371,6 @@ get_header('about');
             </div>
         </div>
 		</div>        
-        <div class="bg">
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle1"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle2"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle3"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle4"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectanglecopy"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle5"/>
-        </div>
         
 	</div>	<!-- End site-content -->
 <?php get_template_part( 'inc/before', 'footer' );?>
@@ -492,8 +492,7 @@ get_header('about');
                             <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-linkedin.svg" class="linkedin"/>
                             <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-twitter.svg" class="twitter"/>
                         </div>
-                    </div>
-                    <div class="nextbutton">
+                        <div class="nextbutton">
                         <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-rectangle@2x.png" class="rectangle"/>
                         <div class="iconsarrow">
                             <div class="background">
@@ -504,6 +503,8 @@ get_header('about');
                             <span class="span1">NEXT CASE STUDY</span><span class="span2"><br /></span><span class="span3">Ticketmaster</span>
                         </div>
                     </div>
+                    </div>
+                    
                 </div>
      </div>
   </div>

@@ -1034,82 +1034,100 @@ div {
   color               : rgba(44, 230, 206, 1.0);
   line-height         : 30.0px;
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+@media (max-width: 1124px){
+	.butterflycasestudy .casestudy .content{
+		position: relative;
+		width: 100%;
+		left: 50px;
+	}
+	.butterflycasestudy .casestudy .content .u201courceolivesandb,
+	.butterflycasestudy .casestudy .content .challenges,
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi,
+	.butterflycasestudy .casestudy .content .solutions,
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi1,
+	.butterflycasestudy .casestudy .content .results,
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi2,
+	.butterflycasestudy .casestudy .content .iconscheck,
+	.butterflycasestudy .casestudy .content .iconscheck1,
+	.butterflycasestudy .casestudy .content .iconscheck2{
+		left: 0;
+	}
+	.butterflycasestudy .casestudy .content .anonymouspulsesurv,
+	.butterflycasestudy .casestudy .content .ouracademicallybac{
+		left: 50px;
+	}
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi3{
+		left: 50px;
+	}
+	.butterflycasestudy .casestudy .content .seperatorvertical{
+		left: 25px;
+	}
+	.butterflycasestudy .casestudy .content .tmklogo{
+		left: 117px;
+	}
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+@media (max-width: 1000px){
+	.butterflycasestudy{min-height: 4000px;}
+	.butterflycasestudy .casestudy .right{
+		left: 50px;
+		top:2858px;
+	}
+	.butterflycasestudy .casestudy .nextbutton{
+		left: 49px;
+		top:1000px;
+	}
 }
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 630px){
+	
+	.butterflycasestudy .casestudy .content{
+		width: 100%;
+		max-width: 80%;
+	}
+	.butterflycasestudy .casestudy .content .u201courceolivesandb{
+		line-height: 30px;
+		font-size: 30px;
+		width: 100%;
+	}
+	
+	.butterflycasestudy .casestudy .content,
+	.butterflycasestudy .casestudy .right{
+		left: 0;
+	}
+	.butterflycasestudy .casestudy .right{
+		width: 320px;
+	}
+	.butterflycasestudy .casestudy .right .iconclose{
+		left: 234px;
+	}
+	.butterflycasestudy .casestudy .right .themediakitchent,
+	.butterflycasestudy .casestudy .right .separatorhorizontal,
+	.butterflycasestudy .casestudy .right .separatorhorizontal1,
+	.butterflycasestudy .casestudy .right .separatorhorizontal2,
+	.butterflycasestudy .casestudy .right .separatorhorizontal3,
+	.butterflycasestudy .casestudy .right .separatorhorizontal4{
+		left: 50px;
+	}
+	.butterflycasestudy .casestudy .right .hqnyc,
+	.butterflycasestudy .casestudy .right .employees90,
+	.butterflycasestudy .casestudy .right .highestdriverteamw,
+	.butterflycasestudy .casestudy .right .share,
+	.butterflycasestudy .casestudy .right .share1,
+	.butterflycasestudy .casestudy .right .industryadvertising{
+		left: 60px;
+	}
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi3{
+		width: 100%;
+	}
+	.butterflycasestudy .casestudy .content .u201courceolivesandb,
+	.butterflycasestudy .casestudy .content .challenges,
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi,
+	.butterflycasestudy .casestudy .content .solutions,
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi1,
+	.butterflycasestudy .casestudy .content .results,
+	.butterflycasestudy .casestudy .content .loremipsumdolorsi2,
+	.butterflycasestudy .casestudy .content .iconscheck,
+	.butterflycasestudy .casestudy .content .iconscheck1,
+	.butterflycasestudy .casestudy .content .iconscheck2{
+		width: 100%;
+	}
 }

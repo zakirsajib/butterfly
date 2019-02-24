@@ -456,8 +456,8 @@
                             <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-linkedin.svg" class="linkedin"/>
                             <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-twitter.svg" class="twitter"/>
                         </div>
-                    </div>
-                    <div class="nextbutton">
+                        
+                        <div class="nextbutton">
                         <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-rectangle@2x.png" class="rectangle"/>
                         <div class="iconsarrow">
                             <div class="background">
@@ -468,6 +468,8 @@
                             <span class="span1">NEXT CASE STUDY</span><span class="span2"><br /></span><span class="span3">Ticketmaster</span>
                         </div>
                     </div>
+                    </div>
+                    
                 </div>
      </div>
   </div>

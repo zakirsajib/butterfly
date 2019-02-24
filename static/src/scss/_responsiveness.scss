@@ -232,7 +232,7 @@
 	}
 	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul, 
 	body.page-template-product-page-php article .entry-content .features .for-people ul{
-		max-width: 320px;
+		max-width: 100%;
 	}
 	body.page-template-product-page-php article{
 		padding-bottom: 0;
@@ -243,6 +243,14 @@
 	}
 	body.page-template-product-page-php .entry-content .features .for-people .feathr-thumbnail{
 		margin-top: 5em;
+	}
+	
+	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul li.abc, 
+	body.page-template-product-page-php article .entry-content .features .for-people ul li.abc{
+		float: left;
+	}
+	body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills .featured-info{
+		max-width: 300px;
 	}
 }
 
@@ -658,6 +666,13 @@
 	}
 	.mega-menu.mega-menu.modal .modal-lg .mega-menu-top {
     	grid-template-columns: 3fr 1fr;
+	}
+	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul li a, 
+	body.page-template-product-page-php article .entry-content .features .for-people ul li a{
+		font-size: 12px;
+	}
+	body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills.nav-stacked li a{
+		font-size: 18px;
 	}
 }
 @media (max-width: 375px){

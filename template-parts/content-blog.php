@@ -258,8 +258,7 @@
                         <div class="inournewseriesw">
                             In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries. Tune in to see what worked (and what didn’t) for John during each stop, and to dig into how working remotely affects both the worker and the team back home.
                         </div>
-                        <div class="lisbon">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask.png" class="mask"/>
+                        <div class="lisbon featured-img">
                             <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-lisbon.svg" class="lisbon1"/>
                         </div>
                         <div class="locationlisbonpo">

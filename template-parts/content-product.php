@@ -20,9 +20,9 @@
 			<div class="for-people">
 				<ul class="nav nav-tabs" role="tablist">
 					<li><h2>How it works?</h2></li>
-					<li role="presentation" class="active"><a href="#howempl" aria-controls="howempl" role="tab" data-toggle="tab">For employees</a></li>
-					<li role="presentation"><a href="#howmang" aria-controls="howmang" role="tab" data-toggle="tab">For managers</a></li>
-					<li role="presentation" class="last"><a href="#howhr" aria-controls="howhr" role="tab" data-toggle="tab">For HR teams</a></li>
+					<li role="presentation" class="abc active"><a href="#howempl" aria-controls="howempl" role="tab" data-toggle="tab">For employees</a></li>
+					<li class="abc" role="presentation"><a href="#howmang" aria-controls="howmang" role="tab" data-toggle="tab">For managers</a></li>
+					<li role="presentation" class="abc last"><a href="#howhr" aria-controls="howhr" role="tab" data-toggle="tab">For HR teams</a></li>
 				</ul>
 				
 				<div class="tab-content">
@@ -102,9 +102,9 @@
 			<div class="for-people">
 				<ul class="nav nav-tabs" role="tablist">
 					<li><h2>Features</h2></li>
-					<li role="presentation" class="active"><a href="#featempl" aria-controls="featempl" role="tab" data-toggle="tab">For employees</a></li>
-					<li role="presentation"><a href="#featmang" aria-controls="featmang" role="tab" data-toggle="tab">For managers</a></li>
-					<li role="presentation" class="last"><a href="#feathr" aria-controls="feathr" role="tab" data-toggle="tab">For HR teams</a></li>
+					<li role="presentation" class="active abc"><a href="#featempl" aria-controls="featempl" role="tab" data-toggle="tab">For employees</a></li>
+					<li class="abc" role="presentation"><a href="#featmang" aria-controls="featmang" role="tab" data-toggle="tab">For managers</a></li>
+					<li role="presentation" class="abc last"><a href="#feathr" aria-controls="feathr" role="tab" data-toggle="tab">For HR teams</a></li>
 				</ul>
 				
 				<div class="tab-content">
