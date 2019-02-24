@@ -1,6 +1,6 @@
 @media (max-width: 2560px){
 	.section-one{
-		min-height: calc(100vh - 250px);
+		//min-height: calc(100vh - 250px);
 		grid-template-columns: 1fr 1fr;
 		.demo-request {
 			grid-row-gap: 10em;
@@ -22,7 +22,7 @@
 }
 @media (max-width: 1920px){
 	.section-one{
-		min-height: calc(100vh - 225px);
+		//min-height: calc(100vh - 225px);
 		.demo-request {
 			grid-row-gap: 5em;
 			h1{
@@ -40,7 +40,7 @@
 }
 @media (max-width: 1600px){
 	.section-one{
-		min-height: calc(100vh - 225px);
+		//min-height: calc(100vh - 225px);
 		.demo-request {
 			grid-row-gap: 3em;
 			h1{
@@ -58,7 +58,7 @@
 }
 @media (max-width: 1440px){
 	.section-one{
-		min-height: calc(100vh - 225px);
+		//min-height: calc(100vh - 225px);
 		.demo-request {
 			h1{
 				font-size:55px;
@@ -75,7 +75,7 @@
 }
 @media (max-width: 1366px){
 	.section-one{
-		min-height: calc(100vh - 120px);
+		//min-height: calc(100vh - 120px);
 		.demo-request {
 			grid-row-gap: 0;
 			h1{
@@ -104,10 +104,10 @@
 
 @media (max-width: 1200px){
 	.section-one {
-		min-height: calc(100vh - 120px);
+		//min-height: calc(100vh - 120px);
 		.home-carousel.col-lg-9{
-			width: 671px;
-			height: 669px;
+			//width: 671px;
+			//height: 669px;
 		}
 	}
 }
@@ -146,7 +146,7 @@
 }
 @media (max-width: 1199px) {
   	.section-one{
-		min-height: calc(100vh - 225px);
+		//min-height: calc(100vh - 225px);
 	}
 }
 

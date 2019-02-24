@@ -171,15 +171,11 @@ picture, img{
 		right: 0px;
 		top: 0px;
 		padding-right: 0;
-		//width: 671px;
-		//height: 669px;
 		.slick-slider{
 			display: grid;
-			.mask{
-				img{
-					border-radius: 50% 0 0 50%;
-					//height: 100vh;
-				}
+			svg{
+				float:right;
+				position: relative;
 			}
 		}
 	}
