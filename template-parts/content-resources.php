@@ -252,9 +252,8 @@
                         <div class="inournewseriesw">
                             In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries. Tune in to see what worked (and what didn’t) for John during each stop, and to dig into how working remotely affects both the worker and the team back home.
                         </div>
-                        <div class="lisbon">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask.png" class="mask"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-lisbon.svg" class="lisbon1"/>
+                        <div class="lisbon featured-img">
+                            <img data-src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-lisbon.svg" class="lisbon1 lazyload"/>
                         </div>
                         <div class="locationlisbonpo">
                             <span class="span1">Location: Lisbon, Portugal<br />Timezone: GMT (NYC + 5)</span><span class="span2"><br /><br />What was the thing I could experience, that I wouldn’t be able to in NYC?</span>
