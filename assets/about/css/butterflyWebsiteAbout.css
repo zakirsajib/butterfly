@@ -2819,7 +2819,6 @@ div {
 	.aboutusbyus.nav-tabs>li, 
 	.clientlistcasestu.nav-tabs>li, 
 	.academicexperts.nav-tabs>li{
-		float: none;
 		margin: 20px 0;
 	}
 	.aboutusbyus.nav li.active a, 
@@ -2827,15 +2826,11 @@ div {
 	.academicexperts.nav li.active a{
 		padding: 0;
 	}
-	.butterflywebsiteabout .customers .headercustomers .separatorhorizontal{
-		display: none;
-	}
+	
 	.butterflywebsiteabout .customers .logo{
 		top:200px;
 	}
-	.butterflywebsiteabout .customers .seperatorvertical{
-		display: none;
-	}
+	
 	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
 		top:600px;
 		left: 0;
@@ -2899,11 +2894,15 @@ div {
 	.butterflywebsiteabout .company{
 		top:3000px;
 	}
-	.butterflywebsiteabout .contact{
-/* 		top: 4550px; */
-	}
+	
 	.butterflywebsiteabout .map{
-		top:4500px;
+		top:3900px;
+	}
+	.butterflywebsiteabout .casestudies-details{
+		margin-top: 3em;
+	}
+	.butterflywebsiteabout .customers .seperatorvertical{
+		display: none;
 	}
 }
 
@@ -2954,15 +2953,39 @@ div {
 		left: 20px;
 	}
 	.butterflywebsiteabout .contact .group3{
-		left:100px;
+		left:0px;
+		width: 320px;
 	}
 	
 	.butterflywebsiteabout .logo ul li, .butterflywebsiteabout .logo svg{position: relative;}
+	
+	.butterflywebsiteabout .contact .group3 .brandingbutterflyround,
+	.butterflywebsiteabout .contact .group3 .triangle{
+		display: none;
+	}
+	.butterflywebsiteabout .contact .group3 .rectangle{
+		width: 320px;
+		left: 0;
+	}
+	.butterflywebsiteabout .contact .group3 .appynestinc,
+	.butterflywebsiteabout .contact .group3 .a67weststreetsui{
+		left: 50px;
+	}
+	
 }
 
 @media (max-width: 568px){
 	.butterflywebsiteabout .greatmanagersmake{
 		font-size: 40px;
+	}
+	.butterflywebsiteabout .company .hourlyemployeesmak{
+		width: 320px;
+	}
+	.butterflywebsiteabout .company .tt{
+		top:850px;
+	}
+	.butterflywebsiteabout .map{
+		top:4500px;
 	}
 }
 @media (max-width: 480px){
