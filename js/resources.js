@@ -1,14 +1,6 @@
 $ = jQuery.noConflict();
 	$(function ($) {
 		
-			$('.affix-company').affix({
-				offset: {
-					top:  $('.company-section').offset().top-50,
-					bottom: 1700
-	  			}
-			});
-		
-		
 		$('.case-studies-container').slick({
 			dots:false,
 			speed:2800,
