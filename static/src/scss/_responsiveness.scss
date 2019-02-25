@@ -3,7 +3,7 @@
 		min-height: calc(100vh - 250px);
 		grid-template-columns: 1fr 1fr;
 		.home-carousel.col-lg-7{
-			width: 50.33333%;
+			max-width: 50.33333%;
 		}
 		.demo-request {
 			grid-row-gap: 10em;
@@ -45,7 +45,7 @@
 @media (max-width: 1600px){
 	.section-one{
 		.home-carousel.col-lg-7{
-			width: 65.33333%;
+			max-width: 65.33333%;
 		}
 		.demo-request {
 			grid-row-gap: 3em;
@@ -96,11 +96,18 @@
 				width: 396px;
 			}
 		}
-		.home-carousel.col-lg-8{
-			height: 669px;
+	}
+}
+
+@media (max-width: 1366px) and (max-height: 745px){
+	.section-one{
+		min-height: calc(100vh - 250px);
+		.home-carousel.col-lg-7{
+			max-width: 43.33333%;
 		}
 	}
 }
+
 @media (max-width: 1220px){
 	body.page-template-product-page-php .entry-content .features .for-people .feathr-thumbnail{
 		position: relative;
@@ -111,7 +118,7 @@
 @media (max-width: 1200px){
 	.section-one {
 		.home-carousel.col-lg-7{
-			width: 60.33333%;
+			max-width: 60.33333%;
 		}
 	}
 }
@@ -148,51 +155,6 @@
 	   	}
 	}
 }
-@media (max-width: 1199px) {
-  	.section-one{
-		//min-height: calc(100vh - 225px);
-	}
-}
-
-/*
-@media (min-width: 1198px){
-	#reqDemo .modal-lg{
-		margin: 0;
-		.butterflyrequestdemoform{
-			width: 100vw;
-			.tryfree{
-				left: 0;
-				top:0;
-				max-width: 100%;
-				.brandingbutterflyicon{
-				top:20px;
-				left:20px
-			}
-				.mobile-icon-close{position: absolute; top:20px; right:20px;}
-				.form{
-				left: 20px;
-				top: 100px;
-				width: 100vw;
-				max-width: 100%;
-				height: 100%;
-				padding: 0 1em;
-				.our-demo-form{
-					padding-right: 40px;
-					.wecanu2019twaittosho{
-						width: 100%;
-					}
-					.nicetomeetyou{
-						width: 100%;
-						font-size: 30px;
-					}
-					.company-size{text-indent: 0;}
-				}
-			}
-			}
-		}
-	}
-}
-*/
 
 
 @media (max-width: 1080px){
@@ -353,7 +315,13 @@
   }
 }
 
-
+@media (max-width: 768px){
+	.section-one {
+		.home-carousel.col-lg-7{
+			max-width: 100%;
+		}
+	}
+}
 @media (min-width: 320px) and (max-width: 767px) {
   	.affix .site-branding { visibility: visible;}
   	
