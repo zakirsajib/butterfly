@@ -2847,6 +2847,7 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 		line-height: 40px;
 	}
 	.butterflywebsiteresources .casestudies .headercustomers .ourcustomercasest{width: 100%;}
+	
 }
 @media (max-width: 375px){
 	.butterflywebsiteresources .wehelporganization{
@@ -2855,5 +2856,10 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 	}
 	.butterflywebsiteresources .blog{
 		top:200px;
+	}
+	.butterflywebsiteresources .panel-default>.panel-heading a{
+		font-size: 16px;
+		line-height: 16px;
+		vertical-align: top;
 	}
 }

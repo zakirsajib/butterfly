@@ -3166,3 +3166,12 @@ div {
 		line-height: 35px;
 	}
 }
+@media (max-width: 414px){
+	.butterflywebsiteabout .customers .benjaminsnyers{top:780px;}
+}
+@media (max-width: 375px){
+	.butterflywebsiteabout .customers .benjaminsnyers{top:800px;}
+}
+@media (max-width: 374px){
+	.butterflywebsiteabout .customers .benjaminsnyers{top:820px;}
+}
