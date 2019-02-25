@@ -218,6 +218,7 @@
 	body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills .featured-info{
 		max-width: 300px;
 	}
+	
 }
 
 
@@ -233,7 +234,7 @@
     	padding-right: 70px;
     	.section-one {
 			.demo-request{
-				margin-top: 30em;
+				margin-top: 20em;
 				h1, p{z-index: 1;}
 			}
 		}
@@ -298,7 +299,7 @@
   .content-area {
 	.section-one{
 		.demo-request {
-			margin-top: 0;
+			margin-top: 10em;
 		}
 		.home-carousel.col-md-7{
 			//width: calc(100% - 42%);
@@ -313,6 +314,15 @@
 	  padding: 0 70px;
 	  grid-column-gap: 5em;
   }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait){
+	.content-area .section-one {
+    	min-height: calc(100vh - 750px);
+    	.demo-request{
+	    	margin-top: 0;	
+    	}
+	}
 }
 
 @media (max-width: 768px){
@@ -359,7 +369,7 @@
 		grid-column-gap:0;
 	}
 	.section-one .demo-request{
-		margin-top: 12em;
+		margin-top: 6em;
 	}
 	.section-one .demo-request h1,
 	.section-one .demo-request p{
@@ -565,7 +575,28 @@
 	#blogDetailsOne .modal-dialog, 
 	#caseStudyOne .modal-dialog{margin: 0 10px;}
 }
-
+@media (min-width: 414px) and (max-width: 736px) and (orientation: landscape){
+	.content-area .section-one{
+		.home-carousel{
+			max-width: 60.33333%;
+		}
+		.demo-request {
+			h1{
+				width: 480px;
+				font-size: 40px;
+			}p{
+				width: 372px;
+				margin: 15px 0;
+			}
+			.demo-form-box{
+				width: 396px;
+			}
+		}
+	}
+}
+@media (max-width: 667px){
+	
+}
 @media (max-width: 568px){	
 	.site-header {
     	grid-template-columns: 4fr 1fr;
