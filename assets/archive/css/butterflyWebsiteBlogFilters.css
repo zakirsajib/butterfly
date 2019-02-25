@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
-
-@font-face {
-  font-family: "Aleo-Bold";
-  src: url('../fonts/Aleo-Bold.otf') format("opentype");
-}
-                        
 .butterflywebsiteblogfilters {
 /*   width               : 100%; */
 /*   min-width           : 1200px; */
@@ -146,8 +139,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 144px;
   height              : 578px;
-  width               : 951px;
-  position            : absolute;
+  width               : 100%;
+  position            : relative;
   margin              : 0;
   left                : 118px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -221,9 +214,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 108px;
   height              : 80px;
-  width               : 400px;
-  position            : absolute;
-  margin              : 0;
+  position            : relative;
+  margin              : 0 0 50px;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
@@ -306,6 +298,18 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
+
+.butterflywebsiteblogfilters .allarticles .article .workroamthere a{
+font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+
+
 .butterflywebsiteblogfilters .allarticles .article1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 108px;
@@ -2031,82 +2035,45 @@ div {
 .butterflywebsiteblogfilters .footerdesktop .footer .a2512018appynestinc .span3 {
   
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+
+@media (max-width: 991px){
+	.butterflywebsiteblogfilters{
+		min-height: 2000px;
+	}
+	.butterflywebsiteblogfilters .catags{
+		top: 1385px;
+	}
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+@media (max-width: 767px){
+	.butterflywebsiteblogfilters .allarticles,
+	.butterflywebsiteblogfilters .catags{
+		left: 20px;
+	}
+	.butterflywebsiteblogfilters .bg1{
+		left: 20px;
+	}
+	.butterflywebsiteblogfilters .backtoblog{
+		left: 57px;
+	}
+	.butterflywebsiteblogfilters .iconsarrow{
+		left: 30px;
+	}
 }
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+
+@media (max-width: 500px){
+	.butterflywebsiteblogfilters .allarticles .headerallarticles{
+		width: 100%;
+	}
+	.butterflywebsiteblogfilters .allarticles .headerallarticles .articlesfromu201cwork{
+		font-size: 25px;
+	}
+	.butterflywebsiteblogfilters .allarticles .headerallarticles .separatorhorizontal,
+	.butterflywebsiteblogfilters .allarticles .headerallarticles .separatorhorizontal .bg2{
+		width: 320px;
+	}
 }
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 430px){
+	.butterflywebsiteblogfilters .allarticles .article .workroamthere{
+		width: 50%;
+	}
 }
