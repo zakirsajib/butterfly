@@ -1,11 +1,14 @@
+html,body{
+	overflow-x: hidden;
+}
+
 body{
 	font-family: 'Muli', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	background-color: transparent;
-	&.home{
-		overflow-x: hidden;
-	}
+	scroll-behavior: smooth;
+	position: relative;
 }
 
 a {

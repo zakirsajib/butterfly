@@ -53,8 +53,8 @@ get_header();
 			<a href=""><img src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 		</div>
 
-		<div class="why-butterfly row" id="why-butterfly">			
-			<div class="butterfly-one col-md-4 affix-butterfly hidden-sm hidden-xs" data-spy="affix">
+		<div class="why-butterfly row">			
+			<div class="butterfly-one col-md-4 affix-butterfly hidden-sm hidden-xs" data-spy="affix" id="why-butterfly">
 				
 				<h1>Why<br/>Butterfly?</h1>
 				<div class="lead">

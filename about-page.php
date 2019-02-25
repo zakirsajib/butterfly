@@ -14,20 +14,10 @@
 
 get_header('about');
 ?>
-	
      <div class="butterflywebsiteabout">	   
-        <div class="bg">
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle1"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle2"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-3.png" class="rectangle3"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectangle4"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-copy.png" class="rectanglecopy"/>
-            <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-5.png" class="rectangle5"/>
-        </div>
         <div id="content" class="site-content container-fluid">
         	<div class="greatmanagersmake">Great managers make<br />great teams!</div>
-        	<div class="customers">
+        	<div class="customers" id="customers">
             <div class="headercustomers">
                 <div class="customers1">Customers</div>
                 <ul class="clientlistcasestu nav nav-tabs" role="tablist">
@@ -159,7 +149,7 @@ get_header('about');
 	            </div>
             </div>
         </div>
-        	<div class="partners">
+        	<div class="partners" id="partners">
             <div class="headerpartners">
                 <div class="partners1">Partners</div>
                 <ul class="academicexperts nav nav-tabs" role="tablist">
@@ -203,7 +193,7 @@ get_header('about');
             </div>
             </div>
         </div>
-        	<div class="downloads">
+        	<div class="downloads" id="downloads">
             <div class="headercustomers">
                 <div class="media">Media</div>
                 <ul class="aboutusbyus nav nav-tabs" role="tablist">
@@ -248,7 +238,7 @@ get_header('about');
             </div>
             </div>
         </div>
-        	<div class="company">
+        	<div class="company" id="company">
             	<div class="company-section affix-company hidden-md hidden-sm hidden-xs" data-spy="affix">
             		<div class="headerpartners">
                 <div class="company1">Company</div>
@@ -345,7 +335,7 @@ get_header('about');
 		</div>
 	
 		<div class="map">
-			<div class="contact">
+			<div class="contact" id="contact">
             <div class="group3">
                 <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-6.png" class="rectangle"/>
                 <div class="a67weststreetsui">
