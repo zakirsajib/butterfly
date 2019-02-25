@@ -336,8 +336,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1161px;
   height              : 578px;
-  width               : 951px;
-  position            : absolute;
+  width               : 100%;
+  position            : relative;
   margin              : 0;
   left                : 118px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -443,14 +443,24 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 108px;
   height              : 80px;
-  width               : 400px;
-  position            : absolute;
-  margin              : 0;
+/*   width               : 400px; */
+  position            : relative;
+  margin              : 0 0 50px;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+.butterflywebsiteblog .allarticles .fade{
+	display: none;
+}
+.butterflywebsiteblog .allarticles .fade.in{
+	display: block;
+}
+
+
+
 .butterflywebsiteblog .allarticles .article .lisbon {
   background-color    : rgba(58, 59, 86, 1.0);
   top                 : 0px;
@@ -517,9 +527,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 140px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
@@ -528,6 +535,18 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
+
+.butterflywebsiteblog .allarticles .article .workroamthere a{
+	font-family         : "Muli", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+
+
 .butterflywebsiteblog .allarticles .article1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 108px;
@@ -1322,6 +1341,13 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+.butterflywebsiteblog .blog .group2:focus,
+.butterflywebsiteblog .blog .group:focus{
+	outline: 0;
+}
+
+
 .butterflywebsiteblog .blog .group2 .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -1788,6 +1814,18 @@ div {
   text-align          : left;
   line-height         : 48.0px;
 }
+.butterflywebsiteblog .mainarticle .theremoteworkinge h2{
+	font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(58, 59, 87, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+
+.butterflywebsiteblog .mainarticle .theremoteworkinge a{
+	color               : rgba(58, 59, 87, 1.0);
+}
+
 .butterflywebsiteblog .mainarticle .inournewseriesw {
   background-color    : rgba(255,255,255,0.0);
   top                 : 145px;
@@ -1824,14 +1862,19 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 118px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Aleo-Bold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
   line-height         : 48.0px;
+}
+
+.butterflywebsiteblog .takeasneakpeekof h1{
+	font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+	font-size           : 48.0px;
+	color               : rgba(58, 59, 87, 1.0);
+	text-align          : left;
+	line-height         : 48.0px;
 }
 .butterflywebsiteblog .header {
   background-color    : rgba(255,255,255,0.0);
@@ -2731,5 +2774,49 @@ div {
 @media (max-width: 767px){
 	.butterflywebsiteblog{
 		margin: 0 0 0 20px;
+	}
+}
+
+@media (max-width: 660px){
+	.butterflywebsiteblog .takeasneakpeekof{
+		width: 80vw;
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 480px){
+	.butterflywebsiteblog .allarticles .headerallarticles .a201820172016{
+		left: 0;
+		top:108px;
+	}
+	.butterflywebsiteblog .allarticles{ height: 100%;}
+	.butterflywebsiteblog .allarticles .article{
+		top:208px;
+	}
+	.butterflywebsiteblog .catags{
+		top:2200px;
+	}
+	.butterflywebsiteblog .mainarticle .theremoteworkinge{
+		width: 80vw;
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.butterflywebsiteblog .takeasneakpeekof{
+		font-size: 36px;
+		line-height: 36px;
+	}
+	.butterflywebsiteblog .mainarticle .inournewseriesw{
+		width: 80vw;
+	}
+	.butterflywebsiteblog .allarticles .article .workroamthere{
+		width: 50%;
+	}
+}
+@media (max-width: 400px){
+	.butterflywebsiteblog .mainarticle .lisbon .lisbon1,
+	.butterflywebsiteblog .mainarticle .lisbon .mask,
+	.butterflywebsiteblog .mainarticle .lisbon{
+		width: 320px;
 	}
 }
