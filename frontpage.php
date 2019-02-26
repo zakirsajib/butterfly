@@ -106,7 +106,7 @@ get_header();
 					<div class="five"><img src="<?php echo $why_right_column['image_two'];?>" alt="PersonalGuidance"></div>
 					<div class="six"><?php echo $why_right_column['descriptions_three'];?></div>
 					<?php else:?>
-					<div class="one"><img src="<?php echo $why_right_column['image_three'];?>" alt="PulseSurveys"></div>
+					<div class="one"><img src="<?php echo get_template_directory_uri()?>/assets/img/PulseSurveys.svg" alt="PulseSurveys"></div>
 					<div class="two">
 						<h2>Anonymous pulse surveys</h2>
 						<div class="strong">to listen to your employees</div>

@@ -54,8 +54,9 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 				</div><!-- .site-branding -->
 				<div class="header-signin hidden-xs">
 					<?php include( get_template_directory() . '/inc/header-demo-form.php');?>
+					<?php $signin_url = fw_get_db_settings_option('signin-url');?>
 					<ul>
-						<li>Already using Butterfly? <a href="#">Sign in</a></li>
+						<li>Already using Butterfly? <a href="<?php echo $signin_url ?>" target="_blank">Sign in</a></li>
 					</ul>
 				</div>
 				<a href="#" data-toggle="modal" data-target="#myModal" class="menu-icon"><span class="menu-bar">MENU <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></span></a>

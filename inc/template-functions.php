@@ -147,3 +147,18 @@ function sdt_remove_ver_css_js( $src, $handle )
 
     return $src;
 }
+
+/**
+ * Admin panel - link to theme options
+ */
+if ( !function_exists( 'frontlash_theme_options_link' ) && current_user_can('manage_options') && defined('FW')) :
+    add_action( 'admin_bar_menu', 'butterfly_theme_options_link', 999 );
+    function butterfly_theme_options_link( $wp_admin_bar ) {
+        $args = array(
+            'id'    => 'jevelin-options',
+            'title' => 'Butterfly Settings',
+            'href'  => get_admin_url().'/themes.php?page=fw-settings',
+        );
+        $wp_admin_bar->add_node( $args );
+    }
+endif;

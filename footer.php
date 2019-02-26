@@ -58,7 +58,7 @@
 					<div class="row">
 						<div class="copyright col-lg-7 col-md-12 col-sm-12 col-xs-12 desktop">
 							<?php $current_year = date('Y');?>
-							<p>© <?php echo $current_year?>. Appynest Inc. - All rights reserved - <a href="#">Legal information</a></p>
+							<p>© <?php echo $current_year?>. <?php echo $footer_company_name ?> - <?php echo $footer_copyright_title_one ?></p>
 						</div>
 						<div class="copyright col-md-7 col-sm-12 col-xs-12 mobile">
 							<div class="col-one">

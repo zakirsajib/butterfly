@@ -8,7 +8,7 @@
  */
 
 $options = array(
-	//fw()->theme->get_options( 'general' ),
+	fw()->theme->get_options( 'general' ),
 	//fw()->theme->get_options( 'color_scheme' ),
 	//fw()->theme->get_options( 'styling' ),
 	//fw()->theme->get_options( 'header' ),

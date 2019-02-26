@@ -43,7 +43,8 @@
 					</div>
 				</div>
 				<div class="dropdown-signin">
-					<ul><li>Already using Butterfly? <a href="#">Sign in</a></li></ul>
+					<?php $signin_url = fw_get_db_settings_option('signin-url');?>
+					<ul><li>Already using Butterfly? <a href="<?php echo $signin_url ?>" target="_blank">Sign in</a></li></ul>
 				</div>
 			</div><!-- .dropdown -->
 		</div>
