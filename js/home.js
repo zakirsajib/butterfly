@@ -9,9 +9,11 @@ $ = jQuery.noConflict();
 			autoplay:true,
 			arrows: false,
 			fade:true,
-			lazyLoad: 'ondemand',
+			//lazyLoad: 'ondemand',
 			autoplaySpeed: 4800
-		});
+		});		
+		
+		
 		$('.affix-home').affix({
 			offset: {
 				top: $('.butterfly-one').offset().top-50,

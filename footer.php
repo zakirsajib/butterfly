@@ -26,13 +26,23 @@
 								<p class="site-description"><?php echo $butterfly_description;?></p>
 							<?php endif; ?>
 					</div>
+					<?php $social_facebook = fw_get_db_settings_option('social_facebook');
+						$social_instagram = fw_get_db_settings_option('social_instagram');
+						$social_twitter = fw_get_db_settings_option('social_twitter');
+						$social_linkedin = fw_get_db_settings_option('social_linkedin');
+						$social_link = fw_get_db_settings_option('social_link');
+						
+						$footer_company_name = fw_get_db_settings_option('footer_company_name');
+						$footer_copyright_title_one = fw_get_db_settings_option('footer_copyright_title_one');
+						$footer_copyright_title_two = fw_get_db_settings_option('footer_copyright_title_two');
+					?>
 					<div class="footer-social">
 						<ul>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/facebook.svg" alt="Butterfly Facebook"></a></li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/instagram.svg" alt="Butterfly Instagram"></a></li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/twitter.svg" alt="Butterfly Twitter"></a></li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/linkedin.svg" alt="Butterfly LinkedIn"></a></li>
-							<li><a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/img/link.svg" alt="Butterfly"></a></li>
+							<li><a href="<?php echo $social_facebook ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/facebook.svg" alt="Butterfly Facebook"></a></li>
+							<li><a href="<?php echo $social_instagram ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/instagram.svg" alt="Butterfly Instagram"></a></li>
+							<li><a href="<?php echo $social_twitter ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/twitter.svg" alt="Butterfly Twitter"></a></li>
+							<li><a href="<?php echo $social_linkedin ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/linkedin.svg" alt="Butterfly LinkedIn"></a></li>
+							<li><a href="mailto:<?php echo $social_link ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/link.svg" alt="Butterfly"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -46,21 +56,21 @@
 					
 					<hr>
 					<div class="row">
-						<div class="copyright col-md-7 col-sm-12 col-xs-12 desktop">
+						<div class="copyright col-lg-7 col-md-12 col-sm-12 col-xs-12 desktop">
 							<?php $current_year = date('Y');?>
 							<p>© <?php echo $current_year?>. Appynest Inc. - All rights reserved - <a href="#">Legal information</a></p>
 						</div>
 						<div class="copyright col-md-7 col-sm-12 col-xs-12 mobile">
 							<div class="col-one">
 								<?php $current_year = date('Y');?>
-								<p>© <?php echo $current_year?>. Appynest Inc.</p>
+								<p>© <?php echo $current_year?>. <?php echo $footer_company_name ?></p>
 							</div>
 							<div class="col-two">
-								<p>All rights reserved - <a href="#">Legal information</a></p>
+								<p><?php echo $footer_copyright_title_one ?></a></p>
 							</div>
 						</div>
-						<div class="company-footer col-md-5 col-sm-12 col-xs-12">
-							<p>A First Growth VC Company | Made in New York</p>
+						<div class="company-footer col-lg-5 col-md-12 col-sm-12 col-xs-12">
+							<p><?php echo $footer_copyright_title_two ?></p>
 						</div>
 					</div>
 				</div>

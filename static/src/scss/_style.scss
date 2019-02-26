@@ -201,13 +201,7 @@ picture, img{
 
 
 .why-butterfly{
-	//display: grid;
-	//align-items: center;
-    //justify-content: left;
-    //grid-template-columns: 350px 732px;
-    //padding-right: 8em;
     padding-top: 10em;
-    //padding-bottom: 5em;
     position: relative;
     min-height: 100vh;
     overflow: hidden;
@@ -329,6 +323,22 @@ picture, img{
 		}
     }
     }
+    &:before{
+	   	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob1.svg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    top: 10%;
+	    left: 38%;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05; 
+    }
 }
 .home-testimonial{
 	display: grid;
@@ -389,6 +399,39 @@ picture, img{
 			}
 		}
 	}
+	&:before{
+	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
+	    background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 1207px;
+	    position: absolute;
+	    top: 50%;
+	    left: 0;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05;
+    }
+    &:after{
+	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblog2.svg');
+	    background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    bottom: 8%;
+	    left: 30%;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05;
+	    z-index: -1;
+    }
 }
 .home-footer{ 
 	padding-top: 89px;
