@@ -8,8 +8,8 @@
   background-color    : rgba(255, 255, 255, 1.0);
 }
 
-@media (min-width: 768px){
-	#caseStudyOne .modal-dialog {
+@media (min-width: 320px){
+	.caseStudyOne.in .modal-dialog {
 	    margin: 0px auto;
 	}
 }
@@ -1171,7 +1171,9 @@ a {
 	}
 }
 @media (max-width: 630px){
-	
+	.butterflycasestudy .casestudy .brandingbutterflyicon{
+		left: 20px;
+	}
 	.butterflycasestudy .casestudy .content .post-contents,
 	.butterflycasestudy .casestudy .content{
 		width: 100%;
@@ -1179,14 +1181,12 @@ a {
 	}
 	.butterflycasestudy .casestudy .content .post-contents,
 	.butterflycasestudy .casestudy .content .u201courceolivesandb{
-		line-height: 30px;
-		font-size: 30px;
 		width: 100%;
 	}
 	.butterflycasestudy .casestudy .content .post-contents,
 	.butterflycasestudy .casestudy .content,
 	.butterflycasestudy .casestudy .right{
-		left: 0;
+		left: 20px;
 	}
 	.butterflycasestudy .casestudy .right{
 		width: 320px;

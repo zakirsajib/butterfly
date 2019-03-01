@@ -2731,7 +2731,7 @@ div {
 
 @media (max-width: 1199px){
 	.butterflywebsiteblog{
-		min-height: 2590px;
+		min-height: 3590px;
 	}
 	.butterflywebsiteblog .catags, 
 	.butterflywebsiteblog .allarticles, 
@@ -2753,17 +2753,17 @@ div {
 		left: 0;
 	}
 	.butterflywebsiteblog .blog{
-		top:800px;
+		top:900px;
 	}
 	.butterflywebsiteblog .featured-post.col-sm-12{
 		padding-left: 0;
 		padding-right: 0;
 	}
 	.butterflywebsiteblog .mainarticle .inournewseriesw{
-		top:100px;
+		top:150px;
 	}
 	.butterflywebsiteblog .allarticles{
-		top:1361px;
+		top:1461px;
 	}
 	.butterflywebsiteblog .catags{
 		top:2032px;
@@ -2785,6 +2785,9 @@ div {
 	.butterflywebsiteblog .takeasneakpeekof{
 		left: 0px!important;
 	}
+	.butterflywebsiteblog .catags{
+		top:2332px;
+	}
 }
 @media (max-width: 767px){
 	.butterflywebsiteblog{
@@ -2794,9 +2797,26 @@ div {
 
 @media (max-width: 660px){
 	.butterflywebsiteblog .takeasneakpeekof{
-		width: 80vw;
+		width: 90%;
+		max-width: 100%;
 		font-size: 40px;
 		line-height: 40px;
+	}
+	.butterflywebsiteblog .mainarticle .theremoteworkinge{
+		max-width: 100%;
+		width: 50%;
+	}
+	
+}
+
+@media (max-width: 620px){
+	.butterflywebsiteblog .takeasneakpeekof h1{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.butterflywebsiteblog .mainarticle .theremoteworkinge h2{
+		font-size: 30px;
+		line-height: 30px;
 	}
 }
 
@@ -2810,7 +2830,7 @@ div {
 		top:208px;
 	}
 	.butterflywebsiteblog .catags{
-		top:2200px;
+		top:2932px;
 	}
 	.butterflywebsiteblog .mainarticle .theremoteworkinge{
 		width: 80vw;
@@ -2827,6 +2847,7 @@ div {
 	.butterflywebsiteblog .allarticles .article .workroamthere{
 		width: 50%;
 	}
+	
 }
 @media (max-width: 400px){
 	.butterflywebsiteblog .mainarticle .lisbon .lisbon1,

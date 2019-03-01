@@ -877,9 +877,9 @@ a {
   line-height         : 24.0px;
 }
 
-@media (min-width: 768px){
-	.blogDetailsOne .modal-dialog {
-	    margin: 0px auto;
+@media (min-width: 320px){
+	.blogDetailsOne.in .modal-dialog {
+	    margin: 0px 20px;
 	}
 }
 
@@ -973,5 +973,23 @@ a {
 		width: auto;
 		left: auto;
 		right: 20px;
+	}
+}
+@media (max-width: 660px){
+	.butterflyblogpost .casestudy .content .post-contents figcaption, 
+	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
+		left: 145px!important;
+	}
+}
+@media (max-width: 480px){
+	.butterflyblogpost .casestudy .content .post-contents figcaption, 
+	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
+		left: 30px!important;
+	}
+	.butterflyblogpost .casestudy .right{
+		top: 2514px;
+	}
+	.butterflyblogpost{
+		min-height: 4850px;
 	}
 }
