@@ -1116,7 +1116,7 @@ div {
 }
 
 .butterflywebsiteabout .downloads-studies-container{
-
+	margin-top: 5em;
 }
 
 
@@ -3257,7 +3257,28 @@ div {
 }
 @media (max-width: 375px){
 	.butterflywebsiteabout .customers .benjaminsnyers{top:800px;}
+	.butterflywebsiteabout .company .tt{top:800px;padding-left: 0;}
 }
 @media (max-width: 374px){
 	.butterflywebsiteabout .customers .benjaminsnyers{top:820px;}
+}
+@media (max-width: 320px){
+	.butterflywebsiteabout .company{
+		top:2900px;
+	}
+	.butterflywebsiteabout .company .tt{
+		top:900px;
+	}
+	.butterflywebsiteabout .map{
+		top:5700px;
+	}
+	.butterflywebsiteabout .company .group .davidrollover200x300{
+		max-width: 80%;
+	}
+	.butterflywebsiteabout .company .group .davidmendlewicz{
+		top:110px;
+	}
+	.butterflywebsiteabout .company .group .cofounderceo{
+		top:155px;
+	}
 }

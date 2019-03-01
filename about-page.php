@@ -244,7 +244,7 @@ get_header('about');
 				                    <?php if(get_sub_field('person_image')):?>
 				                    <img src="<?php the_sub_field('person_image')?>" alt="<?php the_sub_field('person_name')?>">
 				                    <?php else:?>
-				                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
+				                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png"/>
 				                    <?php endif;?>
 				                </div>
 				                <div class="davidmendlewicz"><?php the_sub_field('person_name')?></div>
