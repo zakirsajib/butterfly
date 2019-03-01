@@ -334,6 +334,8 @@
 @media (min-width: 320px) and (max-width: 767px) {
   	.affix .site-branding { visibility: visible;}
   	
+  	//body.page-template-product-page-php .affix{position: relative}
+  	
   	.container-fluid{
 		padding-left: 20px;
 		padding-right: 20px;
@@ -683,7 +685,7 @@
 	.section-one .demo-request p{margin: 37px 0 20px;}
 	.home-footer .demo-area .demo-form-box .input-group .form-control.demo-input,
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
-		font-size: 12px;
+		//font-size: 12px;
 	}
 	
 	.client-logos svg{
