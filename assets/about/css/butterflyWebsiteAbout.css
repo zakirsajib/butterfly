@@ -1,8 +1,8 @@
 .butterflywebsiteabout {
   min-height          : 4800px;
   position            : relative;
-/*   overflow            : hidden; */
-  margin              : 0px 0 40em;
+  overflow            : hidden;
+  margin              : 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
@@ -20,7 +20,7 @@
 }
 
 
-.butterflywebsiteabout  .site-content{height: 100vh}
+.butterflywebsiteabout  .site-content{position: relative;}
 a {
   text-decoration     : none;
 }
@@ -68,18 +68,14 @@ div {
 
 .butterflywebsiteabout .map {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 3736px;
+  top                 : 4037px;
   height              : 800px;
-/*   width               : 100%; */
-  position            : relative;
+  width               : 100%;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-/*
-  -ms-transform       : rotate(0deg); 
-  -webkit-transform   : rotate(0deg); 
-  transform           : rotate(0deg);
-*/
+
   background-image: url('../img/butterflywebsiteabout-screenshot-2019-01-22-at-103535.png');
     background-position: left;
     background-repeat: no-repeat;
@@ -214,24 +210,24 @@ div {
 }
 .butterflywebsiteabout .contact {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : 486px;
+  top                 : 70px;
+/*   height              : 486px; */
   width               : 749px;
   position            : absolute;
   margin              : 0;
-  left                : 120px;
+  left                : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .butterflywebsiteabout .contact .group3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 240px;
+  top                 : 210px;
   height              : 245px;
   width               : 533px;
   position            : absolute;
   margin              : 0;
-  left                : 216px;
+  left                : 340px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -347,7 +343,7 @@ div {
   width               : 400px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 120px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -3051,7 +3047,7 @@ div {
 	}
 	
 	.butterflywebsiteabout .map{
-		top:3500px;
+/* 		top:3500px; */
 	}
 	.butterflywebsiteabout .casestudies-details{
 		margin-top: 3em;
@@ -3075,7 +3071,7 @@ div {
 
 @media (max-width: 768px){
 	.butterflywebsiteabout{
-		min-height: 6800px;
+/* 		min-height: 6800px; */
 	}
 	
 	.butterflywebsiteabout .greatmanagersmake{
@@ -3103,16 +3099,23 @@ div {
 		left: 20px;
 	}
 	.butterflywebsiteabout .contact .group3{
-		left:0px;
 		width: 320px;
+		left:390px;
 	}
 	
 	.butterflywebsiteabout .logo ul li, .butterflywebsiteabout .logo svg{position: relative;}
-	
+	.butterflywebsiteabout .contact .group3 .brandingbutterflyround{
+		left: -70px;
+	}
+	.butterflywebsiteabout .contact .group3 .triangle{
+		left: -53px;
+	}
+/*
 	.butterflywebsiteabout .contact .group3 .brandingbutterflyround,
 	.butterflywebsiteabout .contact .group3 .triangle{
 		display: none;
 	}
+*/
 	.butterflywebsiteabout .contact .group3 .rectangle{
 		width: 320px;
 		left: 0;
@@ -3122,7 +3125,7 @@ div {
 		left: 50px;
 	}
 	.butterflywebsiteabout .map{
-		top:5000px;
+		top:4300px;
 	}
 	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
 		top:550px;
@@ -3137,13 +3140,23 @@ div {
 		top:1800px;
 	}
 	.butterflywebsiteabout .company{
-		top: 2300px;
+		top: 2400px;
+	}
+	.butterflywebsiteabout .company .group .cofounderceo{
+		top:200px;
+	}
+	.butterflywebsiteabout .contact .headerpartners{
+		left: 0;
 	}
 }
 
 @media (max-width: 767px){
+	.butterflywebsiteabout {
+    	min-height: 6200px;
+	}
 	.butterflywebsiteabout .map{
 		height: 600px;	
+		top:5500px;
 		
 	}
 	.butterflywebsiteabout .customers .headercustomers .clientlistcasestu, 
@@ -3194,11 +3207,15 @@ div {
 	.butterflywebsiteabout .company .group .cofounderceo{
 		top:177px;
 	}
+	.butterflywebsiteabout .contact .group3{
+		left: 320px;
+		top:80px;
+	}
 }
 
 @media (max-width: 650px){
 	.butterflywebsiteabout .company{
-		top:2600px;
+/* 		top:2600px; */
 	}
 	
 }
@@ -3206,11 +3223,11 @@ div {
 
 @media (max-width: 568px){
 	.butterflywebsiteabout .company{
-		top:2800px;
+		top:2600px;
 	}
 	
 	.butterflywebsiteabout{
-		
+		min-height:6500px;	
 	}
 	
 	.butterflywebsiteabout .greatmanagersmake{
@@ -3224,7 +3241,7 @@ div {
 		top:650px;
 	}
 	.butterflywebsiteabout .map{
-		top:5300px;
+		top:5700px;
 	}
 	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
 		width: 100vw;
@@ -3240,9 +3257,10 @@ div {
 	}
 	.butterflywebsiteabout .company{
 		padding-left: 0;
+		top: 2700px;
 	}
 	.butterflywebsiteabout .map{
-		top:5500px;
+		top:5900px;
 	}
 	.butterflywebsiteabout .company .tt{
 		top:750px;
@@ -3256,21 +3274,35 @@ div {
 	
 }
 @media (max-width: 375px){
+	.butterflywebsiteabout{
+		min-height: 6800px;
+	}
 	.butterflywebsiteabout .customers .benjaminsnyers{top:800px;}
+	.butterflywebsiteabout .company{
+		top:2900px;
+	}
 	.butterflywebsiteabout .company .tt{top:800px;padding-left: 0;}
+	.butterflywebsiteabout .map{
+		top:6200px;
+	}
+	.butterflywebsiteabout .contact .group3{
+		left: 300px;
+	}
+	.butterflywebsiteabout .contact .group3 .appynestinc, 
+	.butterflywebsiteabout .contact .group3 .a67weststreetsui,
+	.butterflywebsiteabout .contact .group3 .rectangle{
+		display: none;
+	}
 }
 @media (max-width: 374px){
 	.butterflywebsiteabout .customers .benjaminsnyers{top:820px;}
 }
 @media (max-width: 320px){
-	.butterflywebsiteabout .company{
-		top:2900px;
-	}
 	.butterflywebsiteabout .company .tt{
 		top:900px;
 	}
 	.butterflywebsiteabout .map{
-		top:5700px;
+		top:6200px;
 	}
 	.butterflywebsiteabout .company .group .davidrollover200x300{
 		max-width: 80%;

@@ -1,6 +1,10 @@
 $ = jQuery.noConflict();
 	$(function ($) {
 				
+		var firstHeight = $(".butterflyblogpost .content").height();
+		var newHeight = firstHeight + 200 + 'px';
+		$(".butterflyblogpost .right").css("top", newHeight);
+		
 		$('.blog-container').slick({
 			dots:false,
 			speed:2800,
