@@ -484,7 +484,7 @@
 	}
 	.mega-menu .dropdown-contents .demo-form{
 		padding: 5em 0 0;
-		grid-template-columns: 1fr;
+		grid-template-columns: 355px;
 		grid-column-gap: 0;
 	}
 	.mega-menu .dropdown-contents .demo-form .horizontal-line{display: none;}
@@ -520,7 +520,12 @@
 	.site-name{
 		display: none;
 	}
-  
+  	.mega-menu.modal.fade.in .modal-lg.container-fluid{
+	  	padding: 10px;
+  	}
+  	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box{
+	  	border-radius: 0;
+  	}
 }
 
 
@@ -695,10 +700,10 @@
 	}
 	
 	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box .input-group .form-control.demo-input{
-		font-size: 15px;
+		//font-size: 15px;
 	}
 	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box .input-group .btn.btn-default{
-		font-size: 10px;
+		//font-size: 10px;
 		background-color: #532ee4;
 	}
 	.mega-menu .dropdown-contents .demo-form{padding: 1em 0 2em;}
