@@ -680,6 +680,11 @@
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
 		font-size: 12px;
 	}
+	
+	.client-logos svg{
+		max-width: 90%;
+	}
+	
 	.mega-menu .dropdown-contents{padding: 2em 0;}
 	.mega-menu .dropdown-contents .menu-main-menu-container #primary-menu{
 		grid-template-columns: repeat(1, 1fr);

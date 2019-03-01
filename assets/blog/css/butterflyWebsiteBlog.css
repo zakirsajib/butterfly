@@ -33,7 +33,7 @@
 
 .butterflywebsiteblog {
 /*   height              : 100vh; */
-  min-height          : 2290px;
+  min-height          : 2500px;
   position            : relative;
   overflow            : hidden;
   margin              : 0 0 0 118px;
@@ -208,10 +208,10 @@ div {
 }
 .butterflywebsiteblog .catags {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1832px;
+  top                 : 1400px;
   height              : 402px;
   width               : 534px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 118px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -312,7 +312,21 @@ div {
   color               : rgba(83, 46, 228, 1.0);
   text-align          : left;
   line-height         : 34.0px;
+  z-index: 0;
 }
+
+.butterflywebsiteblog .catags .workroamwellbei.active.in{
+	z-index: 1;
+} 
+.butterflywebsiteblog .catags .workroamwellbeicopy.active.in{
+	z-index: 1;
+}
+
+.butterflywebsiteblog .catags .workroamwellbei ul li a:hover{
+	color               : rgba(83, 46, 228, 1.0);
+}
+
+
 .butterflywebsiteblog .catags .workroamwellbeicopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 74px;
@@ -331,6 +345,7 @@ div {
   color               : rgba(83, 46, 228, 1.0);
   text-align          : left;
   line-height         : 34.0px;
+  z-index: 0;
 }
 .butterflywebsiteblog .allarticles {
   background-color    : rgba(255,255,255,0.0);
@@ -391,7 +406,7 @@ div {
   background-color    : rgba(0, 0, 0, 0.1);
   top                 : 0px;
   height              : 1px;
-  width               : 450px;
+  width               : 500px;
   position            : relative;
   margin              : 0;
   left                : 0px;

@@ -164,3 +164,44 @@ if ( ! function_exists( 'butterfly_dropdown_post_thumbnail' ) ) :
 		</a>
 	<?php }
 endif;
+
+if ( ! function_exists( 'butterfly_get_current_post_categories' ) ) :
+	function butterfly_get_current_post_categories() {
+		$categories = get_the_category();
+		$separator = ' ';
+		$output = '';
+		if ( ! empty( $categories ) ) {
+		    foreach( $categories as $category ) {
+		        $output .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+		    }
+		    echo trim( $output, $separator );
+		}
+	}
+endif;
+
+
+
+if ( ! function_exists( 'butterfly_get_current_post_categories_sidebar' ) ) :
+	function butterfly_get_current_post_categories_sidebar() {
+		$categories = get_the_category();
+		$separator = ' ';
+		$output = '';
+		if ( ! empty( $categories ) ) {
+		    foreach( $categories as $category ) {
+		        $output .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a><br/>' . $separator;
+		    }
+		    echo trim( $output, $separator );
+		}
+	}
+endif;
+
+if ( ! function_exists( 'butterfly_get_current_post_tags' ) ) :
+	function butterfly_get_current_post_tags() {
+		$post_tags = get_the_tags();
+		if ( $post_tags ) {
+		    foreach( $post_tags as $tag ) {
+		    echo $tag->name . '<br/>'; 
+		    }
+		}
+	}
+endif;

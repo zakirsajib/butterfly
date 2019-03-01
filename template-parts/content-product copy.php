@@ -8,6 +8,16 @@
  */
 
 ?>
+<!--
+<div class="prod-bg">
+		<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle"/>
+        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-1.png" class="rectangle1"/>
+       <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-2.png" class="rectangle2"/>
+        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle3"/>
+</div>
+
+<style>.prod-bg .rectangle{background-color:rgba(255,255,255,0);top:44px;height:658px;width:397px;position:absolute;margin:0;left:946px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:.05}.prod-bg .rectangle1{background-color:rgba(255,255,255,0);top:258px;height:1153px;width:397px;position:absolute;margin:0;left:1484px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:.05}.prod-bg .rectangle2{background-color:rgba(255,255,255,0);top:647px;height:1207px;width:397px;position:absolute;margin:0;left:475px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:.05}.prod-bg .rectangle3{background-color:rgba(255,255,255,0);top:1360px;height:658px;width:397px;position:absolute;margin:0;left:847px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:.05}</style>
+-->
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -268,6 +278,9 @@
 				</div>
 			</div>
 		</div>
+		
+		
+		
 		<div class="features" id="features">
 			<div class="for-people">
 				<ul class="nav nav-tabs" role="tablist">
@@ -282,12 +295,66 @@
 				</ul>
 				
 				<div class="tab-content">
-				    <div role="tabpanel" class="tab-pane fade in active" id="featempl"></div>
-				    <div role="tabpanel" class="tab-pane fade" id="featmang"></div>
+				    <div role="tabpanel" class="tab-pane fade in active" id="featempl">
+					    <div class="feathr-contents">
+						   <?php if( have_rows('first_tab_contents_product_sec') ):?>
+						    <div class="feathr-accordion">
+							    <ul class="nav nav-pills nav-stacked">
+								 <?php 
+									 $count = 1;
+									 while ( have_rows('first_tab_contents_product_sec') ) : the_row();?>
+								    <li><a data-toggle="tab" href="#collapse<?php echo $count?>"><?php the_sub_field('title_features');?></a></li>
+								    <p class="featured-info"><?php the_sub_field('features_info');?></p>
+								    <?php $count++; endwhile;?>
+							    </ul>
+						    </div>
+						    <div class="feathr-thumbnail">
+							    <div class="tab-content">
+							    <?php 
+								    $count = 1;
+								    while ( have_rows('first_tab_contents_product_sec') ) : the_row();?>
+							    <div id="collapse<?php echo $count?>" class="tab-pane">
+								    <img src="<?php the_sub_field('image_url_features');?>" alt=""></div>
+							    <?php $count++; endwhile;?>
+						    </div>
+					    </div>
+						   <?php else:?>
+
+						   <?php endif;?>
+					</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="featmang">
+					    <div class="feathr-contents">
+						   <?php if( have_rows('second_tab_contents_product_sec') ):?>
+						    <div class="feathr-accordion">
+							    <ul class="nav nav-pills nav-stacked">
+								 <?php 
+									 $count = 1;
+									 while ( have_rows('second_tab_contents_product_sec') ) : the_row();?>
+								    <li><a data-toggle="tab" href="#collapse<?php echo $count?>"><?php the_sub_field('title_features');?></a></li>
+								    <p class="featured-info"><?php the_sub_field('features_info');?></p>
+								    <?php $count++; endwhile;?>
+							    </ul>
+						    </div>
+						    <div class="feathr-thumbnail">
+							    <div class="tab-content">
+							    <?php 
+								    $count = 1;
+								    while ( have_rows('second_tab_contents_product_sec') ) : the_row();?>
+							    <div id="collapse<?php echo $count?>" class="tab-pane">
+								    <img src="<?php the_sub_field('image_url_features');?>" alt=""></div>
+							    <?php $count++; endwhile;?>
+						    </div>
+					    </div>
+						   <?php else:?>
+						   		
+						   <?php endif;?>
+					</div>
+				    </div>
 				    <div role="tabpanel" class="tab-pane fade" id="feathr">
 					    <div class="feathr-contents">
-						   	<?php if( have_rows('third_tab_contents_product_sec') ):?>
-						   		<div class="feathr-accordion">
+						   <?php if( have_rows('third_tab_contents_product_sec') ):?>
+						    <div class="feathr-accordion">
 							    <ul class="nav nav-pills nav-stacked">
 								 <?php 
 									 $count = 1;
@@ -297,18 +364,20 @@
 								    <?php $count++; endwhile;?>
 							    </ul>
 						    </div>
-						   		<div class="feathr-thumbnail">
+						    <div class="feathr-thumbnail">
 							    <div class="tab-content">
 							    <?php 
 								    $count = 1;
 								    while ( have_rows('third_tab_contents_product_sec') ) : the_row();?>
 							    <div id="collapse<?php echo $count?>" class="tab-pane">
-								    <img class="lazyload img-responsive" src="<?php the_sub_field('image_url_features');?>" alt=""></div>
+								    <img src="<?php the_sub_field('image_url_features');?>" alt=""></div>
 							    <?php $count++; endwhile;?>
 						    </div>
 					    </div>
-							<?php endif;?>
-					    </div>
+						   <?php else:?>
+						   		
+						   <?php endif;?>
+					</div>
 					</div>
 				</div>
 			</div>

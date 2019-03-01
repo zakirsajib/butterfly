@@ -16,7 +16,7 @@ get_header('about');
 ?>
      <div class="butterflywebsiteabout">	   
         <div id="content" class="site-content container-fluid">
-        	<div class="greatmanagersmake">Great managers make<br />great teams!</div>
+        	<div class="greatmanagersmake"><?php the_field('heading_title_about')?></div>
         	<div class="customers" id="customers">
             <div class="headercustomers">
                 <div class="customers1">Customers</div>
@@ -97,55 +97,19 @@ get_header('about');
 						<div class="separatorhorizontal"><div class="bg1"></div></div>
 					</div>
 					<div class="case-studies-container">
-        	<div class="group21 group col-md-3">
-            <div class="viewcasestudy">
-                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-            </div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-            </div>
-            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
-			<div class="group1 group col-md-3">
-            <div class="viewcasestudy">
-                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-            </div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-            </div>
-            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
-			<div class="group2 group col-md-3">
-            <div class="viewcasestudy">
-                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-            </div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-            </div>
-            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
-			<div class="group2 group col-md-3">
-            <div class="viewcasestudy">
-                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-            </div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-            </div>
-            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
-			<div class="group2 group col-md-3">
-            <div class="viewcasestudy">
-                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-            </div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-            </div>
-            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
-			<div class="group2 group col-md-3">
-            <div class="viewcasestudy">
-                <a data-toggle="modal" data-target="#caseStudyOne">View case study</a>
-            </div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
-            </div>
-            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></div><a data-toggle="modal" data-target="#caseStudyOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/></a></div>
-        </div>
+						<?php 
+			   	$caseargs = new WP_Query(array(
+			    	'post_type' => 'b_casestudy', 
+					'posts_per_page' => -1
+			    ));
+			    while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
+					<div class="group21 group col-md-3">
+            			<div class="viewcasestudy"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">View case study</a></div>
+            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a></div>
+            <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php echo wp_trim_words( get_the_title(), 5 ); ?></a></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php if(get_field('case_study_company_logo')):?><img class="tmklogo svg" src="<?php the_field('case_study_company_logo')?>" alt="<?php the_title()?>"><?php else:?><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/><?php endif;?></a></div>
+				<?php endwhile; wp_reset_postdata();?>
+					</div>
 	            </div>
             </div>
         </div>
@@ -161,36 +125,26 @@ get_header('about');
                 </div>
             </div>
             <div class="fade in active" role="tabpanel" id="academic">
-            	<div class="weworkwithtopsch">
-                We work with top schools and universities around the world to research the workplace and find ways to best improve employee wellbeing, which improves productivity.
-            </div>
-				<div class="meetouracademicpa">
-                Meet our academic partners
-            </div>
+            	<div class="meetouracademicpa"><?php the_field('academic_heading')?></div>
+            	<div class="weworkwithtopsch"><?php the_field('academic_descriptions')?></div>
 				<div class="logo">
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg" />
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation"/>
+                	<?php if( have_rows('academic_logos') ):
+					    while ( have_rows('academic_logos') ) : the_row();?>
+					       <a href="<?php the_sub_field('logo_url')?>" target="_blank"><img src="<?php the_sub_field('logo_upload')?>" class="svg <?php the_sub_field('logo_name')?>"/></a>
+					    <?php endwhile;
+					endif;?>
             </div>
             </div>
             <div class="fade" role="tabpanel" id="experts">
-	            <div class="weworkwithtopsch">
-                We work with top schools and universities around the world to research the workplace and find ways to best improve employee wellbeing, which improves productivity.
-            </div>
-				<div class="meetouracademicpa">
-                Meet our expert partners
-            </div>
+	            <div class="meetouracademicpa"><?php the_field('experts_heading')?></div>
+	            <div class="weworkwithtopsch"><?php the_field('experts_descriptions')?></div>
 				<div class="logo">
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="gelogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation svg"/>
-            </div>
+                	<?php if( have_rows('experts_logos') ):
+					    while ( have_rows('experts_logos') ) : the_row();?>
+					       <a href="<?php the_sub_field('logo_url')?>" target="_blank"><img src="<?php the_sub_field('logo_upload')?>" class="svg <?php the_sub_field('logo_name')?>"/></a>
+					    <?php endwhile;
+					endif;?>
+				</div>
             </div>
         </div>
         	<div class="downloads" id="downloads">
@@ -205,131 +159,99 @@ get_header('about');
                 </div>
             </div>
             <div class="fade in active" role="tabpanel" id="about">
-            	<div class="group2"></div>
-	            <div class="group1"></div>
+            	<div class="group2 col-lg-8 col-md-8 col-sm-8 col-xs-11"><?php the_field('about_us_contents')?></div>
             </div>
             <div class="fade" role="tabpanel" id="byus">
-	            <div class="group2">
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-7.png" class="rectangle"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-8.png" class="rectangle1"/>
-                <div class="getpdf">
-                    Get PDF
-                </div>
-                <div class="iconsarrow">
-                    <div class="background">
-                    </div>
-                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-arrow.svg" class="arrow"/>
-                </div>
-                <div class="getourebookhowt">
-                    <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659"/>
-            </div>
-				<div class="group21">
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-9.png" class="rectangle"/>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-10.png" class="rectangle1"/>
-                <div class="downloadebook">
-                    Download e-book
-                </div>
-                <div class="getourebookhowt">
-                    <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-screenshot-2019-01-15-at-194659@2x.png" class="screenshot20190115at194659"/>
-            </div>
+	            <div class="downloads-studies-container">
+					<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+					<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+					<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+					<div class="group2 group col-md-3">
+	        <div class="downloadebook">
+	            <a href="#" target="_blank">Download e-book</a>
+	        </div>
+	        <div class="iconsarrow">
+	            <div class="background">
+	            </div>
+	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	        </div>
+	        <div class="getourebookhowt">
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	        </div>
+	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	    </div>
+				</div>
             </div>
         </div>
-        	<div class="company" id="company">
-            	<div class="company-section affix-company hidden-md hidden-sm hidden-xs" data-spy="affix">
-            		<div class="headerpartners">
-                <div class="company1">Company</div>
-                <div class="separatorhorizontal">
-                    <div class="bg1"></div>
-                </div>
-            </div>
-					<div class="hourlyemployeesmak">
-                Hourly employees make up 68% of the national workforce in the U.S. Knowing this, we thought: how can we help companies better engage these indispensable team members?<br /><br />We created Butterfly to refocus teams on engagement. We wanted to give every employee a way to voice feedback confidently, and provide every manager with the tools to turn that feedback into action.<br /><br />Butterfly’s tools are the ones we wished we had when we became managers. Our pulse surveys were designed in partnership with leading researchers and industry leaders to drive effective results. Our managerial tools were developed using artificial intelligence and machine learning to seamlessly become a tool that teams would love.<br /><br />We hope Butterfly will help spark meaningful engagement to strengthen your team.<br /><br /><br />David, Marcus &amp; Simon<br />Co-founders of Butterfly
-            </div>
-					<div class="ourstory">Our story.</div>
+        	<div class="company col-lg-11 col-md-12 col-xs-12" id="company">
+            	<div class="company-section affix-company col-lg-6 hidden-md hidden-sm hidden-xs" data-spy="affix">
+            		<div class="headerpartners"><div class="company1">Company</div>
+						<div class="separatorhorizontal"><div class="bg1"></div></div>
+					</div>
+					<?php the_field('company_descriptions');?>
             	</div> 
             	<div class="company-section hidden-lg">
             		<div class="headerpartners">
                 <div class="company1">Company</div>
-                <div class="separatorhorizontal">
-                    <div class="bg1"></div>
-                </div>
+                <div class="separatorhorizontal"><div class="bg1"></div></div>
             </div>
-					<div class="hourlyemployeesmak">
-                Hourly employees make up 68% of the national workforce in the U.S. Knowing this, we thought: how can we help companies better engage these indispensable team members?<br /><br />We created Butterfly to refocus teams on engagement. We wanted to give every employee a way to voice feedback confidently, and provide every manager with the tools to turn that feedback into action.<br /><br />Butterfly’s tools are the ones we wished we had when we became managers. Our pulse surveys were designed in partnership with leading researchers and industry leaders to drive effective results. Our managerial tools were developed using artificial intelligence and machine learning to seamlessly become a tool that teams would love.<br /><br />We hope Butterfly will help spark meaningful engagement to strengthen your team.<br /><br /><br />David, Marcus &amp; Simon<br />Co-founders of Butterfly
-            </div>
-					<div class="ourstory">Our story.</div>
+					<?php the_field('company_descriptions');?>
             	</div>            
-				<div class="tt">
-            		<div class="group">
-                <div class="davidrollover200x300">
-                    <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/></a>
-                </div>
-                <div class="davidmendlewicz">
-                    David Mendlewicz
-                </div>
-                <div class="cofounderceo">
-                    Co-Founder, CEO
-                </div>
-            </div>
-					<div class="group1">
-                <div class="davidrollover200x300">
-                    <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/></a>
-                </div>
-                <div class="davidmendlewicz">
-                    David Mendlewicz
-                </div>
-                <div class="cofounderceo">
-                    Co-Founder, CEO
-                </div>
-            </div>
-					<div class="group2">
-                <div class="davidrollover200x300">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
-                </div>
-                <div class="davidmendlewicz">
-                    David Mendlewicz
-                </div>
-                <div class="cofounderceo">
-                    Co-Founder, CEO
-                </div>
-            </div>
-					<div class="group3">
-                <div class="davidrollover200x300">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
-                </div>
-                <div class="davidmendlewicz">
-                    David Mendlewicz
-                </div>
-                <div class="cofounderceo">
-                    Co-Founder, CEO
-                </div>
-            </div>
-					<div class="group4">
-                <div class="davidrollover200x300">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
-                </div>
-                <div class="davidmendlewicz">
-                    David Mendlewicz
-                </div>
-                <div class="cofounderceo">
-                    Co-Founder, CEO
-                </div>
-            </div>
-					<div class="group5">
-                <div class="davidrollover200x300">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
-                </div>
-                <div class="davidmendlewicz">
-                    David Mendlewicz
-                </div>
-                <div class="cofounderceo">
-                    Co-Founder, CEO
-                </div>
-            </div>
+				<div class="tt col-lg-6 col-md-10 col-xs-10">
+            		<?php if( have_rows('person_details') ):
+					    while ( have_rows('person_details') ) : the_row();?>
+					       <div class="group col-lg-4 col-md-3 col-sm-3 col-xs-6">
+				                <div class="davidrollover200x300">
+				                    <?php if(get_sub_field('person_image')):?>
+				                    <img src="<?php the_sub_field('person_image')?>" alt="<?php the_sub_field('person_name')?>">
+				                    <?php else:?>
+				                    <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-davidrollover-200x300-4@2x.png" class="davidrollover200x3001"/>
+				                    <?php endif;?>
+				                </div>
+				                <div class="davidmendlewicz"><?php the_sub_field('person_name')?></div>
+				                <div class="cofounderceo"><?php the_sub_field('person_position')?></div>
+				            </div>
+					    <?php endwhile;
+					endif;?>
 				</div>
 			</div>			
 		</div>
@@ -338,12 +260,8 @@ get_header('about');
 			<div class="contact" id="contact">
             <div class="group3">
                 <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-6.png" class="rectangle"/>
-                <div class="a67weststreetsui">
-                    <span class="span1">67 West Street - Suite 324<br />Brooklyn, NY 11222<br />USA<br /><br /></span><span class="span2">hello@butterfly.ai</span>
-                </div>
-                <div class="appynestinc">
-                    Appynest Inc.
-                </div>
+                <div class="appynestinc"><?php the_field('contact_company_name')?></div>
+                <div class="a67weststreetsui"><?php the_field('contact_details')?></div>
                 <div class="brandingbutterflyround">
                     <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-oval@2x.png" class="oval"/>
                     <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-butterfly@2x.png" class="butterfly"/>
@@ -364,71 +282,25 @@ get_header('about');
         
 	</div>	<!-- End site-content -->
 <?php get_template_part( 'inc/before', 'footer' );?>
-<div class="modal" id="caseStudyOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+<?php $caseargs = new WP_Query(array('post_type' => 'b_casestudy', 'posts_per_page' => -1));
+while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
+<div class="modal caseStudyOne" id="caseStudyOne-<?php the_ID();?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="butterflycasestudy">
         <div class="casestudy">
-                    <div class="bg"></div>
-                    <div class="brandingbutterflyicon">
+            <div class="bg"></div>
+            <div class="brandingbutterflyicon">
                         <a href="<?php echo get_site_url()?>"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-bg@2x.png" class="bg1"/></a>
                         <a href="<?php echo get_site_url()?>"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-butterfly@2x.png" class="butterfly"/></a>
                     </div>
-                    <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-heart@2x.png" class="heart"/>
-                    <div class="content animated slideInLeft">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-tmklogo@2x.png" class="tmklogo"/>
-                        <div class="u201courceolivesandb">
-                            “Our CEO lives and breathes Butterfly, he immerses himself in it. He responds to every chat he receives”
-                        </div>
-                        <div class="challenges">
-                            Challenges
-                        </div>
-                        <div class="loremipsumdolorsi">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pellentesque mauris. Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris, eget imperdiet tortor nulla at felis. Proin tincidunt et libero quis euismod. Sed fermentum dignissim viverra.<br /><br />Aenean aliquet eget libero auctor auctor. Morbi eget quam dolor. Fusce et turpis elementum eros faucibus pellentesque vitae et diam. Curabitur sagittis diam non urna maximus semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-screenshot-2019-01-22-at-111104.svg" class="screenshot20190122at111104"/>
-                        <div class="solutions">
-                            Solutions
-                        </div>
-                        <div class="loremipsumdolorsi1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pellentesque mauris. Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris, eget imperdiet tortor nulla at felis. Proin tincidunt et libero quis euismod. Sed fermentum dignissim viverra.<br /><br />Aenean aliquet eget libero auctor auctor. Morbi eget quam dolor. Fusce et turpis elementum eros faucibus pellentesque vitae et diam. Curabitur sagittis diam non urna maximus semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-product.svg" class="product"/>
-                        <div class="seperatorvertical">
-                            <div class="rectangle">
-                            </div>
-                        </div>
-                        <div class="anonymouspulsesurv">
-                            Anonymous Pulse Surveys
-                        </div>
-                        <div class="ouracademicallybac">
-                            Our academically backed survey methodology ensures that you get the most effective feedback from employees.
-                        </div>
-                        <div class="results">
-                            Results
-                        </div>
-                        <div class="loremipsumdolorsi2">
-                            <span class="span1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pellentesque mauris. Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris, eget imperdiet tortor nulla at felis.</span><span class="span2"> <br /><br />Proin tincidunt et libero quis euismod. Sed fermentum dignissim viverra.<br /><br />Aenean aliquet eget libero auctor auctor. Morbi eget quam dolor. Fusce et turpis elementum eros faucibus pellentesque vitae et diam. Curabitur sagittis diam non urna maximus semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br /><br /><br /><br /></span><span class="span3">Other changes have followed:</span>
-                        </div>
-                        <div class="loremipsumdolorsi3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />Sed ac pellentesque mauris.<br /><br />Cras tempor, diam a suscipit malesuada, arcu leo commodo mauris.
-                        </div>
-                        <div class="iconscheck">
-                            <div class="background">
-                            </div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check"/>
-                        </div>
-                        <div class="iconscheck1">
-                            <div class="background">
-                            </div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check"/>
-                        </div>
-                        <div class="iconscheck2">
-                            <div class="background">
-                            </div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-check-2.svg" class="check"/>
-                        </div>
-                    </div>
-                    <div class="right animated slideInRight">
+            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-heart@2x.png" class="heart"/>
+            <div class="content animated slideInLeft">
+                <?php if(get_field('case_study_company_logo')):?><img class="tmklogo" src="<?php the_field('case_study_company_logo')?>" alt="<?php the_title()?>"><?php else:?><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-tmklogo@2x.png" class="tmklogo"/>
+                <?php endif;?>
+                <div class="post-contents"><?php the_content()?></div>       
+            </div>
+            <div class="right animated slideInRight">
                         <div class="groupdiversepeopleworkingoffice43962189">
                             <div class="rightDiv"></div>
                         </div>
@@ -438,39 +310,36 @@ get_header('about');
                             <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-combined-shape.svg" class="combinedshape"/></a>
                         </div>
                         <div class="themediakitchent">
-                            The Media Kitchen (TMK) is an agency with a digital core, providing cloud-based solutions for collecting and protecting media assets and data
+                            <?php if(get_field('case_study_company_description')):?>
+                            	<?php the_field('case_study_company_description')?>
+                            <?php else:?>Company descriptions comes here!<?php endif?>
                         </div>
                         <div class="separatorhorizontal">
-                            <div class="bg1">
-                            </div>
+                            <div class="bg1"></div>
                         </div>
                         <div class="industryadvertising">
-                            <span class="span1">INDUSTRY</span><span class="span2"><br /></span><span class="span3">Advertising</span>
+                            <span class="span1">INDUSTRY</span><span class="span2"><br /></span><span class="span3"><?php if(get_field('case_study_industry')):?><?php the_field('case_study_industry')?><?php else:?>industry name!<?php endif?></span>
                         </div>
                         <div class="separatorhorizontal1">
-                            <div class="bg1">
-                            </div>
+                            <div class="bg1"></div>
                         </div>
                         <div class="hqnyc">
-                            <span class="span1">HQ</span><span class="span2"><br /></span><span class="span3">NYC</span>
+                            <span class="span1">HQ</span><span class="span2"><br /></span><span class="span3"><?php if(get_field('case_study_hq')):?><?php the_field('case_study_hq')?><?php else:?>HQ name!<?php endif?></span>
                         </div>
                         <div class="separatorhorizontal2">
-                            <div class="bg1">
-                            </div>
+                            <div class="bg1"></div>
                         </div>
                         <div class="employees90">
-                            <span class="span1">EMPLOYEES</span><span class="span2"><br /></span><span class="span3">90</span>
+                            <span class="span1">EMPLOYEES</span><span class="span2"><br /></span><span class="span3"><?php if(get_field('case_study_employees')):?><?php the_field('case_study_employees')?><?php else:?>Employees number!<?php endif?></span>
                         </div>
                         <div class="separatorhorizontal3">
-                            <div class="bg1">
-                            </div>
+                            <div class="bg1"></div>
                         </div>
                         <div class="highestdriverteamw">
-                            <span class="span1">HIGHEST DRIVER</span><span class="span2"><br /></span><span class="span3">Teamwork</span>
+                            <span class="span1">HIGHEST DRIVER</span><span class="span2"><br /></span><span class="span3"><?php if(get_field('case_study_highest_driver')):?><?php the_field('case_study_highest_driver')?><?php else:?>Driver data<?php endif?></span>
                         </div>
                         <div class="separatorhorizontal4">
-                            <div class="bg1">
-                            </div>
+                            <div class="bg1"></div>
                         </div>
                         <div class="share">
                             SHARE
@@ -482,6 +351,7 @@ get_header('about');
                             <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-linkedin.svg" class="linkedin"/>
                             <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-twitter.svg" class="twitter"/>
                         </div>
+                        
                         <div class="nextbutton">
                         <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-rectangle@2x.png" class="rectangle"/>
                         <div class="iconsarrow">
@@ -494,10 +364,25 @@ get_header('about');
                         </div>
                     </div>
                     </div>
-                    
-                </div>
+        </div>
      </div>
   </div>
 </div>
+
+<style>
+	<?php if( get_field('background_image_casestudy') ):?>
+#caseStudyOne-<?php the_ID();?> .butterflycasestudy .casestudy .right .groupdiversepeopleworkingoffice43962189{
+			background-image: url('<?php the_field('background_image_casestudy')?>');
+		}
+	<?php endif;?>
+	<?php if( get_field('company_color_code') && get_field('opacity_number') ):?>
+#caseStudyOne-<?php the_ID();?> .butterflycasestudy .casestudy .right .groupdiversepeopleworkingoffice43962189 .rightDiv{
+		background-color: <?php the_field('company_color_code')?>;
+		opacity: <?php the_field('opacity_number')?>;
+	}
+	<?php endif;?>
+</style>
+<?php endwhile; wp_reset_postdata();?>
+
 <?php
 get_footer();

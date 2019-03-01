@@ -11,6 +11,10 @@ $ = jQuery.noConflict();
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
+			focusOnSelect: true,
+			draggable: true,
+			swipeToSlide: true,
+			accessibility: true,
 			responsive: [
 		    {
 		      breakpoint: 1024,
@@ -49,6 +53,10 @@ $ = jQuery.noConflict();
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
+			focusOnSelect: true,
+			draggable: true,
+			swipeToSlide: true,
+			accessibility: true,
 			responsive: [
 		    {
 		      breakpoint: 1024,
@@ -87,6 +95,11 @@ $ = jQuery.noConflict();
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
+			touchMove: true,
+			focusOnSelect: true,
+			draggable: true,
+			swipeToSlide: true,
+			accessibility: true,
 			responsive: [
 		    {
 		      breakpoint: 1024,

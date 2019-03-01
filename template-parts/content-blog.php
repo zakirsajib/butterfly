@@ -20,22 +20,39 @@
     </div>
      
     <div class="takeasneakpeekof">
-	    <h1>Take a sneak peek of our content on company culture, and more…</h1>
+	    <?php if( get_post()->post_content ):?>
+	    	<?php the_content();?>
+	    <?php else:?>
+	    	<h1>11Take a sneak peek of our content on company culture, and more…</h1>
+	    <?php endif;?>
     </div>
     <div class="mainarticle">
-        <div class="featured-thumb">
-	        <div class="lisbon"><div class="mask"></div>
-            <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-13.png" class="lisbon1"/></a>
-			</div>
-        </div>
-        <div class="featured-post col-sm-12">
-        	<div class="theremoteworkinge">
-            <h2><a href="#">The Remote Working Experience<br />Lisbon &amp; Parma</a></h2>
-        </div>
-			<div class="inournewseriesw">
-            <span class="span1">In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries…<br /><br /><br /></span><span class="span2"><a data-toggle="modal" data-target="#blogDetailsOne">Read full article</a></span>
-        </div>
-        </div>
+        <?php $args = array('posts_per_page' => 1,
+	        	'post__in'  => get_option( 'sticky_posts' ), 
+				'ignore_sticky_posts' => 1);
+			$query = new WP_Query( $args );
+			while ( $query->have_posts() ) : $query->the_post();?>
+				<div class="featured-thumb">
+						<div class="lisbon"><div class="mask"></div>
+						<?php if(has_post_thumbnail()):?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php the_post_thumbnail( array(420, 280), array( 'class' => 'lisbon1' ) );?></a>
+						<?php else:?>
+						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon-13.png" class="lisbon1"/></a>
+						<?php endif;?>
+					</div>
+				</div>
+				<div class="featured-post col-sm-12">
+					<div class="theremoteworkinge">
+						<h2><a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php the_title();?></a></h2>
+					</div>
+					<?php if ( has_excerpt() ):?>
+                        <div class="inournewseriesw"><span class="span1"><?php the_excerpt();?><br /></span><span class="span2"><a data-toggle="modal" data-target="#blogDetailsOne-<?php the_ID();?>">Read full article</a></span></div>
+                    <?php else:?>
+					<div class="inournewseriesw">
+						<span class="span1">In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries…<br /><br /><br /></span><span class="span2"><a data-toggle="modal" data-target="#blogDetailsOne">Read full article</a></span>
+					</div><?php endif;?>
+				</div>
+			<?php endwhile?>
     </div>
     <div class="blog">
         <div class="headerblog">
@@ -43,41 +60,24 @@
             <div class="separatorhorizontal"><div class="bg1"></div></div>
         </div>
         <div class="blog-container">
-        	<div class="group2 group col-md-3">
-			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-            <div class="readarticle">
-	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
-            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
-            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
-        </div>
-        	<div class="group1 group col-md-3">
-			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-            <div class="readarticle">
-	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
-            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
-            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
-        </div>
-        	<div class="group1 group col-md-3">
-			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-            <div class="readarticle">
-	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
-            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
-            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
-        </div>
-        	<div class="group1 group col-md-3">
-			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-            <div class="readarticle">
-	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
-            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
-            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
-        </div>
-        	<div class="group1 group col-md-3">
-			<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
-            <div class="readarticle">
-	            <a data-toggle="modal" data-target="#blogDetailsOne">Read Article</a></div>
-            <div class="theremoteworkinge"><a data-toggle="modal" data-target="#blogDetailsOne">The Remote Working Experience<br />Lisbon &amp; Parma</a></div>
-            <a data-toggle="modal" data-target="#blogDetailsOne"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
-        </div>
+        	<?php 
+			   	$args = new WP_Query(array(
+			    	'post_type' => 'post', 
+					'posts_per_page' => -1
+			    ));
+			    while ( $args->have_posts() ) : $args->the_post();?>
+					<div class="group21 group col-md-3">
+						<?php if(has_post_thumbnail()):?>
+							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
+						<?php else:?>
+							<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+						<?php endif;?>
+						<div class="readarticle">
+						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">Read Article</a></div>
+						<div class="theremoteworkinge"><a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a></div>
+						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+					</div>					
+				<?php endwhile;wp_reset_postdata();?>
         </div>
     </div>
     <div class="allarticles">
@@ -90,350 +90,129 @@
                 </div>
             </div>
             <ul class="a201820172016 nav nav-tabs" role="tablist">
-                <li class="active"><span role="presentation" class="span1"><a href="#2018" aria-controls="2018" role="tab" data-toggle="tab">2018</a></span></li>
+                <li class="active"><span role="presentation" class="span1"><a href="#2019" aria-controls="2019" role="tab" data-toggle="tab">2019</a></span></li>
+                <li><span role="presentation" class="span2"><a href="#2018" aria-controls="2018" role="tab" data-toggle="tab">2018</a></span></li>
                 <li><span role="presentation" class="span2"><a href="#2017" aria-controls="2017" role="tab" data-toggle="tab">2017</a></span></li>
                 <li><span role="presentation" class="span3"><a href="#2016" aria-controls="2016" role="tab" data-toggle="tab">2016</a></span></li>
             </ul>
         </div>
-        <div class="fade in active" role="tabpanel" id="2018">
-        	<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="fade in active" role="tabpanel" id="2019">
+	        <?php $args = new WP_Query(array('post_type' => 'post','posts_per_page' => 10,'year'  => '2019'));
+			while ( $args->have_posts() ) : $args->the_post();?>
+				<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="lisbon">
-                <div class="mask">
-                </div>
-                <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" /></a>
+                <div class="mask"></div>
+                		<?php if(has_post_thumbnail()):?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php the_post_thumbnail( array(120, 80), array( 'class' => 'lisbon1' ) );?></a>
+						<?php else:?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" /></a>
+						<?php endif;?>
             </div>
             <div class="a20181214johnwi">
-                2018.12.14 - John Williams
+                <?php echo get_the_date(); ?> - <?php echo get_the_author(); ?>
             </div>
             <div class="workroamthere">
-                <a href="#">Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma</a>
+                <a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a>
             </div>
         </div>
-        	<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<?php endwhile; wp_reset_postdata();?>
+        </div>
+        <div class="fade" role="tabpanel" id="2018">
+	        <?php $args = new WP_Query(array('post_type' => 'post','posts_per_page' => 10,'year'  => '2018'));
+			while ( $args->have_posts() ) : $args->the_post();?>
+				<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
+                <div class="mask"></div>
+                		<?php if(has_post_thumbnail()):?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php the_post_thumbnail( array(120, 80), array( 'class' => 'lisbon1' ) );?></a>
+						<?php else:?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" /></a>
+						<?php endif;?>
             </div>
             <div class="a20181214johnwi">
-                2018.12.14 - John Williams
+                <?php echo get_the_date(); ?> - <?php echo get_the_author(); ?>
             </div>
             <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
+                <a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a>
             </div>
         </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
+			<?php endwhile; wp_reset_postdata();?>
         </div>
         <div class="fade" role="tabpanel" id="2017">
-	        <div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	        <?php $args = new WP_Query(array('post_type' => 'post','posts_per_page' => 10,'year'  => '2017'));
+			while ( $args->have_posts() ) : $args->the_post();?>
+				<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
+                <div class="mask"></div>
+                		<?php if(has_post_thumbnail()):?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php the_post_thumbnail( array(120, 80), array( 'class' => 'lisbon1' ) );?></a>
+						<?php else:?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" /></a>
+						<?php endif;?>
             </div>
             <div class="a20181214johnwi">
-                2017.12.14 - John Williams
+                <?php echo get_the_date(); ?> - <?php echo get_the_author(); ?>
             </div>
             <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
+                <a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a>
             </div>
         </div>
-        	<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
+			<?php endwhile; wp_reset_postdata();?>
         </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-        </div>
-        
         <div class="fade" role="tabpanel" id="2016">
-	        <div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	        <?php $args = new WP_Query(array('post_type' => 'post','posts_per_page' => 10,'year'  => '2016'));
+			while ( $args->have_posts() ) : $args->the_post();?>
+				<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
+                <div class="mask"></div>
+                		<?php if(has_post_thumbnail()):?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php the_post_thumbnail( array(120, 80), array( 'class' => 'lisbon1' ) );?></a>
+						<?php else:?>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" /></a>
+						<?php endif;?>
             </div>
             <div class="a20181214johnwi">
-                2016.12.14 - John Williams
+                <?php echo get_the_date(); ?> - <?php echo get_the_author(); ?>
             </div>
             <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
+                <a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a>
             </div>
         </div>
-        	<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-			<div class="article col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="lisbon">
-                <div class="mask">
-                </div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-lisbon@2x.png" class="lisbon1" />
-            </div>
-            <div class="a20181214johnwi">
-                2018.12.14 - John Williams
-            </div>
-            <div class="workroamthere">
-                Work &amp; Roam - The Remote Working Experience Lisbon &amp; Parma
-            </div>
-        </div>
-        </div>
+			<?php endwhile; wp_reset_postdata();?></div>
     </div>
     <div class="catags">
         <div class="headetags">
-            <div class="separatorhorizontal">
-                <div class="bg1"></div>
-            </div>
+            <div class="separatorhorizontal"><div class="bg1"></div></div>
             <ul class="categoriestags nav nav-tabs" role="tablist">
                 <li class="active"><span role="presentation" class="span1"><a href="#cat" aria-controls="cat" role="tab" data-toggle="tab">Categories</a></span></li>
                 <li><span role="presentation" class="span2"><a href="#tag" aria-controls="tag" role="tab" data-toggle="tab">Tags</a></span></li>
             </ul>
         </div>
         <div class="workroamwellbei fade in active" role="tabpanel" id="cat">
-            Work &amp; Roam<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support
+            <ul>
+			    <?php wp_list_categories( array(
+			        'orderby'    => 'name',
+			        'hide_empty' => 1,
+			        'title_li' => ''
+			    ) ); ?>
+			</ul>
         </div>
         <div class="workroamwellbeicopy fade" role="tabpanel" id="tag">
-            Work &amp; Roam<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support<br />Well-being<br />Homeworking<br />Work-Life Balance<br />Manager Support
+        <?php 
+			$tags = get_tags();
+			echo '<ul>';
+			foreach ( $tags as $tag ) {
+				$tag_link = get_tag_link( $tag->term_id );
+				echo "<li><a href='{$tag_link}' class='{$tag->slug}'>{$tag->name}</a></li>";
+			}
+			echo '</ul>';
+			?>
         </div>
     </div>
 </div>
-<div class="modal" id="blogDetailsOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<?php $args = new WP_Query(array('post_type' => 'post', 'posts_per_page' => -1));
+while ( $args->have_posts() ) : $args->the_post();?>
+<div class="modal blogDetailsOne" id="blogDetailsOne-<?php the_ID();?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="butterflyblogpost">
             <div class="casestudy">
@@ -444,77 +223,56 @@
                     </div>
                 <div class="content animated slideInLeft">
                         <div class="workroam">
-                            WORK &amp; ROAM
+                            <?php butterfly_get_current_post_categories();?>
                         </div>
                         <div class="theremoteworkinge">
-                            The Remote Working Experience<br />Lisbon &amp; Parma
+                            <?php the_title();?>
                         </div>
+                        <?php if ( has_excerpt() ):?>
+                        	<div class="inournewseriesw"><?php the_excerpt();?></div>
+                        <?php else:?>
                         <div class="inournewseriesw">
                             In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries. Tune in to see what worked (and what didn’t) for John during each stop, and to dig into how working remotely affects both the worker and the team back home.
                         </div>
+                        <?php endif;?>
                         <div class="lisbon featured-img">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-lisbon.svg" class="lisbon1"/>
+	                        <?php if(has_post_thumbnail()):?>
+	                        	<?php the_post_thumbnail('full', array( 'class' => 'lisbon1' )); ?>
+	                        <?php else:?>
+								<img data-src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-lisbon.svg" class="lisbon1 lazyload"/>
+							<?php endif;?>
                         </div>
-                        <div class="locationlisbonpo">
-                            <span class="span1">Location: Lisbon, Portugal<br />Timezone: GMT (NYC + 5)</span><span class="span2"><br /><br />What was the thing I could experience, that I wouldn’t be able to in NYC?</span>
+                        
+                        <div class="post-contents">
+                        	<?php the_content()?>
                         </div>
-                        <div class="ihearitu2019sbeencol">
-                            I hear it’s been cold in NYC so I have been enjoying the 60 degree weather and have had some great morning walks along the Tagus River. I also had an amazing dinner last night at Sol e Pesca, a restaurant that specializes in preserved seafood (lots of canned fish) which was pretty unique!
-                        </div>
-                        <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-johnparma.svg" class="johnparma"/>
-                        <div class="seperatorvertical">
-                            <div class="rectangle"></div>
-                        </div>
-                        <div class="sinceiu2019vebeentrav">
-                            Since i’ve been traveling alone for the past six weeks I am excited to spend the holiday with family!
-                        </div>
-                        <div class="locationitalypar">
-                            <span class="span1">Location: Italy (Parma, Santa Margarita, Milan)<br />Timezone: GMT (NYC + 5)</span><span class="span2"><br /><br />What was the thing I could experience, that I wouldn’t be able to in NYC?</span>
-                        </div>
-                        <div class="thanksgivingwasthu">
-                            Thanksgiving was Thursday so this work week was a short one. My sister actually attended culinary school in Parma and we got to go visit her old campus.
-                        </div>
+                        
                     </div>
                 <div class="right animated slideInRight">
                     <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask-1.png" class="mask"/>
-                    
-                    
                     <div class="iconclose">
-                            <div class="background">
-                            </div>
+                        <div class="background"></div>
                             <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-combined-shape.svg" class="combinedshape"/></a>
                         </div>
                     <div class="date12142018">
-                            <span class="span1">DATE</span><span class="span2"><br /></span><span class="span3">12.14.2018</span>
+                            <span class="span1">DATE</span><span class="span2"><br /></span><span class="span3"><?php echo get_the_date(); ?></span>
                         </div>
-                    <div class="separatorhorizontal">
-                            <div class="bg1">
-                            </div>
-                        </div>
+                    <div class="separatorhorizontal"><div class="bg1"></div></div>
+                    <?php if(has_category()):?>
                     <div class="categoryworkroam">
-                            <span class="span1">CATEGORY</span><span class="span2"><br /></span><span class="span3">Work &amp; Roam</span>
+                            <span class="span1">CATEGORY</span><span class="span2"><br /></span><span class="span3"><?php butterfly_get_current_post_categories_sidebar();?></span>
                         </div>
-                    <div class="separatorhorizontal1">
-                            <div class="bg1">
-                            </div>
-                        </div>
+                    <div class="separatorhorizontal1"><div class="bg1"></div></div><?php endif;?>
+                    <?php if(has_tag()):?>
                     <div class="tagsworklifebalan">
-                            <span class="span1">TAGS</span><span class="span2"><br /></span><span class="span3">Work-Life Balance<br />Remote<br />Good vibes</span>
-                        </div>
-					<div class="separatorhorizontal2">
-                            <div class="bg1">
-                            </div>
-                        </div>
+                            <span class="span1">TAGS</span><span class="span2"><br /></span><span class="span3"><?php butterfly_get_current_post_tags()?></span>
+                    </div>
+					<div class="separatorhorizontal2"><div class="bg1"></div></div><?php endif;?>
                     <div class="authorjohnwilliams">
-                            <span class="span1">AUTHOR</span><span class="span2"><br /></span><span class="span3">John Williams</span>
+                            <span class="span1">AUTHOR</span><span class="span2"><br /></span><span class="span3"><?php echo get_the_author(); ?> </span>
                         </div>
-                    <div class="separatorhorizontal3">
-                            <div class="bg1">
-                            </div>
-                        </div>
-					<div class="share">
-                            SHARE
-                        </div>
+                    <div class="separatorhorizontal3"><div class="bg1"></div></div>
+					<div class="share">SHARE</div>
                     <div class="share1">
                             <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-facebook.svg" class="facebook"/></a>
                             <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-instagram.svg" class="instagram"/></a>
@@ -537,3 +295,4 @@
 		</div>
 	</div>
 </div>
+<?php endwhile;wp_reset_postdata();?>

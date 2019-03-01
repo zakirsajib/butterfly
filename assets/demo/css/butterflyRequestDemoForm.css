@@ -92,11 +92,7 @@
   	.nf-form-fields-required{
 	  	display: none;
   	}
-/*
-  	.our-demo-form {
-    	padding-top: 11em;
-	}
-*/
+
 	
 	.our-demo-form .nf-field-container{
 		margin-bottom: 10px;
@@ -180,7 +176,7 @@
     	border: 1px solid #532ee4;
 		outline: 0;
 	}
-	.nf-after-field .nf-error-msg, .nf-error-msg{display: none;}
+/* 	.nf-after-field .nf-error-msg, .nf-error-msg{display: none;} */
 	
 	.our-demo-form .nf-field-container.heading-box {
     	padding-bottom: 11em;

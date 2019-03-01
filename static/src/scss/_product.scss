@@ -222,6 +222,105 @@ body{
 }
 
 
+body.page-template-product-page-php .entry-content:before{
+	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob1.svg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    top: 2%;
+	    left: 30%;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05; 
+}
+body.page-template-product-page-php .entry-content .howmang-contents:before{
+	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
+    background-position: center center;
+	background-repeat: no-repeat;
+	content: " ";
+    display: block;
+    height: 1207px;
+    position: absolute;
+    top: 20%;
+    left: -5%;
+    width: 397px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.05;
+}
+body.page-template-product-page-php .entry-content .howmang-contents:after{
+	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblog2.svg');
+    background-position: center center;
+	background-repeat: no-repeat;
+	content: " ";
+    display: block;
+    height: 658px;
+    position: absolute;
+    top: 400px;
+    right: -150px;
+    width: 397px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.05;
+}
+body.page-template-product-page-php .entry-content .howmang-contents .zz:before{
+	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblog2.svg');
+    background-position: center center;
+	background-repeat: no-repeat;
+	content: " ";
+    display: block;
+    height: 658px;
+    position: absolute;
+    top: 1200px;
+    left: 30%;
+    width: 397px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.05;
+}
+
+body.page-template-product-page-php .entry-content .features:before{
+	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
+    background-position: center center;
+	background-repeat: no-repeat;
+	content: " ";
+    display: block;
+    height: 1207px;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 397px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.05;
+}
+
+body.page-template-product-page-php .entry-content .features:after{
+	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblog2.svg');
+    background-position: center center;
+	background-repeat: no-repeat;
+	content: " ";
+    display: block;
+    height: 658px;
+    position: absolute;
+    bottom: 70em;
+    right: -200px;
+    width: 397px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.05;
+}
+
 body.page-template-product-page-php .affix .header-signin ul{
 	display: block;
 }

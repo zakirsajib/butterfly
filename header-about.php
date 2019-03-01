@@ -17,6 +17,7 @@
 	<meta name="environment" content="staging">
 	<meta name="application-name" content="buttefly.ai">
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+	<meta name="theme-color" content="#2ce6ce">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="dns-prefetch" href="<?php echo get_site_url()?>"/>
 	
