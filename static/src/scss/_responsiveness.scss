@@ -330,6 +330,9 @@
 			max-width: 100%;
 		}
 	}
+	body.page-template-product-page-php .entry-content .features:after{
+		display: none;
+	}
 }
 @media (min-width: 320px) and (max-width: 767px) {
   	.affix .site-branding { visibility: visible;}
@@ -484,9 +487,10 @@
 	.mega-menu .dropdown-contents .menu-main-menu-container #primary-menu{
 		grid-template-columns: repeat(2, 1fr);
 	}
+	.mega-menu .modal-body{padding: 15px 0;}
 	.mega-menu .dropdown-contents .demo-form{
 		padding: 5em 0 0;
-		grid-template-columns: 355px;
+		grid-template-columns: 100%;
 		grid-column-gap: 0;
 	}
 	.mega-menu .dropdown-contents .demo-form .horizontal-line{display: none;}
