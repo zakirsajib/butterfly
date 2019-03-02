@@ -956,6 +956,7 @@ a {
 	}
 	.butterflyblogpost{
 		min-height: 4750px;
+		padding: 0 20px;
 	}
 	.butterflyblogpost .casestudy .right{
 		left: 0;
