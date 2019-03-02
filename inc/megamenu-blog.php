@@ -17,7 +17,8 @@
 			<div class="post-meta">
 				<?php butterfly_posted_on()?><?php butterfly_posted_by()?>
 			</div>
-			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+			<h2 class="entry-title"><a data-target="#blogDetailsTwo-<?php the_ID();?>" data-toggle="modal"><?php the_title()?></a></h2>
+			
 		</div>
 	<?php endwhile; wp_reset_postdata();
 	endif;?>

@@ -872,6 +872,7 @@ a {
 }
 
 @media (min-width: 320px){
+	.blogDetailsTwo.in .modal-dialog,
 	.blogDetailsOne.in .modal-dialog {
 	    margin: 0px 20px 0 0;
 	}

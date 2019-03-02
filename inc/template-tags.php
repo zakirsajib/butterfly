@@ -151,7 +151,7 @@ if ( ! function_exists( 'butterfly_dropdown_post_thumbnail' ) ) :
 		if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
 			return;
 		}?>
-		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+		<a class="post-thumbnail" data-target="#blogDetailsTwo-<?php the_ID();?>" data-toggle="modal">
 			<?php
 			the_post_thumbnail( 'dropdown-blog-size', array(
 				'alt' => the_title_attribute( array('echo' => false,) ),
