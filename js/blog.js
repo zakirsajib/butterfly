@@ -9,7 +9,7 @@ $ = jQuery.noConflict();
 			dots:false,
 			speed:2800,
 			adaptiveHeight:true,
-			autoplay:true,
+			//autoplay:true,
 			arrows: false,
 			autoplaySpeed: 4800,
 			infinite: true,

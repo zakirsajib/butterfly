@@ -13,7 +13,8 @@
                     <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shapeX.svg" class="hidden-lg mobile-icon-close"/></a>
                     <div class="form animated slideInLeft">
                         <div class="our-demo-form">
-                        	<?php echo do_shortcode('[ninja_form id=1]	')?>
+                        	<?php echo do_shortcode('[ninja_form id=1]')?>
+                        	
                         </div>
                     </div>
                     <div class="right animated slideInRight hidden-xs hidden-sm">
