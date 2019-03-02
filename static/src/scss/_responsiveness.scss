@@ -358,7 +358,7 @@
 	}
 	
 	.content-area {
-    	padding-left: 10px;
+    	padding-left: 0;
     	padding-right: 10px;
 	}
 	body.page-template-product-page-php .content-area {
@@ -373,7 +373,7 @@
 		grid-column-gap:0;
 	}
 	.section-one .demo-request{
-		margin-top: 6em;
+		margin-top: 233px;
 	}
 	.section-one .demo-request h1,
 	.section-one .demo-request p{
@@ -411,16 +411,16 @@
 	.why-butterfly{
 		grid-template-columns: none;
 		grid-template-rows: 1fr;
-		padding-bottom: 5em;
+		padding-bottom: 83px;
 		padding-top: 0;
 	}
 	.why-butterfly .butterfly-one{
-		padding-top: 5em;
+		padding-top: 47px;
 	}
 	
 	.why-butterfly .butterfly-two{
 		background-image: none;
-		padding-top: 5em;
+		padding-top: 43px;
 	}
 	.why-butterfly .butterfly-two .butterfly-right-column{
 		grid-template-columns: none;
@@ -439,6 +439,12 @@
 	.home-testimonial .testimonial-area .testimonial-statements p{
 		width: 100%;
 		height: 100%;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: normal;
+	}
+	.home-testimonial .testimonial-area .company-details .person-details p.person-name{
+		font-weight: 700;
 	}
 	
 	.home-testimonial .testimonial-area{
@@ -462,7 +468,8 @@
 	}
 	.home-footer{
 		padding-top: 30px;
-		margin-top: 5em;
+		margin-top: 51px;
+		padding-bottom: 72px;
 	}
 
 	.home-footer .demo-area .demo-form-box{
@@ -508,7 +515,7 @@
 	}
 	
 	
-	.section-one .demo-request h1{font-size: 35px;}
+	.section-one .demo-request h1{font-size: 42px; line-height: 1.14;}
 	.section-one .demo-request p{height: 100%;}
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
 		font-size: 14px;
@@ -523,9 +530,7 @@
 		grid-template-columns: none;
 		grid-template-rows: 1fr 1fr;
 	}
-	.site-name{
-		display: none;
-	}
+	
   	.mega-menu.modal.fade.in .modal-lg.container-fluid{
 	  	padding: 10px;
   	}
@@ -577,7 +582,8 @@
 		width: 100%;
 	}
 	.home-testimonial .testimonial-area .company-details{
-		grid-template-columns: 1fr 1fr 5fr;
+		grid-template-columns: 2fr 1fr 4fr;
+		padding-top: 34px;
 	}
 	body.page-template-product-page-php .entry-content .features .feathr-contents .tab-content{
 		width: 100vw;
@@ -661,6 +667,7 @@
 	
 	.why-butterfly .butterfly-two .butterfly-right-column{
 		grid-template-columns: none;
+		grid-row-gap: 2em;
 	}
 	.mega-menu.mega-menu.modal .modal-lg .mega-menu-top {
     	grid-template-columns: 3fr 1fr;
@@ -685,12 +692,25 @@
 	
 }
 @media (max-width: 375px){
-	.section-one .demo-request{margin-top: 12em;}
-	.section-one .demo-request p{margin: 37px 0 20px;}
+	//.section-one .demo-request{margin-top: 12em;}
+	.section-one .demo-request p{margin: 0; padding: 54px 0 44px;}
 	.home-footer .demo-area .demo-form-box .input-group .form-control.demo-input,
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
 		//font-size: 12px;
 	}
+	
+	.why-butterfly .butterfly-one .lead{
+		padding-right: 1em;
+		margin: 38px 0 32px;
+	}
+	
+	.why-butterfly .butterfly-one h1{
+		font-family: 'aleobold';
+		font-size: 42px;
+		line-height: 1.14;
+	}
+	
+	.client-logos{padding-top: 47px;}
 	
 	.client-logos svg{
 		max-width: 90%;
