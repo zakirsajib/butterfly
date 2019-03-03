@@ -348,17 +348,18 @@ while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
                             <?php include( get_template_directory() . '/inc/share.php');?>
                         </div>
                         
-                        <div class="nextbutton">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-rectangle@2x.png" class="rectangle"/>
-                        <div class="iconsarrow">
-                            <div class="background">
-                            </div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-arrow.svg" class="arrow"/>
+                        <?php $next_post = get_next_post();
+		                if (!empty( $next_post )): 
+						$next_post_id = $next_post->ID;?>
+                        	<div class="nextbutton">
+                        <div class="iconsarrow"><div class="background"></div>
+                            <a data-dismiss="modal" data-target="#caseStudyOne-<?php echo $next_post_id;?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-arrow.svg" class="arrow"/></a>
                         </div>
                         <div class="nextcasestudytick">
-                            <span class="span1">NEXT CASE STUDY</span><span class="span2"><br /></span><span class="span3">Ticketmaster</span>
+                            <span class="span1">NEXT CASE STUDY</span><span class="span2"><br /></span><span class="span3"><a data-dismiss="modal" data-target="#caseStudyOne-<?php echo $next_post_id;?>" data-toggle="modal"><?php echo esc_attr( $next_post->post_title ); ?></a></span>
                         </div>
                     </div>
+                        <?php endif;?>
                     </div>
         </div>
      </div>
