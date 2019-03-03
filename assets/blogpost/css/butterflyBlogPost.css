@@ -1,5 +1,6 @@
 .butterflyblogpost {
-  min-height          : 2400px;
+  min-height          : 100%;
+  height: 100%;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -16,14 +17,10 @@ a {
 .butterflyblogpost .casestudy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100vh;
-  width               : 100vw;
+  height              : 100%;
   position            : relative;
   margin              : 0 auto;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflyblogpost .casestudy .bg {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -76,21 +73,20 @@ a {
 .butterflyblogpost .casestudy .content {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
-  height              : 2141px;
-  width               : 900px;
-  position            : absolute;
+  height              : 100%;
+  width               : 800px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  padding-right: 140px;
+  padding-bottom: 10em;
 }
 .butterflyblogpost .casestudy .content .workroam {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : 100%;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 154px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -102,7 +98,7 @@ a {
   font-size           : 24.0px;
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
-  line-height         : 48.0px;
+  line-height         : 24.0px;
 }
 
 .butterflyblogpost .casestudy .content .workroam a{
@@ -111,10 +107,10 @@ a {
 
 .butterflyblogpost .casestudy .content .theremoteworkinge {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
+  padding-top                 : 64px;
   height              : auto;
-  width               : 50%;
-  position            : absolute;
+  width               : 100%;
+  position            : relative;
   margin              : 0;
   left                : 154px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -128,7 +124,7 @@ a {
 }
 .butterflyblogpost .casestudy .content .inournewseriesw {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 196px;
+  padding-top                  : 36px;
   height              : auto;
   width               : 416px;
   position            : relative;
@@ -147,16 +143,12 @@ a {
 }
 .butterflyblogpost .casestudy .content .lisbon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 263px;
-  height              : 553px;
+  padding-top                  : 47px;
+/*   height              : 553px; */
   width               : 900px;
   position            : relative;
   margin              : 0;
   left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 
 
@@ -166,27 +158,17 @@ a {
 
 .butterflyblogpost .casestudy .content .lisbon .mask {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 553px;
-  width               : 900px;
-  position            : absolute;
+/*   top                 : 0px; */
+/*   height              : 553px; */
+/*   width               : 900px; */
+/*   position            : absolute; */
   margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+/*   left                : 0px; */
 }
 .butterflyblogpost .casestudy .content .lisbon .lisbon1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -24px;
-  height              : 600px;
-  width               : 900px;
-  position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflyblogpost .casestudy .content .locationlisbonpo {
   background-color    : rgba(255,255,255,0.0);
@@ -216,7 +198,7 @@ a {
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
   line-height         : 20.0px;
-  top                 : 350px;
+  padding-top                  : 63px;
   height              : auto;
   width               : 80%;
   position            : relative;
@@ -231,12 +213,32 @@ a {
 	margin: 0 0 25px;
 }
 
+
+.butterflyblogpost .casestudy .content .post-contents h3,
+.butterflyblogpost .casestudy .content .post-contents h4{
+	font-family: 'Muli';
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #3a3b57;
+}
+.butterflyblogpost .casestudy .content .post-contents h3{
+	font-size: 24px;
+	margin-bottom: 38px;
+}
+.butterflyblogpost .casestudy .content .post-contents h4{
+	font-size: 16px;
+}
+
 .butterflyblogpost .casestudy .content .post-contents p{
 	margin: 0 0 50px;
 }
 
 .butterflyblogpost .casestudy .content .post-contents img{
 	margin: 2em 0;
+	height: auto;
 }
 
 .butterflyblogpost .casestudy .content .post-contents figcaption,
@@ -251,8 +253,10 @@ a {
     position: relative;
     top:0;
     padding-bottom: 3em;
-    left:345px!important;
+    left:250px;
 }
+
+.butterflyblogpost .casestudy .content .post-contents figure{ max-width: 100%;}
 
 .butterflyblogpost .casestudy .content .post-contents figcaption:before{
 	content: " ";
@@ -398,26 +402,23 @@ a {
 .butterflyblogpost .casestudy .right {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100vh;
-  width               : 280px;
+  height              : 100%;
+  width               : 260px;
   position            : absolute;
   margin              : 0;
+  bottom: 0;
   right:0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .butterflyblogpost .casestudy .right .mask {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 2400px;
+  height              : 100%;
   width               : 260px;
   position            : absolute;
   margin              : 0;
   left                : 21px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   opacity             : 0.9;
 }
 .butterflyblogpost .casestudy .right .iconclose {
@@ -429,9 +430,7 @@ a {
   margin              : 0;
   left                : 215px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  z-index: 1;
 }
 .butterflyblogpost .casestudy .right .iconclose .background {
   background-color    : rgba(255,255,255,0.0);
@@ -460,12 +459,13 @@ a {
 }
 .butterflyblogpost .casestudy .right .date12142018 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 118px;
+  padding-top                 : 118px;
   height              : auto;
-  width               : 222px;
+  width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 51px;
+  left                : 30px;
+  right:10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -492,12 +492,13 @@ a {
 }
 .butterflyblogpost .casestudy .right .separatorhorizontal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 171px;
+  padding-top                 : 16px;
   height              : 1px;
   width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 41px;
+  left                : 20px;
+  right: 20px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -506,22 +507,24 @@ a {
   background-color    : rgba(255, 255, 255, 0.25);
   top                 : 0px;
   height              : 1px;
-  width               : 220px;
+  width               : 200px;
   position            : relative;
   margin              : 0;
   left                : 0px;
+  right:0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .butterflyblogpost .casestudy .right .categoryworkroam {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 186px;
+  padding-top                 : 13px;
   height              : auto;
-  width               : 222px;
+  width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 51px;
+  left                : 30px;
+  right: 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -553,12 +556,13 @@ a {
 
 .butterflyblogpost .casestudy .right .separatorhorizontal1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 239px;
+  padding-top                 : 13px;
   height              : 1px;
   width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 41px;
+  left                : 20px;
+  right: 20px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -567,22 +571,24 @@ a {
   background-color    : rgba(255, 255, 255, 0.25);
   top                 : 0px;
   height              : 1px;
-  width               : 220px;
+  width               : 200px;
   position            : relative;
   margin              : 0;
   left                : 0px;
+  right: 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .butterflyblogpost .casestudy .right .tagsworklifebalan {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 256px;
+  padding-top                 : 13px;
   height              : auto;
-  width               : 222px;
+  width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 51px;
+  left                : 30px;
+  right: 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -609,12 +615,13 @@ a {
 }
 .butterflyblogpost .casestudy .right .separatorhorizontal2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 356px;
+  padding-top                 : 13px;
   height              : 1px;
   width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 41px;
+  left                : 20px;
+  right: 20px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -623,22 +630,24 @@ a {
   background-color    : rgba(255, 255, 255, 0.25);
   top                 : 0px;
   height              : 1px;
-  width               : 220px;
+  width               : 200px;
   position            : relative;
   margin              : 0;
   left                : 0px;
+  right: 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .butterflyblogpost .casestudy .right .authorjohnwilliams {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 373px;
+  padding-top                 : 13px;
   height              : auto;
-  width               : 222px;
+  width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 51px;
+  left                : 30px;
+  right: 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -665,12 +674,13 @@ a {
 }
 .butterflyblogpost .casestudy .right .separatorhorizontal3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 429px;
+  padding-top                 : 13px;
   height              : 1px;
   width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 41px;
+  left                : 20px;
+  right: 20px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -679,22 +689,25 @@ a {
   background-color    : rgba(255, 255, 255, 0.25);
   top                 : 0px;
   height              : 1px;
-  width               : 220px;
+  width               : 200px;
   position            : relative;
   margin              : 0;
   left                : 0px;
+  right: 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .butterflyblogpost .casestudy .right .share {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 446px;
+  padding-top                 : 13px;
+  padding-bottom: 17px;
   height              : auto;
-  width               : 222px;
+  width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 51px;
+  left                : 30px;
+  right: 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -708,12 +721,13 @@ a {
 }
 .butterflyblogpost .casestudy .right .share1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 477px;
+/*   top                 : 477px; */
   height              : 16px;
-  width               : 169px;
+  width               : 220px;
   position            : relative;
   margin              : 0;
-  left                : 52px;
+  left                : 30px;
+  right: 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -780,15 +794,13 @@ a {
 }
 .butterflyblogpost .casestudy .right .nextbutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2189px;
+/*   top                 : 2189px; */
   height              : 182px;
   width               : 252px;
   position            : absolute;
-  margin              : 0;
+  margin              : 0 0 1em;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  bottom: 0;
 }
 .butterflyblogpost .casestudy .right .nextbutton .rectangle {
   background-color    : rgba(255,255,255,0.0);
@@ -879,42 +891,33 @@ a {
 }
 
 @media (max-width: 1170px){
-	.butterflyblogpost .casestudy .brandingbutterflyicon{
-		left: 50px;
-	}
 	
 	.butterflyblogpost .casestudy .content{
 		position: relative;
-		width: 100%;
+		width: 80%;
 		left: 50px;
-		max-width: 50%;
+		max-width: 100%;
 	}
 	
 	.butterflyblogpost .casestudy .content .featured-img{
 		width: 100%;
-		height: 350px;
-		overflow: visible;
-		position: relative;
 	}
 	.butterflyblogpost .casestudy .content .featured-img img{
 		position: relative!important;
-		width: auto!important;
+		width: 90%!important;
 		height: auto!important;
 	}
 	.butterflyblogpost .casestudy .content .theremoteworkinge{
-		position: relative;
 		left: 0;
-		height: auto;
 		width: 100%;
 		font-size: 30px;
 		line-height: 30px;
 	}
 	.butterflyblogpost .casestudy .content .inournewseriesw{
 		left: 0;
-		padding-right: 2em;
 		width: 100%;
-		height: auto;
-	}.butterflyblogpost .casestudy .content .post-contents,
+	}
+	.butterflyblogpost .casestudy .content .post-contents,
 	.butterflyblogpost .casestudy .content .locationlisbonpo,
 	.butterflyblogpost .casestudy .content .ihearitu2019sbeencol,
 	.butterflyblogpost .casestudy .content .locationitalypar,
@@ -936,10 +939,21 @@ a {
 	}
 }
 
+@media (max-width: 940px){
+	.butterflyblogpost .casestudy .content .post-contents figcaption, 
+	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
+		left: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
 @media (max-width: 767px){
 	
 	.butterflyblogpost .casestudy .content{
-		max-width: 90%;
+		max-width: 100%;
+		width: 100%;
+		padding-right: 0;
+		padding-bottom: 5em;
 	}
 	.butterflyblogpost .casestudy .content .post-contents,
 	.butterflyblogpost .casestudy .content,
@@ -955,44 +969,30 @@ a {
 		left: 0;
 	}
 	.butterflyblogpost{
-		min-height: 4750px;
 		padding: 0 20px;
 	}
 	.butterflyblogpost .casestudy .right{
-		left: 0;
-		top:2314px;
+		position: relative;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.butterflyblogpost .casestudy .right .mask{
 		left: 0;
 	}
-	.butterflyblogpost .casestudy .content .workroam{
-		width: auto;
-		left: auto;
-		right: 20px;
-	}
-}
-@media (max-width: 660px){
-	.butterflyblogpost .casestudy .content .post-contents figcaption, 
-	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
-		left: 145px!important;
+	.butterflyblogpost .casestudy .right .nextbutton{
+		position: relative;
+		margin: 10em 0 1em;
+		left: -16px;
 	}
 }
 
 @media (max-width: 480px){
-	.butterflyblogpost .casestudy .content .post-contents figcaption, 
-	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
-		left: 30px!important;
-	}
-	.butterflyblogpost .casestudy .right{
-		top: 2514px;
-	}
-	.butterflyblogpost{
-		min-height: 4850px;
-	}
+	
 	.butterflywebsiteblog .takeasneakpeekof h1{
 		font-size: 36px;
 		line-height: 36px;
 	}
+	.butterflyblogpost .casestudy .content .workroam{display: none;}
 }
 
 @media (max-width: 359px){

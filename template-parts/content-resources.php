@@ -34,7 +34,7 @@
 						<?php if(has_post_thumbnail()):?>
 							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
 						<?php else:?>
-							<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/>
+							<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-1.svg" class="lisbon"/></a>
 						<?php endif;?>
 						<div class="readarticle">
 						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">Read Article</a></div>
@@ -186,7 +186,6 @@ while ( $args->have_posts() ) : $args->the_post();?>
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="butterflyblogpost">
             <div class="casestudy">
-                <div class="bg"></div>
                 <div class="brandingbutterflyicon">
                         <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-bg@2x.png" class="bg1"/>
                         <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-butterfly@2x.png" class="butterfly"/>
@@ -224,6 +223,7 @@ while ( $args->have_posts() ) : $args->the_post();?>
                         <div class="background"></div>
                             <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-combined-shape.svg" class="combinedshape"/></a>
                         </div>
+                    
                     <div class="date12142018">
                             <span class="span1">DATE</span><span class="span2"><br /></span><span class="span3"><?php echo get_the_date(); ?></span>
                         </div>
@@ -244,22 +244,22 @@ while ( $args->have_posts() ) : $args->the_post();?>
                     <div class="separatorhorizontal3"><div class="bg1"></div></div>
 					<div class="share">SHARE</div>
                     <div class="share1">
-                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-facebook.svg" class="facebook"/></a>
-                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-instagram.svg" class="instagram"/></a>
-                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-link.svg" class="link"/></a>
-                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-linkedin.svg" class="linkedin"/></a>
-                            <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-twitter.svg" class="twitter"/></a>
-                        </div>
-                    <div class="nextbutton">
+	                    <?php include( get_template_directory() . '/inc/share.php');?>
+                    </div>
+                    
+                    <?php $next_post = get_next_post();
+		                if (!empty( $next_post )): 
+							$next_post_id = $next_post->ID;?>
+						<div class="nextbutton">
                             <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-rectangle@2x.png" class="rectangle"/>
-                            <div class="iconsarrow">
-                                <div class="background"></div>
-                                <a href="#"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-arrow.svg" class="arrow"/></a>
+                            <div class="iconsarrow"><div class="background"></div>
+                                <a data-dismiss="modal" data-target="#blogDetailsOne-<?php echo $next_post_id;?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-arrow.svg" class="arrow"/></a>
                             </div>
                             <div class="nextuptheremotew">
-                                <span class="span1">NEXT UP<br /></span><span class="span2"><br /></span><span class="span3"><a href="#">The Remote Working Experience<br />Lisbon &amp; Parma</a></span>
+                                <span class="span1">NEXT UP<br /></span><span class="span2"><br /></span><span class="span3"><a data-dismiss="modal" data-target="#blogDetailsOne-<?php echo $next_post_id;?>" data-toggle="modal"><?php echo esc_attr( $next_post->post_title ); ?></a></span>
                             </div>
                         </div>
+						<?php endif;?>
                     </div>
             </div>
 		</div>
@@ -330,11 +330,7 @@ while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
                             SHARE
                         </div>
                         <div class="share1">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-facebook.svg" class="facebook"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-instagram.svg" class="instagram"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-link.svg" class="link"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-linkedin.svg" class="linkedin"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/casestudy/img/butterflycasestudy-twitter.svg" class="twitter"/>
+                            <?php include( get_template_directory() . '/inc/share.php');?>
                         </div>
                         
                         <div class="nextbutton">

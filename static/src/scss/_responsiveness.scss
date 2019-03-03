@@ -590,6 +590,7 @@
 	}
 	#blogDetailsOne .modal-dialog, 
 	#caseStudyOne .modal-dialog{margin: 0 10px;}
+	body.page-template-product-page-php .entry-content .features:before{display: none}
 }
 @media (min-width: 414px) and (max-width: 736px) and (orientation: landscape){
 	.content-area .section-one{

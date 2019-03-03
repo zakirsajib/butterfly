@@ -1,21 +1,17 @@
 $ = jQuery.noConflict();
 	$(function ($) {
-				
-		var firstHeight = $(".butterflyblogpost .content").height();
-		var newHeight = firstHeight + 200 + 'px';
-		$(".butterflyblogpost .right").css("top", newHeight);
-		
+						
 		$('.blog-container').slick({
 			dots:false,
 			speed:2800,
 			adaptiveHeight:true,
-			//autoplay:true,
+			autoplay:false,
 			arrows: false,
 			autoplaySpeed: 4800,
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
-			focusOnSelect: true,
+			focusOnSelect: false,
 			draggable: true,
 			swipeToSlide: true,
 			accessibility: true,
@@ -32,14 +28,16 @@ $ = jQuery.noConflict();
 		      breakpoint: 600,
 		      settings: {
 		        slidesToShow: 1,
-		        slidesToScroll: 1
+		        slidesToScroll: 1,
+		        infinite: true
 		      }
 		    },
 		    {
 		      breakpoint: 480,
 		      settings: {
 		        slidesToShow: 1,
-		        slidesToScroll: 1
+		        slidesToScroll: 1,
+		        infinite: true
 		      }
 		    }
 		  ]
