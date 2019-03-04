@@ -23,7 +23,7 @@ $ = jQuery.noConflict();
 		
 		$('.affix-butterfly').affix({
 			offset: {
-				top:  $('.butterfly-one').offset().top-50,
+				top:  $('.butterfly-one').offset().top-350,
 				bottom: 1700
   			}
 		});

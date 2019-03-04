@@ -262,7 +262,7 @@ picture, img{
 				left: 0;
 			}
 			&.affix{
-				top:0px;
+				top:100px;
 			} 
 		}
     }
@@ -359,9 +359,9 @@ picture, img{
 				text-align: left;
 				font-family: 'aleolightitalic';
 				font-size: 32px;
-				font-weight: 300;
+				font-weight: 400;
 				font-stretch: normal;
-				line-height: 1.5;
+				line-height: normal;
 				letter-spacing: normal;
 				color: #555555;
 				width: 600px;
@@ -371,7 +371,7 @@ picture, img{
 		.company-details{
 			display: grid;
 			grid-template-columns: 1fr 1fr 5fr;
-			padding-top: 45px;
+			padding-top: 10px;
 			.horizontal-line{
 				width: 1px;
 				height: 50px;
