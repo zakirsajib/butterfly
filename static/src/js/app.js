@@ -51,12 +51,12 @@ $ = jQuery.noConflict();
 	
 	
 	$('.menu-icon').click(function() {
-		$('.mega-menu.modal.in .modal-content').hide();
+		$('.mega-menu.modal.in .modal-content').fadeOut();
 		$('.mega-menu.modal.in .modal-dialog').css('height','100%');
 		setTimeout(function(){
 			$('.mega-menu.modal.in .modal-content').fadeIn('slow');
-			$('.mega-menu.modal.in .modal-dialog').css('height','auto');
-		}, 2000);
+			$('.mega-menu.modal.in .modal-dialog').css('height','100%');
+		}, 500);
 	});	
 /*
 	$('section#a1').css('display','block');

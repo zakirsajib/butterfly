@@ -62,9 +62,18 @@
 		}
 	}
 }
+
+@media (max-width: 1542px){
+	.section-one .home-carousel.col-lg-7{
+		width: 50.33333%;
+	}
+	.client-logos{
+		padding-top: 4.5em;
+	}
+}
+
 @media (max-width: 1440px){
 	.section-one{
-		//min-height: calc(100vh - 225px);
 		.demo-request {
 			h1{
 				font-size:55px;
@@ -291,7 +300,7 @@
 	.mega-menu .dropdown-contents .demo-form .testimonial-area{
 		padding: 0 2em;
 	}
-
+	.navbar-fixed-top{padding-right: 20px!important;}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -541,6 +550,8 @@
 
 
 @media (max-width: 767px){
+	.navbar-fixed-top{padding-right: 20px!important;}
+	
 	body.page-template-product-page-php article .entry-header{
 		grid-template-columns: 1fr;
 	}
