@@ -2,6 +2,7 @@
 @media (min-width: 768px){
 	#reqDemo .modal-dialog {
 	    margin: 0px auto;
+	    padding: 0;
 	}
 }
 	

@@ -12,6 +12,7 @@
 @media (min-width: 320px){
 	.caseStudyOne.in .modal-dialog {
 	    margin: 0px auto;
+	    padding: 0;
 	}
 }
 

@@ -64,7 +64,6 @@ $ = jQuery.noConflict();
 			draggable: true,
 			swipeToSlide: true,
 			accessibility: true,
-			lazyLoad: 'progressive',
 			pauseOnHover: true,
 			responsive: [
 		    {

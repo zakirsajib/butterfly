@@ -42,7 +42,6 @@
 							<li><a href="<?php echo $social_instagram ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/instagram.svg" alt="Butterfly Instagram"></a></li>
 							<li><a href="<?php echo $social_twitter ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/twitter.svg" alt="Butterfly Twitter"></a></li>
 							<li><a href="<?php echo $social_linkedin ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/linkedin.svg" alt="Butterfly LinkedIn"></a></li>
-							<li><a href="mailto:<?php echo $social_link ?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/link.svg" alt="Butterfly"></a></li>
 						</ul>
 					</div>
 				</div>
