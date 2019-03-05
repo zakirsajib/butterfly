@@ -6,15 +6,16 @@ $ = jQuery.noConflict();
 			speed:2800,
 			adaptiveHeight:true,
 			autoplay:false,
-			arrows: false,
+			arrows: true,
 			autoplaySpeed: 4200,
-			infinite: true,
+			infinite: false,
 			slidesToShow: 3,
 			slidesToScroll: 3,
 			focusOnSelect: false,
 			draggable: true,
 			swipeToSlide: true,
 			accessibility: true,
+			nextArrow: $('.arrow'),
 			responsive: [
 		    {
 		      breakpoint: 1024,
@@ -90,9 +91,9 @@ $ = jQuery.noConflict();
 			speed:2800,
 			adaptiveHeight:true,
 			autoplay:false,
-			arrows: false,
+			arrows: true,
 			autoplaySpeed: 4800,
-			infinite: true,
+			infinite: false,
 			slidesToShow: 3,
 			slidesToScroll: 3,
 			touchMove: true,
@@ -100,6 +101,7 @@ $ = jQuery.noConflict();
 			draggable: true,
 			swipeToSlide: true,
 			accessibility: true,
+			nextArrow: $('.iconsarrow1'),
 			responsive: [
 		    {
 		      breakpoint: 1024,

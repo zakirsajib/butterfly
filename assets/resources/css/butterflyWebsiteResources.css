@@ -32,7 +32,7 @@
 .butterflywebsiteresources .casestudies .group{
 	width: 332px!important;
 	height: 332px!important;
-	top:105px!important;
+	top:80px!important;
 /* 	left:0; */
 }
 .butterflywebsiteresources .blog .group{
@@ -45,24 +45,21 @@
 	margin: 0 20px 0 0!important;
 }
 .butterflywebsiteresources .blog .group:hover{
-/* 	background-image: url('../img/butterflywebsiteresources-rectangle-16.png'); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	cursor: pointer;
 	
 	border-radius: 5px;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
-	background-color: #ffffff;
+/* 	background-color: #ffffff; */
 }
 
 .butterflywebsiteresources .blog .group .lisbon{
 	width: 320px;
 	left: 0;
 }
-
 .butterflywebsiteresources .blog .group:hover .iconsarrow1{
-	display: block;
-	top: 296px;
+	display: block!important;
 }
 
 
@@ -76,9 +73,8 @@
 .butterflywebsiteresources .blog .group .readarticle a:hover{
 	color: #3a3b57;
 }
-
 .butterflywebsiteresources .blog .group .iconsarrow1{
-	display: none;
+	display: none!important;
 }
 
 .butterflywebsiteresources .downloads .group:hover,
@@ -1606,16 +1602,79 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 .butterflywebsiteresources .blog .group2 .iconsarrow1,
 .butterflywebsiteresources .blog .group .iconsarrow1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 302px;
+  top                 : 297px;
   height              : 24px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 273px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
+
+
+.case-studies-container .iconsarrow img.arrow.slick-arrow.slick-disabled,
+.butterflywebsiteresources .blog .group .iconsarrow1.slick-arrow.slick-disabled{
+	display: none!important;
+}
+
+
+
+.blog-container button.slick-prev.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 280px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+
+.blog-container button.slick-prev.slick-arrow:focus,
+.case-studies-container button.slick-prev.slick-arrow:focus{
+	outline: 0;
+}
+.case-studies-container button.slick-prev.slick-arrow.slick-disabled,
+.blog-container button.slick-prev.slick-arrow.slick-disabled{
+	display: none!important;
+}
+
+
+.case-studies-container button.slick-prev.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 280px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+
+
+
+
 .butterflywebsiteresources .blog .group21,
 .butterflywebsiteresources .blog .group {
   background-color    : rgba(255,255,255,0.0);

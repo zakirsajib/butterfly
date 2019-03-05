@@ -2840,7 +2840,7 @@
 	transform           : rotate(0deg);
 	width: 332px!important;
 	height: 332px!important;
-	top:50px;
+	top:0;
 	left: 0;
 }
 
@@ -2858,6 +2858,7 @@
     background-color: #FD9A24!important;
 }
 
+.butterflywebsiteabout .casestudies .group .viewcasestudy:hover .iconsarrow .arrow,
 .butterflywebsiteabout .casestudies .group:hover .iconsarrow {
     display: block;
 }
@@ -2927,6 +2928,37 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+.butterflywebsiteabout .casestudies .case-studies-container button.slick-prev.slick-arrow.slick-disabled,
+.butterflywebsiteabout .casestudies .group .iconsarrow .arrow.slick-arrow.slick-disabled{
+	display: none!important;
+}
+
+.butterflywebsiteabout .casestudies .case-studies-container button.slick-prev.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 225px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: -50px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+
+.butterflywebsiteabout .casestudies .case-studies-container button.slick-prev.slick-arrow:focus{
+	outline: 0;
+}
+
 .butterflywebsiteabout .casestudies .group .loremipsumdolorsi{
 	background-color: rgba(255,255,255,0.0);
     top: 137px;

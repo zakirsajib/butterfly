@@ -28,8 +28,8 @@
 			   	$args = new WP_Query(array(
 			    	'post_type' => 'post', 
 					'posts_per_page' => -1
-			    ));
-			    while ( $args->have_posts() ) : $args->the_post();?>
+			    ));?>			    
+			    <?php while ( $args->have_posts() ) : $args->the_post();?>
 					<div class="group21 group col-md-3">
 						<?php if(has_post_thumbnail()):?>
 							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
@@ -39,7 +39,7 @@
 						<div class="readarticle">
 						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">Read Article</a></div>
 						<div class="theremoteworkinge"><a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a></div>
-						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
+						<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/>
 					</div>					
 				<?php endwhile;wp_reset_postdata();?>
         </div>
@@ -60,8 +60,8 @@
 			    while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
 					<div class="group21 group col-md-3">
             			<div class="viewcasestudy"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">View case study</a></div>
-            <div class="iconsarrow"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a></div>
+            <div class="iconsarrow">
+            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></div>
             <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php echo wp_trim_words( get_the_title(), 5 ); ?></a></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php if(get_field('case_study_company_logo')):?><img class="tmklogo svg" src="<?php the_field('case_study_company_logo')?>" alt="<?php the_title()?>"><?php else:?><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/><?php endif;?></a></div>
 				<?php endwhile;wp_reset_postdata();?>
         </div>
