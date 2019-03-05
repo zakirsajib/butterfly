@@ -1429,7 +1429,7 @@ div {
 .butterflywebsiteblog .blog .group .iconsarrow1,
 .butterflywebsiteblog .blog .group2 .iconsarrow1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 302px;
+  top                 : 296px;
   height              : 24px;
   width               : 24px;
   position            : absolute;
@@ -1440,6 +1440,41 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+.butterflywebsiteblog .blog .group .iconsarrow1.slick-arrow.slick-disabled,
+.butterflywebsiteblog .blog .group2 .iconsarrow1.slick-arrow.slick-disabled{
+	display: none!important;
+}
+
+.butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 280px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+
+.butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow:focus{
+	outline: 0;
+}
+
+.butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow.slick-prev.slick-arrow.slick-disabled{display: none!important;}
+
+
 .butterflywebsiteblog .blog .group2 .iconsarrow1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
