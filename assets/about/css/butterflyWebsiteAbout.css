@@ -1,32 +1,27 @@
 .butterflywebsiteabout {
-  min-height          : 4800px;
+  min-height          : 100%;
+  height: 100%;
   position            : relative;
   overflow            : hidden;
   margin              : 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
+  padding-top: 163px;
 }
 
 #about{
     font-size: 16.0px;
 }
 
-.slick-list{overflow: visible!important;}
+/* .slick-list{overflow: visible!important;} */
 
 .butterflywebsiteabout .downloads #about .group2{
-	height: 100%;
 	padding-left: 0;
 }
 
 
 .butterflywebsiteabout  .site-content{position: relative;}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
 
 .aboutusbyus.nav-tabs,
 .clientlistcasestu.nav-tabs,
@@ -68,10 +63,10 @@ div {
 
 .butterflywebsiteabout .map {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 4037px;
+/*   padding-top                 : 532px; */
   height              : 800px;
   width               : 100%;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
@@ -393,13 +388,14 @@ div {
 }
 .butterflywebsiteabout .company {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2064px;
-  height              : 1032px;
+/*   padding-top                 : 150px; */
+/*   height              : 1032px; */
 /*   width               : 100vw; */
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 120px;
+  left                : 70px;
   padding-left: 0;
+  margin-bottom: 1000px;
 }
 .butterflywebsiteabout .company:before {
 	background-image: url('../img/butterflywebsiteabout-rectangle-5.png');
@@ -963,16 +959,23 @@ div {
 }
 .butterflywebsiteabout .downloads {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1483px;
-  height              : 437px;
+  padding-top                 : 121px;
+/*   height              : 437px; */
   width               : 100%;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 120px;
+  left                : 70px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+.butterflywebsiteabout .downloads .fade.active.in .downloads-studies-container{
+	margin-bottom: 150px;
+}
+
+
+
 .butterflywebsiteabout .downloads:before {
 	background-image: url('../img/butterflywebsiteabout-rectangle-3.png');
     background-position: center center;
@@ -995,7 +998,7 @@ div {
   top                 : 0px;
   height              : 58px;
   width               : 519px;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   left                : 6px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -1111,9 +1114,11 @@ div {
   transform           : rotate(0deg);
 }
 
+/*
 .butterflywebsiteabout .downloads-studies-container{
 	margin-top: 5em;
 }
+*/
 
 
 .butterflywebsiteabout .downloads .downloads-studies-container .group:hover{
@@ -1402,15 +1407,16 @@ div {
 }
 .butterflywebsiteabout .partners {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 925px;
+  padding-top                 : 148px;
   height              : 438px;
   width               : 786px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 120px;
+  left                : 70px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  margin-bottom: 121px;
 }
 .butterflywebsiteabout .partners:before{
 	background-image: url('../img/butterflywebsiteabout-rectangle-copy.png');
@@ -1664,15 +1670,13 @@ div {
 }
 .butterflywebsiteabout .customers {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 214px;
-  height              : 454px;
+  padding-top                 : 65px;
+/*   height              : 454px; */
   width               : 950px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 120px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  left                : 70px;
+  margin-bottom: 148px;
 }
 
 .butterflywebsiteabout .customers:before{
@@ -1694,7 +1698,7 @@ div {
 
 .butterflywebsiteabout .customers .logo {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 139px;
+  top                 : 202px;
   height              : 314px;
   width               : 360px;
   position            : absolute;
@@ -1954,12 +1958,12 @@ div {
 }
 .butterflywebsiteabout .greatmanagersmake {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
+  top                 : 0;
   height              : auto;
   width               : 710px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 120px;
+  left                : 70px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2824,7 +2828,7 @@ div {
 }
 
 .butterflywebsiteabout .casestudies-details{
-	padding-top: 3em;
+	padding-top: 65px;
 }
 
 .butterflywebsiteabout .casestudies .group{
@@ -2976,24 +2980,62 @@ div {
 .affix-company.affix-bottom{
 	position: absolute;
 	left:0;
-	overflow: hidden;
-	padding-bottom: 50em;
 }
 .affix-company.affix-top{
 	position: absolute;
 	left: 0;
 }
 .affix-company.affix{
-	top:50px;
+	top:260px;
 	z-index: 0;
 }
 
 
+@media (max-width: 1199px){
+	.butterflywebsiteabout .company .group{
+		left: 0;
+		top:0;
+	}
+	.butterflywebsiteabout .company .headerpartners{
+		position: relative;
+		width: 90%;
+	}
+	.butterflywebsiteabout .company .ourstory{
+		padding-top:23px;
+		top:0;
+		position: relative;
+	}
+	.butterflywebsiteabout .company .hourlyemployeesmak{
+		position: relative;
+		padding-top:50px;
+		top:0;
+		width: 90%;
+	}
+	.butterflywebsiteabout .company .tt{
+		padding-top: 100px;
+	}
+	.butterflywebsiteabout .company{
+		margin-bottom: 100px;
+	}
+}
 
+@media (max-width: 1108px){
+	.butterflywebsiteabout .downloads .fade.active.in .downloads-studies-container{
+		margin-bottom: 0;
+	}
+}
 
 @media (max-width: 1080px){
-	.butterflywebsiteabout{
-		min-height: 5050px;
+	
+	.butterflywebsiteabout .customers .logo{
+		top:160px;
+	}
+	.butterflywebsiteabout .casestudies-details{
+		padding-top: 25px;
+		margin-top: 0;
+	}
+	.butterflywebsiteabout .customers{
+		margin-bottom: 190px;
 	}
 		
 	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
@@ -3014,26 +3056,23 @@ div {
 	}
 	
 	.butterflywebsiteabout .partners .meetouracademicpa{
-		top:155px;
+		top:100px;
 	}
 	.butterflywebsiteabout .partners .weworkwithtopsch{
-		top:200px;
+		top:150px;
 	}
 	.butterflywebsiteabout .partners .logo{
 		top:350px;
 		left: 0;
 	}
 	.butterflywebsiteabout .downloads{
-		top:1700px;
+		top:200px;
 	}
 	
 	
 	.butterflywebsiteabout .company .tt{
-		position: absolute;
-		top:462px;
-	}
-	
-	.butterflywebsiteabout .company .group .cofounderceo{
+		position: relative;
+		top:0;
 	}
 	
 	.butterflywebsiteabout .company .tt .group{
@@ -3041,13 +3080,8 @@ div {
 		top:0;
 	}
 	
-	
 	.butterflywebsiteabout .company{
-		top:2200px;
-	}
-	
-	.butterflywebsiteabout .map{
-/* 		top:3500px; */
+/* 		margin-bottom: 800px; */
 	}
 	.butterflywebsiteabout .casestudies-details{
 		margin-top: 3em;
@@ -3059,258 +3093,183 @@ div {
 	.butterflywebsiteabout .company .hourlyemployeesmak{
 		width: 100%;
 		max-width: 80%;
+		position: relative;
+		top:10px;
 	}
 }
 
-@media (max-width: 910px){
+@media (max-width: 1024px){
 	.butterflywebsiteabout .company{
-		top:2300px;
+		margin-top: 300px;
 	}
 }
 
-
-@media (max-width: 768px){
-	.butterflywebsiteabout{
-/* 		min-height: 6800px; */
-	}
+@media (max-width: 767px){
 	
-	.butterflywebsiteabout .greatmanagersmake{
-		width: auto;
-	}
-	
+}
+@media (max-width: 710px){
 	.butterflywebsiteabout .greatmanagersmake,
 	.butterflywebsiteabout .customers,
 	.butterflywebsiteabout .partners,
 	.butterflywebsiteabout .downloads,
 	.butterflywebsiteabout .company{
-		left: 20px;
-	}
-	
-	
-	.butterflywebsiteabout .company .tt{
-		top:560px;
-	}
-	
-	
-	.butterflywebsiteabout .contact {
-/*     	top: 5030px; */
-	}
-	.butterflywebsiteabout .contact{
-		left: 20px;
-	}
-	.butterflywebsiteabout .contact .group3{
-		width: 320px;
-		left:390px;
-	}
-	
-	.butterflywebsiteabout .logo ul li, .butterflywebsiteabout .logo svg{position: relative;}
-	.butterflywebsiteabout .contact .group3 .brandingbutterflyround{
-		left: -70px;
-	}
-	.butterflywebsiteabout .contact .group3 .triangle{
-		left: -53px;
-	}
-/*
-	.butterflywebsiteabout .contact .group3 .brandingbutterflyround,
-	.butterflywebsiteabout .contact .group3 .triangle{
-		display: none;
-	}
-*/
-	.butterflywebsiteabout .contact .group3 .rectangle{
-		width: 320px;
 		left: 0;
 	}
-	.butterflywebsiteabout .contact .group3 .appynestinc,
-	.butterflywebsiteabout .contact .group3 .a67weststreetsui{
-		left: 50px;
+	.butterflywebsiteabout .contact .headerpartners{
+		left: 20px;
 	}
-	.butterflywebsiteabout .map{
-		top:4300px;
+}
+@media (max-width: 650px){
+	.butterflywebsiteabout .customers{
+		margin-bottom: 0;
+		width: auto;
+		max-width: 100%;
+	}
+	.butterflywebsiteabout .greatmanagersmake{
+		width: auto;
+		max-width: 100%;
 	}
 	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
 		top:550px;
 	}
-	.butterflywebsiteabout .customers .benjaminsnyers{
-		top:650px;
-	}
-	.butterflywebsiteabout .partners{
-		top:1000px;
-	}
-	.butterflywebsiteabout .downloads{
-		top:1800px;
+	.butterflywebsiteabout .customers .benjaminsnyers {
+    	top: 650px;
 	}
 	.butterflywebsiteabout .company{
-		top: 2400px;
-	}
-	.butterflywebsiteabout .company .group .cofounderceo{
-		top:200px;
-	}
-	.butterflywebsiteabout .contact .headerpartners{
-		left: 0;
+		margin-top: 100px;
 	}
 }
 
-@media (max-width: 767px){
-	.butterflywebsiteabout {
-    	min-height: 6200px;
+@media (max-width: 599px){
+	.butterflywebsiteabout .partners{
+		margin-top: 15em;
 	}
-	.butterflywebsiteabout .map{
-		height: 600px;	
-		top:5500px;
-		
+	.butterflywebsiteabout .company{
+		margin-top: 400px;
 	}
-	.butterflywebsiteabout .customers .headercustomers .clientlistcasestu, 
-	.butterflywebsiteabout .partners .headerpartners .academicexperts,
-	.butterflywebsiteabout .downloads .headercustomers .aboutusbyus{
-		left: 0;
-		top: 55px;
+}
+
+@media (max-width: 499px){
+	.butterflywebsiteabout .customers .benjaminsnyers {
+    	top: 680px;
 	}
+	.butterflywebsiteabout .company{
+		margin-top: 500px;
+	}
+	.butterflywebsiteabout .company .group .davidrollover200x300{max-width: 80%;}
+	.butterflywebsiteabout .company .group .davidmendlewicz{font-size: 14px;line-height: 14px;}
+	.butterflywebsiteabout .company .group .cofounderceo{top:166px;}
+}
+@media (max-width: 450px){
 	
-	.aboutusbyus.nav-tabs>li, 
-	.clientlistcasestu.nav-tabs>li, 
-	.academicexperts.nav-tabs>li{
-		margin: 20px 0;
+	.butterflywebsiteabout .customers .benjaminsnyers {
+    	top: 700px;
 	}
-	.aboutusbyus.nav li.active a, 
-	.clientlistcasestu.nav li.active a, 
-	.academicexperts.nav li.active a{
-		padding: 0;
+	.butterflywebsiteabout .company {
+    	margin-top: 550px;
+	}
+	.butterflywebsiteabout .customers .headercustomers .clientlistcasestu{
+		left: 0;
+		top:4em;
 	}
 	.butterflywebsiteabout .customers .logo{
-		top:200px;
+		top:220px;
 	}
-	.butterflywebsiteabout .downloads .group21{
+	.butterflywebsiteabout .customers .ourcustomercasest{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.butterflywebsiteabout .partners {
+    	margin-top: 20em;
+	}
+	.butterflywebsiteabout .company {
+    	margin-top: 650px;
+	}
+}
+	
+@media (max-width: 375px){
+	.butterflywebsiteabout .partners {
+    	margin-top: 35em;
+	}
+	.butterflywebsiteabout .company {
+    	margin-top: 650px;
+	}
+	.butterflywebsiteabout .company .group .cofounderceo{
+		position: relative;
+		top:185px;
 		left: 0;
 	}
-	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
-		top:650px;
+	.butterflywebsiteabout .partners .logo .gelogo,
+	.butterflywebsiteabout .partners .logo .cocacolalogo,
+	.butterflywebsiteabout .partners .logo .ticketmasterlogo,
+	.butterflywebsiteabout .partners .logo .dentsulogo,
+	.butterflywebsiteabout .partners .logo .ogilvylogo,
+	.butterflywebsiteabout .partners .logo .livenation,
+	
+	.butterflywebsiteabout .customers .logo .cocacolalogo,
+	.butterflywebsiteabout .customers .logo .ticketmasterlogo,
+	.butterflywebsiteabout .customers .logo .dentsulogo,
+	.butterflywebsiteabout .customers .logo .ogilvylogo,
+	.butterflywebsiteabout .customers .logo .livenation{
+		position: relative;
+		top:0;
+		left: 0;
 	}
-	.butterflywebsiteabout .customers .benjaminsnyers{
-		top:750px;
+	.butterflywebsiteabout .partners .logo a,
+	.butterflywebsiteabout .customers .logo li{
+		padding: 1em 0;
 	}
-	.butterflywebsiteabout .partners{
-		top:1100px;
+	.butterflywebsiteabout .customers .u201cbutterflypowerrea {
+    	top: 720px;
 	}
-	.butterflywebsiteabout .downloads{
-		top:1900px;
+	.butterflywebsiteabout .customers .benjaminsnyers {
+    	top: 900px;
 	}
-	.butterflywebsiteabout .downloads .group2,
-	.butterflywebsiteabout .downloads .group21{
-		top:162px;
+	.butterflywebsiteabout .partners .logo .gelogo,
+	.butterflywebsiteabout .partners .logo .cocacolalogo,
+	.butterflywebsiteabout .partners .logo .ticketmasterlogo,
+	.butterflywebsiteabout .partners .logo .dentsulogo,
+	.butterflywebsiteabout .partners .logo .ogilvylogo,
+	.butterflywebsiteabout .partners .logo .livenation{
+		display: table;
+		margin: 1em 0;
 	}
-	.butterflywebsiteabout .downloads .group21{
-		left: 345px;
+	.butterflywebsiteabout .partners .logo {
+    	top: 300px;
+    }
+}
+
+@media (max-width: 360px){
+	.butterflywebsiteabout .company {
+    	margin-top: 700px;
 	}
-	.butterflywebsiteabout .company{
-		top:2500px;
+	.butterflywebsiteabout .partners .headerpartners .academicexperts{
+		left: 0;
+		top:4em;
 	}
-	.butterflywebsiteabout .company .group .cofounderceo{
-		top:177px;
+	.butterflywebsiteabout .partners .meetouracademicpa {
+    	top: 150px;
 	}
-	.butterflywebsiteabout .contact .group3{
-		left: 320px;
-		top:80px;
+	.butterflywebsiteabout .partners .weworkwithtopsch {
+    	top: 200px;
 	}
 }
 
-@media (max-width: 650px){
-	.butterflywebsiteabout .company{
-/* 		top:2600px; */
-	}
-	
-}
-
-
-@media (max-width: 568px){
-	.butterflywebsiteabout .company{
-		top:2600px;
-	}
-	
-	.butterflywebsiteabout{
-		min-height:6500px;	
-	}
-	
-	.butterflywebsiteabout .greatmanagersmake{
-		font-size: 40px;
-	}
-	.butterflywebsiteabout .company .hourlyemployeesmak{
-		width: 90vw;
-		padding-right: 20px;
-	}
-	.butterflywebsiteabout .company .tt{
-		top:650px;
-	}
-	.butterflywebsiteabout .map{
-		top:5700px;
-	}
-	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
-		width: 100vw;
-	}
-	.butterflywebsiteabout .partners .weworkwithtopsch{
-		width: 90vw;
-	}
-}
-@media (max-width: 480px){
-	.butterflywebsiteabout .greatmanagersmake{
-		font-size: 35px;
-		line-height: 35px;
-	}
-	.butterflywebsiteabout .company{
-		padding-left: 0;
-		top: 2700px;
-	}
-	.butterflywebsiteabout .map{
-		top:5900px;
-	}
-	.butterflywebsiteabout .company .tt{
-		top:750px;
-	}
-}
-@media (max-width: 420px){
-	.butterflywebsiteabout .company .group .cofounderceo{top:200px;}
-}
-@media (max-width: 414px){
-	.butterflywebsiteabout .customers .benjaminsnyers{top:780px;}
-	
-}
-@media (max-width: 375px){
-	.butterflywebsiteabout{
-		min-height: 6800px;
-	}
-	.butterflywebsiteabout .customers .benjaminsnyers{top:800px;}
-	.butterflywebsiteabout .company{
-		top:2900px;
-	}
-	.butterflywebsiteabout .company .tt{top:800px;padding-left: 0;}
-	.butterflywebsiteabout .map{
-		top:6200px;
-	}
-	.butterflywebsiteabout .contact .group3{
-		left: 300px;
-	}
-	.butterflywebsiteabout .contact .group3 .appynestinc, 
-	.butterflywebsiteabout .contact .group3 .a67weststreetsui,
-	.butterflywebsiteabout .contact .group3 .rectangle{
-		display: none;
-	}
-}
-@media (max-width: 374px){
-	.butterflywebsiteabout .customers .benjaminsnyers{top:820px;}
-}
 @media (max-width: 320px){
-	.butterflywebsiteabout .company .tt{
-		top:900px;
-	}
-	.butterflywebsiteabout .map{
-		top:6200px;
-	}
-	.butterflywebsiteabout .company .group .davidrollover200x300{
-		max-width: 80%;
+	.butterflywebsiteabout .company {
+    	margin-top: 850px;
 	}
 	.butterflywebsiteabout .company .group .davidmendlewicz{
-		top:110px;
+		top:90px;
 	}
 	.butterflywebsiteabout .company .group .cofounderceo{
-		top:155px;
+		top:120px;
+		line-height: 14px;
+	}
+	.butterflywebsiteabout .company .group{
+		height: 150px;
+	}
+	.butterflywebsiteabout .partners .weworkwithtopsch{
+		width: 290px;
 	}
 }

@@ -65,15 +65,18 @@
 
 @media (max-width: 1542px){
 	.section-one .home-carousel.col-lg-7{
-		width: 50.33333%;
+		width: 47.33333%;
 	}
 	.client-logos{
-		padding-top: 4.5em;
+		padding-top: 40px;
 	}
 }
 
 @media (max-width: 1440px){
 	.section-one{
+		.home-carousel.col-lg-7{
+			width: 58.33333%;
+		}
 		.demo-request {
 			h1{
 				font-size:55px;
@@ -337,6 +340,7 @@
 	.section-one {
 		.home-carousel.col-lg-7{
 			max-width: 100%;
+			width: 100%;
 		}
 	}
 	body.page-template-product-page-php .entry-content .features:after{
@@ -606,7 +610,8 @@
 @media (min-width: 414px) and (max-width: 736px) and (orientation: landscape){
 	.content-area .section-one{
 		.home-carousel{
-			max-width: 60.33333%;
+			max-width: 100%;
+			width: 100%;
 		}
 		.demo-request {
 			h1{
@@ -622,9 +627,7 @@
 		}
 	}
 }
-@media (max-width: 667px){
-	
-}
+
 @media (max-width: 568px){	
 	.site-header {
     	grid-template-columns: 4fr 1fr;
@@ -744,6 +747,9 @@
 		//font-size: 10px;
 		background-color: #532ee4;
 	}
+	
+	.mega-menu .modal-content{overflow-y: hidden}
+	
 	.mega-menu .dropdown-contents .demo-form{padding: 1em 0 2em;}
 	.mega-menu .dropdown-contents .demo-form .demo-area .latest-blog-one,
 	.mega-menu .dropdown-contents .demo-form .testimonial-area,

@@ -52,21 +52,11 @@ $ = jQuery.noConflict();
 	
 	$('.menu-icon').click(function() {
 		$('.mega-menu.modal.in .modal-content').fadeOut();
-		$('.mega-menu.modal.in .modal-dialog').css('height','100%');
+		$('.mega-menu.modal.in .modal-dialog').css('height','auto');
 		setTimeout(function(){
 			$('.mega-menu.modal.in .modal-content').fadeIn('slow');
-			$('.mega-menu.modal.in .modal-dialog').css('height','100%');
+			$('.mega-menu.modal.in .modal-dialog').css('height','auto');
 		}, 500);
 	});	
-/*
-	$('section#a1').css('display','block');
-	
-	$(".company .xx a[data-toggle]").on("click", function(e) {
-		e.preventDefault();  // prevent navigating
-		var selector = $(this).data("toggle");  // get corresponding element
-		$(".company section").hide();
-		$(selector).fadeIn(300);
-	});
-*/
 	
 });

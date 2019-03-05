@@ -206,7 +206,7 @@ picture, img{
     padding-top: 10em;
     position: relative;
     min-height: 100vh;
-    overflow: hidden;
+    //overflow: hidden;
     .butterfly-one{
 	    h1{
 			font-family: 'aleoregular';
@@ -263,6 +263,7 @@ picture, img{
 			}
 			&.affix{
 				top:100px;
+				width: 30.33333%;
 			} 
 		}
     }
@@ -347,7 +348,7 @@ picture, img{
 	align-items: center;
 	justify-content: left;
 	align-self: center;
-	height: 1500px;
+	height: 1000px;
 	min-height: 50vh;
 	//padding-top: 112px;
 	//padding-bottom: 315px;

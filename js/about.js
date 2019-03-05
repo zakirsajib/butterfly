@@ -3,8 +3,8 @@ $ = jQuery.noConflict();
 		
 	$('.affix-company').affix({
 		offset: {
-			top:  $('.company-section').offset().top-50,
-			bottom: 1700
+			top:  $('.company-section').offset().top,
+			bottom: 2200
 			}
 	});
 	

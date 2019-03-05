@@ -69,7 +69,7 @@ div {
   width               : 397px;
   position            : absolute;
   margin              : 0;
-  right                : 0;
+  right                : -10%;
   -ms-transform       : rotate(45deg); /* IE 9 */
   -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
   transform           : rotate(45deg);

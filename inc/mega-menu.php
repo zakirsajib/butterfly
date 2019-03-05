@@ -3,7 +3,6 @@
 		
 		<img src="<?php echo get_template_directory_uri()?>/assets/menu/img/butterflywebsitemenuopen-bg.png" class="bg"/>
 		
-		<img src="<?php echo get_template_directory_uri()?>/assets/menu/img/butterflywebsitemenuopen-rectangle.png" class="rectangle"/>
 		
 		<div class="modal-content">
 			<div class="modal-header">

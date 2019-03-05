@@ -159,7 +159,7 @@ get_header('about');
                 </div>
             </div>
             <div class="fade in active" role="tabpanel" id="about">
-            	<div class="group2 col-lg-8 col-md-8 col-sm-8 col-xs-11"><?php the_field('about_us_contents')?></div>
+            	<div class="group2 col-lg-8 col-md-10 col-sm-10 col-xs-11"><?php the_field('about_us_contents')?></div>
             </div>
             <div class="fade" role="tabpanel" id="byus">
 	            <div class="downloads-studies-container">
@@ -239,7 +239,7 @@ get_header('about');
 				<div class="tt col-lg-6 col-md-10 col-xs-10">
             		<?php if( have_rows('person_details') ):
 					    while ( have_rows('person_details') ) : the_row();?>
-					       <div class="group col-lg-4 col-md-3 col-sm-3 col-xs-6">
+					       <div class="group col-lg-4 col-md-3 col-sm-4 col-xs-6">
 				                <div class="davidrollover200x300">
 				                    <?php if(get_sub_field('person_image')):?>
 				                    <img src="<?php the_sub_field('person_image')?>" alt="<?php the_sub_field('person_name')?>">
