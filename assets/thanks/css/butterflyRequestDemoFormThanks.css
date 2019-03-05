@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
-
-@font-face {
-  font-family: "Aleo-Bold";
-  src: url('../fonts/Aleo-Bold.otf') format("opentype");
-}
-@font-face {
-  font-family: "Aleo-LightItalic";
-  src: url('../fonts/Aleo-LightItalic.otf') format("opentype");
-}
                         
 .butterflyrequestdemoformthanks {
   width               : 100%;
@@ -21,21 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
 }
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.anima-full-width-a {
-  width               : 100%;
-}
-.anima-full-height-a {
-  height              : 100%;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
+
 .butterflyrequestdemoformthanks .tryfree {
   background-color    : rgba(255,255,255,0.0);
   top                 : -439px;
