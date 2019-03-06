@@ -186,7 +186,7 @@ function my_login_logo() {
 			font-family: 'Muli', sans-serif;
 			min-height: 800px;
 			overflow-y: hidden;
-			background: linear-gradient(120deg, #3a3b57, #7300ff 40%, #2ce6ce), linear-gradient(121deg, #3a3b57, #2ce6ce), linear-gradient(123deg, #7300ff, #2ce6ce)!important;
+			background: linear-gradient(123deg, #7300ff, #2ce6ce), linear-gradient(120deg, #3a3b57, #7300ff 40%, #2ce6ce), linear-gradient(121deg, #3a3b57, #2ce6ce)!important;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -274,6 +274,11 @@ function my_login_logo() {
 			padding: 0!important;
 	    }
 	    
+	    .wp-core-ui form#lostpasswordform .button-primary,
+	    .wp-core-ui form#lostpasswordform .button{
+		    width: 300px!important;
+	    }
+	    
 	    .login #backtoblog{display: none!important;}
 	    .login #nav{margin: 0!important; position: relative; top:-20px;}
 	    .login #nav a{
@@ -285,6 +290,7 @@ function my_login_logo() {
 			line-height: normal;
 			letter-spacing: normal;
 			color: #2ce6ce!important;
+			text-decoration: underline!important;
 	    }
 	    
 	    .login form .forgetmenot{
@@ -310,7 +316,7 @@ function my_login_logo() {
 		    background-color: transparent!important;
 		    box-shadow: none!important;
 		    color: #fff!important;
-		    padding: 0 12px 0 0!important;
+		    padding: 0 12px 8px 0!important;
 		    margin-bottom: 0!important;
 	    }
 	    .message{
@@ -332,6 +338,13 @@ function my_login_logo() {
 			letter-spacing: normal;
 			color: #ffffff;
 			margin-bottom: 16px!important;
+	    }
+	    @media (max-width: 530px){
+	    	#login,
+	    	.wp-core-ui form#lostpasswordform .button-primary,
+			.wp-core-ui form#lostpasswordform .button{
+		    	width: 280px!important;
+	    	}
 	    }
     </style>
     
