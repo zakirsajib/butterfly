@@ -1289,6 +1289,12 @@
 	.our-demo-form .caldera-grid #fld_6498534_1{
 		width: 350px;
 	}
+	.our-demo-form .caldera-grid .alert-success .thanks,
+	.our-demo-form .caldera-grid .alert-success .backhome,
+	.our-demo-form .caldera-grid .alert-success .getourebookhowt,
+	.our-demo-form .caldera-grid .alert-success .yourinfoissafewi{
+		width: 280px;
+	}
 }
 
 @media (max-width: 480px) {
