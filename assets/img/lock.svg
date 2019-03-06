@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>D5D1D723-079F-495C-9792-58F2B7D4A720</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Lock" fill="#532EE4">
+            <path d="M12,18 C11.1715729,18 10.5,17.3284271 10.5,16.5 C10.5,15.6715729 11.1715729,15 12,15 C12.8284271,15 13.5,15.6715729 13.5,16.5 C13.5,17.3284271 12.8284271,18 12,18 Z M17,11 C18.103,11 19,11.897 19,13 L19,20 C19,21.103 18.103,22 17,22 L7,22 C5.897,22 5,21.103 5,20 L5,13 C5,11.898 5.897,11 7,11 L7,8 C7,5.243 9.243,3 12,3 C14.757,3 17,5.243 17,8 L17,9 L15,9 L15,8 C15,6.346 13.654,5 12,5 C10.346,5 9,6.346 9,8 L9,11 L17,11 Z M7,20 L17.001,20 L17,13 L7,13 L7,20 Z" id="Lock"></path>
+        </g>
+    </g>
+</svg>

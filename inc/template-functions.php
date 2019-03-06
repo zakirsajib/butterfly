@@ -162,3 +162,212 @@ if ( !function_exists( 'frontlash_theme_options_link' ) && current_user_can('man
         $wp_admin_bar->add_node( $args );
     }
 endif;
+
+/**
+* Change the Login Logo
+*/
+function my_login_logo() { 
+	$custom_logo_id = get_theme_mod( 'custom_logo' );
+	$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+	if(!empty($image)):
+?>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
+        @font-face {
+		    font-family: 'aleobold';
+		    src: url('<?php echo get_template_directory_uri()?>/static/dist/fonts/Aleo-Bold-webfont.woff') format('woff'),
+		    	url('<?php echo get_template_directory_uri()?>/static/dist/fonts/Aleo-Bold.otf') format("opentype");
+		    font-weight: normal;
+		    font-style: normal;
+		    font-display:swap;
+		}
+        
+        body{
+			font-family: 'Muli', sans-serif;
+			min-height: 800px;
+			overflow-y: hidden;
+			background: linear-gradient(120deg, #3a3b57, #7300ff 40%, #2ce6ce), linear-gradient(121deg, #3a3b57, #2ce6ce), linear-gradient(123deg, #7300ff, #2ce6ce)!important;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-self: center;
+        }
+        
+        #login{
+	        padding: 1% 0 0!important; 
+	        width: 420px!important; 
+	    }
+        #login h1 a, 
+        .login h1 a {
+            background-image: url('<?php echo $image[0]?>');
+            width: 48px;
+            height: 48px;
+            background-size: contain;
+            background-position: center center;
+            position: absolute;
+            top:50px;
+            left: 50px;
+        }
+        #login h1 a:focus,
+        .login h1 a:focus{
+	        outline: 0;
+	        box-shadow: none;
+        }
+        
+        .login form{ 
+	        background: transparent!important; 
+	        box-shadow: none!important;
+	        padding: 43px 0 46px!important;
+	        margin-top: 0!important;
+	    }
+	    
+	    #login form p{line-height: 0!important;}
+	    
+	    .login form .input, 
+	    .login input[type=text]{
+			height: 48px;
+			border-radius: 24px;
+			border: solid 1px rgba(0, 0, 0, 0.1)!important;
+			padding-left: 46px!important;
+			box-shadow: none!important;
+			font-family: 'Muli', sans-serif;
+			font-size: 18px!important;
+			font-weight: 400;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #3a3b57!important;
+			margin: 0 0 10px!important;
+	    }
+	    
+	    .login input[type=text]{
+		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/user.svg') no-repeat!important;
+			background-position: 12px 50%!important;
+		}
+		.login input[type=password]{
+		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/lock.svg') no-repeat!important;
+			background-position: 12px 50%!important;
+		}
+	    
+	    #login form p.submit{ 
+		    margin: 85px 0 0!important;
+		}
+	    .wp-core-ui .button, 
+	    .wp-core-ui .button-primary{
+		    float: left!important;
+		    width: 200px!important;
+			height: 56px!important;
+			border-radius: 32px!important;
+			background-color: #532ee4!important;
+			color: #fff!important;
+			font-family: 'Muli', sans-serif;
+			font-weight: 900!important;
+			font-size: 24px!important;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: center;
+			border: 0!important;
+			box-shadow: none!important;
+			padding: 0!important;
+	    }
+	    
+	    .login #backtoblog{display: none!important;}
+	    .login #nav{margin: 0!important; position: relative; top:-20px;}
+	    .login #nav a{
+		    font-family: 'Muli', sans-serif;
+			font-size: 14px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #2ce6ce!important;
+	    }
+	    
+	    .login form .forgetmenot{
+		    margin: 26px 0 0!important;
+	    }
+	    
+	    .login form .forgetmenot label{
+		    font-family: 'Muli', sans-serif;
+			font-size: 14px!important;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #fff!important;
+			padding-left: 1em!important;
+	    }
+	    
+	    .login #login_error, 
+	    .login .message, 
+	    .login .success{
+		    border: 0!important;
+		    background-color: transparent!important;
+		    box-shadow: none!important;
+		    color: #fff!important;
+		    padding: 0 12px 0 0!important;
+		    margin-bottom: 0!important;
+	    }
+	    .message{
+		    font-family: 'Muli', sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+	    }
+	    .login-msg{
+		    font-family: 'aleobold', sans-serif;
+			font-size: 48px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1;
+			letter-spacing: normal;
+			color: #ffffff;
+			margin-bottom: 16px!important;
+	    }
+    </style>
+    
+<?php endif;}
+	
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+function custom_login_message() {
+	$message = '<h2 class="login-msg">Login</h2><p class="message">Welcome back!<br />Let’s get you logged in and ready to rumble.</p>';
+return $message;
+}
+add_filter('login_message', 'custom_login_message');
+
+
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Butterfly.ai | Great Managers make great teams.';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+function login_function() {
+    add_filter( 'gettext', 'username_change', 20, 3 );
+    function username_change( $translated_text, $text, $domain ) 
+    {
+        if ($text === 'Username or Email Address') 
+        {
+            $translated_text = '';
+        }
+        if ($text === 'Password') 
+        {
+            $translated_text = '';
+        }
+        return $translated_text;
+    }
+}
+add_action( 'login_head', 'login_function' );
