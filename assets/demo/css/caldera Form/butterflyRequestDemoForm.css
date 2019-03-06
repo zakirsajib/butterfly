@@ -151,6 +151,7 @@
 		color: #ffffff;
 		padding: 0;
 		text-align: center;
+		border: 0;
   	}
 	
 		
@@ -372,7 +373,7 @@
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
@@ -1080,7 +1081,7 @@
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Aleo-LightItalic", Helvetica, Arial, serif;
+  font-family         : "aleolightitalic", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
@@ -1257,8 +1258,6 @@
 @media (max-width: 768px) {
 	.butterflyrequestdemoform .tryfree .form {
 	    top: 116px;
-	    left: 190px;
-	    padding: 0;
 	    height: 100vh;
 	}
 	#reqDemo .modal-dialog{
@@ -1298,7 +1297,7 @@
 }
 
 @media (max-width: 480px) {
-	.mobile-icon-close{top:30px;}
+	.mobile-icon-close{top:30px; right:20px;}
 	
 	.butterflyrequestdemoform:after{
 		left:-20em;
