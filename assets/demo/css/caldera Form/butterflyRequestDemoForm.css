@@ -27,6 +27,7 @@
 		color: #3a3b57;
 		background-color: rgba(255, 255, 255, 1.0);
 		height: 48px;
+		width: 420px;
 		box-sizing: border-box;
 		border-radius: 24px;
 		border-style: solid;
@@ -93,10 +94,12 @@
 		background-color: rgba(255, 255, 255, 1.0);
 		height: 48px;
 		border: 0;
+		width: 400px;
   	}
   	
   	.caldera-grid .form-group.company-size{
 		height: 48px;
+		width: 420px;
 		box-sizing: border-box;
 		border-radius: 24px;
 		border-style: solid;
@@ -1225,25 +1228,36 @@
   line-height         : 18.0px;
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-	.butterflyrequestdemoform .tryfree .rectangle2,
-	.butterflyrequestdemoform .tryfree .rectangle1{
+.mobile-icon-close{display: none;}
+
+@media (max-width: 1040px) {
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .right{
+		display: none;
+	}
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .form{
+		left: 0;
+		margin: 0 auto;
+		display: table;
+		position: relative;
+	}
+	.mobile-icon-close{
+		display: block;
+		right: 50px;
+		position: absolute;
+		top: 60px;
+		width: 18px;
+		height: 18px;
+		z-index: 1;
+	}
+	.butterflyrequestdemoform .tryfree:after{
 		display: none;
 	}
 }
 
-@media (max-width: 991px) {
-	.butterflyrequestdemoform .tryfree a[data-dismiss="modal"]{
-		position: absolute;
-		top:50px;
-		right: 50px;
-	}
-}
 @media (max-width: 768px) {
 	.butterflyrequestdemoform .tryfree .form {
 	    top: 116px;
 	    left: 190px;
-	    width: 420px;
 	    padding: 0;
 	    height: 100vh;
 	}
@@ -1253,20 +1267,44 @@
 }
 
 @media (max-width: 650px) {
-	.butterflyrequestdemoform .tryfree .form {
-	    left: 50px;
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .form {
 	    width: 320px;
 	    max-width: 100%;
+	    left: 10px;
+	    margin: 0 50px;
+	}
+	.butterflyrequestdemoform:after{
+		left:-10em;
+	}
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 380px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 380px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 350px;
 	}
 }
 
 @media (max-width: 480px) {
+	.mobile-icon-close{top:30px;}
+	
+	.butterflyrequestdemoform:after{
+		left:-20em;
+	}
+	
 	.butterflyrequestdemoform .tryfree .brandingbutterflyicon{
 		left: 20px;
 		top:20px;
 	}
-	.butterflyrequestdemoform .tryfree .form {
-		left: 20px;
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .form {
+		left: 30px;
+		margin: 0 auto;
 	}
 	.butterflyrequestdemoform .tryfree .form .nicetomeetyou{
 		font-size: 36px;
@@ -1274,8 +1312,50 @@
 	.butterflyrequestdemoform .tryfree .form .wecanu2019twaittosho{
 		width: 320px;
 	}
-	.butterflyrequestdemoform .tryfree a[data-dismiss="modal"]{
-		top:20px;
-		right: 20px;
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 350px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 350px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 320px;
+	}
+}
+@media (max-width: 375px) {
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 320px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 320px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 290px;
+	}
+}
+@media (max-width: 374px) {
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 260px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 260px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 230px;
+	}
+	.our-demo-form .caldera-grid #fld_2261961_1-wrap label{
+		width: 250px;
 	}
 }
