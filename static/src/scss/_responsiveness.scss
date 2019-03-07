@@ -160,6 +160,11 @@
 		padding-right: 118px;
 	}
 }
+@media (max-width: 1199px){
+	body.page-template-product-page-php .entry-content .features .for-people .feathr-thumbnail{
+		position: relative;
+	}
+}
 
 @media (min-width: 1200px){
 	.affix-butterfly.affix-bottom{
