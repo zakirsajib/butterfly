@@ -286,8 +286,6 @@
 	}
 }
 
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
 	.container-fluid{
 		padding-left: 20px;
@@ -375,22 +373,8 @@
 		grid-template-rows:none;
 	}
   }
-  .home-footer .demo-area{
-	  //padding: 0 70px;
-	  //grid-column-gap: 5em;
-  }
 }
 
-/*
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait){
-	.content-area .section-one {
-    	min-height: calc(100vh - 750px);
-    	.demo-request{
-	    	margin-top: 0;	
-    	}
-	}
-}
-*/
 
 @media (max-width: 768px){
 	.section-one {

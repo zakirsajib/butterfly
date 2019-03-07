@@ -238,7 +238,7 @@
   background-color    : rgba(255,255,255,0.0);
   top                 : 100px;
   height              : auto;
-  width               : 320px;
+  max-width           : 320px;
   position            : absolute;
   margin              : 0;
   left                : 132px;
@@ -256,14 +256,15 @@
 .butterflywebsiteabout .contact .group3 .a67weststreetsui .span1 {
   
 }
-.butterflywebsiteabout .contact .group3 .a67weststreetsui .span2 {
+.butterflywebsiteabout .contact .group3 .a67weststreetsui .span2,
+.butterflywebsiteabout .contact .group3 .a67weststreetsui .span2 a {
   color               : rgba(44, 230, 206, 1.0);
 }
 .butterflywebsiteabout .contact .group3 .appynestinc {
   background-color    : rgba(255,255,255,0.0);
   top                 : 43px;
   height              : auto;
-  width               : 350px;
+  max-width           : 350px;
   position            : absolute;
   margin              : 0;
   left                : 132px;
@@ -2991,18 +2992,19 @@
 }
 
 
-
-.affix-company.affix-bottom{
-	position: absolute;
-	left:0;
-}
-.affix-company.affix-top{
-	position: absolute;
-	left: 0;
-}
-.affix-company.affix{
-	top:13px;
-	z-index: 0;
+@media (min-width: 1200px){
+	.affix-company.affix-bottom{
+		position: absolute;
+		left:0;
+	}
+	.affix-company.affix-top{
+		position: absolute;
+		left: 0;
+	}
+	.affix-company.affix{
+		top:13px;
+		z-index: 0;
+	}
 }
 
 @media (min-width: 1400px){
@@ -3125,8 +3127,22 @@
 	}
 }
 
-@media (max-width: 767px){
-	
+@media (max-width: 899px){
+	.butterflywebsiteabout .contact .group3{
+		top:120px;
+		left: 150px;
+	}
+	.butterflywebsiteabout .contact .group3 .brandingbutterflyround{
+		top:280px;
+		left: 185px;
+	}
+	.butterflywebsiteabout .contact .group3 .triangle{
+		top:325px;
+		left: 202px;
+	}
+	.butterflywebsiteabout .contact .group3 .rectangle{
+		width: 300px;
+	}
 }
 @media (max-width: 710px){
 	.butterflywebsiteabout .greatmanagersmake,
@@ -3169,7 +3185,14 @@
 		margin-top: 400px;
 	}
 }
-
+@media (max-width: 550px){
+	.butterflywebsiteabout .map{
+		background-position: -150px;
+	}
+	.butterflywebsiteabout .contact .group3{
+		left: 0;
+	}
+}
 @media (max-width: 499px){
 	.butterflywebsiteabout .customers .benjaminsnyers {
     	top: 680px;
@@ -3207,7 +3230,19 @@
     	margin-top: 650px;
 	}
 }
-	
+
+@media (max-width:399px){
+	.butterflywebsiteabout .contact .group3 {
+    	left: -25px;
+	}
+	.butterflywebsiteabout .contact .group3 .brandingbutterflyround{
+		left: 216px;
+	}
+	.butterflywebsiteabout .contact .group3 .triangle{
+		left: 233px;
+	}
+}
+
 @media (max-width: 375px){
 	.butterflywebsiteabout .partners {
     	margin-top: 35em;
@@ -3258,6 +3293,15 @@
 	.butterflywebsiteabout .partners .logo {
     	top: 300px;
     }
+    .butterflywebsiteabout .contact .group3{
+	    left: -45px;
+    }
+    .butterflywebsiteabout .contact .group3 .brandingbutterflyround{
+	   left: 235px;
+    }
+    .butterflywebsiteabout .contact .group3 .triangle{
+	    left: 252px;
+    }
 }
 
 @media (max-width: 360px){
@@ -3292,5 +3336,14 @@
 	}
 	.butterflywebsiteabout .partners .weworkwithtopsch{
 		width: 290px;
+	}
+	.butterflywebsiteabout .contact .group3 .rectangle{
+		left: 70px;
+		width: 260px;
+	}
+	.butterflywebsiteabout .contact .group3 .a67weststreetsui,
+	.butterflywebsiteabout .contact .group3 .appynestinc{
+		left: 100px;
+		max-width: 320px;
 	}
 }
