@@ -327,14 +327,14 @@ div {
 .butterflywebsiteresources .faq {
   background-color    : rgba(255,255,255,0.0);
   padding-top                 : 1px;
-  width               : 524px;
+  max-width               : 524px;
   position            : relative;
   margin              : 0;
 }
 .butterflywebsiteresources .faq .headerpartners {
   background-color    : rgba(255,255,255,0.0);
   height              : 58px;
-  width               : 400px;
+  max-width               : 400px;
   position            : absolute;
   margin              : 0;
   left                : 0;
@@ -343,7 +343,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-/*   width               : 400px; */
+  width               : 400px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1089,7 +1089,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-/*   width               : 420px; */
+  max-width           : 420px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1442,9 +1442,8 @@ div {
 }
 .butterflywebsiteresources .blog .headercustomers {
   background-color    : rgba(255,255,255,0.0);
-/*   top                 : 0px; */
   height              : 58px;
-  width               : 400px;
+  max-width               : 400px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1453,7 +1452,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-/*   width               : 400px; */
+  width               : 400px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1982,7 +1981,7 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
   background-color    : rgba(255,255,255,0.0);
   padding-top         : 57px;
   height              : auto;
-  width               : 710px;
+  max-width               : 710px;
   position            : relative;
   margin              : 0;
   font-family         : "aleobold", Helvetica, Arial, serif;
@@ -2807,63 +2806,20 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 .butterflywebsiteresources .footerdesktop .footer .a2512018appynestinc .span3 {
   
 }
-@media (max-width: 1024px){
-	.butterflywebsiteresources{
-		margin-left: 85px;
-	}
-}
-@media (max-width: 992px){
-	
-	.butterflywebsiteresources .casestudies,
-	.butterflywebsiteresources .downloads,
-	.butterflywebsiteresources .faq,
-	.butterflywebsiteresources .blog,
-	.butterflywebsiteresources .wehelporganization{
-		left: 0px!important;
-	}
-}
-@media (max-width: 767px){
-	.butterflywebsiteresources{
-		margin-left: 20px;
-	}
-	.butterflywebsiteresources .wehelporganization{
-		width: 100%;
-		padding-right: 20px;
-	}
-}
-@media (max-width: 568px){
+@media (max-width: 679px){
 	.butterflywebsiteresources .blog{
-		top: 280px;
+		height: 1px;
 	}
-	.butterflywebsiteresources .faq{
-		width: 100%;
-	}
+}
+
+@media (max-width: 568px){
+	.butterflywebsiteresources .panel-body{padding: 15px}
+}
+@media (max-width: 420px){
 	.butterflywebsiteresources .blog .headercustomers .freshfromourblog,
 	.butterflywebsiteresources .downloads .headercustomers .downloadsgoodies,
 	.butterflywebsiteresources .casestudies .headercustomers .ourcustomercasest,
 	.butterflywebsiteresources .blog .headercustomers .freshfromourblog{
-		font-size: 20px;
-	}
-}
-@media (max-width: 420px){
-	.butterflywebsiteresources .wehelporganization{
-		font-size: 40px;
-		line-height: 40px;
-	}
-	.butterflywebsiteresources .casestudies .headercustomers .ourcustomercasest{width: 100%;}
-	
-}
-@media (max-width: 375px){
-	.butterflywebsiteresources .wehelporganization{
-		font-size: 30px;
-		line-height: 30px;
-	}
-	.butterflywebsiteresources .blog{
-		top:200px;
-	}
-	.butterflywebsiteresources .panel-default>.panel-heading a{
-		font-size: 16px;
-		line-height: 16px;
-		vertical-align: top;
+		font-size: 24px;
 	}
 }

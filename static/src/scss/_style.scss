@@ -97,7 +97,7 @@ picture, img{
 			font-stretch: normal;
 			line-height: 1;
 			letter-spacing: normal;
-			width: 480px;
+			max-width: 480px;
 			height: 144px;
 	    }
 	    p{
@@ -110,7 +110,7 @@ picture, img{
 			line-height: normal;
 			letter-spacing: normal;
 			color: #3a3b57;
-			width: 372px;
+			max-width: 372px;
 			height: 69px;
 			margin: 56px 0 54px;
 	    }
@@ -119,7 +119,7 @@ picture, img{
 			border-radius: 5px;
 			//background-color: #fff;
 			padding: 0;
-			width: 396px;
+			max-width: 396px;
 			height: 48px;
 		.input-group{
 			padding-bottom: 0.5em;
@@ -353,7 +353,7 @@ picture, img{
 				line-height: normal;
 				letter-spacing: normal;
 				color: #555555;
-				width: 600px;
+				max-width: 600px;
 				height: 156px;
 			}
 		}
@@ -563,4 +563,30 @@ picture, img{
 .content-area.default-page {
     min-height: 300px;
     height: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    h1,p,li{
+	    color: #3a3b57;
+    }
+    h1{
+	    font-family: 'aleobold';
+		font-size: 48px;
+		font-weight: bold;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1;
+		letter-spacing: normal;
+    }
+    p{
+	    font-family: 'Muli', sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+    }
+    article .entry-content{
+	    max-width: 800px;
+    }
 }

@@ -537,7 +537,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 31px;
   height              : auto;
-  width               : 260px;
+  max-width           : 260px;
   position            : absolute;
   margin              : 0;
   left                : 140px;
@@ -1289,10 +1289,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 58px;
-  width               : 400px;
+  max-width               : 400px;
   position            : absolute;
   margin              : 0;
-  left                : 6px;
+/*   left                : 6px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1301,7 +1301,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-/*   width               : 400px; */
+  width               : 400px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1907,10 +1907,9 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 65px;
   height              : auto;
-  width               : 710px;
+  max-width               : 710px;
   position            : absolute;
   margin              : 0;
-/*   left                : 118px; */
   font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
@@ -2831,8 +2830,6 @@ div {
 
 @media (max-width: 660px){
 	.butterflywebsiteblog .takeasneakpeekof{
-		width: 90%;
-		max-width: 100%;
 		font-size: 40px;
 		line-height: 40px;
 	}
@@ -2878,10 +2875,6 @@ div {
 	.butterflywebsiteblog .mainarticle .inournewseriesw{
 		width: 80vw;
 	}
-	.butterflywebsiteblog .allarticles .article .workroamthere{
-		width: 50%;
-	}
-	
 }
 @media (max-width: 400px){
 	.butterflywebsiteblog .mainarticle .lisbon .lisbon1,
