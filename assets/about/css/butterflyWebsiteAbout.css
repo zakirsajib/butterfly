@@ -63,7 +63,6 @@
 
 .butterflywebsiteabout .map {
   background-color    : rgba(215, 215, 215, 1.0);
-/*   padding-top                 : 532px; */
   height              : 800px;
   width               : 100%;
   position            : relative;
@@ -206,14 +205,10 @@
 .butterflywebsiteabout .contact {
   background-color    : rgba(255,255,255,0.0);
   top                 : 70px;
-/*   height              : 486px; */
-  width               : 749px;
-  position            : absolute;
+/*   width               : 749px; */
+  position            : relative;
   margin              : 0;
   left                : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .contact .group3 {
   background-color    : rgba(255,255,255,0.0);
@@ -335,25 +330,19 @@
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 58px;
-  width               : 400px;
-  position            : absolute;
-  margin              : 0;
-  left                : 120px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+/*   width               : 400px; */
+  position            : relative;
+/*   margin              : 0; */
+/*   left                : 120px; */
 }
 .butterflywebsiteabout .contact .headerpartners .contact1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 400px;
-  position            : absolute;
-  margin              : 0;
+/*   width               : 400px; */
+  position            : relative;
+/*   margin              : 0; */
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
@@ -364,15 +353,12 @@
 }
 .butterflywebsiteabout .contact .headerpartners .separatorhorizontal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 57px;
+  top                 : 14px;
   height              : 1px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
+/*   width               : 128px; */
+  position            : relative;
+/*   margin              : 0; */
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .contact .headerpartners .separatorhorizontal .bg1 {
   background-color    : rgba(255, 255, 255, 0.25);
@@ -382,9 +368,6 @@
   position            : relative;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .company {
   background-color    : rgba(255,255,255,0.0);
@@ -393,7 +376,7 @@
 /*   width               : 100vw; */
   position            : relative;
   margin              : 0;
-  left                : 70px;
+  left                : 0;
   padding-left: 0;
   margin-bottom: 1000px;
 }
@@ -964,7 +947,7 @@
   width               : 100%;
   position            : relative;
   margin              : 0;
-  left                : 70px;
+  left                : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1412,7 +1395,7 @@
   width               : 786px;
   position            : relative;
   margin              : 0;
-  left                : 70px;
+  left                : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1675,7 +1658,7 @@
   width               : 950px;
   position            : relative;
   margin              : 0;
-  left                : 70px;
+  left                : 0;
   margin-bottom: 148px;
 }
 
@@ -1963,7 +1946,7 @@
   width               : 710px;
   position            : relative;
   margin              : 0;
-  left                : 70px;
+  left                : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -3018,8 +3001,14 @@
 	left: 0;
 }
 .affix-company.affix{
-	top:260px;
+	top:13px;
 	z-index: 0;
+}
+
+@media (min-width: 1400px){
+	.affix-company.affix{
+		top:250px;
+	}
 }
 
 

@@ -12,7 +12,7 @@ get_header('blog');
 
 	<div id="primary" class="cat">
 		<main id="main" class="site-main">
-			<div class="butterflywebsiteblogfilters">
+			<div class="butterflywebsiteblogfilters container">
                 <div class="bg">
                     <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle.png" class="rectangle"/>
                     <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-4.png" class="rectangle1"/>
@@ -21,9 +21,9 @@ get_header('blog');
                     <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-4.png" class="rectangle4"/>
                     <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-rectangle-5.png" class="rectangle5"/>
                 </div>
-                <div class="bg1"></div>
-                <a href="<?php echo get_site_url()?>/blog"><div class="backtoblog">BACK TO BLOG</div>
-                <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-iconsarrow@2x.png" class="iconsarrow"/></a>
+                <div class="bg1"><a href="<?php echo get_site_url()?>/blog"><div class="backtoblog">BACK TO BLOG</div>
+                <img src="<?php echo get_template_directory_uri()?>/assets/archive/img/butterflywebsiteblogfilters-iconsarrow@2x.png" class="iconsarrow"/></a></div>
+                
                 <div class="allarticles">
                     <div class="headerallarticles">
                         <div class="articlesfromu201cwork">

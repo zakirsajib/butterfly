@@ -8,7 +8,7 @@
  */
 
 ?>
-<div class="butterflywebsiteresources">
+<div class="butterflywebsiteresources container">
     <div class="bg">
         <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle.png" class="rectangle"/>
         <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-rectangle-1.png" class="rectangle1"/>

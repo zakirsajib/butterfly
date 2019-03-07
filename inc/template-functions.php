@@ -253,6 +253,10 @@ function my_login_logo() {
 	    #login form p.submit{ 
 		    margin: 85px 0 0!important;
 		}
+		#login form p.description.indicator-hint{
+		    line-height: 1.5!important;
+		    color: #fff!important;
+	    }
 	    .wp-core-ui .button, 
 	    .wp-core-ui .button-primary{
 		    float: left!important;
@@ -275,7 +279,8 @@ function my_login_logo() {
 	    }
 	    
 	    .wp-core-ui form#lostpasswordform .button-primary,
-	    .wp-core-ui form#lostpasswordform .button{
+	    .wp-core-ui form#lostpasswordform .button,
+	    .wp-core-ui form#resetpassform .button{
 		    width: 300px!important;
 	    }
 	    
@@ -339,6 +344,30 @@ function my_login_logo() {
 			color: #ffffff;
 			margin-bottom: 16px!important;
 	    }
+	    span.button.button-secondary.wp-hide-pw.hide-if-no-js{
+		    display: none!important;
+	    }
+	    .login #pass-strength-result{
+		    border: 0!important;
+			background-color: transparent!important;
+			text-align: left!important;
+			font-family: 'Muli', sans-serif!important;
+	    }
+	    #pass-strength-result.strong{
+		    color: #2ce6ce!important;
+	    }
+	    #pass-strength-result.short{
+		    color: #F45D6F!important;
+	    }
+	    #pass-strength-result.good{
+		    color: #FFAC73!important;
+	    }
+	    #pass-strength-result.bad{
+		    color: #F45D6F!important;
+	    }
+	    .login .pw-weak label{
+		    color: #2ce6ce!important;
+	    }
 	    @media (max-width: 530px){
 	    	#login,
 	    	.wp-core-ui form#lostpasswordform .button-primary,
@@ -377,6 +406,10 @@ function login_function() {
             $translated_text = '';
         }
         if ($text === 'Password') 
+        {
+            $translated_text = '';
+        }
+        if ($text === 'New password') 
         {
             $translated_text = '';
         }

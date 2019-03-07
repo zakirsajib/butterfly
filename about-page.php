@@ -15,7 +15,7 @@
 get_header('about');
 ?>
      <div class="butterflywebsiteabout">	   
-        <div id="content" class="site-content container-fluid">
+        <div id="content" class="site-content container">
         	<div class="greatmanagersmake"><?php the_field('heading_title_about')?></div>
         	<div class="customers" id="customers">
             <div class="headercustomers">
@@ -268,13 +268,10 @@ get_header('about');
                 </div>
                 <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-triangle@2x.png" class="triangle"/>
             </div>
-            <div class="headerpartners">
-                <div class="contact1">
-                    Contact
-                </div>
+            <div class="headerpartners container">
+                <div class="contact1">Contact</div>
                 <div class="separatorhorizontal">
-                    <div class="bg1">
-                    </div>
+                    <div class="bg1"></div>
                 </div>
             </div>
         </div>

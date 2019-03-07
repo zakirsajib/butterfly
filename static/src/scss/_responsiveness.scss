@@ -1,3 +1,4 @@
+/*
 @media (max-width: 2560px){
 	.section-one{
 		min-height: calc(100vh - 250px);
@@ -125,8 +126,10 @@
 		position: relative;
 	}
 }
+*/
 
 
+/*
 @media (max-width: 1200px){
 	.section-one {
 		.home-carousel.col-lg-7{
@@ -134,6 +137,51 @@
 		}
 	}
 }
+*/
+
+@media (min-width: 1201px){
+	.container{
+		width: 1200px;
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 1200px;
+	}
+	.demo-request.col-lg-6{
+		//padding-left: 0;
+		//padding-right: 0;
+	}
+}
+
+@media (max-width: 1200px){
+	.container{
+		width: 1200px;
+		max-width: 1200px;
+		padding-left: 118px;
+		padding-right: 118px;
+	}
+}
+
+@media (min-width: 1200px){
+	.affix-butterfly.affix-bottom{
+		position: absolute;
+		left:0;
+		padding-left: 0;
+	}
+	.affix-butterfly.affix-top{
+		position: absolute;
+		left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.affix-butterfly.affix{
+		top:100px;
+		width: 33.33333%;
+		padding-right: 10em;
+		padding-left: 0;
+	}
+}
+
+
 
 @media (min-width: 768px) {
 	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree{
@@ -177,7 +225,9 @@
 	}
 	.home-footer{
 		margin-top: 10em;
+		padding-left: 0;
 	}
+	.section-one .demo-request{z-index: 1}
 }
 
 
@@ -229,7 +279,14 @@
 	body.page-template-product-page-php .entry-content .features .for-people ul.nav.nav-pills .featured-info{
 		max-width: 300px;
 	}
-	
+	.container{
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
+	}
+	.section-one .home-carousel{
+		//width: calc(100vh - 20vh);
+	}
 }
 
 
@@ -241,11 +298,11 @@
 	}
 	.site-header{grid-template-columns: 3fr 3fr 1fr;padding-top: 20px;}
 	.content-area {
-    	padding-left: 70px;
-    	padding-right: 70px;
+    	//padding-left: 70px;
+    	//padding-right: 70px;
     	.section-one {
 			.demo-request{
-				margin-top: 20em;
+				//margin-top: 20em;
 				h1, p{z-index: 1;}
 			}
 		}
@@ -310,7 +367,7 @@
   .content-area {
 	.section-one{
 		.demo-request {
-			margin-top: 10em;
+			//margin-top: 10em;
 		}
 		.home-carousel.col-md-7{
 			//width: calc(100% - 42%);
@@ -327,6 +384,7 @@
   }
 }
 
+/*
 @media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait){
 	.content-area .section-one {
     	min-height: calc(100vh - 750px);
@@ -335,6 +393,7 @@
     	}
 	}
 }
+*/
 
 @media (max-width: 768px){
 	.section-one {
@@ -370,10 +429,7 @@
 		top:0;
 	}
 	
-	.content-area {
-    	padding-left: 0;
-    	padding-right: 10px;
-	}
+
 	body.page-template-product-page-php .content-area {
     	padding-left: 0;
     	padding-right: 0;
@@ -381,18 +437,19 @@
 		
 	.section-one{
 		//height: 100%;
-		grid-template-columns: none;
-		grid-template-rows: 1fr 0fr;
-		grid-column-gap:0;
+		//grid-template-columns: none;
+		//grid-template-rows: 1fr 0fr;
+		//grid-column-gap:0;
 	}
 	.section-one .demo-request{
-		margin-top: 233px;
+		//margin-top: 233px;
+		z-index: 1;
 	}
 	.section-one .demo-request h1,
 	.section-one .demo-request p{
-		z-index: 1;
+		//z-index: 1;
 	}
-	.section-one .demo-request p{width: 100%;margin: 15px 0 54px;}
+	//.section-one .demo-request p{width: 100%;margin: 15px 0 54px;}
 	.section-one.home-padding{
 		padding-bottom: 0;
 		padding-top: 40em;
@@ -405,11 +462,11 @@
 	}
 	
 	.section-one .demo-request .demo-form-box{
-		width: 100%;
+		//width: 100%;
 	}
 	.section-one .demo-request h1{
-		width: 100%;
-		font-size: 40px;
+		//width: 100%;
+		//font-size: 40px;
 	}
 	
 	.client-logos{
@@ -528,8 +585,8 @@
 	}
 	
 	
-	.section-one .demo-request h1{font-size: 42px; line-height: 1.14;}
-	.section-one .demo-request p{height: 100%;}
+	//.section-one .demo-request h1{font-size: 42px; line-height: 1.14;}
+	//.section-one .demo-request p{height: 100%;}
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
 		font-size: 14px;
 	}.section-one .demo-request .demo-form-box .input-group .btn.btn-default,
@@ -569,7 +626,12 @@
 	.section-one .demo-request{
 		//margin-top: 40em;
 	}
-	.client-logos{grid-template-columns: repeat(3, 1fr);}
+	.client-logos{
+		grid-template-columns: repeat(3, 1fr);
+		align-self: baseline;
+		grid-template-rows: 5em;
+		padding-top: 0;
+	}
 	
 	.why-butterfly .butterfly-two .butterfly-right-column{
 		grid-template-columns: repeat(2, 1fr);
@@ -607,26 +669,6 @@
 	#caseStudyOne .modal-dialog{margin: 0 10px;}
 	body.page-template-product-page-php .entry-content .features:before{display: none}
 }
-@media (min-width: 414px) and (max-width: 736px) and (orientation: landscape){
-	.content-area .section-one{
-		.home-carousel{
-			max-width: 100%;
-			width: 100%;
-		}
-		.demo-request {
-			h1{
-				width: 480px;
-				font-size: 40px;
-			}p{
-				width: 372px;
-				margin: 15px 0;
-			}
-			.demo-form-box{
-				width: 396px;
-			}
-		}
-	}
-}
 
 @media (max-width: 568px){	
 	.site-header {
@@ -636,7 +678,6 @@
     	grid-template-columns: 4fr 1fr;
 	}
 	
-	.section-one .demo-request p{margin: 0 0 40px;}
 	.home-footer .demo-area .demo-form-box .input-group .form-control.demo-input,
 	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
 		font-size: 18px;
@@ -644,9 +685,6 @@
 	.section-one .demo-request .demo-form-box .input-group .btn.btn-default, 
 	.home-footer .demo-area .demo-form-box .input-group .btn.btn-default{
 		font-size: 13px
-	}
-	.client-logos{
-		grid-template-columns: repeat(3, 1fr);
 	}
 	.home-footer .demo-area{
 		grid-template-columns: none;
@@ -669,6 +707,26 @@
 	}
 	.mega-menu .dropdown-contents .demo-form .demo-area .demo-form-box .input-group .btn.btn-default{
 		font-size: 13px;
+	}
+}
+@media (max-width: 567px){
+	.container{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.section-one .demo-request p,
+	.section-one .demo-request h1,
+	.section-one .demo-request .demo-form-box{
+		width: 100%;
+	}
+	.section-one .demo-request h1{
+		font-size: 40px;
+	}
+	.section-one .home-carousel{
+		width: 100%;
+	}
+	.client-logos{
+		padding-top: 40px;
 	}
 }
 @media (max-width: 480px){
@@ -707,12 +765,19 @@
 	
 }
 @media (max-width: 375px){
-	//.section-one .demo-request{margin-top: 12em;}
-	.section-one .demo-request p{margin: 0; padding: 54px 0 44px;}
-	.home-footer .demo-area .demo-form-box .input-group .form-control.demo-input,
-	.section-one .demo-request .demo-form-box .input-group .form-control.demo-input{
-		//font-size: 12px;
+	.section-one .demo-request p{
+		margin: 0; 
+		padding: 37px 0 44px;
+		height: 100%;
 	}
+	
+	.section-one{ min-height: 100%;}
+	.section-one .demo-request h1{
+		margin-top: 203px;
+		height: 100%;
+	}
+	
+	
 	
 	.why-butterfly .butterfly-one .lead{
 		padding-right: 1em;

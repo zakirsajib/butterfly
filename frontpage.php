@@ -24,10 +24,10 @@ get_header();
 					//get_template_part( 'template-parts/content', 'home' );
 				endwhile; // End of the loop.?>
 			
-       <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblog2.svg" class="bgblog2"/>
+       <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg" class="bgblog2"/>
 		
-			<div class="section-one">
-			<div class="demo-request">
+			<div class="section-one row">
+				<div class="demo-request col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<?php if(get_field('demo_request_information')):?>
 					<?php the_field('demo_request_information');?>
 				<?php else:?>
@@ -38,11 +38,10 @@ get_header();
 					<div class="input-group"><input type="email" class="form-control demo-input" placeholder="Your work email" name="email"><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn" type="button" data-toggle="modal" data-target="#reqDemo"><?php if(get_field('request_button_label')):?><?php the_field('request_button_label');?><?php else:?>Request a demo<?php endif;?></button></span></div><!-- /input-group -->
 				</div>
 			</div>
-			<div class="home-carousel col-lg-7 col-md-6 col-sm-12 col-xs-12">
+				<div class="home-carousel col-lg-6 col-md-6 col-sm-8 col-xs-8">
 				<?php get_template_part( 'inc/home', 'carousel' );?>
 			</div>
-		</div>
-			<div class="client-logos">
+				<div class="client-logos col-md-12 col-xs-12">
 				<?php if( have_rows('sponsors_logo_image') ):
 				    while ( have_rows('sponsors_logo_image') ) : the_row();?>
 				    	<?php $sponsor_logo = get_sub_field('sponsor_logo'); ?>
@@ -52,8 +51,10 @@ get_header();
 						<a href="#"><img class="svg" src="<?php echo get_template_directory_uri()?>/assets/img/ge-logo.svg" alt=""></a><a href="#"><img class="svg" src="<?php echo get_template_directory_uri()?>/assets/img/coca-cola-logo.svg" alt=""></a><a href="#"><img class="svg" src="<?php echo get_template_directory_uri()?>/assets/img/ticketmaster-logo.svg" alt=""></a><a href="#"><img class="svg" src="<?php echo get_template_directory_uri()?>/assets/img/dentsu-logo.svg" alt=""></a><a href="#"><img class="svg" src="<?php echo get_template_directory_uri()?>/assets/img/ogilvy-logo.svg" alt=""></a><a href="#"><img class="svg" src="<?php echo get_template_directory_uri()?>/assets/img/live-nation-logo.svg" alt=""></a>
 			<?php endif;?>
 		</div>
+			</div>
+			
 			<div class="why-butterfly row">			
-			<div class="butterfly-one col-md-4 affix-butterfly hidden-sm hidden-xs" data-spy="affix" id="why-butterfly">
+			<div class="butterfly-one col-lg-4 col-md-4 col-sm-12 col-xs-12 affix-butterfly" id="why-butterfly">
 				<?php if( get_field('why_left_column') ): ?>
 					<?php $why_left_column = get_field('why_left_column');?>
 					<h1><?php echo $why_left_column['why_title'];?></h1>
@@ -74,28 +75,8 @@ get_header();
 				<a href="#">Find out how Butterfly works!</a>
 				<?php endif;?>
 			</div>
-			<div class="butterfly-one col-md-4 hidden-lg hidden-md">
-				<?php if( get_field('why_left_column') ): ?>
-					<?php $why_left_column = get_field('why_left_column');?>
-					<h1><?php echo $why_left_column['why_title'];?></h1>
-					<div class="lead"><p><?php echo $why_left_column['why_sub_title'];?></p></div>
-			<div class="why-butterfly-contents"><?php echo $why_left_column['why_descriptions'];?></div>
-					<a href="<?php echo $why_left_column['find_out_more_url'];?>"><?php echo $why_left_column['find_out_more_texts'];?></a>
-				<?php else:?>
-				<h1>Why<br/>Butterfly?</h1>
-				<div class="lead">
-					<p>Full-circle engagement for employees and managers.</p>
-				</div>
-				<div class="why-butterfly-contents">
-				<p>We created Butterfly with a goal of better engaging the employees within your company and making them as delighted, productive and efficient as possible.</p>
-				<p>Butterfly’s tools provide the highest response rate with hourly employees. Our tools seamlessly integrate into the daily routines of employees and their managers. </p>
-				<p>By engaging this segment of the workforce that hasn’t traditionally been asked for ongoing feedback, organizations see a direct positive impact on performance.
-</p>
-				</div>
-				<a href="#">Find out how Butterfly works!</a>
-				<?php endif;?>
-			</div>
-			<div class="butterfly-two col-md-8">
+			
+			<div class="butterfly-two one col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<div class="butterfly-right-column">
 					<?php if( get_field('right_column') ):
 						$why_right_column = get_field('right_column');?>
@@ -133,7 +114,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-			<div class="home-testimonial">
+			<div class="home-testimonial col-lg-12">
 			<div class="testimonial-area">
 				<?php include( get_template_directory() . '/inc/testimonial.php');?>
 			</div>

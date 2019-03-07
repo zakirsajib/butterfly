@@ -1,11 +1,9 @@
 .butterflywebsiteblogfilters {
-/*   width               : 100%; */
-/*   min-width           : 1200px; */
-/*   height              : 100vh; */
-  min-height          : 1310px;
+  min-height          : 100%;
+  height: 100%;
   position            : relative;
   overflow            : hidden;
-  margin              : 92px 0 0px;
+  margin-top              : 92px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
@@ -137,27 +135,23 @@ div {
 }
 .butterflywebsiteblogfilters .allarticles {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
-  height              : 578px;
+  padding-top         : 144px;
+  min-height          : 50vh;
   width               : 100%;
   position            : relative;
   margin              : 0;
-  left                : 118px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  left                : 0;
+  overflow: hidden;
+  padding-bottom: 5em;
+  
 }
 .butterflywebsiteblogfilters .allarticles .headerallarticles {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 58px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblogfilters .allarticles .headerallarticles .articlesfromu201cwork {
   background-color    : rgba(255,255,255,0.0);
@@ -1024,15 +1018,11 @@ font-family         : "Muli", Helvetica, Arial, serif;
 }
 .butterflywebsiteblogfilters .catags {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 985px;
-  height              : 402px;
+  min-height          : 402px;
   width               : 534px;
-  position            : absolute;
-  margin              : 0;
-  left                : 118px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  position            : relative;
+  margin              : 68px 0 0;
+  left                : 0;
 }
 .butterflywebsiteblogfilters .catags .headetags {
   background-color    : rgba(255,255,255,0.0);
@@ -1170,25 +1160,20 @@ font-family         : "Muli", Helvetica, Arial, serif;
   top                 : 71px;
   height              : 32px;
   width               : 160px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 118px;
+  left                : 0;
   border-radius       : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  z-index: 1;
 }
 .butterflywebsiteblogfilters .backtoblog {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 78px;
+  top                 : 7px;
   height              : auto;
   width               : 113px;
   position            : absolute;
   margin              : 0;
-  left                : 155px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  left                : 37px;
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 900;
   font-style          : normal;
@@ -1205,19 +1190,16 @@ font-family         : "Muli", Helvetica, Arial, serif;
 
 .butterflywebsiteblogfilters .iconsarrow {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 75px;
+  top                 : 5px;
   height              : 24px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 128px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  left                : 12px;
 }
 .butterflywebsiteblogfilters .header {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 48px;
+  top                 : 5px;
   height              : 52px;
   width               : 1100px;
   position            : absolute;

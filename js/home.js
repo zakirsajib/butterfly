@@ -13,19 +13,20 @@ $ = jQuery.noConflict();
 			autoplaySpeed: 4800
 		});		
 		
-		
-		$('.affix-home').affix({
-			offset: {
-				top: $('.butterfly-one').offset().top-50,
-				bottom: 0 
-      		}
-		});
-		
-		$('.affix-butterfly').affix({
-			offset: {
-				top:  $('.butterfly-one').offset().top-200,
-				bottom: 1400
-  			}
-		});
+		if (window.matchMedia('(min-width: 1200px)').matches) {
+			$('.affix-home').affix({
+				offset: {
+					top: $('.butterfly-one').offset().top-50,
+					bottom: 0 
+	      		}
+			});
+			
+			$('.affix-butterfly').affix({
+				offset: {
+					top:  $('.butterfly-one').offset().top-200,
+					bottom: 1500
+	  			}
+			});
+		}
 	
 });

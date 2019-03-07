@@ -64,12 +64,12 @@ div {
 }
 .bgblog2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1297px;
-  height              : 658px;
+  top                 : 60em;
+  height              : 1153px;
   width               : 397px;
   position            : absolute;
   margin              : 0;
-  right                : -10%;
+  right                : -20em;
   -ms-transform       : rotate(45deg); /* IE 9 */
   -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
   transform           : rotate(45deg);

@@ -10,7 +10,7 @@ $ = jQuery.noConflict();
 			autoplaySpeed: 4200,
 			infinite: false,
 			slidesToShow: 3,
-			slidesToScroll: 3,
+			slidesToScroll: 1,
 			focusOnSelect: false,
 			draggable: true,
 			swipeToSlide: true,
@@ -21,7 +21,7 @@ $ = jQuery.noConflict();
 		      breakpoint: 1024,
 		      settings: {
 		        slidesToShow: 2,
-		        slidesToScroll: 2,
+		        slidesToScroll: 1,
 		        infinite: true
 		      }
 		    },
@@ -51,7 +51,7 @@ $ = jQuery.noConflict();
 			autoplay:false,
 			arrows: false,
 			autoplaySpeed: 4500,
-			infinite: true,
+			infinite: false,
 			slidesToShow: 3,
 			slidesToScroll: 3,
 			focusOnSelect: false,
@@ -95,7 +95,7 @@ $ = jQuery.noConflict();
 			autoplaySpeed: 4800,
 			infinite: false,
 			slidesToShow: 3,
-			slidesToScroll: 3,
+			slidesToScroll: 1,
 			touchMove: true,
 			focusOnSelect: false,
 			draggable: true,

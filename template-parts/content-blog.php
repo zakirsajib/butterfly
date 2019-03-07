@@ -9,7 +9,7 @@
 
 ?>
 
-<div class="butterflywebsiteblog">
+<div class="butterflywebsiteblog container">
     <div class="bg">
         <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-3.png" class="rectangle" />
         <img src="<?php echo get_template_directory_uri()?>/assets/blog/img/butterflywebsiteblog-rectangle-1.png" class="rectangle1" />

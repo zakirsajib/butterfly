@@ -32,15 +32,14 @@
 
 
 .butterflywebsiteblog {
-/*   height              : 100vh; */
   min-height          : 2500px;
   position            : relative;
   overflow            : hidden;
-  margin              : 98px 0 0 118px;
+  margin-top              : 98px;
+  margin-bottom:118px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
-  width: 100%;
 }
 
 
@@ -51,7 +50,7 @@
 .butterflywebsiteblog .mainarticle,
 .butterflywebsiteblog .blog,
 .butterflywebsiteblog .takeasneakpeekof{
-	left: 0!important;
+/* 	left: 0!important; */
 }
 
 .butterflywebsiteblog .blog .group{
@@ -213,7 +212,7 @@ div {
   width               : 534px;
   position            : relative;
   margin              : 0;
-  left                : 118px;
+/*   left                : 118px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -354,7 +353,7 @@ div {
   width               : 100%;
   position            : relative;
   margin              : 0;
-  left                : 118px;
+/*   left                : 118px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1803,7 +1802,7 @@ div {
   width               : 1027px;
   position            : absolute;
   margin              : 0;
-  left                : 118px;
+/*   left                : 118px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1911,7 +1910,7 @@ div {
   width               : 710px;
   position            : absolute;
   margin              : 0;
-  left                : 118px;
+/*   left                : 118px; */
   font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
@@ -2809,7 +2808,7 @@ div {
 }
 @media (max-width: 1024px){
 	.butterflywebsiteblog{
-		margin: 0 0 0 85px;
+		margin-left: 85px;
 	}
 }
 @media (max-width: 992px){
@@ -2826,7 +2825,7 @@ div {
 }
 @media (max-width: 767px){
 	.butterflywebsiteblog{
-		margin: 0 0 0 20px;
+		margin-left: 20px;
 	}
 }
 

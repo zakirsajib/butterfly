@@ -1,4 +1,4 @@
-html,body{
+html{
 	overflow-x: hidden;
 }
 
@@ -9,6 +9,7 @@ body{
 	background-color: transparent;
 	scroll-behavior: smooth;
 	position: relative;
+	overflow: hidden;
 }
 
 a {
@@ -55,12 +56,10 @@ picture, img{
 	max-width: 100%;
 }
 
-
 .container-fluid { 
 	padding-left: 50px;
 	padding-right: 50px;
 } 
-
 
 .modal-backdrop{
 	background-color: #fff;
@@ -70,24 +69,24 @@ picture, img{
 }
 
 
+/*
 .content-area{
 	padding-left: 68px;
 }
+*/
 
 .section-one{
 	display: grid;
-	grid-template-columns: 480px 602px;
+	grid-template-columns: 1fr; //480px 602px;
 	align-items: center;
-    justify-content: left;
+    justify-content: center;
     min-height: 100vh;
     grid-column-gap: 0;
     
     .demo-request{
-	    display: grid;
-		align-items: center;
-	//	justify-content: center;
-		align-self: center;
-// 		grid-template-rows: 1fr 1fr;
+	  //  display: grid;
+		//align-items: center;
+		//align-self: center;
 	    h1{
 		    margin: 0;
 		    color: #3a3b57;
@@ -176,11 +175,13 @@ picture, img{
 		right: 0px;
 		top: 0px;
 		padding-right: 0;
+		//height: calc(100vh - 8%);
 		.slick-slider{
 			display: grid;
 			svg{
 				float:right;
 				position: relative;
+				//width: 95%;
 			}
 		}
 	}
@@ -192,20 +193,20 @@ picture, img{
 	grid-template-columns:42px 88px 128px 76px 64px 158px;
 	align-items: center;
     justify-content: center;
-    align-self: center;
+    align-self: auto;
 	//padding-right: 137px;
 	//padding-left: 70px;
-	padding-top: 5em;
-	//padding-bottom: 59.3px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	grid-column-gap:64px;
 }
 
 
 
 .why-butterfly{
-    padding-top: 10em;
+    //padding-top: 10em;
     position: relative;
-    min-height: 100vh;
+    //min-height: 100vh;
     //overflow: hidden;
     .butterfly-one{
 	    h1{
@@ -252,20 +253,6 @@ picture, img{
 		 a{
 		    color: #2ce6ce;
 	    }
-		&.affix-butterfly{
-			&.affix-bottom{
-				position: absolute;
-				left:0;
-			}
-			&.affix-top{
-				position: absolute;
-				left: 0;
-			}
-			&.affix{
-				top:100px;
-				width: 30.33333%;
-			} 
-		}
     }
     .butterfly-two {
 	    float: right;
@@ -334,7 +321,7 @@ picture, img{
 	    display: block;
 	    height: 658px;
 	    position: absolute;
-	    top: 10%;
+	    top: -5em;
 	    left: 38%;
 	    width: 397px;
 	    -ms-transform: rotate(45deg);
@@ -346,14 +333,15 @@ picture, img{
 .home-testimonial{
 	display: grid;
 	align-items: center;
-	justify-content: left;
+	justify-content: center;
 	align-self: center;
-	height: 1000px;
+	//height: 1000px;
 	min-height: 50vh;
-	//padding-top: 112px;
-	//padding-bottom: 315px;
+	clear: both;
+	padding-top: 201px;
+	padding-bottom: 226px;
 	.testimonial-area{
-		padding-left: 109px;
+		//padding-left: 109px;
 		.testimonial-statements{ 
 			//padding-right: 5em;
 			p{
@@ -413,24 +401,25 @@ picture, img{
 	    display: block;
 	    height: 1207px;
 	    position: absolute;
-	    top: 50%;
-	    left: 0;
+	    top: 14em;
+	    left: 12em;
 	    width: 397px;
 	    -ms-transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
 	    transform: rotate(45deg);
 	    opacity: 0.05;
+	    z-index: -1;
     }
     &:after{
-	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblog2.svg');
+	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
 	    background-position: center center;
 		background-repeat: no-repeat;
 		content: " ";
 	    display: block;
-	    height: 658px;
+	    height: 1207px;
 	    position: absolute;
-	    bottom: 8%;
-	    left: 30%;
+	    bottom: -18em;
+	    left: -7em;
 	    width: 397px;
 	    -ms-transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
@@ -442,6 +431,7 @@ picture, img{
 .home-footer{ 
 	padding-top: 89px;
 	padding-bottom: 90px;
+	padding-left: 132px;
 	background-color: rgba(255, 247, 244, 0.75);
 		.demo-area{
 			display: grid;
