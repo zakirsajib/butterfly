@@ -245,6 +245,7 @@ function my_login_logo() {
 		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/user.svg') no-repeat!important;
 			background-position: 12px 50%!important;
 		}
+		.login input[type=text]#pass1-text,
 		.login input[type=password]{
 		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/lock.svg') no-repeat!important;
 			background-position: 12px 50%!important;
@@ -368,6 +369,9 @@ function my_login_logo() {
 	    .login .pw-weak label{
 		    color: #2ce6ce!important;
 	    }
+	    #login form#resetpassform p.submit {
+			margin: 20px 0 0!important;
+		}
 	    @media (max-width: 530px){
 	    	#login,
 	    	.wp-core-ui form#lostpasswordform .button-primary,
