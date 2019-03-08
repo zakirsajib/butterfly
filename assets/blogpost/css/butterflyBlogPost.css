@@ -89,9 +89,6 @@ a {
   position            : relative;
   margin              : 0;
   left                : 154px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
@@ -99,6 +96,7 @@ a {
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
   line-height         : 24.0px;
+  text-transform: uppercase;
 }
 
 .butterflyblogpost .casestudy .content .workroam a{
