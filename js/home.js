@@ -6,7 +6,7 @@ $ = jQuery.noConflict();
 			dots:false,
 			speed:1000,
 			adaptiveHeight:false,
-			autoplay:true,
+			autoplay:false,
 			arrows: false,
 			fade:true,
 			//lazyLoad: 'ondemand',

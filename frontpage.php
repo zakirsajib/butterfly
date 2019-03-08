@@ -38,7 +38,7 @@ get_header();
 					<div class="input-group"><input type="email" class="form-control demo-input" placeholder="Your work email" name="email"><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn" type="button" data-toggle="modal" data-target="#reqDemo"><?php if(get_field('request_button_label')):?><?php the_field('request_button_label');?><?php else:?>Request a demo<?php endif;?></button></span></div><!-- /input-group -->
 				</div>
 			</div>
-				<div class="home-carousel col-lg-6 col-md-6 col-sm-8 col-xs-8">
+				<div class="home-carousel col-lg-6 col-md-7 col-sm-8 col-xs-9">
 				<?php get_template_part( 'inc/home', 'carousel' );?>
 			</div>
 				<div class="client-logos col-md-12 col-xs-12">
