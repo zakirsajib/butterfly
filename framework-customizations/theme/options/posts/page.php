@@ -11,7 +11,7 @@ $options = array(
             'page-gallery' => array(
                 'type'  => 'multi-upload',
                 'label' => esc_html__( 'Carousel', 'butterfly' ),
-                'desc'  => esc_html__( 'Upload images to your carousel', 'butterfly' ),
+                'desc'  => 'Minimum recommended Size 1000x1000 pixels. <br/> All images must be same width and height for optimal display.',
                 'images_only' => true,
             )
         )
