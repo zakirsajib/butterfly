@@ -175,7 +175,16 @@ picture, img{
 		right: 0px;
 		top: 0px;
 		padding-right: 0;
-		//height: calc(100vh - 8%);
+		.swiper-container {
+		    opacity: 0;
+		    visibility: hidden;
+		    transition: opacity 1s ease;
+		    -webkit-transition: opacity 1s ease;
+		}
+		.swiper-container.slick-initialized {
+		    visibility: visible;
+		    opacity: 1;    
+		}
 		.slick-slider{
 			display: grid;
 			svg{

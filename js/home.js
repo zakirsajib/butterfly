@@ -6,10 +6,10 @@ $ = jQuery.noConflict();
 			dots:false,
 			speed:1000,
 			adaptiveHeight:false,
-			autoplay:false,
+			autoplay:true,
 			arrows: false,
 			fade:true,
-			//lazyLoad: 'ondemand',
+			lazyLoad: 'ondemand',
 			autoplaySpeed: 4800
 		});		
 		
