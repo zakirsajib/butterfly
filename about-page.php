@@ -47,44 +47,44 @@ get_header('about');
 		            <div class="tab-content">
 		            	<div id="collapseOne" class="tab-pane active">
 		            	<div class="u201cbutterflypowerrea">
-		                “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
+		                “<?php the_field('client_statements_one')?>”
 						</div>
-						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Ogilvy</div>
+						<div class="benjaminsnyers"><?php the_field('position_and_company_name')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseTwo" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “This is Cocacola statements”
+		                “<?php the_field('client_statements_two')?>”
 						</div>
-						<div class="benjaminsnyers">Cocacola<br/>Managing Director at Cocacola</div>
+						<div class="benjaminsnyers"><?php the_field('position_and_company_name_two')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseThree" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “Ticketmaster Statements”
+		                “<?php the_field('client_statements_three')?>”
 						</div>
-						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Ticketmaster</div>
+						<div class="benjaminsnyers"><?php the_field('position_and_company_name_three')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseFour" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “Dentsu statements”
+		                “<?php the_field('client_statements_four')?>”
 						</div>
-						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Dentsu</div>
+						<div class="benjaminsnyers"><?php the_field('position_and_company_name_four')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseFive" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “Ogilvy”
+		                “<?php the_field('client_statements_five')?>”
 						</div>
-						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Ogilvy</div>
+						<div class="benjaminsnyers"><?php the_field('position_and_company_name_five')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 						<div id="collapseSix" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
-		                “Live Nation Statements”
+		                “<?php the_field('client_statements_six')?>”
 						</div>
-						<div class="benjaminsnyers">Benjamin Snyers<br/>Managing Director at Live Nation Statements</div>
+						<div class="benjaminsnyers"><?php the_field('position_and_company_name_six')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
 		            </div>
@@ -163,9 +163,11 @@ get_header('about');
             </div>
             <div class="fade" role="tabpanel" id="byus">
 	            <div class="downloads-studies-container">
-					<div class="group2 group col-md-3">
+					<?php if( have_rows('by_us') ):
+					    while ( have_rows('by_us') ) : the_row();?>
+							<div class="group2 group col-md-3">
 	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
+	            <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank">Download e-book</a>
 	        </div>
 	        <div class="iconsarrow">
 	            <div class="background">
@@ -173,52 +175,11 @@ get_header('about');
 	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
 	        </div>
 	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3"><?php the_sub_field('ebook_title')?></span>
 	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	        <img src="<?php the_sub_field('ebook_pdf_thumbnail')?>" class="screenshot20190115at194659"/>
 	    </div>
-					<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
-	        </div>
-	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-	        </div>
-	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-	    </div>
-					<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
-	        </div>
-	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-	        </div>
-	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-	    </div>
-					<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
-	        </div>
-	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-	        </div>
-	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-	    </div>
+						<?php endwhile;endif;?>
 				</div>
             </div>
         </div>

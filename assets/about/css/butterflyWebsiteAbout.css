@@ -1098,11 +1098,10 @@
   transform           : rotate(0deg);
 }
 
-/*
-.butterflywebsiteabout .downloads-studies-container{
-	margin-top: 5em;
+.butterflywebsiteabout .downloads .downloads-studies-container .group:focus,
+.butterflywebsiteabout .downloads .downloads-studies-container .group2:focus{
+	outline: 0;
 }
-*/
 
 
 .butterflywebsiteabout .downloads .downloads-studies-container .group:hover{
