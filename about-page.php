@@ -32,12 +32,12 @@ get_header('about');
             <div class="fade in active" role="tabpanel" id="clientList">
 	            <div class="logo">
 	              <ul>  
-	                <li class="active"><a data-toggle="tab" href="#collapseOne"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-gelogo-1.svg" class="svg" alt=""/></a></li>
-	                <li><a data-toggle="tab" href="#collapseTwo"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-cocacolalogo.svg" class="cocacolalogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseThree"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ticketmasterlogo-1.svg" class="ticketmasterlogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseFour"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-dentsulogo.svg" class="dentsulogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseFive"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-ogilvylogo.svg" class="ogilvylogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseSix"><img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-livenation-1@2x.png" class="livenation svg"/></a></li>
+	                <li class="active"><a data-toggle="tab" href="#collapseOne"><img src="<?php the_field('client_logo_#1')?>" class="svg" alt=""/></a></li>
+	                <li><a data-toggle="tab" href="#collapseTwo"><img src="<?php the_field('client_logo_#2')?>" class="cocacolalogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseThree"><img src="<?php the_field('client_logo_#3')?>" class="ticketmasterlogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseFour"><img src="<?php the_field('client_logo_#4')?>" class="dentsulogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseFive"><img src="<?php the_field('client_logo_#5')?>" class="ogilvylogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapseSix"><img src="<?php the_field('client_logo_#6')?>" class="livenation svg"/></a></li>
 	              </ul>
 	            </div>
 	            <div class="seperatorvertical">
