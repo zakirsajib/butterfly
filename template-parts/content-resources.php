@@ -77,9 +77,11 @@
 	        </div>
 	    </div>
 	    <div class="downloads-studies-container">
-	    	<div class="group2 group col-md-3">
+	    	<?php if( have_rows('by_us', 13) ):
+				while ( have_rows('by_us', 13) ) : the_row();?>
+					<div class="group2 group col-md-3">
 	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
+	            <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank">Download e-book</a>
 	        </div>
 	        <div class="iconsarrow">
 	            <div class="background">
@@ -87,52 +89,11 @@
 	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
 	        </div>
 	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
+	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3"><?php the_sub_field('ebook_title')?></span>
 	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
+	        <img src="<?php the_sub_field('ebook_pdf_thumbnail')?>" class="screenshot20190115at194659"/>
 	    </div>
-			<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
-	        </div>
-	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-	        </div>
-	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-	    </div>
-			<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
-	        </div>
-	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-	        </div>
-	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-	    </div>
-			<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="#" target="_blank">Download e-book</a>
-	        </div>
-	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
-	        </div>
-	        <div class="getourebookhowt">
-	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3">How to Become a Better Manager in 50 Days</span>
-	        </div>
-	        <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-screenshot-2019-01-15-at-194659.svg" class="screenshot20190115at194659"/>
-	    </div>
+			<?php endwhile;endif;?>
 	    </div>
 	</div> <! -- end downloads -->
     <div class="faq" id="faq">

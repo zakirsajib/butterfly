@@ -4,53 +4,124 @@
 	    margin: 0px auto;
 	    padding: 0;
 	}
-}
+}	
+
+	.butterflyrequestdemoform .right svg path{
+		fill: #fff;
+		fill-opacity: 0.5;
+	}
+	.butterflyrequestdemoform .right svg:hover path{
+		fill: #fff;
+		fill-opacity: 1;
+	}
 	
-	.email {
-  		background: url( '../img/butterflyrequestdemoform-email.svg' ) no-repeat;
+	
+	.our-demo-form .caldera-grid .alert-success{
+		background-color: transparent;
+		border-color: transparent;
+	}
+	
+	.our-demo-form .caldera-grid #fld_7317306_1,
+	.our-demo-form .caldera-grid #fld_7104025_1,
+	.our-demo-form .caldera-grid #fld_8734576_1,
+	.our-demo-form .caldera-grid #fld_9826546_1,
+	
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #3a3b57;
+		background-color: rgba(255, 255, 255, 1.0);
+		height: 48px;
+		width: 420px;
+		box-sizing: border-box;
+		border-radius: 24px;
+		border-style: solid;
+		border-width: 1px;
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		padding-left: 46px;
+	}
+	
+	.our-demo-form .caldera-grid #fld_7317306_1 {
+  		background-image: url( '../img/butterflyrequestdemoform-email.svg' );
   		background-position: 12px 50%;
+  		background-repeat: no-repeat;
   	}
-  	.email:focus {
-  		background: url( '../img/butterflyrequestdemoform-email-focus.svg' ) no-repeat;
+  	.our-demo-form .caldera-grid #fld_7317306_1:focus {
+  		background-image: url( '../img/butterflyrequestdemoform-email-focus.svg' );
   		background-position: 12px 50%;
+  		background-repeat: no-repeat;
   	}
-  	.first-name {
-  		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
+  	.our-demo-form .caldera-grid #fld_7104025_1,
+	.our-demo-form .caldera-grid #fld_8734576_1{
+  		background-image: url( '../img/butterflyrequestdemoform-user-1.svg' );
   		background-position: 12px 50%;
+  		background-repeat: no-repeat;
   	}
-  	.first-name:focus,
-  	.last-name:focus{
-  		background: url( '../img/butterflyrequestdemoform-user-1-focus.svg' ) no-repeat;
+  	.our-demo-form .caldera-grid #fld_7104025_1:focus,
+  	.our-demo-form .caldera-grid #fld_8734576_1:focus{
+  		background-image: url( '../img/butterflyrequestdemoform-user-1-focus.svg' );
   		background-position: 12px 50%;
+  		background-repeat: no-repeat;
   	}
-  	.last-name {
-  		background: url( '../img/butterflyrequestdemoform-user-1.svg' ) no-repeat;
+
+  	.our-demo-form .caldera-grid #fld_9826546_1 {
+  		background-image: url( '../img/butterflyrequestdemoform-company.svg' );
   		background-position: 12px 50%;
+  		background-repeat: no-repeat;
   	}
-  	.company-name {
-  		background: url( '../img/butterflyrequestdemoform-company.svg' ) no-repeat;
+  	.our-demo-form .caldera-grid #fld_9826546_1:focus {
+  		background-image: url( '../img/butterflyrequestdemoform-company-focus.svg' );
   		background-position: 12px 50%;
+  		background-repeat: no-repeat;
   	}
-  	.company-name:focus {
-  		background: url( '../img/butterflyrequestdemoform-company-focus.svg' ) no-repeat;
-  		background-position: 12px 50%;
-  	}
-  	.company-size {
+  	.our-demo-form .caldera-grid #fld_6498534_1 {
   		background: url( '../img/butterflyrequestdemoform-people.svg' ) no-repeat;
   		background-position: 12px 50%;
   		text-indent: 40px;
   	}
-  	.company-size:focus {
+  	.our-demo-form .caldera-grid #fld_6498534_1:focus {
   		background: url( '../img/butterflyrequestdemoform-people-focus.svg' ) no-repeat;
   		background-position: 12px 50%;
   		text-indent: 40px;
   	}
-  	.phone-num {
-  		
+  	
+  	.our-demo-form .caldera-grid #fld_6498534_1{
+	  	font-family : "Muli", Helvetica, Arial, serif;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #9b9b9b;
+		background-color: rgba(255, 255, 255, 1.0);
+		height: 48px;
+		border: 0;
+		width: 400px;
   	}
+  	
+  	.caldera-grid .form-group.company-size{
+		height: 48px;
+		width: 420px;
+		box-sizing: border-box;
+		border-radius: 24px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+  	} 
+  	
   	
   	/*Pass Icon #2ce6ce*/
   	 
+/*
   	.our-demo-form .nf-pass .email{
 	  	background: url( '../img/butterflyrequestdemoform-email-pass.svg' ) no-repeat;
   		background-position: 12px 50%;
@@ -70,9 +141,12 @@
 	  	background: url( '../img/butterflyrequestdemoform-people-pass.svg' ) no-repeat;
   		background-position: 12px 50%;
   	}
+*/
   	  	
-  	  	
-  	.our-demo-form .nf-field-element .demo-submit{
+  	.our-demo-form .caldera-grid #CF5c79f4c063e8b_1-row-2 {
+	  	padding-top: 16px;
+  	}
+  	.our-demo-form .caldera-grid .demo-submit{
 	  	width: 200px;
 	  	height: 56px;
 	  	border-radius: 32px;
@@ -84,55 +158,27 @@
 		font-stretch: normal;
 		line-height: normal;
 		letter-spacing: normal;
-		text-align: center;
 		color: #ffffff;
 		padding: 0;
 		text-align: center;
+		border: 0;
   	}
-  	
-  	.nf-form-fields-required{
-	  	display: none;
-  	}
-
 	
-	.our-demo-form .nf-field-container{
-		margin-bottom: 10px;
-	}
-	
-	.our-demo-form .nf-field-element input, 
-	.our-demo-form .nf-field-element select, 
-	.our-demo-form .nf-field-element textarea{
-		font-family : "Muli", Helvetica, Arial, serif;
-		font-size: 18px;
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: normal;
-		letter-spacing: normal;
-		color: #9b9b9b;
-		background-color: rgba(255, 255, 255, 1.0);
-		height: 48px;
-		box-sizing: border-box;
-		border-radius: 24px;
-		border-style: solid;
-		border-width: 1px;
-		border-color: rgba(0, 0, 0, 0.1);
-		-ms-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-		padding-left: 46px;
-	}
-	
-	.our-demo-form .nf-field-element input:focus, 
-	.our-demo-form .nf-field-element select:focus{
+		
+	.our-demo-form .caldera-grid  input:focus, 
+	.our-demo-form .caldera-grid select:focus{
 		outline: 0;
 		border: 1px solid #532ee4;
+		-webkit-box-shadow: none;
+		box-shadow: none;
 	}
-	.our-demo-form .nf-field-container.checkbox-container{
-		padding: 0 0 5px;
-		margin-bottom: 0;
+	
+	.our-demo-form .caldera-grid #fld_2261961_1-wrap{
+		margin-left: 15px;
+		padding-top: 14px;
 	}
-	.our-demo-form .nf-field-container.checkbox-container label{
+	.our-demo-form .caldera-grid input[type=checkbox]{
+		margin-top: 3px;
 		font-family : "Muli", Helvetica, Arial, serif;
 		font-size: 14px;
 		font-weight: 400;
@@ -141,49 +187,23 @@
 		line-height: normal;
 		letter-spacing: normal;
 		color: #9b9b9b;
-		margin-left: 15px;
-	}
-	.our-demo-form .ninja-forms-field.updates-checked{
-		margin-left: 15px;
-		vertical-align: middle;
 	}
 	
-	.our-demo-form .nf-field-container.company-size-container{
-		font-family : "Muli", Helvetica, Arial, serif;
-		font-size: 18px;
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: normal;
-		letter-spacing: normal;
-		color: #9b9b9b;
-		background-color: rgba(255, 255, 255, 1.0);
-		height: 48px;
-		box-sizing: border-box;
-		border-radius: 24px;
-		border-style: solid;
-		border-width: 1px;
-		border-color: rgba(0, 0, 0, 0.1);
-		-ms-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-		overflow: hidden;	
-	}
-	
-	.our-demo-form .nf-field-container.company-size-container .company-size{
-		border: 0;
-	}
-	.our-demo-form .nf-field-container.company-size-container:focus {
-    	border: 1px solid #532ee4;
-		outline: 0;
-	}
-/* 	.nf-after-field .nf-error-msg, .nf-error-msg{display: none;} */
-	
-	.our-demo-form .nf-field-container.heading-box {
+	.our-demo-form .heading-box {
     	padding-bottom: 11em;
 	}
 	
+	.our-demo-form .caldera-grid .intl-tel-input.allow-dropdown .selected-flag, 
+	.our-demo-form .caldera-grid .intl-tel-input.separate-dial-code .selected-flag{
+		outline: 0;
+	}
+	.our-demo-form .caldera-grid .intl-tel-input{
+		width: 410px;
+	}
 	
+	.our-demo-form .caldera-grid .intl-tel-input.allow-dropdown .flag-container:hover .selected-flag{
+		background-color: transparent;
+	}
                         
 .butterflyrequestdemoform {
 /*   width               : 100%; */
@@ -197,39 +217,73 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
 }
-a {
-  text-decoration     : none;
+
+.butterflyrequestdemoform:before{
+	background-image: url('../img/butterflyrequestdemoform-rectangle.png');
+	    background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    top: -50%;
+	    left: 50%;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05;
 }
-.anima-full-height-a {
-  height              : 100%;
+
+.butterflyrequestdemoform:after{
+	background-image: url('../img/butterflyrequestdemoform-rectangle-1.png');
+	    background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 1153px;
+	    position: absolute;
+	    top: 9em;
+	    left: 0;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05;
 }
-div {
-  -webkit-text-size-adjust: none;
+
+.butterflyrequestdemoform .tryfree:after{
+	background-image: url('../img/butterflyrequestdemoform-rectangle-2.png');
+	    background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 1207px;
+	    position: absolute;
+	    top: -26em;
+	    right: -6em;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05;
+	    z-index: 0;
 }
+
+
 .butterflyrequestdemoform .tryfree {
   background-color    : rgba(255,255,255,0.0);
-/*   top                 : -509px; */
   min-height              : 1818px;
-/*   max-width           : 1200px; */
   width: 100%;
   position            : relative;
-/*   margin              : 0 auto; */
-/*   left                : -462px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  z-index: 1;
 }
 .butterflyrequestdemoform .tryfree .bg {
-  background-color    : rgba(255, 255, 255, 1.0);
-/*   top                 : 509px; */
-/*   height              : 800px; */
-/*   width               : 800px; */
-  position            : absolute;
-  margin              : 0;
-/*   left                : 462px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+/*   background-color    : rgba(255, 255, 255, 1.0); */
+/*   position            : absolute; */
+/*   margin              : 0; */
+  left                : 462px;
+  overflow: hidden;
 }
 .butterflyrequestdemoform .tryfree .rectangle {
   background-color    : rgba(255,255,255,0.0);
@@ -329,7 +383,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
@@ -949,6 +1003,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  z-index: 2;
 }
 .butterflyrequestdemoform .tryfree .right .bg1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1036,7 +1091,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Aleo-LightItalic", Helvetica, Arial, serif;
+  font-family         : "aleolightitalic", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
@@ -1184,26 +1239,35 @@ div {
   line-height         : 18.0px;
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-	.butterflyrequestdemoform .tryfree .rectangle2,
-	.butterflyrequestdemoform .tryfree .rectangle1{
+.mobile-icon-close{display: none;}
+
+@media (max-width: 1040px) {
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .right{
+		display: none;
+	}
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .form{
+		left: 0;
+		margin: 0 auto;
+		display: table;
+		position: relative;
+	}
+	.mobile-icon-close{
+		display: block;
+		right: 50px;
+		position: absolute;
+		top: 60px;
+		width: 18px;
+		height: 18px;
+		z-index: 1;
+	}
+	.butterflyrequestdemoform .tryfree:after{
 		display: none;
 	}
 }
 
-@media (max-width: 991px) {
-	.butterflyrequestdemoform .tryfree a[data-dismiss="modal"]{
-		position: absolute;
-		top:50px;
-		right: 50px;
-	}
-}
 @media (max-width: 768px) {
 	.butterflyrequestdemoform .tryfree .form {
 	    top: 116px;
-	    left: 190px;
-	    width: 420px;
-	    padding: 0;
 	    height: 100vh;
 	}
 	#reqDemo .modal-dialog{
@@ -1212,20 +1276,50 @@ div {
 }
 
 @media (max-width: 650px) {
-	.butterflyrequestdemoform .tryfree .form {
-	    left: 50px;
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .form {
 	    width: 320px;
 	    max-width: 100%;
+	    left: 10px;
+	    margin: 0 50px;
+	}
+	.butterflyrequestdemoform:after{
+		left:-10em;
+	}
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 380px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 380px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 350px;
+	}
+	.our-demo-form .caldera-grid .alert-success .thanks,
+	.our-demo-form .caldera-grid .alert-success .backhome,
+	.our-demo-form .caldera-grid .alert-success .getourebookhowt,
+	.our-demo-form .caldera-grid .alert-success .yourinfoissafewi{
+		width: 280px;
 	}
 }
 
 @media (max-width: 480px) {
+	.mobile-icon-close{top:30px; right:20px;}
+	
+	.butterflyrequestdemoform:after{
+		left:-20em;
+	}
+	
 	.butterflyrequestdemoform .tryfree .brandingbutterflyicon{
 		left: 20px;
 		top:20px;
 	}
-	.butterflyrequestdemoform .tryfree .form {
-		left: 20px;
+	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree .form {
+		left: 30px;
+		margin: 0 auto;
 	}
 	.butterflyrequestdemoform .tryfree .form .nicetomeetyou{
 		font-size: 36px;
@@ -1233,8 +1327,50 @@ div {
 	.butterflyrequestdemoform .tryfree .form .wecanu2019twaittosho{
 		width: 320px;
 	}
-	.butterflyrequestdemoform .tryfree a[data-dismiss="modal"]{
-		top:20px;
-		right: 20px;
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 350px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 350px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 320px;
+	}
+}
+@media (max-width: 375px) {
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 320px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 320px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 290px;
+	}
+}
+@media (max-width: 374px) {
+	.our-demo-form .caldera-grid #fld_7317306_1, 
+	.our-demo-form .caldera-grid #fld_7104025_1, 
+	.our-demo-form .caldera-grid #fld_8734576_1, 
+	.our-demo-form .caldera-grid #fld_9826546_1, 
+	.our-demo-form .caldera-grid #fld_9771721_1{
+		width: 260px;
+	}
+	.caldera-grid .form-group.company-size{
+		width: 260px;
+	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 230px;
+	}
+	.our-demo-form .caldera-grid #fld_2261961_1-wrap label{
+		width: 250px;
 	}
 }

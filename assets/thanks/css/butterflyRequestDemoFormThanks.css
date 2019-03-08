@@ -1,128 +1,3 @@
-                        
-.butterflyrequestdemoformthanks {
-  width               : 100%;
-  min-width           : 1200px;
-  height              : 100vh;
-  min-height          : 800px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-
-.butterflyrequestdemoformthanks .tryfree {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -439px;
-  height              : 1818px;
-  width               : 2125px;
-  position            : absolute;
-  margin              : 0;
-  left                : -462px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.butterflyrequestdemoformthanks .tryfree .bg {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 439px;
-  height              : 800px;
-  width               : 800px;
-  position            : absolute;
-  margin              : 0;
-  left                : 462px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.butterflyrequestdemoformthanks .tryfree .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
-  height              : 658px;
-  width               : 397px;
-  position            : absolute;
-  margin              : 0;
-  left                : 840px;
-  -ms-transform       : rotate(45deg); /* IE 9 */
-  -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
-  transform           : rotate(45deg);
-  opacity             : 0.05;
-}
-.butterflyrequestdemoformthanks .tryfree .rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 258px;
-  height              : 1153px;
-  width               : 397px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1378px;
-  -ms-transform       : rotate(45deg); /* IE 9 */
-  -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
-  transform           : rotate(45deg);
-  opacity             : 0.05;
-}
-.butterflyrequestdemoformthanks .tryfree .rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 647px;
-  height              : 1207px;
-  width               : 397px;
-  position            : absolute;
-  margin              : 0;
-  left                : 369px;
-  -ms-transform       : rotate(45deg); /* IE 9 */
-  -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
-  transform           : rotate(45deg);
-  opacity             : 0.05;
-}
-.butterflyrequestdemoformthanks .tryfree .brandingbutterflyicon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 489px;
-  height              : 48px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 512px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.butterflyrequestdemoformthanks .tryfree .brandingbutterflyicon .bg1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.butterflyrequestdemoformthanks .tryfree .brandingbutterflyicon .butterfly {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 28px;
-  width               : 37px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.butterflyrequestdemoformthanks .tryfree .form {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 555px;
-  height              : 639px;
-  width               : 420px;
-  position            : absolute;
-  margin              : 0;
-  left                : 651px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
 .thanks {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -134,7 +9,7 @@
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Aleo-Bold", Helvetica, Arial, serif;
+  font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
@@ -331,7 +206,7 @@
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Aleo-LightItalic", Helvetica, Arial, serif;
+  font-family         : "aleolightitalic", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
@@ -490,82 +365,30 @@
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+
+@media (max-width: 767px) {
+	.thanks{position: relative;}
+	.yourinfoissafewi{position: relative; top:32px;}
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media (max-width: 480px) {
+	.our-demo-form .caldera-grid .alert-success .thanks, 
+	.our-demo-form .caldera-grid .alert-success .backhome,  
+	.our-demo-form .caldera-grid .alert-success .yourinfoissafewi{
+		width: auto;
+		max-width: 70%;
+	}
+	.our-demo-form .caldera-grid .alert-success .getourebookhowt{
+		width: 280px;
+		max-width: 50%;
+	}
+	.tryfree .our-demo-form .caldera-grid .alert-success .getourebookhowt{
+		top:315px;
+		left: 0;
+	}
+	.our-demo-form .caldera-grid .alert-success .screenshot20190115at194659{
+		top:0;
+		left: 0;
+		position: relative;
+		margin: 0 0 10px;
+	}
 }
