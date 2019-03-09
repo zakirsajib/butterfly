@@ -387,32 +387,44 @@ function my_login_logo() {
 	    	}
 	    }
     </style>
-    <script src='https://butterfly.jywlk.io/wp-includes/js/jquery/jquery.js'></script>
+    <script src='<?php echo esc_url( home_url( '/' ) ); ?>/wp-includes/js/jquery/jquery.js'></script>
     <script>
 	    $ = jQuery.noConflict();
 		$(function ($) {
 			
 	    	$('.login input[type=text]').addClass('user-svg');
-	    	
-	    	$('.login input[type=text]').on('input', function(){ 
-		    	$(this).removeClass('user-svg');
-		    	
-		    	$(this).css({
-				'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/user-pass.svg) no-repeat rgb(255, 255, 255)',
-				'background-position' : '12px 50%'
-				});			
+	    	$('.login input[type=text]').on('keyup', function(){ 
+			    if($(this).val() != '' ){
+			    	$(this).removeClass('user-svg');
+			    	$(this).css({
+					'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/user-pass.svg) no-repeat rgb(255, 255, 255)',
+					'background-position' : '12px 50%'
+					});
+				}else{
+					$(this).removeClass('user-svg');
+			    	$(this).css({
+					'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/user.svg) no-repeat rgb(255, 255, 255)',
+					'background-position' : '12px 50%'
+					});
+				}			
 	    	});
 	    	
 	    	
 	    	$('.login input[type=text]#pass1-text,.login input[type=password]').addClass('lock-svg');
-	    	$('.login input[type=text]#pass1-text,.login input[type=password]').on('input', function() { 
-		    	
-		    	$(this).removeClass('lock-svg');
-		    	
-		    	$(this).css({
-				'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/lock-pass.svg) no-repeat rgb(255, 255, 255)',
-				'background-position' : '12px 50%'
-				});			
+	    	$('.login input[type=text]#pass1-text,.login input[type=password]').on('keyup', function() { 
+		    	if($(this).val() != '' ){
+			    	$(this).removeClass('lock-svg');
+			    	$(this).css({
+					'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/lock-pass.svg) no-repeat rgb(255, 255, 255)',
+					'background-position' : '12px 50%'
+					});
+				}else{
+					$(this).removeClass('lock-svg');
+			    	$(this).css({
+					'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/lock.svg) no-repeat rgb(255, 255, 255)',
+					'background-position' : '12px 50%'
+					});
+				}			
 	    	});
 	    });
     </script>

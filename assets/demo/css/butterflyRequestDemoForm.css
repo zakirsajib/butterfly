@@ -5,7 +5,7 @@
 	    padding: 0;
 	}
 }	
-
+	
 	.butterflyrequestdemoform .right svg path{
 		fill: #fff;
 		fill-opacity: 0.5;
@@ -14,7 +14,6 @@
 		fill: #fff;
 		fill-opacity: 1;
 	}
-	
 	
 	.our-demo-form .caldera-grid .alert-success{
 		background-color: transparent;
@@ -48,7 +47,7 @@
 		padding-left: 46px;
 	}
 	
-	.our-demo-form .caldera-grid #fld_7317306_1 {
+	.our-demo-form .caldera-grid #fld_7317306_1.email-svg {
   		background-image: url( '../img/butterflyrequestdemoform-email.svg' );
   		background-position: 12px 50%;
   		background-repeat: no-repeat;
@@ -58,8 +57,8 @@
   		background-position: 12px 50%;
   		background-repeat: no-repeat;
   	}
-  	.our-demo-form .caldera-grid #fld_7104025_1,
-	.our-demo-form .caldera-grid #fld_8734576_1{
+  	.our-demo-form .caldera-grid #fld_7104025_1.user-svg,
+	.our-demo-form .caldera-grid #fld_8734576_1.user-svg{
   		background-image: url( '../img/butterflyrequestdemoform-user-1.svg' );
   		background-position: 12px 50%;
   		background-repeat: no-repeat;
@@ -71,7 +70,7 @@
   		background-repeat: no-repeat;
   	}
 
-  	.our-demo-form .caldera-grid #fld_9826546_1 {
+  	.our-demo-form .caldera-grid #fld_9826546_1.company-svg {
   		background-image: url( '../img/butterflyrequestdemoform-company.svg' );
   		background-position: 12px 50%;
   		background-repeat: no-repeat;
@@ -81,7 +80,7 @@
   		background-position: 12px 50%;
   		background-repeat: no-repeat;
   	}
-  	.our-demo-form .caldera-grid #fld_6498534_1 {
+  	.our-demo-form .caldera-grid #fld_6498534_1.companySize-svg {
   		background: url( '../img/butterflyrequestdemoform-people.svg' ) no-repeat;
   		background-position: 12px 50%;
   		text-indent: 40px;
@@ -91,6 +90,17 @@
   		background-position: 12px 50%;
   		text-indent: 40px;
   	}
+  	
+/*
+  	.our-demo-form .caldera-grid #fld_6498534_1-wrap:before{
+	  	background: url( '../img/butterflyrequestdemoform-arrowcarrot.svg' ) 96% / 15% no-repeat;
+	  	width:8.828px; 
+	  	height:5.829px;
+	  	-webkit-appearance: none;
+	  	-moz-appearance: none;
+	  	appearance: none;
+  	}
+*/
   	
   	.our-demo-form .caldera-grid #fld_6498534_1{
 	  	font-family : "Muli", Helvetica, Arial, serif;
@@ -117,31 +127,6 @@
 		border-color: rgba(0, 0, 0, 0.2);
 		overflow: hidden;
   	} 
-  	
-  	
-  	/*Pass Icon #2ce6ce*/
-  	 
-/*
-  	.our-demo-form .nf-pass .email{
-	  	background: url( '../img/butterflyrequestdemoform-email-pass.svg' ) no-repeat;
-  		background-position: 12px 50%;
-  	} 
-  	
-  	.our-demo-form .nf-pass .last-name,
-  	.our-demo-form .nf-pass .first-name{
-	  	background: url( '../img/butterflyrequestdemoform-user-1-pass.svg' ) no-repeat;
-  		background-position: 12px 50%;
-  	}
-  	
-  	.our-demo-form .nf-pass .company-name{
-	  	background: url( '../img/butterflyrequestdemoform-company-pass.svg' ) no-repeat;
-  		background-position: 12px 50%;
-  	}
-  	.our-demo-form .nf-pass .company-size{
-	  	background: url( '../img/butterflyrequestdemoform-people-pass.svg' ) no-repeat;
-  		background-position: 12px 50%;
-  	}
-*/
   	  	
   	.our-demo-form .caldera-grid #CF5c79f4c063e8b_1-row-2 {
 	  	padding-top: 16px;
