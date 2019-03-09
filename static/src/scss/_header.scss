@@ -207,6 +207,9 @@
 				grid-template-columns: repeat(4, 250px);
 				justify-content: center;
 				li{ 
+					opacity: 1;
+					-webkit-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
 					text-align: center;
 					a{
 						font-family: 'aleobold', sans-serif;

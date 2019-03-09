@@ -15,7 +15,7 @@ $ = jQuery.noConflict();
 			autoplay:false,
 			arrows: true,
 			autoplaySpeed: 4200,
-			infinite: false,
+			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			focusOnSelect: true,

@@ -1287,7 +1287,10 @@
 		width: 380px;
 	}
 	.our-demo-form .caldera-grid #fld_6498534_1{
-		width: 350px;
+		width: 395px;
+	}
+	.caldera-grid .form-group.company-size:before{
+		right: -297px;
 	}
 	.our-demo-form .caldera-grid .alert-success .thanks,
 	.our-demo-form .caldera-grid .alert-success .backhome,
@@ -1331,6 +1334,12 @@
 	.our-demo-form .caldera-grid #fld_6498534_1{
 		width: 320px;
 	}
+	.our-demo-form .caldera-grid #fld_6498534_1{
+		width: 360px;
+	}
+	.caldera-grid .form-group.company-size:before{
+		right: -280px;
+	}
 }
 @media (max-width: 375px) {
 	.our-demo-form .caldera-grid #fld_7317306_1, 
@@ -1345,6 +1354,9 @@
 	}
 	.our-demo-form .caldera-grid #fld_6498534_1{
 		width: 290px;
+	}
+	.caldera-grid .form-group.company-size:before{
+		right: -250px;
 	}
 }
 @media (max-width: 374px) {
@@ -1363,5 +1375,8 @@
 	}
 	.our-demo-form .caldera-grid #fld_2261961_1-wrap label{
 		width: 250px;
+	}
+	.caldera-grid .form-group.company-size:before{
+		right: -190px;
 	}
 }
