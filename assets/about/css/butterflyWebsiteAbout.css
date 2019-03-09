@@ -1390,15 +1390,12 @@
 }
 .butterflywebsiteabout .partners {
   background-color    : rgba(255,255,255,0.0);
-  padding-top                 : 148px;
-  height              : 438px;
+  padding-top         : 148px;
+  min-height          : 438px;
   width               : 786px;
   position            : relative;
   margin              : 0;
   left                : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   margin-bottom: 121px;
 }
 .butterflywebsiteabout .partners:before{
@@ -1655,11 +1652,14 @@
   background-color    : rgba(255,255,255,0.0);
   padding-top                 : 65px;
 /*   height              : 454px; */
-  width               : 950px;
+  max-width               : 950px;
   position            : relative;
   margin              : 0;
   left                : 0;
-  margin-bottom: 148px;
+/*   margin-bottom: 148px; */
+min-height: 50vh;
+padding-bottom: 5em;
+overflow: hidden;
 }
 
 .butterflywebsiteabout .customers:before{
@@ -3177,6 +3177,9 @@
 }
 
 @media (max-width: 599px){
+	.butterflywebsiteabout .customers{
+		overflow: visible;
+	}
 	.butterflywebsiteabout .partners{
 		margin-top: 15em;
 	}

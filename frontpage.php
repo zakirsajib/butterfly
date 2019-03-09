@@ -27,7 +27,7 @@ get_header();
        <img src="<?php echo get_template_directory_uri()?>/assets/home/img/butterflywebsitehome-bgblob3.svg" class="bgblog2"/>
 		
 			<div class="section-one row">
-				<div class="demo-request col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<div class="demo-request col-lg-6 col-md-6 col-sm-8 col-xs-12">
 				<?php if(get_field('demo_request_information')):?>
 					<?php the_field('demo_request_information');?>
 				<?php else:?>
