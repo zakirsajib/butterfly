@@ -174,7 +174,9 @@
 		    	$(this).css({
 				'background' : 'url( <?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-people-pass.svg) no-repeat',
 				'background-position' : '12px 50%',
-				'text-indent' : '40px'
+				'text-indent' : '40px',
+				'position': 'relative',
+				'top':'-50px'
 				});
 			}else{
 				$(this).removeClass('companySize-svg');
