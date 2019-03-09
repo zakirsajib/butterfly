@@ -52,7 +52,7 @@
 						<span class="span1">In our new series, Work &amp; Roam, we’ll be following our Product and Solutions Analyst John Williams as he travels the world, working remotely from 5 countries…<br /><br /><br /></span><span class="span2"><a data-toggle="modal" data-target="#blogDetailsOne">Read full article</a></span>
 					</div><?php endif;?>
 				</div>
-			<?php endwhile?>
+			<?php endwhile;wp_reset_postdata();?>
     </div>
     <div class="blog">
         <div class="headerblog">
@@ -63,6 +63,7 @@
         	<?php 
 			   	$args = new WP_Query(array(
 			    	'post_type' => 'post', 
+			    	'post__not_in' => get_option( 'sticky_posts' ),
 					'posts_per_page' => -1
 			    ));
 			    while ( $args->have_posts() ) : $args->the_post();?>

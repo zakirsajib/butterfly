@@ -43,7 +43,7 @@
 }
 
 
-.butterflywebsiteblog .slick-list{overflow: visible;}
+.butterflywebsiteblog .slick-list{overflow: visible!important;}
 
 .butterflywebsiteblog .catags,
 .butterflywebsiteblog .allarticles,
@@ -2891,5 +2891,10 @@ div {
 	.butterflywebsiteblog .mainarticle .lisbon .mask,
 	.butterflywebsiteblog .mainarticle .lisbon{
 		width: 320px;
+	}
+}
+@media (max-width: 374px){
+	.butterflywebsiteblog .allarticles .article .a20181214johnwi{
+		top:0;
 	}
 }

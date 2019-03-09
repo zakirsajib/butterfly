@@ -241,14 +241,14 @@ function my_login_logo() {
 			margin: 0 0 10px!important;
 	    }
 	    
-	    .login input[type=text]{
-		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/user.svg') no-repeat!important;
-			background-position: 12px 50%!important;
+	    .login input[type=text].user-svg{
+		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/user.svg') no-repeat;
+			background-position: 12px 50%;
 		}
-		.login input[type=text]#pass1-text,
-		.login input[type=password]{
-		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/lock.svg') no-repeat!important;
-			background-position: 12px 50%!important;
+		.login input[type=text]#pass1-text.lock-svg,
+		.login input[type=password].lock-svg{
+		    background: #fff url('<?php echo get_template_directory_uri()?>/assets/img/lock.svg') no-repeat;
+			background-position: 12px 50%;
 		}
 	    
 	    #login form p.submit{ 
@@ -264,6 +264,7 @@ function my_login_logo() {
 		    width: 200px!important;
 			height: 56px!important;
 			border-radius: 32px!important;
+			background: #532ee4!important;
 			background-color: #532ee4!important;
 			color: #fff!important;
 			font-family: 'Muli', sans-serif;
@@ -277,6 +278,7 @@ function my_login_logo() {
 			border: 0!important;
 			box-shadow: none!important;
 			padding: 0!important;
+			text-shadow:none!important;
 	    }
 	    
 	    .wp-core-ui form#lostpasswordform .button-primary,
@@ -372,6 +374,11 @@ function my_login_logo() {
 	    #login form#resetpassform p.submit {
 			margin: 20px 0 0!important;
 		}
+		
+		.login #login_error a {
+			color: #2ce6ce;
+		}
+		
 	    @media (max-width: 530px){
 	    	#login,
 	    	.wp-core-ui form#lostpasswordform .button-primary,
@@ -380,6 +387,35 @@ function my_login_logo() {
 	    	}
 	    }
     </style>
+    <script src='https://butterfly.jywlk.io/wp-includes/js/jquery/jquery.js'></script>
+    <script>
+	    $ = jQuery.noConflict();
+		$(function ($) {
+			
+	    	$('.login input[type=text]').addClass('user-svg');
+	    	
+	    	$('.login input[type=text]').on('input', function(){ 
+		    	$(this).removeClass('user-svg');
+		    	
+		    	$(this).css({
+				'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/user-pass.svg) no-repeat rgb(255, 255, 255)',
+				'background-position' : '12px 50%'
+				});			
+	    	});
+	    	
+	    	
+	    	$('.login input[type=text]#pass1-text,.login input[type=password]').addClass('lock-svg');
+	    	$('.login input[type=text]#pass1-text,.login input[type=password]').on('input', function() { 
+		    	
+		    	$(this).removeClass('lock-svg');
+		    	
+		    	$(this).css({
+				'background' : 'url( <?php echo get_template_directory_uri()?>/assets/img/lock-pass.svg) no-repeat rgb(255, 255, 255)',
+				'background-position' : '12px 50%'
+				});			
+	    	});
+	    });
+    </script>
     
 <?php endif;}
 	
