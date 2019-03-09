@@ -23,7 +23,7 @@
 	    <?php if( get_post()->post_content ):?>
 	    	<?php the_content();?>
 	    <?php else:?>
-	    	<h1>11Take a sneak peek of our content on company culture, and more…</h1>
+	    	<h1>Take a sneak peek of our content on company culture, and more…</h1>
 	    <?php endif;?>
     </div>
     <div class="mainarticle">

@@ -36,6 +36,18 @@ body{
 				width: 	160px;
 			}
 		}
+		.downloads-studies-container,
+		.case-studies-container{
+		    opacity: 0;
+		    visibility: hidden;
+		    transition: opacity 1s ease;
+		    -webkit-transition: opacity 1s ease;
+		}
+		.downloads-studies-container.slick-initialized,
+		.case-studies-container.slick-initialized{
+		    visibility: visible;
+		    opacity: 1;    
+		}
 		article{
 			display: grid;
 			justify-content: center;

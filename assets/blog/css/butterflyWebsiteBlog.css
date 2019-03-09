@@ -1512,6 +1512,16 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+
+
+
+
+.butterflywebsiteblog .blog .group data-slick-index["3"] {
+    opacity: 0.5;
+}
+
+
 .butterflywebsiteblog .blog .group21 .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;

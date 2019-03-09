@@ -198,7 +198,7 @@ a {
   line-height         : 20.0px;
   padding-top                  : 63px;
   height              : auto;
-  width               : 80%;
+/*   width               : 80%; */
   position            : relative;
   margin              : 0;
   left                : 154px;
@@ -254,7 +254,15 @@ a {
     left:250px;
 }
 
-.butterflyblogpost .casestudy .content .post-contents figure{ max-width: 100%;}
+.butterflyblogpost .casestudy .content .post-contents figure{ 
+	max-width: 100%;
+	position: relative; 
+	left:-154px;
+}
+.butterflyblogpost .casestudy .content .post-contents p .img-responsive.post-image{
+	position: relative; 
+	left:-154px;
+}
 
 .butterflyblogpost .casestudy .content .post-contents figcaption:before{
 	content: " ";
@@ -935,6 +943,10 @@ a {
 	}
 	.butterflyblogpost .casestudy .content .sinceiu2019vebeentrav{
 		left: 10px;
+	}
+	.butterflyblogpost .casestudy .content .post-contents p .img-responsive.post-image,
+	.butterflyblogpost .casestudy .content .post-contents figure{
+		left: 0;
 	}
 }
 

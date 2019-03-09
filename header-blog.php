@@ -52,7 +52,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 					<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
 				<div class="header-signin hidden-xs">
-					<div class="demo-form-box" style="display: none">
+					<div class="demo-form-box">
 						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your email"><span class="input-group-btn"><button class="btn btn-default" type="button">Subscribe</button></span></div><!-- /input-group -->
 					</div>
 <!--
