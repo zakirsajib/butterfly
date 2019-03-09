@@ -23,22 +23,65 @@
                             <div class="bg2">
                             </div>
                         </div>
-                        <div class="u201cbutterflypowerrea">
-                            “Butterfly power real time management with constant insight into my team’s mood and engagement. I can turn potential challenges into motivational moments”
-                        </div>
-                        <div class="benjaminsnyers">
-                            Benjamin Snyers
-                        </div>
-                        <div class="managingdirectorat">
-                            Managing Director at Ogilvy
-                        </div>
+                        <div class="tab-content">    
+	                     <div id="collapseOne" class="tab-pane active">
+		                     <div class="u201cbutterflypowerrea">
+			                     “<?php the_field('client_statements_one',13)?>”
+			                </div>
+							<div class="benjaminsnyers">
+								<?php the_field('position_and_company_name',13)?>
+							</div>
+	                     </div>
+	                     <div id="collapseTwo" class="tab-pane">
+		                     <div class="u201cbutterflypowerrea">
+			                     “<?php the_field('client_statements_two',13)?>”
+			                </div>
+							<div class="benjaminsnyers">
+								<?php the_field('position_and_company_name_two',13)?>
+							</div>
+	                     </div>
+	                     <div id="collapseThree" class="tab-pane">
+		                     <div class="u201cbutterflypowerrea">
+			                     “<?php the_field('client_statements_three',13)?>”
+			                </div>
+							<div class="benjaminsnyers">
+								<?php the_field('position_and_company_name_three',13)?>
+							</div>
+	                     </div>
+	                     <div id="collapseFour" class="tab-pane">
+		                     <div class="u201cbutterflypowerrea">
+			                     “<?php the_field('client_statements_four',13)?>”
+			                </div>
+							<div class="benjaminsnyers">
+								<?php the_field('position_and_company_name_four',13)?>
+							</div>
+	                     </div>
+	                     <div id="collapseFive" class="tab-pane">
+		                     <div class="u201cbutterflypowerrea">
+			                     “<?php the_field('client_statements_five',13)?>”
+			                </div>
+							<div class="benjaminsnyers">
+								<?php the_field('position_and_company_name_five',13)?>
+							</div>
+	                     </div>
+	                     <div id="collapseSix" class="tab-pane">
+		                     <div class="u201cbutterflypowerrea">
+			                     “<?php the_field('client_statements_six',13)?>”
+			                </div>
+							<div class="benjaminsnyers">
+								<?php the_field('position_and_company_name_six',13)?>
+							</div>
+	                     </div>
+                    </div>
                         <div class="logo">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-gelogo.svg" class="gelogo"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-cocacolalogo.svg" class="cocacolalogo"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-ticketmasterlogo.svg" class="ticketmasterlogo"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-dentsulogo.svg" class="dentsulogo"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-ogilvylogo.svg" class="ogilvylogo"/>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-livenation@2x.png" class="livenation"/>
+                            <ul>  
+				                <li class="active"><a data-toggle="tab" href="#collapseOne"><img src="<?php the_field('client_logo_#1',13)?>" class="svg" alt=""/></a></li>
+				                <li><a data-toggle="tab" href="#collapseTwo"><img src="<?php the_field('client_logo_#2',13)?>" class="cocacolalogo svg"/></a></li>
+				                <li><a data-toggle="tab" href="#collapseThree"><img src="<?php the_field('client_logo_#3',13)?>" class="ticketmasterlogo svg"/></a></li>
+				                <li><a data-toggle="tab" href="#collapseFour"><img src="<?php the_field('client_logo_#4',13)?>" class="dentsulogo svg"/></a></li>
+				                <li><a data-toggle="tab" href="#collapseFive"><img src="<?php the_field('client_logo_#5',13)?>" class="ogilvylogo svg"/></a></li>
+				                <li><a data-toggle="tab" href="#collapseSix"><img src="<?php the_field('client_logo_#6',13)?>" class="livenation svg"/></a></li>
+				              </ul>
                         </div>
                         <div class="wealreadyworkwith">
                             We already work with the<br />following companies:
