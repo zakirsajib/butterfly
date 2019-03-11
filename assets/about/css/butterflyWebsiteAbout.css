@@ -372,14 +372,13 @@
 }
 .butterflywebsiteabout .company {
   background-color    : rgba(255,255,255,0.0);
-/*   padding-top                 : 150px; */
-/*   height              : 1032px; */
-/*   width               : 100vw; */
   position            : relative;
-  margin              : 0;
+  margin              : 0 0 5em;
   left                : 0;
-  padding-left: 0;
-  margin-bottom: 1000px;
+  height: 100%;
+  min-height: 50vh;
+/*   padding-left: 0; */
+/*   margin-bottom: 1000px; */
 }
 .butterflywebsiteabout .company:before {
 	background-image: url('../img/butterflywebsiteabout-rectangle-5.png');
@@ -473,13 +472,10 @@
   background-color    : rgba(255,255,255,0.0);
   top                 : 180px;
   height              : auto;
-  width               : 450px;
+  max-width               : 450px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
@@ -509,29 +505,21 @@
 }
 .butterflywebsiteabout .company .group {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 167px;
+/*   top                 : 167px; */
   height              : 195px;
 /*   width               : 155px; */
   position            : relative;
   margin              : 20px 0;
-  left                : 567px;
-/*
-  -ms-transform       : rotate(0deg); 
-  -webkit-transform   : rotate(0deg); 
-  transform           : rotate(0deg);
-*/
+/*   left                : 567px; */
 }
 .butterflywebsiteabout .company .group .davidrollover200x300 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 133px;
-  width               : 133px;
+  max-width           : 133px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .company .group .davidrollover200x300 .davidrollover200x3001 {
   background-color    : rgba(255,255,255,0.0);
@@ -943,19 +931,13 @@
 }
 .butterflywebsiteabout .downloads {
   background-color    : rgba(255,255,255,0.0);
-  padding-top                 : 121px;
-/*   height              : 437px; */
   width               : 100%;
+  max-width: 100%;
+  min-height: 50vh;
+  height: 100%;
   position            : relative;
-  margin              : 0;
-  left                : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-
-.butterflywebsiteabout .downloads .fade.active.in .downloads-studies-container{
-	margin-bottom: 150px;
+  margin              : 0 0 5em;
+  left:0;
 }
 
 
@@ -982,12 +964,9 @@
   top                 : 0px;
   height              : 58px;
   width               : 519px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .downloads .headercustomers .media {
   background-color    : rgba(255,255,255,0.0);
@@ -1089,13 +1068,10 @@
 	background-color    : rgba(255,255,255,0.0);
   top                 : 0;
   height              : 332px!important;
-  width               : 332px!important;
+  width               : 332px;
   position            : relative;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 
 .butterflywebsiteabout .downloads .downloads-studies-container .group:focus,
@@ -1130,11 +1106,13 @@
 .butterflywebsiteabout .downloads .downloads-studies-container .group:hover .downloadebook{
 	background-color: #2ce6ce!important;
 }
-.butterflywebsiteabout .downloads .downloads-studies-container .group .downloadebook a{
+.butterflywebsiteabout .downloads .downloads-studies-container .group a .downloadebook{
 	position: absolute;
-    top: 20px;
     color: #fff;
-    left: 30px!important;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .butterflywebsiteabout .downloads .downloads-studies-container .group .iconsarrow{
@@ -1390,13 +1368,12 @@
 }
 .butterflywebsiteabout .partners {
   background-color    : rgba(255,255,255,0.0);
-  padding-top         : 148px;
-  min-height          : 438px;
-  width               : 786px;
+  min-height          : 80vh;
+  max-width           : 786px;
+  width: 100%;
   position            : relative;
   margin              : 0;
   left                : 0;
-  margin-bottom: 121px;
 }
 .butterflywebsiteabout .partners:before{
 	background-image: url('../img/butterflywebsiteabout-rectangle-copy.png');
@@ -1435,12 +1412,9 @@
   top                 : 0px;
   height              : 58px;
   width               : 567px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteabout .partners .headerpartners .partners1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1529,13 +1503,10 @@
   background-color    : rgba(255,255,255,0.0);
   top                 : 180px;
   height              : auto;
-  width               : 320px;
+  max-width           : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
@@ -1548,13 +1519,10 @@
   background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
   height              : auto;
-  width               : 350px;
+  max-width           : 350px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
@@ -1566,14 +1534,12 @@
 .butterflywebsiteabout .partners .logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
-  height              : 315px;
-  width               : 359px;
+  min-height          : 315px;
+  max-width           : 359px;
+  height: 100%;
   position            : absolute;
   margin              : 0;
   left                : 427px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   z-index: 1;
 }
 .butterflywebsiteabout .partners .logo .gelogo {
@@ -1650,16 +1616,13 @@
 }
 .butterflywebsiteabout .customers {
   background-color    : rgba(255,255,255,0.0);
-  padding-top                 : 65px;
-/*   height              : 454px; */
-  max-width               : 950px;
+  padding-top         : 65px;
+  max-width           : 100%;
+  width: 100%;
   position            : relative;
-  margin              : 0;
+  margin              : 0 0 5em;
   left                : 0;
-/*   margin-bottom: 148px; */
-min-height: 50vh;
-padding-bottom: 5em;
-overflow: hidden;
+  min-height: 50vh;
 }
 
 .butterflywebsiteabout .customers:before{
@@ -1943,13 +1906,10 @@ overflow: hidden;
   background-color    : rgba(255,255,255,0.0);
   top                 : 0;
   height              : auto;
-  width               : 710px;
+  max-width           : 710px;
   position            : relative;
   margin              : 0;
   left                : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
   color               : rgba(58, 59, 87, 1.0);
@@ -2805,23 +2765,28 @@ overflow: hidden;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+.butterflywebsiteabout .downloads-studies-parent,
 .butterflywebsiteabout .casestudies{
-	width: 100vw;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
 	position: relative;
+}
+.butterflywebsiteabout .downloads-studies-parent{
+	padding-top: 50px;
 }
 
 .butterflywebsiteabout .casestudies-details{
-	padding-top: 65px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	
 }
 
 .butterflywebsiteabout .casestudies .group{
 	background-color    : rgba(255,255,255,0.0);
 	position            : relative;
 	margin              : 0;
-	-ms-transform       : rotate(0deg); /* IE 9 */
-	-webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-	transform           : rotate(0deg);
-	width: 332px!important;
+	width: 332px;
 	height: 332px!important;
 	top:0;
 	left: 0;
@@ -2867,12 +2832,16 @@ overflow: hidden;
     position: absolute;
 }
 
-.butterflywebsiteabout .casestudies .group .viewcasestudy a{
+.butterflywebsiteabout .casestudies .group a .viewcasestudy{
 	color: rgba(255, 255, 255, 1.0);
     cursor: pointer;
     position: absolute;
     top: 20px;
-    left: 30px!important;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
 }
 
 .butterflywebsiteabout .casestudies .group .iconsarrow{
@@ -2911,19 +2880,22 @@ overflow: hidden;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+.butterflywebsiteabout .downloads .downloads-studies-container button.slick-prev.slick-arrow.slick-disabled,
+.butterflywebsiteabout .downloads .downloads-studies-container button.slick-next.slick-arrow.slick-disabled,
 .butterflywebsiteabout .casestudies .case-studies-container button.slick-prev.slick-arrow.slick-disabled,
-.butterflywebsiteabout .casestudies .group .iconsarrow .arrow.slick-arrow.slick-disabled{
+.butterflywebsiteabout .casestudies .case-studies-container button.slick-next.slick-arrow.slick-disabled
+{
 	display: none!important;
 }
 
 .butterflywebsiteabout .casestudies .case-studies-container button.slick-prev.slick-arrow {
     background-color: rgba(255,255,255,0.0);
-    top: 225px;
+    top: 215px;
     height: 24px;
     width: 24px;
     position: absolute;
     margin: 0;
-    left: -50px;
+    left: 15px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -2937,7 +2909,60 @@ overflow: hidden;
     border: 0;
     z-index: 100;
 }
-
+.butterflywebsiteabout .casestudies .case-studies-container button.slick-next.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 215px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    right: 40px;
+    background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+.butterflywebsiteabout .downloads .downloads-studies-container button.slick-prev.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 230px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 15px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+.butterflywebsiteabout .downloads .downloads-studies-container button.slick-next.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 230px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    right: 40px;
+    background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+.butterflywebsiteabout .downloads .downloads-studies-container button.slick-next.slick-arrow:focus,
+.butterflywebsiteabout .downloads .downloads-studies-container button.slick-prev.slick-arrow:focus,
+.butterflywebsiteabout .casestudies .case-studies-container button.slick-next.slick-arrow:focus,
 .butterflywebsiteabout .casestudies .case-studies-container button.slick-prev.slick-arrow:focus{
 	outline: 0;
 }
@@ -2979,7 +3004,8 @@ overflow: hidden;
     transform: rotate(0deg);
     opacity: 0.5;
 }
-.butterflywebsiteabout .casestudies .slick-list {
+.butterflywebsiteabout .casestudies .slick-list,
+.butterflywebsiteabout .downloads-studies-parent .slick-list {
     overflow: visible;
 }
 .slick-slide img{
@@ -2991,29 +3017,47 @@ overflow: hidden;
 }
 
 
+/*
 @media (min-width: 1200px){
-	.affix-company.affix-bottom{
+	.company-section.affix-bottom{
 		position: absolute;
 		left:0;
 	}
-	.affix-company.affix-top{
+	.company-section.affix-top{
 		position: absolute;
 		left: 0;
 	}
-	.affix-company.affix{
-		top:13px;
+	.company-section.affix{
 		z-index: 0;
 	}
 }
+*/
 
+/*
 @media (min-width: 1400px){
 	.affix-company.affix{
-		top:250px;
+		top:50px;
+	}
+}
+*/
+
+@media (max-width: 1200px){
+	.butterflywebsiteabout .downloads{
+		padding-bottom: 5em;
+	}
+	.butterflywebsiteabout .company .group .davidmendlewicz{
+		font-size: 14px;
+		left: auto;
 	}
 }
 
 
 @media (max-width: 1199px){
+	.butterflywebsiteabout .downloads-studies-parent,
+	.butterflywebsiteabout .casestudies{
+		width: 100vw;
+	}
+	
 	.butterflywebsiteabout .company .group{
 		left: 0;
 		top:0;
@@ -3031,14 +3075,11 @@ overflow: hidden;
 		position: relative;
 		padding-top:50px;
 		top:0;
-		width: 90%;
 	}
-	.butterflywebsiteabout .company .tt{
-		padding-top: 100px;
+	.butterflywebsiteabout .downloads{
+		padding: 0;
 	}
-	.butterflywebsiteabout .company{
-		margin-bottom: 100px;
-	}
+	
 }
 
 @media (max-width: 1108px){
@@ -3057,7 +3098,11 @@ overflow: hidden;
 		margin-top: 0;
 	}
 	.butterflywebsiteabout .customers{
-		margin-bottom: 190px;
+		/* margin-bottom: 190px; */
+		min-height: 100vh;
+	}
+	.butterflywebsiteabout .partners{
+		min-height: 100vh;
 	}
 		
 	.butterflywebsiteabout .customers .u201cbutterflypowerrea{
@@ -3088,7 +3133,8 @@ overflow: hidden;
 		left: 0;
 	}
 	.butterflywebsiteabout .downloads{
-		top:200px;
+		/* top:200px; */
+		margin: 10em 0 5em;
 	}
 	
 	
@@ -3111,19 +3157,6 @@ overflow: hidden;
 	.butterflywebsiteabout .customers .seperatorvertical{
 		display: none;
 	}
-	
-	.butterflywebsiteabout .company .hourlyemployeesmak{
-		width: 100%;
-		max-width: 80%;
-		position: relative;
-		top:10px;
-	}
-}
-
-@media (max-width: 1024px){
-	.butterflywebsiteabout .company{
-		margin-top: 300px;
-	}
 }
 
 @media (max-width: 899px){
@@ -3142,6 +3175,9 @@ overflow: hidden;
 	.butterflywebsiteabout .contact .group3 .rectangle{
 		width: 300px;
 	}
+	.butterflywebsiteabout .downloads{
+		min-height: 80vh;
+	}
 }
 @media (max-width: 710px){
 	.butterflywebsiteabout .greatmanagersmake,
@@ -3156,11 +3192,7 @@ overflow: hidden;
 	}
 }
 @media (max-width: 650px){
-	.butterflywebsiteabout .customers{
-		margin-bottom: 0;
-		width: auto;
-		max-width: 100%;
-	}
+
 	.butterflywebsiteabout .greatmanagersmake{
 		width: auto;
 		max-width: 100%;
@@ -3171,8 +3203,8 @@ overflow: hidden;
 	.butterflywebsiteabout .customers .benjaminsnyers {
     	top: 650px;
 	}
-	.butterflywebsiteabout .company{
-		margin-top: 100px;
+	.butterflywebsiteabout .partners{
+		margin: 10em 0;
 	}
 }
 
@@ -3180,11 +3212,10 @@ overflow: hidden;
 	.butterflywebsiteabout .customers{
 		overflow: visible;
 	}
-	.butterflywebsiteabout .partners{
-		margin-top: 15em;
-	}
-	.butterflywebsiteabout .company{
-		margin-top: 400px;
+
+	.butterflywebsiteabout .downloads{
+		min-height: 100vh;
+		overflow: hidden;
 	}
 }
 @media (max-width: 550px){
@@ -3199,11 +3230,8 @@ overflow: hidden;
 	.butterflywebsiteabout .customers .benjaminsnyers {
     	top: 680px;
 	}
-	.butterflywebsiteabout .company{
-		margin-top: 500px;
-	}
 	.butterflywebsiteabout .company .group .davidrollover200x300{max-width: 80%;}
-	.butterflywebsiteabout .company .group .davidmendlewicz{font-size: 14px;line-height: 14px;}
+	.butterflywebsiteabout .company .group .davidmendlewicz{font-size: 14px;line-height: 14px; left: auto;}
 	.butterflywebsiteabout .company .group .cofounderceo{top:166px;}
 }
 @media (max-width: 450px){
@@ -3211,9 +3239,7 @@ overflow: hidden;
 	.butterflywebsiteabout .customers .benjaminsnyers {
     	top: 700px;
 	}
-	.butterflywebsiteabout .company {
-    	margin-top: 550px;
-	}
+	
 	.butterflywebsiteabout .customers .headercustomers .clientlistcasestu{
 		left: 0;
 		top:4em;
@@ -3225,12 +3251,7 @@ overflow: hidden;
 		font-size: 25px;
 		line-height: 25px;
 	}
-	.butterflywebsiteabout .partners {
-    	margin-top: 20em;
-	}
-	.butterflywebsiteabout .company {
-    	margin-top: 650px;
-	}
+
 }
 
 @media (max-width:399px){
@@ -3246,12 +3267,7 @@ overflow: hidden;
 }
 
 @media (max-width: 375px){
-	.butterflywebsiteabout .partners {
-    	margin-top: 35em;
-	}
-	.butterflywebsiteabout .company {
-    	margin-top: 650px;
-	}
+
 	.butterflywebsiteabout .company .group .cofounderceo{
 		position: relative;
 		top:185px;
@@ -3304,12 +3320,20 @@ overflow: hidden;
     .butterflywebsiteabout .contact .group3 .triangle{
 	    left: 252px;
     }
-}
-
-@media (max-width: 360px){
-	.butterflywebsiteabout .company {
-    	margin-top: 700px;
+    .butterflywebsiteabout .customers{
+	    margin-bottom: 25em;
+    }
+    .butterflywebsiteabout .company .tt{
+		padding-bottom: 5em;
 	}
+}
+@media (max-width: 374px){
+	.butterflywebsiteabout .customers{
+		margin-bottom: 30em;
+	}
+}
+@media (max-width: 360px){
+
 	.butterflywebsiteabout .partners .headerpartners .academicexperts{
 		left: 0;
 		top:4em;
@@ -3323,14 +3347,17 @@ overflow: hidden;
 }
 
 @media (max-width: 320px){
-	.butterflywebsiteabout .company {
-    	margin-top: 850px;
+	.butterflywebsiteabout .downloads{
+		margin: 20em 0 5em;
+	}
+	.butterflywebsiteabout .company .group .davidrollover200x300{
+		left: auto;
 	}
 	.butterflywebsiteabout .company .group .davidmendlewicz{
-		top:90px;
+		top:120px;
 	}
 	.butterflywebsiteabout .company .group .cofounderceo{
-		top:120px;
+		top:150px;
 		line-height: 14px;
 	}
 	.butterflywebsiteabout .company .group{
@@ -3348,4 +3375,5 @@ overflow: hidden;
 		left: 100px;
 		max-width: 320px;
 	}
+	
 }

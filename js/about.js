@@ -1,13 +1,12 @@
 $ = jQuery.noConflict();
 	$(function ($) {
-		
-	$('.affix-company').affix({
-		offset: {
-			top:  $('.company-section').offset().top,
-			bottom: 2200
-			}
+	
+	$("#companySection").stick_in_parent({
+		offset_top: 50,
+		bottoming: true
 	});
 	
+				
 	$('.case-studies-container').slick({
 			dots:false,
 			speed:2800,
@@ -15,15 +14,31 @@ $ = jQuery.noConflict();
 			autoplay:false,
 			arrows: true,
 			autoplaySpeed: 4200,
-			infinite: true,
+			infinite: false,
 			slidesToShow: 3,
 			slidesToScroll: 1,
-			focusOnSelect: true,
+			focusOnSelect: false,
 			draggable: true,
 			swipeToSlide: true,
 			accessibility: true,
-			nextArrow: $('.arrow'),
+			variableWidth: true,
 			responsive: [
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: false
+		      }
+		    },
+		    {
+		      breakpoint: 1199,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: false
+		      }
+		    },
 		    {
 		      breakpoint: 1024,
 		      settings: {
@@ -56,7 +71,7 @@ $ = jQuery.noConflict();
 			speed:2800,
 			adaptiveHeight:true,
 			autoplay:false,
-			arrows: false,
+			arrows: true,
 			autoplaySpeed: 4500,
 			infinite: false,
 			slidesToShow: 3,
@@ -66,7 +81,24 @@ $ = jQuery.noConflict();
 			swipeToSlide: true,
 			accessibility: true,
 			pauseOnHover: true,
+			variableWidth: true,
 			responsive: [
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: false
+		      }
+		    },
+		    {
+		      breakpoint: 1199,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true
+		      }
+		    },
 		    {
 		      breakpoint: 1024,
 		      settings: {

@@ -31,19 +31,20 @@
 
 .butterflywebsiteresources .downloads .group,
 .butterflywebsiteresources .casestudies .group{
-	width: 332px!important;
+	width: 332px;
 	height: 332px!important;
 	top:80px!important;
+	
 /* 	left:0; */
 }
 .butterflywebsiteresources .blog .group{
-	width: 320px!important;
+	width: 320px;
 	border-radius: 5px;
 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
 	background-color: rgba(255, 255, 255, 0.65);
-	left: 0!important;
-	position: relative!important;
-	margin: 0 20px 0 0!important;
+	left: 0;
+	position: relative;
+	margin: 0 20px 0 0;
 }
 .butterflywebsiteresources .blog .group:hover{
 	background-position: center center;
@@ -138,11 +139,19 @@
 }
 
 .butterflywebsiteresources .casestudies .group .viewcasestudy a,
-.butterflywebsiteresources .downloads .group .downloadebook a{
+.butterflywebsiteresources .downloads .group a .downloadebook{
 	position: absolute;
 	top:20px;
 	color: #fff;
 }
+
+.butterflywebsiteresources .downloads .group a .downloadebook{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding-left: 38px;
+}
+
 
 .butterflywebsiteresources .downloads .group .iconsarrow,
 .butterflywebsiteresources .casestudies .group .iconsarrow{
@@ -163,17 +172,6 @@
 .butterflywebsiteresources .casestudies .group:hover .iconsarrow{
 	display: block;
 }
-
-
-
-
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-
 
 .butterflywebsiteresources .panel-default{
 	border-radius: 0;
@@ -772,10 +770,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   min-height              :500px;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   position            : relative;
   margin              : 0;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 .butterflywebsiteresources .downloads .headercustomers {
   background-color    : rgba(255,255,255,0.0);
@@ -1072,10 +1070,10 @@ div {
   padding-top                 : 88px;
   min-height              : 600px;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   position            : relative;
   margin              : 0;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 .butterflywebsiteresources .casestudies .headercustomers {
   background-color    : rgba(255,255,255,0.0);
@@ -1256,15 +1254,8 @@ div {
 }
 .butterflywebsiteresources .casestudies .group {
   background-color    : rgba(255,255,255,0.0);
-/*   top                 : 110px; */
-/*   height              : 322px; */
-/*   width               : 322px; */
   position            : relative;
   margin              : 0;
-/*   left                : 345px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteresources .blog .group:focus,
 .butterflywebsiteresources .downloads .group:focus,
@@ -1432,19 +1423,24 @@ div {
 }
 .butterflywebsiteresources .blog {
   background-color    : rgba(255,255,255,0.0);
-  padding-top:65px;
+  padding-top:55px;
   min-height              : 600px;
   height: 100%;
-  width               : 100vw;
+  width               : 100%;
   position            : relative;
   margin              : 0;
-  overflow: hidden;
 }
+
+
+.butterflywebsiteresources .blog .blog-container-parent {
+    min-height: 485px;
+}
+
 .butterflywebsiteresources .blog .headercustomers {
   background-color    : rgba(255,255,255,0.0);
   height              : 58px;
   max-width               : 400px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
 }
@@ -1582,21 +1578,15 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 }
 
 
-.case-studies-container .iconsarrow img.arrow.slick-arrow.slick-disabled,
-.butterflywebsiteresources .blog .group .iconsarrow1.slick-arrow.slick-disabled{
-	display: none!important;
-}
-
-
 
 .blog-container button.slick-prev.slick-arrow {
     background-color: rgba(255,255,255,0.0);
-    top: 280px;
+    top: 185px;
     height: 24px;
     width: 24px;
     position: absolute;
     margin: 0;
-    left: 0;
+    left: 15px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -1610,12 +1600,35 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
     border: 0;
     z-index: 100;
 }
+.blog-container button.slick-next.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 185px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    right:40px;
+    background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
 
+.blog-container button.slick-next.slick-arrow:focus,
 .blog-container button.slick-prev.slick-arrow:focus,
-.case-studies-container button.slick-prev.slick-arrow:focus{
+.case-studies-container button.slick-next.slick-arrow:focus,
+.case-studies-container button.slick-prev.slick-arrow:focus,
+.downloads-studies-container button.slick-next.slick-arrow:focus,
+.downloads-studies-container button.slick-prev.slick-arrow:focus{
 	outline: 0;
 }
+.downloads-studies-container button.slick-prev.slick-arrow.slick-disabled,
+.downloads-studies-container button.slick-next.slick-arrow.slick-disabled,
 .case-studies-container button.slick-prev.slick-arrow.slick-disabled,
+.case-studies-container button.slick-next.slick-arrow.slick-disabled,
+.blog-container button.slick-next.slick-arrow.slick-disabled,
 .blog-container button.slick-prev.slick-arrow.slick-disabled{
 	display: none!important;
 }
@@ -1623,7 +1636,7 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 
 .case-studies-container button.slick-prev.slick-arrow {
     background-color: rgba(255,255,255,0.0);
-    top: 280px;
+    top: 290px;
     height: 24px;
     width: 24px;
     position: absolute;
@@ -1642,25 +1655,64 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
     border: 0;
     z-index: 100;
 }
+.case-studies-container button.slick-next.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 290px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    right: 40px;
+    background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
 
-
-
+.downloads-studies-container button.slick-prev.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 310px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+.downloads-studies-container button.slick-next.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 310px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    right: 40px;
+    background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
 
 .butterflywebsiteresources .blog .group21,
 .butterflywebsiteresources .blog .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 110px;
+  top                 : 53px;
   height              : 342px;
-/*   width               : 322px; */
-  position            : absolute;
-  margin              : 0;
-/*   left                : 345px; */
-	left: 0;
-  border-radius       : 5px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  overflow: hidden;
 }
 .butterflywebsiteresources .blog .group21 .rectangle {
   background-color    : rgba(255,255,255,0.0);

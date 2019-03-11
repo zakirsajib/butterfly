@@ -32,11 +32,11 @@
 
 
 .butterflywebsiteblog {
-  min-height          : 2500px;
+  min-height          : 100%;
+  height: 100%;
   position            : relative;
-  overflow            : hidden;
   margin-top              : 98px;
-  margin-bottom:118px;
+  margin-bottom:62px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
@@ -54,13 +54,13 @@
 }
 
 .butterflywebsiteblog .blog .group{
-	width: 320px!important;
+	width: 320px;
 	border-radius: 5px;
 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
 	background-color: rgba(255, 255, 255, 0.65);
-	left: 0!important;
-	position: relative!important;
-	margin: 0 20px 0 0!important;
+	left: 0;
+	position: relative;
+	margin: 0 20px 0 0;
 }
 .butterflywebsiteblog .blog .group:hover{
 
@@ -74,8 +74,7 @@
 }
 
 .butterflywebsiteblog .blog .group .lisbon{
-	width: 320px;
-	left: 0!important;
+	left: 0;
 }
 
 .butterflywebsiteblog .blog .group:hover .iconsarrow1{
@@ -97,16 +96,6 @@
 .butterflywebsiteblog .blog .group .iconsarrow1{
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 a {
   text-decoration     : none;
@@ -207,15 +196,11 @@ div {
 }
 .butterflywebsiteblog .catags {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1400px;
-  height              : 402px;
-  width               : 534px;
+  padding-top         : 99px;
+  min-height          : 402px;
+  max-width           : 534px;
   position            : relative;
   margin              : 0;
-/*   left                : 118px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblog .catags .headetags {
   background-color    : rgba(255,255,255,0.0);
@@ -348,27 +333,22 @@ div {
 }
 .butterflywebsiteblog .allarticles {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1161px;
-  height              : 578px;
+  padding-top         : 108px;
+  padding-bottom: 108px;
+  min-height          : 578px;
+  height: 100%;
   width               : 100%;
   position            : relative;
-  margin              : 0;
-/*   left                : 118px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  margin              : 0 0 99px;
+  overflow: hidden;
 }
 .butterflywebsiteblog .allarticles .headerallarticles {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 58px;
   width               : 667px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblog .allarticles .headerallarticles .moregoodstuff {
   background-color    : rgba(255,255,255,0.0);
@@ -1275,27 +1255,18 @@ div {
 }
 .butterflywebsiteblog .blog {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 609px;
-  height              : 457px;
-  width               : 1347px;
-  position            : absolute;
-  margin              : 0;
-/*   left                : 112px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  padding-top         : 76px;
+  min-height              : 457px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0 0 108px;
 }
 .butterflywebsiteblog .blog .headerblog {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 58px;
-  max-width               : 400px;
+  max-width           : 400px;
   position            : absolute;
   margin              : 0;
-/*   left                : 6px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblog .blog .headerblog .hereu2019sthelatest {
   background-color    : rgba(255,255,255,0.0);
@@ -1342,18 +1313,7 @@ div {
 }
 .butterflywebsiteblog .blog .group2,
 .butterflywebsiteblog .blog .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 105px;
-  height              : 352px;
-/*   width               : 332px; */
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 5px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 
 .butterflywebsiteblog .blog .group2:focus,
@@ -1374,19 +1334,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.butterflywebsiteblog .blog .group2 .lisbon,
-.butterflywebsiteblog .blog .group .lisbon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -60px;
-  height              : 231px;
-/*   width               : 346px; */
-  position            : absolute;
-  margin              : 0;
-/*   left                : -7px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
+
 .butterflywebsiteblog .blog .group2 .readarticle,
 .butterflywebsiteblog .blog .group .readarticle {
   background-color    : rgba(255,255,255,0.0);
@@ -1440,19 +1388,15 @@ div {
   transform           : rotate(0deg);
 }
 
-.butterflywebsiteblog .blog .group .iconsarrow1.slick-arrow.slick-disabled,
-.butterflywebsiteblog .blog .group2 .iconsarrow1.slick-arrow.slick-disabled{
-	display: none!important;
-}
 
 .butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow {
     background-color: rgba(255,255,255,0.0);
-    top: 280px;
+    top: 247px;
     height: 24px;
     width: 24px;
     position: absolute;
     margin: 0;
-    left: 0;
+    left: 15px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -1466,12 +1410,29 @@ div {
     border: 0;
     z-index: 100;
 }
-
+.butterflywebsiteblog .blog .blog-container button.slick-next.slick-arrow {
+    background-color: rgba(255,255,255,0.0);
+    top: 247px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin: 0;
+    right: 40px;
+    background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+    border: 0;
+    z-index: 100;
+}
+.butterflywebsiteblog .blog .blog-container button.slick-next.slick-arrow:focus,
 .butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow:focus{
 	outline: 0;
 }
-
-.butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow.slick-prev.slick-arrow.slick-disabled{display: none!important;}
+.butterflywebsiteblog .blog .blog-container button.slick-next.slick-arrow.slick-disabled,
+.butterflywebsiteblog .blog .blog-container button.slick-prev.slick-arrow.slick-disabled{
+	display: none!important;
+}
 
 
 .butterflywebsiteblog .blog .group2 .iconsarrow1 .background {
@@ -1499,18 +1460,8 @@ div {
   transform           : rotate(0deg);
 }
 .butterflywebsiteblog .blog .group21 {
-  background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 342px;
-  width               : 322px;
-  position            : absolute;
-  margin              : 0;
-  left                : 345px;
-  border-radius       : 5px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 
 
@@ -1541,10 +1492,6 @@ div {
   width               : 346px;
   position            : absolute;
   margin              : 0;
-  left                : -12px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblog .blog .group21 .readarticle {
   background-color    : rgba(255,255,255,0.0);
@@ -1807,19 +1754,16 @@ div {
 }
 .butterflywebsiteblog .mainarticle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 262px;
-  height              : 280px;
-  width               : 1027px;
-  position            : absolute;
-  margin              : 0;
-/*   left                : 118px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  padding-top         : 53px;
+  min-height              : 280px;
+  height: 100%;
+  max-width           : 1027px;
+  position            : relative;
+  margin              : 0 0 76px;
+  overflow: hidden;
 }
 .butterflywebsiteblog .mainarticle .lisbon {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
   height              : 280px;
   width               : 420px;
   position            : absolute;
@@ -1827,13 +1771,9 @@ div {
   left                : 0px;
   border-radius       : 5px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblog .mainarticle .lisbon .mask {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
   height              : 280px;
   width               : 420px;
   position            : absolute;
@@ -1860,13 +1800,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
-  width               : 565px;
+  max-width               : 565px;
   position            : absolute;
   margin              : 0;
   left                : 462px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 36.0px;
   color               : rgba(58, 59, 87, 1.0);
@@ -1889,13 +1826,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 145px;
   height              : auto;
-  width               : 416px;
+  max-width           : 416px;
   position            : absolute;
   margin              : 0;
   left                : 462px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Muli", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
@@ -1915,10 +1849,10 @@ div {
 }
 .butterflywebsiteblog .takeasneakpeekof {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 65px;
+  padding-top                 : 65px;
   height              : auto;
   max-width               : 710px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   font-family         : "aleobold", Helvetica, Arial, serif;
   font-size           : 48.0px;
@@ -2773,20 +2707,11 @@ div {
 }
 
 @media (max-width: 1199px){
-	.butterflywebsiteblog{
-		min-height: 3590px;
-	}
-	.butterflywebsiteblog .catags, 
-	.butterflywebsiteblog .allarticles, 
-	.butterflywebsiteblog .mainarticle, 
-	.butterflywebsiteblog .blog, 
-	.butterflywebsiteblog .takeasneakpeekof {
-/*     	left: 5px!important; */
-	}
+
 	.butterflywebsiteblog .mainarticle .theremoteworkinge{
 		position: relative;
-		font-size: 30px;
-		line-height: 30px;
+/* 		font-size: 30px; */
+/* 		line-height: 30px; */
 	}
 	.butterflywebsiteblog .mainarticle .lisbon{
 		position: relative;
@@ -2795,69 +2720,23 @@ div {
 	.butterflywebsiteblog .mainarticle .theremoteworkinge{
 		left: 0;
 	}
-	.butterflywebsiteblog .blog{
-		top:900px;
-	}
+
 	.butterflywebsiteblog .featured-post.col-sm-12{
 		padding-left: 0;
 		padding-right: 0;
 	}
 	.butterflywebsiteblog .mainarticle .inournewseriesw{
-		top:150px;
+/* 		top:150px; */
 	}
-	.butterflywebsiteblog .allarticles{
-		top:1461px;
+	.butterflywebsiteblog .mainarticle{
+		padding-bottom: 150px;
 	}
-	.butterflywebsiteblog .catags{
-		top:2032px;
+	.butterflywebsiteblog .blog{
+		padding-top: 0;
+		margin: 0;
 	}
-}
-@media (max-width: 1080px){
-	
-}
-@media (max-width: 1024px){
 	.butterflywebsiteblog{
-		margin-left: 85px;
-	}
-}
-@media (max-width: 992px){
-	.butterflywebsiteblog .catags,
-	.butterflywebsiteblog .allarticles,
-	.butterflywebsiteblog .mainarticle,
-	.butterflywebsiteblog .blog,
-	.butterflywebsiteblog .takeasneakpeekof{
-		left: 0px!important;
-	}
-	.butterflywebsiteblog .catags{
-		top:2332px;
-	}
-}
-@media (max-width: 767px){
-	.butterflywebsiteblog{
-		margin-left: 20px;
-	}
-}
-
-@media (max-width: 660px){
-	.butterflywebsiteblog .takeasneakpeekof{
-		font-size: 40px;
-		line-height: 40px;
-	}
-	.butterflywebsiteblog .mainarticle .theremoteworkinge{
-		max-width: 100%;
-		width: 50%;
-	}
-	
-}
-
-@media (max-width: 620px){
-	.butterflywebsiteblog .takeasneakpeekof h1{
-		font-size: 40px;
-		line-height: 40px;
-	}
-	.butterflywebsiteblog .mainarticle .theremoteworkinge h2{
-		font-size: 30px;
-		line-height: 30px;
+		margin-bottom: 0;
 	}
 }
 
@@ -2866,24 +2745,12 @@ div {
 		left: 0;
 		top:108px;
 	}
-	.butterflywebsiteblog .allarticles{ height: 100%;}
+	.butterflywebsiteblog .allarticles{ height: 100%; padding-bottom: 200px;}
 	.butterflywebsiteblog .allarticles .article{
 		top:208px;
 	}
-	.butterflywebsiteblog .catags{
-		top:2932px;
-	}
-	.butterflywebsiteblog .mainarticle .theremoteworkinge{
-		width: 80vw;
-		font-size: 25px;
-		line-height: 25px;
-	}
-	.butterflywebsiteblog .takeasneakpeekof{
-		font-size: 36px;
-		line-height: 36px;
-	}
-	.butterflywebsiteblog .mainarticle .inournewseriesw{
-		width: 80vw;
+	.butterflywebsiteblog .mainarticle .theremoteworkinge h2{
+		line-height: 1.1;
 	}
 }
 @media (max-width: 400px){
@@ -2892,6 +2759,17 @@ div {
 	.butterflywebsiteblog .mainarticle .lisbon{
 		width: 320px;
 	}
+}
+
+@media (max-width: 399px){
+	.butterflywebsiteblog .mainarticle .inournewseriesw{
+		position: relative;
+		top:50px;
+	}
+	.butterflywebsiteblog .mainarticle{
+		padding-bottom: 80px;
+	}
+
 }
 @media (max-width: 374px){
 	.butterflywebsiteblog .allarticles .article .a20181214johnwi{

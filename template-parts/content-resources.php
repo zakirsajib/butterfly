@@ -23,14 +23,15 @@
             <div class="freshfromourblog"><?php if(get_field('heading_title_blog')):?><?php the_field('heading_title_blog');?><?php else:?>Fresh from our blog<?php endif;?></div>
             <div class="separatorhorizontal"><div class="bg2"></div></div>
         </div>
-        <div class="blog-container">
+        <div class="blog-container-parent">
+        	<div class="blog-container">
 	        <?php 
 			   	$args = new WP_Query(array(
 			    	'post_type' => 'post', 
 					'posts_per_page' => -1
 			    ));?>			    
 			    <?php while ( $args->have_posts() ) : $args->the_post();?>
-					<div class="group21 group col-md-3">
+					<div class="group21 group">
 						<?php if(has_post_thumbnail()):?>
 							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
 						<?php else:?>
@@ -39,9 +40,10 @@
 						<div class="readarticle">
 						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">Read Article</a></div>
 						<div class="theremoteworkinge"><a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a></div>
-						<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/>
+						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
 					</div>					
 				<?php endwhile;wp_reset_postdata();?>
+        </div>
         </div>
         <div class="bg1"></div>
 		<div class="viewfullblog"><a href="<?php echo get_site_url()?>/blog">VIEW FULL BLOG</a></div>
@@ -51,19 +53,21 @@
             <div class="ourcustomercasest"><?php if(get_field('heading_title_case_studies')):?><?php the_field('heading_title_case_studies');?><?php else:?>Our customer case studies<?php endif;?></div>
             <div class="separatorhorizontal"><div class="bg1"></div></div>
         </div>
-        <div class="case-studies-container">
+        <div class="case-studies-container-parent">
+        	<div class="case-studies-container">
         	<?php 
 			   	$caseargs = new WP_Query(array(
 			    	'post_type' => 'b_casestudy', 
 					'posts_per_page' => -1
 			    ));
 			    while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
-					<div class="group21 group col-md-3">
+					<div class="group21 group">
             			<div class="viewcasestudy"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">View case study</a></div>
             <div class="iconsarrow">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></div>
+            	<div class="background"></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a></div>
             <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php echo wp_trim_words( get_the_title(), 5 ); ?></a></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php if(get_field('case_study_company_logo')):?><img class="tmklogo svg" src="<?php the_field('case_study_company_logo')?>" alt="<?php the_title()?>"><?php else:?><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/><?php endif;?></a></div>
 				<?php endwhile;wp_reset_postdata();?>
+        </div>
         </div>
     </div> <! -- end case studies -->
     <div class="downloads" id="downloads">
@@ -76,24 +80,25 @@
 	            </div>
 	        </div>
 	    </div>
-	    <div class="downloads-studies-container">
+	    <div class="downloads-studies-container-parent">
+	    	<div class="downloads-studies-container">
 	    	<?php if( have_rows('by_us', 13) ):
 				while ( have_rows('by_us', 13) ) : the_row();?>
-					<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank">Download e-book</a>
-	        </div>
+					<div class="group2 group">
+	        <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank">
+		        <div class="downloadebook">Download e-book</div></a>
 	        <div class="iconsarrow">
 	            <div class="background">
 	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	            <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
 	        </div>
 	        <div class="getourebookhowt">
 	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3"><?php the_sub_field('ebook_title')?></span>
 	        </div>
-	        <img src="<?php the_sub_field('ebook_pdf_thumbnail')?>" class="screenshot20190115at194659"/>
+	        <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank"><img src="<?php the_sub_field('ebook_pdf_thumbnail')?>" class="screenshot20190115at194659"/></a>
 	    </div>
 			<?php endwhile;endif;?>
+	    </div>
 	    </div>
 	</div> <! -- end downloads -->
     <div class="faq" id="faq">

@@ -189,6 +189,7 @@ function butterfly_scripts() {
 	
 	if(is_page('about-us')):
 		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
+		wp_enqueue_script( 'sticky', get_template_directory_uri() . '/assets/sticky/jquery.sticky-kit.min.js', array('jquery'), null, true );
 		wp_enqueue_script( 'about', get_template_directory_uri() . '/js/about.js', array('jquery'), null, true );
 	endif;
 	

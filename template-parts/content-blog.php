@@ -67,7 +67,7 @@
 					'posts_per_page' => -1
 			    ));
 			    while ( $args->have_posts() ) : $args->the_post();?>
-					<div class="group21 group col-md-3">
+					<div class="group21 group">
 						<?php if(has_post_thumbnail()):?>
 							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
 						<?php else:?>
@@ -76,7 +76,7 @@
 						<div class="readarticle">
 						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">Read Article</a></div>
 						<div class="theremoteworkinge"><a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a></div>
-						<img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/>
+						<a data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-iconsarrow.svg" class="iconsarrow1"/></a>
 					</div>					
 				<?php endwhile;wp_reset_postdata();?>
         </div>

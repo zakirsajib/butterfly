@@ -103,10 +103,10 @@ get_header('about');
 					'posts_per_page' => -1
 			    ));
 			    while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
-					<div class="group21 group col-md-3">
-            			<div class="viewcasestudy"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">View case study</a></div>
+					<div class="group21 group">
+            			<a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><div class="viewcasestudy">View case study</div></a>
             <div class="iconsarrow">
-            	<div class="background"></div><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></div>
+            	<div class="background"></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a></div>
             <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php echo wp_trim_words( get_the_title(), 5 ); ?></a></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php if(get_field('case_study_company_logo')):?><img class="tmklogo svg" src="<?php the_field('case_study_company_logo')?>" alt="<?php the_title()?>"><?php else:?><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/><?php endif;?></a></div>
 				<?php endwhile; wp_reset_postdata();?>
 					</div>
@@ -162,42 +162,41 @@ get_header('about');
             	<div class="group2 col-lg-8 col-md-10 col-sm-10 col-xs-11"><?php the_field('about_us_contents')?></div>
             </div>
             <div class="fade" role="tabpanel" id="byus">
-	            <div class="downloads-studies-container">
+	            <div class="downloads-studies-parent">
+	            	<div class="downloads-studies-container">
 					<?php if( have_rows('by_us') ):
 					    while ( have_rows('by_us') ) : the_row();?>
-							<div class="group2 group col-md-3">
-	        <div class="downloadebook">
-	            <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank">Download e-book</a>
-	        </div>
+							<div class="group2 group">
+	        <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank"><div class="downloadebook">Download e-book</div></a>
 	        <div class="iconsarrow">
-	            <div class="background">
-	            </div>
-	            <img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/>
+	            <div class="background"></div>
+	            <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a>
 	        </div>
 	        <div class="getourebookhowt">
 	            <span class="span1">Get our e-book</span><span class="span2"> <br /></span><span class="span3"><?php the_sub_field('ebook_title')?></span>
 	        </div>
-	        <img src="<?php the_sub_field('ebook_pdf_thumbnail')?>" class="screenshot20190115at194659"/>
+	        <a href="<?php the_sub_field('ebook_pdf_url')?>" target="_blank"><img src="<?php the_sub_field('ebook_pdf_thumbnail')?>" class="screenshot20190115at194659"/></a>
 	    </div>
 						<?php endwhile;endif;?>
 				</div>
+	            </div>
             </div>
         </div>
-        	<div class="company col-lg-11 col-md-12 col-xs-12" id="company">
-            	<div class="company-section affix-company col-lg-6 hidden-md hidden-sm hidden-xs" data-spy="affix">
+        	<div class="company col-lg-12 col-md-12 col-xs-12" id="company">
+            	<div class="company-section col-lg-6 hidden-md hidden-sm hidden-xs" id="companySection">
             		<div class="headerpartners"><div class="company1">Company</div>
 						<div class="separatorhorizontal"><div class="bg1"></div></div>
 					</div>
 					<?php the_field('company_descriptions');?>
             	</div> 
-            	<div class="company-section hidden-lg">
+            	<div class="company-section hidden-lg col-md-12 col-xs-12">
             		<div class="headerpartners">
                 <div class="company1">Company</div>
                 <div class="separatorhorizontal"><div class="bg1"></div></div>
             </div>
 					<?php the_field('company_descriptions');?>
             	</div>            
-				<div class="tt col-lg-6 col-md-10 col-xs-10">
+				<div class="tt col-lg-6 col-md-12 col-xs-12">
             		<?php if( have_rows('person_details') ):
 					    while ( have_rows('person_details') ) : the_row();?>
 					       <div class="group col-lg-4 col-md-3 col-sm-4 col-xs-6">
@@ -217,7 +216,7 @@ get_header('about');
 			</div>			
 		</div>
 	
-		<div class="map">
+		<div class="map" id="mapContainer">
 			<div class="contact" id="contact">
             <div class="group3">
                 <img src="<?php echo get_template_directory_uri()?>/assets/about/img/butterflywebsiteabout-rectangle-6.png" class="rectangle"/>
