@@ -13,7 +13,7 @@ $ = jQuery.noConflict();
 			autoplaySpeed: 4800
 		});		
 		
-		if (window.matchMedia('(min-width: 1200px)').matches) {
+		if (window.matchMedia('(min-width: 991px)').matches) {
 			$('.affix-home').affix({
 				offset: {
 					top: $('.butterfly-one').offset().top-50,
@@ -21,12 +21,10 @@ $ = jQuery.noConflict();
 	      		}
 			});
 			
-			$('.affix-butterfly').affix({
-				offset: {
-					top:  $('.butterfly-one').offset().top-200,
-					bottom: 1500
-	  			}
+			$("#why-butterfly").stick_in_parent({
+				offset_top: 100,
+				parent:'.why-butterfly',
+				bottoming: true
 			});
-		}
-	
+		}	
 });

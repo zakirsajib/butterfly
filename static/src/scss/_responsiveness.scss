@@ -40,6 +40,12 @@
 		padding-left: 0;
 	}
 }
+
+@media (max-width: 990px){
+	.why-butterfly{
+		height: 100%;
+	}
+}
 @media (min-width: 768px) {
 	#reqDemo .modal-lg .butterflyrequestdemoform .tryfree{
 	  	left: 0;

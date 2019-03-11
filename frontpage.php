@@ -53,8 +53,8 @@ get_header();
 		</div>
 			</div>
 			
-			<div class="why-butterfly row">			
-			<div class="butterfly-one col-lg-4 col-md-4 col-sm-12 col-xs-12 affix-butterfly" id="why-butterfly">
+			<div class="why-butterfly">			
+			<div class="butterfly-one col-lg-4 col-md-4 col-sm-12 col-xs-12" id="why-butterfly">
 				<?php if( get_field('why_left_column') ): ?>
 					<?php $why_left_column = get_field('why_left_column');?>
 					<h1><?php echo $why_left_column['why_title'];?></h1>
@@ -75,7 +75,6 @@ get_header();
 				<a href="#">Find out how Butterfly works!</a>
 				<?php endif;?>
 			</div>
-			
 			<div class="butterfly-two one col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<div class="butterfly-right-column">
 					<?php if( get_field('right_column') ):

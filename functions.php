@@ -179,6 +179,7 @@ function butterfly_scripts() {
 
 	if( is_home() || is_front_page() ):
 		wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.min.js', array('jquery'), null, true );
+		wp_enqueue_script( 'sticky', get_template_directory_uri() . '/assets/sticky/jquery.sticky-kit.min.js', array('jquery'), null, true );
 		wp_enqueue_script( 'home', get_template_directory_uri() . '/js/home.js', array('jquery'), null, true );
 	endif;
 	

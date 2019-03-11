@@ -215,7 +215,7 @@ picture, img{
 .why-butterfly{
     //padding-top: 10em;
     position: relative;
-    //min-height: 100vh;
+    height: 1500px;
     //overflow: hidden;
     .butterfly-one{
 	    h1{
@@ -264,7 +264,9 @@ picture, img{
 	    }
     }
     .butterfly-two {
-	    float: right;
+	    //float: right;
+	    position: absolute;
+	    right: 0;
     		.butterfly-right-column{
 			    display: grid;
 			    grid-template-columns:repeat(2,1fr);
@@ -273,8 +275,7 @@ picture, img{
 				align-self: center;
 				justify-content: center;
 				text-align: center;
-				//padding: 10em 0 0 117px;
-				padding: 5em;
+				padding: 5em 0 5em 5em;
 				grid-row-gap:5em;
 			.two, .three, .six{
 				text-align: left;
@@ -345,9 +346,9 @@ picture, img{
 	justify-content: center;
 	align-self: center;
 	//height: 1000px;
-	min-height: 50vh;
+	//min-height: 50vh;
 	clear: both;
-	padding-top: 201px;
+	//padding-top: 201px;
 	padding-bottom: 226px;
 	.testimonial-area{
 		//padding-left: 109px;
