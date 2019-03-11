@@ -3,6 +3,7 @@ $ = jQuery.noConflict();
 	
 	$("#companySection").stick_in_parent({
 		offset_top: 50,
+		parent:'#company',
 		bottoming: true
 	});
 	

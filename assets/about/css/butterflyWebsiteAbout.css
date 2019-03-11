@@ -373,12 +373,10 @@
 .butterflywebsiteabout .company {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  margin              : 0 0 5em;
+  margin              : 0 0 40em;
   left                : 0;
   height: 100%;
   min-height: 50vh;
-/*   padding-left: 0; */
-/*   margin-bottom: 1000px; */
 }
 .butterflywebsiteabout .company:before {
 	background-image: url('../img/butterflywebsiteabout-rectangle-5.png');
@@ -1368,7 +1366,7 @@
 }
 .butterflywebsiteabout .partners {
   background-color    : rgba(255,255,255,0.0);
-  min-height          : 80vh;
+  min-height          : 550px;
   max-width           : 786px;
   width: 100%;
   position            : relative;
