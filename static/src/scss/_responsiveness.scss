@@ -41,9 +41,39 @@
 	}
 }
 
-@media (max-width: 990px){
+@media (max-width: 991px){
+	.why-butterfly .butterfly-two{
+		position: relative;
+	}
 	.why-butterfly{
-		height: 100%;
+		height: 100%
+	}
+}
+
+@media (max-width: 950px){
+	.home-footer {
+		padding-left: 0;
+		.demo-area{
+			grid-template-columns: none;
+			grid-column-gap: 0;
+			grid-row-gap: 2em;
+			align-items: center;
+			.demo-form-box{
+				border-radius: 0;
+				box-shadow: none;
+				padding: 1em 30px 2em;
+				background-color: transparent;
+			}
+			.latest-blog-one{
+				padding-left: 30px;
+				padding-right: 30px;
+				.latest-blog{
+					grid-template-columns: 1fr 2fr;
+					grid-column-gap: 1em;
+					grid-template-rows: 1fr;
+				}
+			}	
+		}
 	}
 }
 @media (min-width: 768px) {
@@ -87,8 +117,8 @@
 		height: 100%;
 	}
 	.home-footer{
-		margin-top: 10em;
-		padding-left: 0;
+		//margin-top: 10em;
+		//padding-left: 0;
 	}
 	.section-one .demo-request{z-index: 1}
 }
@@ -182,10 +212,13 @@
 	.home-footer {
 		.demo-area{
 			grid-template-columns: 1fr 1fr;
-			grid-column-gap:1em;
-			padding: 0 35px;
+			align-items: center;
+			//grid-column-gap:1em;
+			//padding: 0 35px;
 			.latest-blog-one .latest-blog{
-				grid-template-columns: 1fr 1fr;
+				grid-template-columns: 1fr;
+				grid-column-gap: 0;
+				grid-row-gap: 15px;
 			}
 		}
 	}
@@ -242,6 +275,7 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
 	.home-carousel{width: 100%;}
 }
+
 
 
 @media (max-width: 768px){
@@ -356,7 +390,7 @@
     }
 	.home-testimonial{
 		background-image: none;
-		//height: 100%;
+		padding-top: 83px;
 		justify-content: center;
 	}
 	.home-testimonial .testimonial-area .testimonial-statements p{
@@ -390,9 +424,10 @@
 		display: block;
 	}
 	.home-footer{
-		padding-top: 30px;
-		margin-top: 51px;
-		padding-bottom: 72px;
+		//padding-top: 30px;
+		//margin-top: 51px;
+		//padding-bottom: 72px;
+		padding-left: 0;
 	}
 
 	.home-footer .demo-area .demo-form-box{
@@ -536,6 +571,15 @@
 	}
 }
 
+@media (max-width: 706px){
+	.home-footer .demo-area{
+		grid-template-columns: none;
+	}
+	.home-footer .demo-area .demo-form-box{
+		padding: 1em 0 2em;
+	}
+}
+
 @media (max-width: 568px){	
 	.site-header {
     	grid-template-columns: 4fr 1fr;
@@ -552,8 +596,8 @@
 	.home-footer .demo-area .demo-form-box .input-group .btn.btn-default{
 		font-size: 13px
 	}
-	.home-footer .demo-area{
-		grid-template-columns: none;
+	.home-footer .demo-area .demo-form-box{
+		padding: 1em 30px 2em;
 	}
 	.home-footer .demo-area .latest-blog-one{
 		padding-left: 30px;

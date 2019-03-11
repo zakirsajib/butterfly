@@ -3077,7 +3077,9 @@
 	.butterflywebsiteabout .downloads{
 		padding: 0;
 	}
-	
+	.butterflywebsiteabout .company{
+		margin: 0 0 10em;
+	}
 }
 
 @media (max-width: 1108px){

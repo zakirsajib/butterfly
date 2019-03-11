@@ -13,7 +13,7 @@ $ = jQuery.noConflict();
 			autoplaySpeed: 4800
 		});		
 		
-		if (window.matchMedia('(min-width: 991px)').matches) {
+		if (window.matchMedia('(min-width: 992px)').matches) {
 			$('.affix-home').affix({
 				offset: {
 					top: $('.butterfly-one').offset().top-50,
