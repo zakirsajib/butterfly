@@ -1760,7 +1760,6 @@ div {
   max-width           : 1027px;
   position            : relative;
   margin              : 0 0 76px;
-  overflow: hidden;
 }
 .butterflywebsiteblog .mainarticle .lisbon {
   background-color    : rgba(215, 215, 215, 1.0);
@@ -2737,6 +2736,9 @@ div {
 	}
 	.butterflywebsiteblog{
 		margin-bottom: 0;
+	}
+	.butterflywebsiteblog .mainarticle {
+		overflow: hidden;
 	}
 }
 
