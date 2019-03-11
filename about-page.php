@@ -32,12 +32,12 @@ get_header('about');
             <div class="fade in active" role="tabpanel" id="clientList">
 	            <div class="logo">
 	              <ul>  
-	                <li class="active"><a data-toggle="tab" href="#collapseOne"><img src="<?php the_field('client_logo_#1')?>" class="svg" alt=""/></a></li>
-	                <li><a data-toggle="tab" href="#collapseTwo"><img src="<?php the_field('client_logo_#2')?>" class="cocacolalogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseThree"><img src="<?php the_field('client_logo_#3')?>" class="ticketmasterlogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseFour"><img src="<?php the_field('client_logo_#4')?>" class="dentsulogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseFive"><img src="<?php the_field('client_logo_#5')?>" class="ogilvylogo svg"/></a></li>
-	                <li><a data-toggle="tab" href="#collapseSix"><img src="<?php the_field('client_logo_#6')?>" class="livenation svg"/></a></li>
+	                <li class="active"><a data-toggle="tab" href="#collapse1"><img src="<?php the_field('client_logo_#1')?>" class="svg" alt=""/></a></li>
+	                <li><a data-toggle="tab" href="#collapse2"><img src="<?php the_field('client_logo_#2')?>" class="cocacolalogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapse3"><img src="<?php the_field('client_logo_#3')?>" class="ticketmasterlogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapse4"><img src="<?php the_field('client_logo_#4')?>" class="dentsulogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapse5"><img src="<?php the_field('client_logo_#5')?>" class="ogilvylogo svg"/></a></li>
+	                <li><a data-toggle="tab" href="#collapse6"><img src="<?php the_field('client_logo_#6')?>" class="livenation svg"/></a></li>
 	              </ul>
 	            </div>
 	            <div class="seperatorvertical">
@@ -45,42 +45,42 @@ get_header('about');
 	            </div>
 	            <div class="customer-testimonials">
 		            <div class="tab-content">
-		            	<div id="collapseOne" class="tab-pane active">
+		            	<div id="collapse1" class="tab-pane active">
 		            	<div class="u201cbutterflypowerrea">
 		                “<?php the_field('client_statements_one')?>”
 						</div>
 						<div class="benjaminsnyers"><?php the_field('position_and_company_name')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
-						<div id="collapseTwo" class="tab-pane">
+						<div id="collapse2" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
 		                “<?php the_field('client_statements_two')?>”
 						</div>
 						<div class="benjaminsnyers"><?php the_field('position_and_company_name_two')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
-						<div id="collapseThree" class="tab-pane">
+						<div id="collapse3" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
 		                “<?php the_field('client_statements_three')?>”
 						</div>
 						<div class="benjaminsnyers"><?php the_field('position_and_company_name_three')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
-						<div id="collapseFour" class="tab-pane">
+						<div id="collapse4" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
 		                “<?php the_field('client_statements_four')?>”
 						</div>
 						<div class="benjaminsnyers"><?php the_field('position_and_company_name_four')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
-						<div id="collapseFive" class="tab-pane">
+						<div id="collapse5" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
 		                “<?php the_field('client_statements_five')?>”
 						</div>
 						<div class="benjaminsnyers"><?php the_field('position_and_company_name_five')?></div>
 						<!-- <div class="managingd irectorat"></div> -->
 		            </div>
-						<div id="collapseSix" class="tab-pane">
+						<div id="collapse6" class="tab-pane">
 		            	<div class="u201cbutterflypowerrea">
 		                “<?php the_field('client_statements_six')?>”
 						</div>
