@@ -599,6 +599,111 @@ picture, img{
     article .entry-content{
 	    max-width: 800px;
     }
+    &:before{
+	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob1.svg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    top: 5em;
+	    left: 20em;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05; 
+    }
+    &:after{
+	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 1207px;
+	    position: absolute;
+	    bottom: 5em;
+	    right: 0;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity:0.05; 
+	    z-index: -1;
+    }
+}
+
+
+body.page-template-default{
+	&:before{
+		background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob1.svg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    top: -10em;
+	    left: -10em;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05; 
+	}
+	&:after{
+		background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob1.svg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		content: " ";
+	    display: block;
+	    height: 658px;
+	    position: absolute;
+	    top: -30em;
+	    right: 3em;
+	    width: 397px;
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    opacity: 0.05; 
+	}
+	.site{
+		&:before{
+			background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			content: " ";
+		    display: block;
+		    height: 1207px;
+		    position: absolute;
+		    top: 50%;
+		    left: 0;
+		    width: 397px;
+		    -ms-transform: rotate(45deg);
+		    -webkit-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    opacity:0.05; 
+		}
+		&:after{
+			background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			content: " ";
+		    display: block;
+		    height: 1207px;
+		    position: absolute;
+		    top: 50%;
+		    right: 0;
+		    width: 397px;
+		    -ms-transform: rotate(45deg);
+		    -webkit-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    opacity: 0.05; 
+		    z-index: -1;
+		}
+	}
+	
 }
 
 input:-webkit-autofill,

@@ -64,9 +64,10 @@
 .butterflywebsiteabout .map {
   background-color    : rgba(215, 215, 215, 1.0);
   height              : 800px;
+  max-width: 1200px;
   width               : 100%;
   position            : relative;
-  margin              : 0;
+  margin              : 0 auto;
   left                : 0px;
   overflow            : hidden;
 
@@ -3014,27 +3015,15 @@
     opacity: 1;
 }
 
-
 /*
-@media (min-width: 1200px){
-	.company-section.affix-bottom{
-		position: absolute;
-		left:0;
-	}
-	.company-section.affix-top{
-		position: absolute;
-		left: 0;
-	}
-	.company-section.affix{
-		z-index: 0;
+@media (min-width: 1850px){
+	.butterflywebsiteabout .contact .group3{
+		left: 370px;
 	}
 }
-*/
-
-/*
-@media (min-width: 1400px){
-	.affix-company.affix{
-		top:50px;
+@media (min-width: 1800px) and (max-width: 1849px){
+	.butterflywebsiteabout .contact .group3{
+		left: 350px;
 	}
 }
 */

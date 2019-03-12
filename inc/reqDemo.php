@@ -110,6 +110,10 @@
 			var demoRequestForm = document.getElementById('fld_7317306_1');
 			demoRequestForm.value = $.trim($(".mega-menu input[name='email']").val());
 		});
+		$('#reqDemoBtn5').on("click", function(){
+			var demoRequestForm = document.getElementById('fld_7317306_1');
+			demoRequestForm.value = $.trim($(".header-signin input[name='email']").val());
+		});
 		
 		// Email
 		$('.our-demo-form .caldera-grid #fld_7317306_1').addClass('email-svg');

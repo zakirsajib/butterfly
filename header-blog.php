@@ -53,13 +53,8 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 				</div><!-- .site-branding -->
 				<div class="header-signin hidden-xs">
 					<div class="demo-form-box">
-						<div class="input-group"><input type="text" class="form-control demo-input" placeholder="Your email"><span class="input-group-btn"><button class="btn btn-default" type="button">Subscribe</button></span></div><!-- /input-group -->
+						<div class="input-group"><input type="email" class="form-control demo-input" placeholder="Your email" name="email"><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn5" type="button" data-toggle="modal" data-target="#reqDemo">Subscribe</button></span></div><!-- /input-group -->
 					</div>
-<!--
-					<ul>
-						<li>Already using Butterfly? <a href="#">Sign in</a></li>
-					</ul>
--->
 				</div>
 				<a href="#" data-toggle="modal" data-target="#myModal" class="menu-icon"><span class="menu-bar">BLOG <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></span></a>
 			</div>	
