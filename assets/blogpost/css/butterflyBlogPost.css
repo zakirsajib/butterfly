@@ -151,8 +151,10 @@ a {
 
 
 .butterflyblogpost .casestudy .content .featured-img img{
-	border-radius: 0 50% 50% 0;
+	border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
 }
+
 
 .butterflyblogpost .casestudy .content .lisbon .mask {
   background-color    : rgba(255,255,255,0.0);
