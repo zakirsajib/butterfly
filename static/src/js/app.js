@@ -1,18 +1,5 @@
 $ = jQuery.noConflict();
 	$(function ($) {
-
-	
-	// Accordion on Resources page
-	function toggleIcon(e) {
-    $(e.target)
-        .prev('.panel-heading')
-        .find(".more-less")
-        .toggleClass('addIcon removeIcon');
-	}
-	$('.panel-group').on('hidden.bs.collapse', toggleIcon);
-	$('.panel-group').on('shown.bs.collapse', toggleIcon);
-	
-	
 		
 	// SVG inline for HTML img tag
 	$('img.svg').each(function(){

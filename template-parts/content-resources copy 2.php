@@ -107,23 +107,41 @@
             <div class="separatorhorizontal"><div class="bg1"></div></div>
         </div>
          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		 	<?php 
-			 	$count = 1;
-			 	if( have_rows('faq_section') ):
-				while ( have_rows('faq_section') ) : the_row();?>
-				 	<div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="heading<?php echo $count;?>">
-					      <h4 class="panel-title">
-					        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $count;?>" aria-expanded="true" aria-controls="collapse<?php echo $count;?>"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less addIcon svg"/> <?php if(get_sub_field('question_faq')):?><?php the_sub_field('question_faq');?><?php else:?>Question that needs an answer? #1<?php endif;?></a>
-					      </h4>
-					    </div>
-						<div id="collapse<?php echo $count;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $count;?>">
-							<div class="panel-body"><?php if(get_sub_field('answer_faq')):?><?php the_sub_field('answer_faq');?><?php else:?>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<?php endif;?>
-							</div>
-						</div>
+		 	<div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less removeIcon svg"/> <?php if(get_field('question_faq_one')):?><?php the_field('question_faq_one');?><?php else:?>Question that needs an answer? #1<?php endif;?></a>
+			      </h4>
+			    </div>
+				<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					<div class="panel-body"><?php if(get_field('answer_faq_one')):?><?php the_field('answer_faq_one');?><?php else:?>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<?php endif;?>
 					</div>
-			<?php $count++;?>
-		 <?php endwhile;endif;?>
+				</div>
+			</div>
+	<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="svg more-less addIcon"/> <?php if(get_field('question_faq_two')):?><?php the_field('question_faq_two');?><?php else:?>Question that needs an answer? #2<?php endif;?></a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <?php if(get_field('answer_faq_two')):?><?php the_field('answer_faq_two');?><?php else:?>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<?php endif;?>
+      </div>
+    </div>
+  </div>
+	<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-add-remove-1.svg" class="more-less addIcon svg"/> <?php if(get_field('question_faq_three')):?><?php the_field('question_faq_three');?><?php else:?>Question that needs an answer? #3<?php endif;?></a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <?php if(get_field('answer_faq_three')):?><?php the_field('answer_faq_three');?><?php else:?>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<?php endif;?>
+      </div>
+    </div>
+  </div>
 		 </div>   
     </div> <! -- end faqs -->
 </div>

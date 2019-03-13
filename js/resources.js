@@ -1,6 +1,22 @@
 $ = jQuery.noConflict();
 	$(function ($) {
 		
+		// Accordion on Resources page
+		function toggleIcon(e) {
+	    $(e.target)
+	        .prev('.panel-heading')
+	        .find(".more-less")
+	        .toggleClass('addIcon removeIcon');
+		}
+		$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+		$('.panel-group').on('shown.bs.collapse', toggleIcon);
+	
+		
+		$('.faq .panel #heading1 .panel-title a img').addClass('removeIcon');
+		$('.faq .panel #heading1 .panel-title a').removeClass('collapsed');
+		$('.faq .panel #collapse1').addClass('in');
+		
+		
 		$('.case-studies-container').slick({
 			dots:false,
 			speed:2800,
