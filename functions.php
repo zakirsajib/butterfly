@@ -150,7 +150,7 @@ function butterfly_scripts() {
 		wp_enqueue_style( 'blogpostbutterfly', get_template_directory_uri() .'/assets/blogpost/css/butterflyBlogPost.css' );
 	endif;
 	
-	if(is_page()):
+	if(is_page()|| is_404()):
 	wp_enqueue_style( 'blogpostbutterfly', get_template_directory_uri() .'/assets/blogpost/css/butterflyBlogPost.css' );
 	endif;
 	
@@ -216,6 +216,14 @@ function butterfly_scripts() {
 
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/static/dist/js/app.min.js', array('jquery'), null, true );
 	
+	// Custom css if needed
+	require get_template_directory() . '/inc/custom-css.php';
+	// Custom js if needed
+	require get_template_directory() . '/inc/custom-js.php';
+	// Google-analytics if used
+	require get_template_directory() . '/inc/google-analytics.php';
+	
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -249,3 +257,22 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * Thumbnail images of Unyson Home page carousel
+*/
+function load_custom_wp_admin_style() {        
+        wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/assets/admin/admin-style.css', false, '1.0.0' );
+        wp_enqueue_style( 'custom_wp_admin_css' );
+}
+add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
+/**
+ * Admin panel - load styles and scripts in theme options
+ */
+if( defined('FW') && is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'fw-settings' ) :
+
+    function frontlash_admin_enqueue_styles() {
+        wp_enqueue_style( 'frontlash-theme-options', get_template_directory_uri() . '/assets/admin/theme-options.css' );
+    }
+    add_action( 'admin_enqueue_scripts', 'frontlash_admin_enqueue_styles' );
+
+endif;

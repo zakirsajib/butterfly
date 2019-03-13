@@ -26,9 +26,11 @@
 				<div class="demo-form">
 					<div class="demo-area">
 						<div class="demo-form-box">
-							<h4>Get started now!</h4>
+							<?php $get_started_now = fw_get_db_settings_option('get_started_now');
+								$request_a_demo = fw_get_db_settings_option('request_a_demo');?>
+							<h4><?php echo $get_started_now ?></h4>
 							<div class="input-group">
-								<input type="email" class="form-control demo-input" placeholder="Your work email" name="email" required><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn4" type="button" data-toggle="modal" data-target="#reqDemo">Request a demo</button>
+								<input type="email" class="form-control demo-input" placeholder="Your work email" name="email" required><span class="input-group-btn"><button class="btn btn-default" id="reqDemoBtn4" type="button" data-toggle="modal" data-target="#reqDemo"><?php echo $request_a_demo ?></button>
 								</span>
 							</div><!-- /input-group -->
 						</div>
@@ -42,8 +44,11 @@
 					</div>
 				</div>
 				<div class="dropdown-signin">
-					<?php $signin_url = fw_get_db_settings_option('signin-url');?>
-					<ul><li>Already using Butterfly? <a href="<?php echo $signin_url ?>" target="_blank">Sign in</a></li></ul>
+					<?php $signin_url = fw_get_db_settings_option('signin-url');
+						$already_using_butterfly = fw_get_db_settings_option('already_using_butterfly');
+						$signin_label = fw_get_db_settings_option('signin-label');
+					?>
+					<ul><li><?php echo $already_using_butterfly ?> <a href="<?php echo $signin_url ?>" target="_blank"><?php echo $signin_label ?></a></li></ul>
 				</div>
 			</div><!-- .dropdown -->
 		</div>

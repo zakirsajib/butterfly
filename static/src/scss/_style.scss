@@ -215,7 +215,7 @@ picture, img{
 .why-butterfly{
     //padding-top: 10em;
     position: relative;
-    height: 1500px;
+    min-height: 1000px;
     //overflow: hidden;
     .butterfly-one{
 	    h1{
@@ -346,7 +346,7 @@ picture, img{
 	justify-content: center;
 	align-self: center;
 	//height: 1000px;
-	//min-height: 50vh;
+	min-height: 50vh;
 	clear: both;
 	//padding-top: 201px;
 	padding-bottom: 226px;
@@ -613,7 +613,8 @@ picture, img{
 	    -ms-transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
 	    transform: rotate(45deg);
-	    opacity: 0.05; 
+	    opacity: 0.05;
+	    z-index: -1;
     }
     &:after{
 	    background-image: url('../../../assets/home/img/butterflywebsitehome-bgblob4.svg');
@@ -704,6 +705,12 @@ body.page-template-default{
 		}
 	}
 	
+}
+.jumbotron{
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+	background-color: rgba(255, 255, 255, 0.65);
 }
 
 input:-webkit-autofill,

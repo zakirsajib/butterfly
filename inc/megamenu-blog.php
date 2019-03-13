@@ -1,4 +1,5 @@
-<h4>From the blog:</h4>
+<?php $from_the_blog = fw_get_db_settings_option('from_the_blog');?>
+<h4><?php echo $from_the_blog ?></h4>
 <div class="latest-blog">
 	<?php 
 		$args=array(
