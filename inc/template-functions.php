@@ -78,11 +78,13 @@ function frontlash_theme_info() {
   <li><strong>Skype:</strong> sajibuk</li>
   </ul>";
 }
-function add_link_atts($atts) {
-  $atts['data-dismiss'] = "modal";
+function add_link_atts($atts, $item, $args) {
+  	if (in_array('menu-item-type-custom', $item->classes)) {
+	  $atts['data-dismiss'] = "modal";
+	}
   return $atts;
 }
-//add_filter( 'nav_menu_link_attributes', 'add_link_atts');
+//add_filter( 'nav_menu_link_attributes', 'add_link_atts', 10, 3 );
 
 // Get sub menu of parent menu
 add_filter( 'wp_nav_menu_objects', 'my_wp_nav_menu_objects_sub_menu', 10, 2 );

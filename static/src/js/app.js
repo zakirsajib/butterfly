@@ -59,4 +59,21 @@ $ = jQuery.noConflict();
 		}, 500);
 	});	
 	
+	$('.sub-menu li a').click(function(){
+	    $('#myModal').modal('hide');
+	    $(document.body).scrollTop( $(this).attr('href').offset().top );
+	});	
+	
+	
+	$('.header-signin ul li.menu-item-type-custom a').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top //no need of parseInt here
+        }, 900, 'swing', function () {
+            window.location.hash = '';
+        });
+    });
+	
 });
