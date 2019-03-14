@@ -107,14 +107,11 @@ div {
 .butterflywebsiteblog .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
-  height              : 3137px;
-  width               : 2231px;
+  height              : 100%;
+  max-width           : 2231px;
   position            : absolute;
   margin              : 0;
   left                : -497px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .butterflywebsiteblog .bg .rectangle {
   background-color    : rgba(255,255,255,0.0);
@@ -170,12 +167,12 @@ div {
 }
 .butterflywebsiteblog .bg .rectangle4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1577px;
+  top                 : 100em;
   height              : 1153px;
   width               : 397px;
   position            : absolute;
   margin              : 0;
-  left                : 1378px;
+  right               : -50em;
   -ms-transform       : rotate(45deg); /* IE 9 */
   -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
   transform           : rotate(45deg);
@@ -183,12 +180,12 @@ div {
 }
 .butterflywebsiteblog .bg .rectangle5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1966px;
+  top                 : 125em;
   height              : 1207px;
   width               : 397px;
   position            : absolute;
   margin              : 0;
-  left                : 370px;
+  left                : 140px;
   -ms-transform       : rotate(45deg); /* IE 9 */
   -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
   transform           : rotate(45deg);
