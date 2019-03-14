@@ -471,3 +471,15 @@ function login_function() {
     }
 }
 add_action( 'login_head', 'login_function' );
+
+/**
+ * Snippet Name: Remove wpautop only for custom post types
+ * Snippet URL: http://www.wpcustoms.net/snippets/remove-wpautop-custom-post-types/
+ */
+ function wpc_remove_autop_for_posttype( $content )
+{
+    // edit the post type here
+    'b_testimonial' === get_post_type() && remove_filter( 'the_content', 'wpautop' );
+    return $content;
+}
+add_filter( 'the_content', 'wpc_remove_autop_for_posttype', 0 );

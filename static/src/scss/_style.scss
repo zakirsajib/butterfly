@@ -354,6 +354,17 @@ picture, img{
 		//padding-left: 109px;
 		.testimonial-statements{ 
 			//padding-right: 5em;
+			text-align: left;
+			font-family: 'aleolightitalic';
+			font-size: 32px;
+			font-weight: 400;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #555555;
+			max-width: 600px;
+			min-height: 156px;
+			margin-bottom: 10px;
 			p{
 				text-align: left;
 				font-family: 'aleolightitalic';
@@ -364,7 +375,7 @@ picture, img{
 				letter-spacing: normal;
 				color: #555555;
 				max-width: 600px;
-				height: 156px;
+				min-height: 156px;
 			}
 		}
 		.company-details{

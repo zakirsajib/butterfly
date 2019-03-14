@@ -1622,6 +1622,7 @@
   margin              : 0 0 5em;
   left                : 0;
   min-height: 50vh;
+  z-index: 1;
 }
 
 .butterflywebsiteabout .customers:before{
@@ -1850,7 +1851,7 @@
   background-color    : rgba(255,255,255,0.0);
   top                 : 152px;
   height              : auto;
-  width               : 240px;
+  max-width           : 100%;
   position            : absolute;
   margin              : 0;
   left                : 710px;
@@ -1862,12 +1863,13 @@
   color               : rgba(83, 46, 228, 1.0);
   text-align          : left;
   line-height         : 24.0px;
+  z-index: 1;
 }
 .butterflywebsiteabout .customers .benjaminsnyers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 338px;
   height              : auto;
-  width               : 240px;
+  max-width           : 100%;
   position            : absolute;
   margin              : 0;
   left                : 710px;
@@ -1881,6 +1883,7 @@
   color               : rgba(58, 59, 87, 1.0);
   text-align          : left;
   line-height         : 18.0px;
+  z-index: 1;
 }
 .butterflywebsiteabout .customers .managingdirectorat {
   background-color    : rgba(255,255,255,0.0);

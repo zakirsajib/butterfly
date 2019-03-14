@@ -9,7 +9,7 @@ $the_query = new WP_Query($tag_args);
 if ( $the_query->have_posts() ):
 	while ( $the_query->have_posts() ): $the_query->the_post();?>
 	<div class="testimonial-statements">
-		<?php the_content()?>
+		“<?php the_content()?>”
 	</div>
 	<div class="company-details">	
 		<div class="company-logo">
