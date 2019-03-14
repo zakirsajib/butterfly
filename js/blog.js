@@ -44,7 +44,4 @@ $ = jQuery.noConflict();
 		    }
 		  ]
 		});
-		
-		$('.post-contents img[src$="jpg"], .post-contents  img[src$="png"], .post-contents img[src$="jpeg"]').addClass('img-responsive post-image');
-
 });

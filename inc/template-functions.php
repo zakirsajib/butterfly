@@ -472,14 +472,15 @@ function login_function() {
 }
 add_action( 'login_head', 'login_function' );
 
-/**
- * Snippet Name: Remove wpautop only for custom post types
- * Snippet URL: http://www.wpcustoms.net/snippets/remove-wpautop-custom-post-types/
- */
- function wpc_remove_autop_for_posttype( $content )
-{
-    // edit the post type here
-    'b_testimonial' === get_post_type() && remove_filter( 'the_content', 'wpautop' );
-    return $content;
+remove_filter('the_content','wpautop');
+
+//decide when you want to apply the auto paragraph
+
+add_filter('the_content','my_custom_formatting');
+
+function my_custom_formatting($content){
+if(get_post_type()=='b_testimonial') //if it does not work, you may want to pass the current post object to get_post_type
+    return $content;//no autop
+else
+ return wpautop($content);
 }
-add_filter( 'the_content', 'wpc_remove_autop_for_posttype', 0 );

@@ -15,7 +15,7 @@
 			<?php if(has_post_thumbnail()):?>
 				<?php butterfly_dropdown_post_thumbnail()?>
 			<?php else:?>
-				<a class="post-thumbnail" data-target="#blogDetailsTwo-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-4@2x.png" class="lisbon"/></a>
+				<a class="post-thumbnail" data-target="#blogDetailsTwo-<?php the_ID();?>" data-toggle="modal"><img src="<?php echo get_template_directory_uri()?>/assets/img/loader.svg" data-src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-lisbon-4@2x.png" class="lazyload lisbon"/></a>
 			<?php endif;?>
 		</div>
 		<div class="post-details">
