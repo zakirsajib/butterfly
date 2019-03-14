@@ -1583,12 +1583,12 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 
 .blog-container button.slick-prev.slick-arrow {
     background-color: rgba(255,255,255,0.0);
-    top: 185px;
+    top: 193px;
     height: 24px;
     width: 24px;
     position: absolute;
     margin: 0;
-    left: 15px;
+    left: 10px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -1604,12 +1604,12 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 }
 .blog-container button.slick-next.slick-arrow {
     background-color: rgba(255,255,255,0.0);
-    top: 185px;
+    top: 193px;
     height: 24px;
     width: 24px;
     position: absolute;
     margin: 0;
-    right:40px;
+    right:25px;
     background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
     background-position: left;
     background-repeat: no-repeat;
@@ -1664,7 +1664,7 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
     width: 24px;
     position: absolute;
     margin: 0;
-    right: 40px;
+    right: 25px;
     background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
     background-position: left;
     background-repeat: no-repeat;
@@ -1701,7 +1701,7 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
     width: 24px;
     position: absolute;
     margin: 0;
-    right: 40px;
+    right: 25px;
     background-image: url('../img/butterflywebsiteresources-iconsarrow.svg');
     background-position: left;
     background-repeat: no-repeat;

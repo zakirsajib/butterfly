@@ -1393,7 +1393,7 @@ div {
     width: 24px;
     position: absolute;
     margin: 0;
-    left: 15px;
+    left: 10px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -1414,7 +1414,7 @@ div {
     width: 24px;
     position: absolute;
     margin: 0;
-    right: 40px;
+    right: 25px;
     background-image: url('../../resources/img/butterflywebsiteresources-iconsarrow.svg');
     background-position: left;
     background-repeat: no-repeat;

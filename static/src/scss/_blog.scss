@@ -114,3 +114,12 @@ body.archive .header-signin .demo-form-box {
 		}
 	}
 }
+
+@media (max-width: 1200px){
+	body.page-template-blog-page-php .container{
+		width: 1200px;
+		max-width: 1200px;
+		padding-left: 118px;
+		padding-right: 0;
+	}
+}
