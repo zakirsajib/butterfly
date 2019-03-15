@@ -44,16 +44,19 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'butterfly' ); ?></a>
-<div data-spy="affix" data-offset-top="700" data-offset-bottom="0">
+<div data-spy="affix" data-offset-top="13" data-offset-bottom="0">
 <!-- 	<div class="affix-home"> -->
-		<header id="masthead" class="container-fluid">
+		<header id="masthead" class="container-fluid navbar-fixed-top">
 			<div class="site-header">
 				<div class="site-branding">
 					<?php the_custom_logo();?>
 					<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</div><!-- .site-branding -->
+				
 				<div class="header-signin hidden-xs">
-					<?php include( get_template_directory() . '/inc/header-demo-form.php');?>
+					<?php if(is_home() || is_front_page()):?>
+					<div data-spy="affix" data-offset-top="700" data-offset-bottom="0">
+					<?php include( get_template_directory() . '/inc/header-demo-form.php');?></div><?php endif;?>
 					<?php $signin_url = fw_get_db_settings_option('signin-url');
 						$already_using_butterfly = fw_get_db_settings_option('already_using_butterfly');
 						$signin_label = fw_get_db_settings_option('signin-label');
@@ -62,6 +65,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 						<li><?php echo $already_using_butterfly ?> <a href="<?php echo $signin_url ?>" target="_blank"><?php echo $signin_label ?></a></li>
 					</ul>
 				</div>
+				
 				<a href="#" data-toggle="modal" data-target="#myModal" class="menu-icon"><span class="menu-bar">MENU <img src="<?php echo get_template_directory_uri()?>/assets/img/combined-shape.svg" class="menu-icon-Combined-Shape" alt=""></span></a>
 			</div>	
 		</header><!-- #masthead -->

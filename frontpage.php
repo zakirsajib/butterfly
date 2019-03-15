@@ -213,8 +213,5 @@ while ( $args->have_posts() ) : $args->the_post();?>
 </div>
 <?php endwhile;wp_reset_postdata();?>
 
-
-
-
 <?php
 get_footer();

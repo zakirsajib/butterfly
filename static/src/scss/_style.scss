@@ -82,6 +82,7 @@ picture, img{
     justify-content: center;
     min-height: 100vh;
     grid-column-gap: 0;
+    padding-top: 191px;
     
     .demo-request{
 	  //  display: grid;
@@ -584,7 +585,7 @@ picture, img{
 .content-area.default-page {
     min-height: 300px;
     height: 100%;
-    padding-top: 64px;
+    padding-top: 191px;
     padding-bottom: 64px;
     h1,p,li{
 	    color: #3a3b57;

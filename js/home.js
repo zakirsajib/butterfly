@@ -14,17 +14,21 @@ $ = jQuery.noConflict();
 		});		
 		
 		if (window.matchMedia('(min-width: 992px)').matches) {
-			$('.affix-home').affix({
-				offset: {
-					top: $('.butterfly-one').offset().top-50,
-					bottom: 0 
-	      		}
-			});
+			//$('.affix-home').affix({
+			//	offset: {
+			//		top: $('.butterfly-one').offset().top-50,
+			//		bottom: 0 
+	      	//	}
+			//});
 			
 			$("#why-butterfly").stick_in_parent({
 				offset_top: 100,
 				parent:'.why-butterfly',
 				bottoming: true
 			});
-		}	
+		}
+		
+		
+		
+			
 });

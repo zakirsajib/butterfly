@@ -3,7 +3,7 @@
   height: 100%;
   position            : relative;
   overflow            : hidden;
-  margin              : 0px;
+  margin              : 0px auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
@@ -124,7 +124,7 @@ a {
   background-color    : rgba(255,255,255,0.0);
   padding-top                  : 36px;
   height              : auto;
-  width               : 416px;
+  max-width               : 416px;
   position            : relative;
   margin              : 0;
   left                : 154px;
@@ -143,7 +143,7 @@ a {
   background-color    : rgba(255,255,255,0.0);
   padding-top                  : 47px;
 /*   height              : 553px; */
-  width               : 900px;
+  max-width               : 900px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -259,11 +259,11 @@ a {
 .butterflyblogpost .casestudy .content .post-contents figure{ 
 	max-width: 100%;
 	position: relative; 
-	left:-154px;
+	left:-72px;
 }
 .butterflyblogpost .casestudy .content .post-contents p .img-responsive.post-image{
 	position: relative; 
-	left:-154px;
+	left:-72px;
 }
 
 .butterflyblogpost .casestudy .content .post-contents figcaption:before{
@@ -412,7 +412,7 @@ a {
   top                 : 0px;
   height              : 100%;
   width               : 260px;
-  position            : absolute;
+  position            : fixed;
   margin              : 0;
   bottom: 0;
   right:0;
@@ -896,71 +896,33 @@ a {
 	.blogDetailsOne.in .modal-dialog {
 	    margin: 0px 20px 0 0;
 	    padding: 0;
+	    background: #fff;
 	}
 }
 
-@media (max-width: 1170px){
-	
-	.butterflyblogpost .casestudy .content{
-		position: relative;
-		width: 80%;
-		left: 50px;
-		max-width: 100%;
+@media (min-width: 1201px){
+	.butterflyblogpost{
+		width: 1200px;
+		max-width: 1200px;
 	}
-	
-	.butterflyblogpost .casestudy .content .featured-img{
-		width: 100%;
-	}
-	.butterflyblogpost .casestudy .content .featured-img img{
-		position: relative!important;
-		width: 90%!important;
-		height: auto!important;
-	}
-	.butterflyblogpost .casestudy .content .theremoteworkinge{
-		left: 0;
-		width: 100%;
-		font-size: 30px;
-		line-height: 30px;
-	}
-	.butterflyblogpost .casestudy .content .inournewseriesw{
-		left: 0;
-		width: 100%;
-	}
-	.butterflyblogpost .casestudy .content .post-contents,
-	.butterflyblogpost .casestudy .content .locationlisbonpo,
-	.butterflyblogpost .casestudy .content .ihearitu2019sbeencol,
-	.butterflyblogpost .casestudy .content .locationitalypar,
-	.butterflyblogpost .casestudy .content .thanksgivingwasthu{
-		left: 0;
-		width: 100%;
-	}
-	.butterflyblogpost .casestudy .content .johnparma{
-		width: auto;
-		height: auto;
-		left: 0;
-		padding-right: 3em;
-	}
-	.butterflyblogpost .casestudy .content .seperatorvertical{
+	.butterflyblogpost .casestudy .brandingbutterflyicon{
 		left: 0;
 	}
-	.butterflyblogpost .casestudy .content .sinceiu2019vebeentrav{
-		left: 10px;
-	}
-	.butterflyblogpost .casestudy .content .post-contents p .img-responsive.post-image,
-	.butterflyblogpost .casestudy .content .post-contents figure{
-		left: 0;
+	.butterflyblogpost .casestudy .content .workroam,
+	.butterflyblogpost .casestudy .content .theremoteworkinge,
+	.butterflyblogpost .casestudy .content .inournewseriesw,
+	.butterflyblogpost .casestudy .content .post-contents{
+		left: 104px;
 	}
 }
 
-@media (max-width: 940px){
-	.butterflyblogpost .casestudy .content .post-contents figcaption, 
-	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
-		left: 0;
-		margin: 0 auto;
-		text-align: center;
+@media (max-width: 1200px){
+	.butterflyblogpost{
+		max-width: 1200px;
 	}
 }
-@media (max-width: 767px){
+
+@media (max-width: 1180px){
 	
 	.butterflyblogpost .casestudy .content{
 		max-width: 100%;
@@ -999,6 +961,73 @@ a {
 		left: -16px;
 	}
 }
+
+
+@media (max-width: 1170px){
+	
+/*
+	.butterflyblogpost .casestudy .content{
+		position: relative;
+		width: 80%;
+		left: 50px;
+		max-width: 100%;
+	}
+*/
+	
+/*
+	.butterflyblogpost .casestudy .content .featured-img{
+		width: 100%;
+	}
+	.butterflyblogpost .casestudy .content .featured-img img{
+		position: relative!important;
+		width: 90%!important;
+		height: auto!important;
+	}
+*/
+	.butterflyblogpost .casestudy .content .theremoteworkinge{
+		left: 0;
+		width: 100%;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+/*
+	.butterflyblogpost .casestudy .content .post-contents,
+	.butterflyblogpost .casestudy .content .locationlisbonpo,
+	.butterflyblogpost .casestudy .content .ihearitu2019sbeencol,
+	.butterflyblogpost .casestudy .content .locationitalypar,
+	.butterflyblogpost .casestudy .content .thanksgivingwasthu{
+		left: 0;
+		width: 100%;
+	}
+*/
+	.butterflyblogpost .casestudy .content .johnparma{
+		width: auto;
+		height: auto;
+		left: 0;
+		padding-right: 3em;
+	}
+	.butterflyblogpost .casestudy .content .seperatorvertical{
+		left: 0;
+	}
+	.butterflyblogpost .casestudy .content .sinceiu2019vebeentrav{
+		left: 10px;
+	}
+	.butterflyblogpost .casestudy .content .post-contents p .img-responsive.post-image,
+	.butterflyblogpost .casestudy .content .post-contents figure{
+		left: 0;
+	}
+}
+
+@media (max-width: 940px){
+	.butterflyblogpost .casestudy .content .post-contents figcaption, 
+	.butterflyblogpost .casestudy .content .post-contents .wp-caption-text{
+		left: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
 
 @media (max-width: 480px){
 	
