@@ -3,7 +3,7 @@
   height: 100%;
   position            : relative;
   overflow            : hidden;
-  margin              : 0px;
+  margin              : 0px auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
@@ -13,6 +13,7 @@
 	.caseStudyOne.in .modal-dialog {
 	    margin: 0px auto;
 	    padding: 0;
+	    background-color: #fff;
 	}
 }
 
@@ -481,7 +482,7 @@ a {
   top                 : 0px;
   height: 100%;
   width               : 400px;
-  position            : absolute;
+  position            : fixed;
   margin              : 0;
   right                : 0;
 }
@@ -1081,10 +1082,9 @@ a {
     text-align: left;
     line-height: 18.0px;
     position: absolute;
-    bottom:0;
+    bottom:-10em;
     right: 0;
     width:320px;
-    padding-top: 8em;
     
 }
 
@@ -1137,6 +1137,28 @@ a {
     left: 0px;
     vertical-align: middle;
 }
+
+@media (min-width: 1201px){
+	.butterflycasestudy{
+		width: 1200px;
+		max-width: 1200px;
+	}
+	.butterflycasestudy .casestudy .brandingbutterflyicon{
+		left: 0;
+	}
+	.butterflycasestudy .casestudy .heart{
+		left: 67px;
+	}
+	.butterflycasestudy .casestudy .content .tmklogo{
+		left: 104px;
+	}
+}
+@media (max-width: 1200px){
+	.butterflycasestudy{
+		max-width: 1200px;
+	}
+}
+
 
 @media (max-width: 1199px){
 	.butterflycasestudy .casestudy .content .post-contents .section-text{
