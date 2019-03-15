@@ -31,7 +31,7 @@
 					'posts_per_page' => -1
 			    ));?>			    
 			    <?php while ( $args->have_posts() ) : $args->the_post();?>
-					<div class="group21 group">
+					<div class="group21 group" data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">
 						<?php if(has_post_thumbnail()):?>
 							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
 						<?php else:?>
@@ -61,8 +61,8 @@
 					'posts_per_page' => -1
 			    ));
 			    while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
-					<div class="group21 group">
-            			<div class="viewcasestudy"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">View case study</a></div>
+					<div class="group21 group" data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">
+            			<a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><div class="viewcasestudy">View case study</div></a>
             <div class="iconsarrow">
             	<div class="background"></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a></div>
             <div class="loremipsumdolorsi"><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php echo wp_trim_words( get_the_title(), 5 ); ?></a></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><?php if(get_field('case_study_company_logo')):?><img class="tmklogo svg" src="<?php the_field('case_study_company_logo')?>" alt="<?php the_title()?>"><?php else:?><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-tmklogo.svg" class="tmklogo svg"/><?php endif;?></a></div>

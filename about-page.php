@@ -103,7 +103,7 @@ get_header('about');
 					'posts_per_page' => -1
 			    ));
 			    while ( $caseargs->have_posts() ) : $caseargs->the_post();?>
-					<div class="group21 group">
+					<div class="group21 group" data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>">
             			<a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><div class="viewcasestudy">View case study</div></a>
             <div class="iconsarrow">
             	<div class="background"></div><a data-toggle="modal" data-target="#caseStudyOne-<?php the_ID();?>"><img src="<?php echo get_template_directory_uri()?>/assets/resources/img/butterflywebsiteresources-arrow.svg" class="arrow"/></a></div>

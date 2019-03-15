@@ -102,6 +102,16 @@
 	opacity: 1;
 }
 
+.butterflywebsiteresources .casestudies .group a .viewcasestudy{
+	color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+    position: absolute;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
 .butterflywebsiteresources .casestudies .group .viewcasestudy{
 	width: 322px!important;
 	height: 66px!important;
