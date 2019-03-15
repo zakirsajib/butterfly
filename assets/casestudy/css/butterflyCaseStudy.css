@@ -22,7 +22,7 @@ a {
 }
 
 .butterflycasestudy .casestudy .content .post-contents .section-text{
-	padding-left: 58px;
+/* 	padding-left: 58px; */
 }
 
 .butterflycasestudy .casestudy {
@@ -1066,10 +1066,17 @@ a {
 .butterflycasestudy .casestudy .content .post-contents img{
 	margin: 2em 0;
 	height: auto;
+	position: relative;
 }
+
+.butterflycasestudy .casestudy .content .post-contents .alignleft.post-image{
+	left: -72px;
+}
+
 .butterflycasestudy .casestudy .content .post-contents figure{
 	max-width: 100%;
 	position: relative;
+	left: -72px;
 }
 
 .butterflycasestudy .casestudy .content .post-contents figcaption,

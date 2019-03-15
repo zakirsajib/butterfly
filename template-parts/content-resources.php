@@ -31,7 +31,7 @@
 					'posts_per_page' => -1
 			    ));?>			    
 			    <?php while ( $args->have_posts() ) : $args->the_post();?>
-					<div class="group21 group" data-target="#blogDetailsOne-<?php the_ID();?>" data-toggle="modal">
+					<div class="group21 group">
 						<?php if(has_post_thumbnail()):?>
 							<?php the_post_thumbnail( array(320, 231), array( 'class' => 'lisbon' ) );?>
 						<?php else:?>
