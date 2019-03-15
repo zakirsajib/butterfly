@@ -2860,6 +2860,24 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 .butterflywebsiteresources .footerdesktop .footer .a2512018appynestinc .span3 {
   
 }
+
+@media (max-width: 1024px){
+	body.page-template-resources-page-php .container{
+		width: auto;
+		padding-left: 90px;
+	}
+	.blog-container button.slick-next.slick-arrow{
+		right: 200px;
+	}
+}
+@media (max-width: 768px){
+	body.page-template-resources-page-php .container{
+		padding-left: 20px;
+	}
+	.blog-container button.slick-next.slick-arrow{
+		right: 25px;
+	}
+}
 @media (max-width: 679px){
 	.butterflywebsiteresources .blog{
 		height: 1px;
@@ -2875,5 +2893,18 @@ a .butterflywebsiteresources .blog .group2 .iconsarrow1,
 	.butterflywebsiteresources .casestudies .headercustomers .ourcustomercasest,
 	.butterflywebsiteresources .blog .headercustomers .freshfromourblog{
 		font-size: 24px;
+	}
+}
+@media (max-width: 400px){
+	.blog-container button.slick-next.slick-arrow{
+		right: 55px;
+	}
+	.downloads-studies-container button.slick-prev.slick-arrow,
+	.case-studies-container button.slick-prev.slick-arrow{
+		left: 10px;
+	}
+	.downloads-studies-container button.slick-next.slick-arrow,
+	.case-studies-container button.slick-next.slick-arrow{
+		right: 40px;
 	}
 }
