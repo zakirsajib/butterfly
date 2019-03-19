@@ -269,6 +269,7 @@ body.page-template-product-page-php .entry-content .howmang-contents:after{
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0.05;
+    z-index: -1;
 }
 body.page-template-product-page-php .entry-content .howmang-contents .zz:before{
 	background-image: url('../../../assets/home/img/butterflywebsitehome-bgblog2.svg');

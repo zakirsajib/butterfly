@@ -25,14 +25,11 @@
 				<ul class="nav nav-tabs" role="tablist">
 					<?php if(get_field('first_section_name')):?>
 						<li><h2><?php the_field('first_section_name')?></h2></li>
-					<?php else:?>
-						<li><h2>How it works?</h2></li>
 					<?php endif;?>
-					<li role="presentation" class="abc active"><a href="#howempl" aria-controls="howempl" role="tab" data-toggle="tab"><?php if(get_field('tab_name')):?><?php the_field('tab_name')?><?php else:?>For employees<?php endif;?></a></li>
-					<li class="abc" role="presentation"><a href="#howmang" aria-controls="howmang" role="tab" data-toggle="tab"><?php if(get_field('tab_name_sec_first_section')):?><?php the_field('tab_name_sec_first_section')?><?php else:?>For managers<?php endif;?></a></li>
-					<li role="presentation" class="abc last"><a href="#howhr" aria-controls="howhr" role="tab" data-toggle="tab"><?php if(get_field('tab_name_third_first_section')):?><?php the_field('tab_name_third_first_section')?><?php else:?>For HR teams<?php endif;?></a></li>
+					<li role="presentation" class="abc active"><a href="#howempl" aria-controls="howempl" role="tab" data-toggle="tab"><?php if(get_field('tab_name')):?><?php the_field('tab_name')?><?php endif;?></a></li>
+					<li class="abc" role="presentation"><a href="#howmang" aria-controls="howmang" role="tab" data-toggle="tab"><?php if(get_field('tab_name_sec_first_section')):?><?php the_field('tab_name_sec_first_section')?><?php endif;?></a></li>
+					<li role="presentation" class="abc last"><a href="#howhr" aria-controls="howhr" role="tab" data-toggle="tab"><?php if(get_field('tab_name_third_first_section')):?><?php the_field('tab_name_third_first_section')?><?php endif;?></a></li>
 				</ul>
-				
 				<div class="tab-content">
 				    <div role="tabpanel" class="tab-pane fade in tab active" id="howempl">
 					    <?php if( have_rows('first_tab_contents_product')):
@@ -119,12 +116,6 @@
 									<?php if($second_tab_contents_product['descriptions_one_first_tab']):?>
 									<div class="one">
 								<?php echo $second_tab_contents_product['descriptions_one_first_tab'];?>
-									</div>
-									<?php else:?>
-									<div class="one">
-										<h2>Integrate into employees' routine</h2>
-										<p>Our surveys work with your systems. Employees answer engagement surveys in seconds while they clock in or out, eliminating distractions and maximizing their time.</p>
-										<figcaption align="left">fig a. Slack</figcaption>
 									</div>
 									<?php endif;?>
 									<?php if($second_tab_contents_product['image_url_first_tab'] && 
@@ -280,7 +271,6 @@
 					<li class="abc" role="presentation"><a href="#featmang" aria-controls="featmang" role="tab" data-toggle="tab"><?php if(get_field('tab_name_sec_second_section')):?><?php the_field('tab_name_sec_second_section')?><?php else:?>For managers<?php endif;?></a></li>
 					<li role="presentation" class="abc last"><a href="#feathr" aria-controls="feathr" role="tab" data-toggle="tab"><?php if(get_field('tab_name_third_second_section')):?><?php the_field('tab_name_third_second_section')?><?php else:?>For HR teams<?php endif;?></a></li>
 				</ul>
-				
 				<div class="tab-content">
 				    <div role="tabpanel" class="tab-pane fade in active" id="featempl"></div>
 				    <div role="tabpanel" class="tab-pane fade" id="featmang"></div>

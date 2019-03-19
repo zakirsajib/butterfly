@@ -109,6 +109,7 @@
 		   	top:0;
 		   	right: 0;
 		   	height: 100vh;
+		   	min-height: 100%;
 	   	}
 	}
 }
@@ -750,5 +751,9 @@
 	.section-one .demo-request .demo-form-box .input-group .btn.btn-default,
 	.home-footer .demo-area .demo-form-box .input-group .btn.btn-default{
 		font-size: 12px;
+	}
+	body.page-template-product-page-php article .entry-content .how-it-works .for-people ul li.abc, 
+	body.page-template-product-page-php article .entry-content .features .for-people ul li.abc{
+		float: none;
 	}
 }

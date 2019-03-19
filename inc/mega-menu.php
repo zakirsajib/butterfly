@@ -1,7 +1,7 @@
 <div class="mega-menu modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog modal-lg container-fluid" role="document">
 		
-		<img src="<?php echo get_template_directory_uri()?>/assets/menu/img/butterflywebsitemenuopen-bg.png" class="bg"/>
+<!-- 		<img src="<?php echo get_template_directory_uri()?>/assets/menu/img/butterflywebsitemenuopen-bg.png" class="bg"/> -->
 		
 		
 		<div class="modal-content">

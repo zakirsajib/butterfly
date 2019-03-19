@@ -48,7 +48,7 @@ while ( $args->have_posts() ) : $args->the_post();?>
                         <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-bg@2x.png" class="bg1"/>
                         <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-butterfly@2x.png" class="butterfly"/>
                     </div>
-                <div class="content animated slideInLeft">
+                <div class="content animated slideInLeft col-lg-8 col-md-8 col-xs-12">
                         <div class="workroam">
                             <?php butterfly_get_current_post_categories();?>
                         </div>
@@ -75,8 +75,8 @@ while ( $args->have_posts() ) : $args->the_post();?>
                         </div>
                         
                     </div>
-                <div class="right animated slideInRight">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-mask-1.png" class="mask"/>
+                <div class="right animated slideInRight col-lg-4 col-md-4 col-xs-4">
+                    <div class="mask"/></div>
                     <div class="iconclose">
                         <div class="background"></div>
                             <a data-dismiss="modal" aria-label="Close"><img src="<?php echo get_template_directory_uri()?>/assets/blogpost/img/butterflyblogpost-combined-shape.svg" class="combinedshape"/></a>

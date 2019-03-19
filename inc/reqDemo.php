@@ -13,7 +13,8 @@
                         </div>
                     </div>
                     <div class="right animated slideInRight hidden-xs hidden-sm">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg-1.png" class="bg1"/>
+                        <!-- <img src="<?php echo get_template_directory_uri()?>/assets/demo/img/butterflyrequestdemoform-bg-1.png" class="bg1"/> -->
+                        <div class="bg1"></div>
                         <div class="iconclose">
                             <div class="background">
                             </div>

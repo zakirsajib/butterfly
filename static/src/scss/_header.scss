@@ -459,7 +459,10 @@
 }
 
 .mega-menu .modal-content{height: 100%;}
-.mega-menu.modal.in .modal-dialog{height: 100%;}
+.mega-menu.modal.in .modal-dialog{
+	height: 100%;
+	background: linear-gradient(123deg, #7300ff, #2ce6ce), linear-gradient(120deg, #3a3b57, #7300ff 40%, #2ce6ce), linear-gradient(121deg, #3a3b57, #2ce6ce);
+}
 .mega-menu.modal.in .modal-content{ display: none; min-height: 97vh;}
 .mega-menu .modal-content .modal-header{
 	padding: 30px 30px 0;

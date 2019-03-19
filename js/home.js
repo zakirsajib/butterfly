@@ -28,7 +28,15 @@ $ = jQuery.noConflict();
 			});
 		}
 		
-		
+/*
+		$('.butterflyrequestdemoform .tryfree .right .logo').on('click', function(e){
+			e.preventDefault();
+			$(this).find('svg path').css({
+				'fill':'#ffffff',
+				'fill-opacity':1
+			});
+		});
+*/
 		
 			
 });

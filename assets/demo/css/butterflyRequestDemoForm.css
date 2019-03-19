@@ -985,29 +985,22 @@
 }
 .butterflyrequestdemoform .tryfree .right {
   background-color    : rgba(255,255,255,0.0);
-/*   top                 : 509px; */
-/*   height              : 800px; */
   width               : 400px;
-  position            : absolute;
+  position            : fixed;
   margin              : 0;
-/*   left                : 1262px; */
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   z-index: 2;
 }
 .butterflyrequestdemoform .tryfree .right .bg1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   min-height              : 100vh;
+  height: 100%;
   width               : 400px;
-  position            : absolute;
+  position            : fixed;
   margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  right                : 0px;
   opacity             : 0.9;
+  background: linear-gradient(123deg, #7300ff, #2ce6ce), linear-gradient(120deg, #3a3b57, #7300ff 40%, #2ce6ce), linear-gradient(121deg, #3a3b57, #2ce6ce);
 }
 .butterflyrequestdemoform .tryfree .right .iconclose {
   background-color    : rgba(255,255,255,0.0);
